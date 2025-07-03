@@ -322,6 +322,16 @@ tile_page_creatures
 	[TILE_DIM:32:32]
 	[PAGE_DIM_PIXELS:1248:1216]
 
+[TILE_PAGE:BEASTS_DECORATIONS]
+	[FILE:images/beasts_decorations.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1248:1216]
+
+[TILE_PAGE:BEASTS_ORGANICS]
+	[FILE:images/beasts_organics.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:1248:1216]
+
 [TILE_PAGE:BEASTS_SMALL]
 	[FILE:images/beasts_small.png]
 	[TILE_DIM:32:32]

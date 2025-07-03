@@ -1,6 +1,6 @@
 item_weapon_runeforged_chp
 
-[OBJECT:ITEM]
+{OBJECT:ITEM}  disabled for now
 
 [ITEM_WEAPON:ITEM_WEAPON_AXE_BATTLE_RUNEFORGED_CHP]
 [NAME:battle axe:battle axes]

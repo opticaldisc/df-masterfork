@@ -9,5 +9,5 @@ tile_page_descriptors
 
 [TILE_PAGE:SMALLGEMS]
 	[FILE:images/smallgems.png]
-	[TILE_DIM:16:16]
-	[PAGE_DIM_PIXELS:352:16]
+	[TILE_DIM:32:32]{:16:16
+	[PAGE_DIM_PIXELS:704:32]{:352:16

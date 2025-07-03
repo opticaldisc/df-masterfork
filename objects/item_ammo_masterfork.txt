@@ -1,0 +1,9 @@
+item_ammo_masterfork
+
+[OBJECT:ITEM]
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS_ENCHANTED]
+[NAME:singing arrow:singing arrows]
+[CLASS:ARROW]
+[SIZE:80]
+[ATTACK:EDGE:5:12000:stab:stabs:NO_SUB:3000]

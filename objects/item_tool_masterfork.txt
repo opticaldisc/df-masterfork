@@ -1,0 +1,23 @@
+item_tool_masterfork
+
+[OBJECT:ITEM]
+
+[ITEM_TOOL:ITEM_TOOL_TABLET_CLAY]
+    [NAME:tablet:tablets]
+    [DESCRIPTION:A writing surface made of fired clay.]
+    [VALUE:10]
+    [SIZE:200]
+    [TILE:240]
+    [CERAMIC_MAT]
+    [NO_DEFAULT_JOB]
+    [TOOL_USE:CONTAIN_WRITING]
+	
+[ITEM_TOOL:ITEM_TOOL_TABLET_METAL]
+    [NAME:tablet:tablets]
+    [DESCRIPTION:A writing surface made of decorated metal.]
+    [VALUE:15]
+    [SIZE:200]
+    [TILE:240]
+    [METAL_MAT]
+    [NO_DEFAULT_JOB]
+    [TOOL_USE:CONTAIN_WRITING]

@@ -5,20 +5,11 @@ reaction_other
 [REACTION:TAN_A_HIDE]
 	[NAME:tan a hide]
 	[BUILDING:TANNER:CUSTOM_T]
-	--- Modest Mod ---
-	(REAGENT:A:1:NONE:NONE:NONE:NONE)(USE_BODY_COMPONENT)
-	[REAGENT:A:600:GLOB:NONE:NONE:NONE]
-	[REACTION_CLASS:SKIN]
-	--- end Modest Mod ---
-	[UNROTTEN]
+	[REAGENT:A:1:NONE:NONE:NONE:NONE][USE_BODY_COMPONENT][UNROTTEN]
 		[HAS_MATERIAL_REACTION_PRODUCT:TAN_MAT]
-
-	In the product, if you want to use the reagent's material itself, use NONE instead of a reaction product class (TAN_MAT in this example).
-
 	[PRODUCT:100:1:SKIN_TANNED:NONE:GET_MATERIAL_FROM_REAGENT:A:TAN_MAT]
 	[SKILL:TANNER]
 	[AUTOMATIC]
-	[DESCRIPTION:Tan leather from animal skin.]{+}
 
 [REACTION:RENDER_FAT]
 	[NAME:render fat]
@@ -30,9 +21,7 @@ reaction_other
 	[AUTOMATIC]
 	[DESCRIPTION:Render animal fat into tallow.]{+}
 	
-	--- Modest Mod ---
-
-[REACTION:CLEAN_FEATHERS]
+[REACTION:CLEAN_FEATHERS]  Modest Mod
 	[NAME:clean feathers]
 	[BUILDING:TANNER:CUSTOM_F]
 	[REAGENT:feathers:600:GLOB:NONE:NONE:NONE]
@@ -40,8 +29,6 @@ reaction_other
 	[PRODUCT:100:1:SKIN_TANNED:NONE:GET_MATERIAL_FROM_REAGENT:feathers:NONE]
 	[SKILL:TANNER]
 	[AUTOMATIC]
-	
-	--- end Modest Mod ---
 
 [REACTION:MAKE_SOAP_FROM_TALLOW]
 	[NAME:make soap from tallow]
@@ -128,9 +115,9 @@ reaction_other
 [REACTION:MAKE_CLAY_BRICKS]
 	[NAME:make clay bricks]
 	[BUILDING:KILN:CUSTOM_B]
-	[REAGENT:clay:1:BOULDER:NONE:NONE:NONE]
+	[REAGENT:A:1:BOULDER:NONE:NONE:NONE]
 		[HAS_MATERIAL_REACTION_PRODUCT:FIRED_MAT]
-	[PRODUCT:100:1:BLOCKS:NONE:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
+	[PRODUCT:100:4:BLOCKS:NONE:GET_MATERIAL_FROM_REAGENT:A:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
 	[DESCRIPTION:Make an earthenware brick from clay, a stoneware brick from fire clay, or a porcelain brick from kaolinite.]{+}
@@ -315,7 +302,7 @@ process_plant_to_bag replaced by adv agriculture
 	[SKILL:SMELT]
 	[DESCRIPTION:Make quicklime from calcite, chalk, limestone, or marble.]{+}
 	[DESCRIPTION:    ]
-	[DESCRIPTION:Quicklime is used to make milk of lime at an ashery.]
+	[DESCRIPTION:Quicklime is used to make milk of lime at an ashery or smelting steel.]
 
 [REACTION:MAKE_MILK_OF_LIME]
 	[NAME:make milk of lime]
@@ -338,11 +325,8 @@ process_plant_to_bag replaced by adv agriculture
 [REACTION:MAKE_PARCHMENT]
 	[NAME:make parchment]
 	[BUILDING:TANNER:CUSTOM_P]
-	--- Modest Mod ---
-	[REAGENT:A:300:GLOB:NONE:NONE:NONE]
+	[REAGENT:A:1:NONE:NONE:NONE:NONE][USE_BODY_COMPONENT][UNROTTEN]
 		[HAS_MATERIAL_REACTION_PRODUCT:PARCHMENT_MAT]
-		[UNROTTEN]
-	--- end Modest Mod ---
 	[REAGENT:milk of lime:150:LIQUID_MISC:NONE:INORGANIC:MILK_OF_LIME]
 	[REAGENT:lime container:1:NONE:NONE:NONE:NONE]
 		[CONTAINS:milk of lime]
