@@ -1,0 +1,8 @@
+descriptor_color_ic
+
+[OBJECT:DESCRIPTOR_COLOR]
+
+[COLOR:ROYAL_PURPLE]
+	[NAME:royal purple]
+	[WORD:ROYAL_PURPLE]
+	[RGB:120:81:169]

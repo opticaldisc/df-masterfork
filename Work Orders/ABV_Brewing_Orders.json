@@ -1,0 +1,1136 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 0,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:AGAVE:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:AGAVE:STRUCTURAL",
+				"reaction_id" : "BREW_BARREL_FROM_AGAVE",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_AGAVE",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_AGAVE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 1,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:BAOBAB:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:BAOBAB:BAOBAB_SEED",
+				"reaction_id" : "BREW_BARREL_FROM_BAOBAB",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_BAOBAB",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_BAOBAB"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 2,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:BARBERRY:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:BARBERRY:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_BARBERRY",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_BARBERRY",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_BARBERRY"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 3,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:BEECH:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:BEECH:NUT",
+				"reaction_id" : "BREW_BARREL_FROM_BEECH",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_BEECH",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_BEECH"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 4,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:BLACKCURRANT:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:BLACKCURRANT:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_BLACKCURRANT",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_BLACKCURRANT",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_BLACKCURRANT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 5,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:CATNIP:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CATNIP:LEAF",
+				"reaction_id" : "BREW_BARREL_FROM_CATNIP",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_CATNIP",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_CATNIP"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 6,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:CATTAIL:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:CATTAIL:STRUCTURAL",
+				"reaction_id" : "BREW_BARREL_FROM_CATTAIL",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_CATTAIL",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_CATTAIL"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 7,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:CORNFLOWER:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CORNFLOWER:FLOWER",
+				"reaction_id" : "BREW_BARREL_FROM_CORNFLOWER",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_CORNFLOWER",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_CORNFLOWER"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 8,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:DANDELION:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:DANDELION:STRUCTURAL",
+				"reaction_id" : "BREW_BARREL_FROM_DANDELION",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_DANDELION",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_DANDELION"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 9,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:PERSIMMON:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:EBONY:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_EBONY",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_EBONY",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_EBONY"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 10,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:ELDERBERRY:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ELDERBERRY:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_ELDERBERRY",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_ELDERBERRY",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_ELDERBERRY"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 11,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:FIG:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:FIG:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_FIG",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_FIG",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_FIG"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 12,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:KIWIFRUIT:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:KIWIFRUIT:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_KIWIFRUIT",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_KIWIFRUIT",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_KIWIFRUIT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 13,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:LINDEN:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:LINDEN:FLOWER",
+				"reaction_id" : "BREW_BARREL_FROM_LINDEN",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_LINDEN",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_LINDEN"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 14,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:MOON_BERRY:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:MOON_BERRY:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_MOON_BERRY",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_MOON_BERRY",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_MOON_BERRY"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 15,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:MULBERRY:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:MULBERRY:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_MULBERRY",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_MULBERRY",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_MULBERRY"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 16,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:NETTLE:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:NETTLE:LEAF",
+				"reaction_id" : "BREW_BARREL_FROM_NETTLE",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_NETTLE",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_NETTLE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 17,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:OKRA:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:OKRA:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_OKRA",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_OKRA",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_OKRA"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 18,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:PRICKLY_PEAR:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PRICKLY_PEAR:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_PRICKLY_PEAR",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_PRICKLY_PEAR",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_PRICKLY_PEAR"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 19,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:PUMPKIN:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PUMPKIN:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_PUMPKIN",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_PUMPKIN",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_PUMPKIN"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 20,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:REDBUD:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:REDBUD:FLOWER",
+				"reaction_id" : "BREW_BARREL_FROM_REDBUD",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_REDBUD",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_REDBUD"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 21,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:REDCURRANT:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:REDCURRANT:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_REDCURRANT",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_REDCURRANT",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_REDCURRANT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 22,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:ROSE:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ROSE:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_ROSE",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_ROSE",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_ROSE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 23,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:SPEARMINT:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SPEARMINT:STRUCTURAL",
+				"reaction_id" : "BREW_BARREL_FROM_SPEARMINT",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_SPEARMINT",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_SPEARMINT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 24,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:SUGAR_CANE:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SUGAR_CANE:STRUCTURAL",
+				"reaction_id" : "BREW_BARREL_FROM_SUGAR_CANE",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_SUGAR_CANE",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_SUGAR_CANE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 25,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:SUMAC:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SUMAC:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_SUMAC",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_SUMAC",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_SUMAC"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Monthly",
+		"id" : 26,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "Exactly",
+				"item_type" : "DRINK",
+				"material" : "PLANT:WHITECURRANT:DRINK",
+				"value" : 0
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:WHITECURRANT:FRUIT",
+				"reaction_id" : "BREW_BARREL_FROM_WHITECURRANT",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_BARREL_FROM_WHITECURRANT",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"max_workshops" : 1,
+		"reaction" : "BREW_BARREL_FROM_WHITECURRANT"
+	}
+]

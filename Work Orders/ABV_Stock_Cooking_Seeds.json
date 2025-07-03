@@ -1,0 +1,302 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 0,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BROWN_BUTTON_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:BROWN_BUTTON_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_BROWN_BUTTON_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_BROWN_BUTTON_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 1,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CROCUS:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:CROCUS:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_CROCUS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_CROCUS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 2,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:FIELD_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:FIELD_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_FIELD_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_FIELD_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 3,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:GOLD_NEEDLE_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:GOLD_NEEDLE_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_GOLD_NEEDLE_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_GOLD_NEEDLE_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 4,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:HORSETAIL:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:HORSETAIL:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_HORSETAIL",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_HORSETAIL"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 5,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:KING_TRUMPET_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:KING_TRUMPET_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_KING_TRUMPET_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_KING_TRUMPET_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 6,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PADDY_STRAW_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:PADDY_STRAW_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_PADDY_STRAW_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_PADDY_STRAW_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 7,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SHAGGY_MANE_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SHAGGY_MANE_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_SHAGGY_MANE_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_SHAGGY_MANE_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 8,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:WHITE_BUTTON_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:WHITE_BUTTON_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_WHITE_BUTTON_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_WHITE_BUTTON_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 9,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:WINE_CAP_MUSHROOM:SEED",
+				"value" : 30
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:WINE_CAP_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_WINE_CAP_MUSHROOM",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_WINE_CAP_MUSHROOM"
+	}
+]

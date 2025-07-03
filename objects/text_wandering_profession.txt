@@ -1,0 +1,14 @@
+text_wandering_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:WANDERING_PROFESSION]
+
+I wander [CONTEXT:PLACE:TRANS_NAME].
+I roam the lands. My travels have taken me all around [CONTEXT:PLACE:TRANS_NAME].
+I live the life of a nomad in [CONTEXT:PLACE:TRANS_NAME].
+I am a vagabond. I have wandered [CONTEXT:PLACE:TRANS_NAME].
+I wander [CONTEXT:PLACE:TRANS_NAME], do you not also believe it beautiful?
+I just wander about really, I'm not really good at staying put.
+I just wander about really, I guess that makes me a wanderer.
+Oh, I'm not from around here, I wander from place to place. Nowhere ever really feels like home.

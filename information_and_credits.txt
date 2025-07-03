@@ -1,0 +1,53 @@
+
+Dwarf Fortress by Bay 12 Games
+
+Published by Kitfox Games
+
+---------------------------------------- MASTERFORK CREDITS ----------------------------------------
+
+Fork by Zeyon & Contributors
+
+Contributors: 
+
+- DPh Kraken
+- Droseran
+- chipathingy
+
+---------------------------------------- MASTERFORK GENERATIVE AI POLICY ----------------------------------------
+
+  I shall NEVER allow MASTERFORK to be sullied by generative AI content of the following nature:
+  
+ - sprites (both UI and/or creature tiles)
+ - sound of any kind
+ - anything graphical what-so-ever
+ - RAWS that are written in its ENTIRETY, or in large by generative AI
+ 
+   conditionally allowed:
+ * RAWS that are written in its ENTIRETY, or certain allowed OBJECTS which follows:
+ 1. {TEXT_SET}
+ 2. {LANGUAGE}
+ generative content in these raws I belive are fine as they do not go against the spirit of the game-
+ and are UNDER THE CONDITION that each entry is manually reviewed for quality and consistency.
+ 
+---------------------------------------- MASTERFORK CONTENT CREDITS ----------------------------------------
+
+Masterfork contains RAWs and other assets from the following mods, either in part or fully integrated:
+    Note: Please contact me if you have any grievances/concerns about your mod being included in MFORK, or if I forgot to credit you-
+        mod authors reserve the right to request their mod to be removed from the project if they so desire. Please contact me if you do. - Zey
+
+ - 'The Way the Words Work' by DPh Kraken                                                                        # https://steamcommunity.com/sharedfiles/filedetails/?id=3309091369
+ - 'Immaterial Cultures' by DPh Kraken                                                                           # http://www.bay12forums.com/smf/index.php?topic=181821.0
+ - 'Fantastic Fantasy Fortress' by chipathingy                                                                   # https://steamcommunity.com/sharedfiles/filedetails/?id=2905522743
+ - 'Highfantasy Mod System' by Kiiranaux                                                                         # https://steamcommunity.com/sharedfiles/filedetails/?id=2900159797
+ - 'Grimlocke's History & Realism Mods' by Grimlocke                                                             # http://www.bay12forums.com/smf/index.php?topic=146737.0
+ - 'The Language Overhaul' by Emilovich                                                                          # https://steamcommunity.com/sharedfiles/filedetails/?id=3041526930
+ - 'New Genesis (Volume II)' by Deon                                                                             # https://steamcommunity.com/sharedfiles/filedetails/?id=2901564943
+ - 'Bourbon's March of Wrath' by Bourbon                                                                         # https://steamcommunity.com/sharedfiles/filedetails/?id=2901789546
+ - 'Advanced Agriculture' by Droseran                                                                            # https://steamcommunity.com/sharedfiles/filedetails/?id=3094095525
+ - 'Modest Mod' by LargeSnail, Igfig, CryptoCactus, Button, and any contributions from the DF Community          # http://www.bay12forums.com/smf/index.php?topic=174231.0
+ - 'Dwarven Female Statues' by LorrMaster                                                                        # https://steamcommunity.com/sharedfiles/filedetails/?id=3307692161
+ - 'DF Revised' by Taffer, Toothspit, Dirst, Button, Meph, GoblinCookie, Amostubal, Deon, Igfig                  # http://www.bay12forums.com/smf/index.php?topic=161832.0
+ - 'Flowing Water' by Poss                                                                                       # https://steamcommunity.com/sharedfiles/filedetails/?id=3419529410
+ - 'Horned Cave Beetle' by 'TossThrown'. Original hornbeetle concept by 'Kruggsmash' and 'Squamous'.             # https://steamcommunity.com/sharedfiles/filedetails/?id=2908275915
+ - 'Human Fortress' by 'brolol.404'                                                                              # https://www.bay12forums.com/smf/index.php?topic=174687.15
+ - 'Skilled Animals & Megabeasts' by 'lmlsna'                                                                    # https://steamcommunity.com/sharedfiles/filedetails/?id=3444553321

@@ -1,0 +1,50 @@
+text_greet_reply_unusual_first
+
+[OBJECT:TEXT_SET]
+
+Credits:
+Vanilla
+SethCreiyd Speech Expansion
+Tarran (FlavorText)
+
+[TEXT_SET:GREET_REPLY_UNUSUAL_FIRST]
+
+[AUDIENCE:TRANS_NAME]...  your parents must have been interesting!
+You know, you don't meet many people with the name [AUDIENCE:TRANS_NAME].
+So, [AUDIENCE:TRANS_NAME]...   [AUDIENCE:TRANS_NAME], was it?
+[AUDIENCE:TRANS_NAME].  Does that mean something?
+[AUDIENCE:TRANS_NAME].  I can't say I've heard that before.
+
+[AUDIENCE:TRANS_NAME]... [AUDIENCE:TRANS_NAME]... where have I heard that before?
+[AUDIENCE:TRANS_NAME]?  Where did you say you were from?
+[AUDIENCE:TRANS_NAME], is it?
+Well, [AUDIENCE:TRANS_NAME], you're not from around here, are you?
+[AUDIENCE:TRANS_NAME]!  Now that's a name I haven't heard in a while!
+[AUDIENCE:TRANS_NAME].  You're a long way from home, I'd wager.
+Well... pleased to meet you... [AUDIENCE:TRANS_NAME].
+I once met someone named [AUDIENCE:TRANS_NAME].  But that was a long time ago.
+[AUDIENCE:TRANS_NAME]?  What kind of a name is [AUDIENCE:TRANS_NAME]?
+[AUDIENCE:TRANS_NAME]!  Ha!  I insist, what is your real name?
+[AUDIENCE:TRANS_NAME]?  From where do you hail, [AUDIENCE:TRANS_NAME]?
+[AUDIENCE:TRANS_NAME], was it?  What brings you here?
+Hello, um, [AUDIENCE:TRANS_NAME].
+[AUDIENCE:TRANS_NAME]?  Well, hello then.
+Hello, [AUDIENCE:TRANS_NAME].  I am [SPEAKER:TRANS_NAME].
+Greetings, [AUDIENCE:TRANS_NAME].  My name is [SPEAKER:TRANS_NAME].
+Hail, [AUDIENCE:TRANS_NAME].  What brings you here?
+Yes, [AUDIENCE:TRANS_NAME]?  What do you want?
+Well, [AUDIENCE:TRANS_NAME], what can I do for you?
+Hail, stranger.  What do you want?
+Hail, stranger.  What can I do for you?
+What do you want, stranger?
+What can I do for you, stranger?
+
+[AUDIENCE:TRANS_NAME].  I swear I've heard that name before...
+[AUDIENCE:TRANS_NAME]...  Huh, well, nice to see you.
+[AUDIENCE:TRANS_NAME]...  I... Uh... Well, never mind.
+Did you want something, or...?
+What do you want, [AUDIENCE:TRANS_NAME]?
+[AUDIENCE:TRANS_NAME]... not the kind of name I'd pick but...
+[AUDIENCE:TRANS_NAME]... I could have sworn...
+Wait, [AUDIENCE:TRANS_NAME]? Like that infamous villain? No? Uh...
+...So, [AUDIENCE:TRANS_NAME], what may this humble [CONTEXT:UNIT_NAME] do for you?

@@ -1,0 +1,6 @@
+graphics_creatures_highelf_statues_fff
+
+[OBJECT:GRAPHICS]
+
+[STATUE_CREATURE_GRAPHICS:HIGH_ELF_CHP]
+        [DEFAULT:FFF_HIGHELF_STATUES:0:0:0:1]

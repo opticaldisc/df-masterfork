@@ -1,0 +1,2090 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 0,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ABACA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ABACA:LEAF",
+				"reaction_id" : "GET_ABACA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_ABACA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 1,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ACACIA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ACACIA:POD",
+				"reaction_id" : "GET_ACACIA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_ACACIA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 2,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ALDER_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:ALDER:WOOD",
+				"reaction_id" : "GET_ALDER_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_ALDER_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 3,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ALMOND_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ALMOND:NUT",
+				"reaction_id" : "GET_ALMOND_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_ALMOND_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 4,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:APPLE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:APPLE:FRUIT",
+				"reaction_id" : "GET_APPLE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_APPLE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 5,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:APRICOT_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:APRICOT:FRUIT",
+				"reaction_id" : "GET_APRICOT_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_APRICOT_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 6,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ASH_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ASH:FRUIT",
+				"reaction_id" : "GET_ASH_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_ASH_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 7,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:AVOCADO_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:AVOCADO:FRUIT",
+				"reaction_id" : "GET_AVOCADO_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_AVOCADO_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 8,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BANANA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:BANANA:FRUIT",
+				"reaction_id" : "GET_BANANA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_BANANA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 9,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BAYBERRY_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:BAYBERRY:FRUIT",
+				"reaction_id" : "GET_BAYBERRY_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_BAYBERRY_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 10,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BIRCH_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:BIRCH:WOOD",
+				"reaction_id" : "GET_BIRCH_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_BIRCH_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 11,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BITTER_ORANGE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:BITTER_ORANGE:FRUIT",
+				"reaction_id" : "GET_BITTER_ORANGE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_BITTER_ORANGE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 12,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BLACK_CAP_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:BLACK_CAP:WOOD",
+				"reaction_id" : "GET_BLACK_CAP_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_BLACK_CAP_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 13,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BLOOD_THORN_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:BLOOD_THORN:WOOD",
+				"reaction_id" : "GET_BLOOD_THORN_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_BLOOD_THORN_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 14,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CACAO_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CACAO:FRUIT",
+				"reaction_id" : "GET_CACAO_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CACAO_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 15,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CANDLENUT_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CANDLENUT:NUT",
+				"reaction_id" : "GET_CANDLENUT_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CANDLENUT_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 16,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CARAMBOLA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CARAMBOLA:FRUIT",
+				"reaction_id" : "GET_CARAMBOLA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CARAMBOLA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 17,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CASHEW_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CASHEW:FRUIT",
+				"reaction_id" : "GET_CASHEW_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CASHEW_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 18,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CEDAR_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CEDAR:CONE",
+				"reaction_id" : "GET_CEDAR_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CEDAR_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 19,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CHERRY_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CHERRY:FRUIT",
+				"reaction_id" : "GET_CHERRY_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CHERRY_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 20,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CHESTNUT_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CHESTNUT:NUT",
+				"reaction_id" : "GET_CHESTNUT_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CHESTNUT_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 21,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CITRON_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CITRON:FRUIT",
+				"reaction_id" : "GET_CITRON_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CITRON_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 22,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PALM_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PALM:FRUIT",
+				"reaction_id" : "GET_PALM_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PALM_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 23,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:COFFEE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:COFFEE:FRUIT",
+				"reaction_id" : "GET_COFFEE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_COFFEE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 24,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CUSTARD-APPLE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CUSTARD-APPLE:FRUIT",
+				"reaction_id" : "GET_CUSTARD-APPLE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_CUSTARD-APPLE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 25,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:DATE_PALM_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:DATE_PALM:FRUIT",
+				"reaction_id" : "GET_DATE_PALM_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_DATE_PALM_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 26,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:DESERT_LIME_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:DESERT_LIME:FRUIT",
+				"reaction_id" : "GET_DESERT_LIME_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_DESERT_LIME_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 27,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:DURIAN_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:DURIAN:FRUIT",
+				"reaction_id" : "GET_DURIAN_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_DURIAN_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 28,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:FEATHER_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:FEATHER:EGGS",
+				"reaction_id" : "GET_FEATHER_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_FEATHER_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 29,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:FINGER_LIME_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:FINGER_LIME:FRUIT",
+				"reaction_id" : "GET_FINGER_LIME_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_FINGER_LIME_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 30,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:FUNGIWOOD_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:FUNGIWOOD:WOOD",
+				"reaction_id" : "GET_FUNGIWOOD_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_FUNGIWOOD_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 31,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:GINKGO_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:GINKGO:WOOD",
+				"reaction_id" : "GET_GINKGO_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_GINKGO_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 32,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:GLUMPRONG_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:GLUMPRONG:WOOD",
+				"reaction_id" : "GET_GLUMPRONG_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_GLUMPRONG_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 33,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:GOBLIN_CAP_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:GOBLIN_CAP:WOOD",
+				"reaction_id" : "GET_GOBLIN_CAP_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_GOBLIN_CAP_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 34,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:GUAVA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:GUAVA:FRUIT",
+				"reaction_id" : "GET_GUAVA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_GUAVA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 35,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:HAZEL_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:HAZEL:NUT",
+				"reaction_id" : "GET_HAZEL_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_HAZEL_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 36,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:HIGHWOOD_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:HIGHWOOD:WOOD",
+				"reaction_id" : "GET_HIGHWOOD_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_HIGHWOOD_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 37,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:KAPOK_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:KAPOK:FRUIT",
+				"reaction_id" : "GET_KAPOK_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_KAPOK_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 38,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:KUMQUAT_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:KUMQUAT:FRUIT",
+				"reaction_id" : "GET_KUMQUAT_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_KUMQUAT_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 39,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:LARCH_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:LARCH:WOOD",
+				"reaction_id" : "GET_LARCH_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_LARCH_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 40,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:LIME_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:LIME:FRUIT",
+				"reaction_id" : "GET_LIME_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_LIME_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 41,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:LYCHEE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:LYCHEE:FRUIT",
+				"reaction_id" : "GET_LYCHEE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_LYCHEE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 42,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:MACADAMIA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:MACADAMIA:NUT",
+				"reaction_id" : "GET_MACADAMIA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_MACADAMIA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 43,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:MAHOGANY_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:MAHOGANY:WOOD",
+				"reaction_id" : "GET_MAHOGANY_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_MAHOGANY_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 44,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:MANGO_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:MANGO:FRUIT",
+				"reaction_id" : "GET_MANGO_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_MANGO_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 45,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:MANGROVE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:MANGROVE:FRUIT",
+				"reaction_id" : "GET_MANGROVE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_MANGROVE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 46,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:MAPLE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:MAPLE:FRUIT",
+				"reaction_id" : "GET_MAPLE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_MAPLE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 47,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:NETHER_CAP_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:NETHER_CAP:WOOD",
+				"reaction_id" : "GET_NETHER_CAP_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_NETHER_CAP_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 48,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:OAK_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:OAK:NUT",
+				"reaction_id" : "GET_OAK_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_OAK_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 49,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:OLIVE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:OLIVE:FRUIT",
+				"reaction_id" : "GET_OLIVE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_OLIVE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 50,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ORANGE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ORANGE:FRUIT",
+				"reaction_id" : "GET_ORANGE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_ORANGE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 51,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PAPAYA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PAPAYA:FRUIT",
+				"reaction_id" : "GET_PAPAYA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PAPAYA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 52,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PARADISE_NUT_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PARADISE_NUT:FRUIT",
+				"reaction_id" : "GET_PARADISE_NUT_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PARADISE_NUT_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 53,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PEACH_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PEACH:FRUIT",
+				"reaction_id" : "GET_PEACH_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PEACH_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 54,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PEAR_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PEAR:FRUIT",
+				"reaction_id" : "GET_PEAR_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PEAR_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 55,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PECAN_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PECAN:NUT",
+				"reaction_id" : "GET_PECAN_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PECAN_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 56,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PERSIMMON_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PERSIMMON:FRUIT",
+				"reaction_id" : "GET_PERSIMMON_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PERSIMMON_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 57,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PINE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:PINE:WOOD",
+				"reaction_id" : "GET_PINE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PINE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 58,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:PLUM_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:PLUM:FRUIT",
+				"reaction_id" : "GET_PLUM_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_PLUM_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 59,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:POMEGRANATE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:POMEGRANATE:FRUIT",
+				"reaction_id" : "GET_POMEGRANATE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_POMEGRANATE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 60,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:POMELO_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:POMELO:FRUIT",
+				"reaction_id" : "GET_POMELO_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_POMELO_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 61,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:RAMBUTAN_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:RAMBUTAN:FRUIT",
+				"reaction_id" : "GET_RAMBUTAN_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_RAMBUTAN_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 62,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ROUND_LIME_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ROUND_LIME:FRUIT",
+				"reaction_id" : "GET_ROUND_LIME_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_ROUND_LIME_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 63,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:RUBBER_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:RUBBER:WOOD",
+				"reaction_id" : "GET_RUBBER_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_RUBBER_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 64,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SAGUARO_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SAGUARO:FRUIT",
+				"reaction_id" : "GET_SAGUARO_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_SAGUARO_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 65,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SAND_PEAR_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SAND_PEAR:FRUIT",
+				"reaction_id" : "GET_SAND_PEAR_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_SAND_PEAR_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 66,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SPORE_TREE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:SPORE_TREE:WOOD",
+				"reaction_id" : "GET_SPORE_TREE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_SPORE_TREE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 67,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:TEA_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:TEA:FRUIT",
+				"reaction_id" : "GET_TEA_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_TEA_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 68,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:TOWER_CAP_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:TOWER_CAP:WOOD",
+				"reaction_id" : "GET_TOWER_CAP_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_TOWER_CAP_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 69,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:TUNNEL_TUBE_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:TUNNEL_TUBE:WOOD",
+				"reaction_id" : "GET_TUNNEL_TUBE_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_TUNNEL_TUBE_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 70,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:WALNUT_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:WALNUT:NUT",
+				"reaction_id" : "GET_WALNUT_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_WALNUT_SAPLING_SEEDS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 71,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:WILLOW_SAPLING:SEED",
+				"value" : 20
+			},
+			{
+				"condition" : "AtLeast",
+				"item_type" : "WOOD",
+				"material" : "PLANT:WILLOW:WOOD",
+				"reaction_id" : "GET_WILLOW_SAPLING_SEEDS",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "GET_WILLOW_SAPLING_SEEDS"
+	}
+]

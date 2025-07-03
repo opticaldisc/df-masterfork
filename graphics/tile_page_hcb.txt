@@ -1,0 +1,8 @@
+tile_page_creatures_hcb
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:CREATURES_HCB]
+    [FILE:images/creatures_hcb.png]
+    [TILE_DIM:32:32]
+    [PAGE_DIM_PIXELS:192:128]

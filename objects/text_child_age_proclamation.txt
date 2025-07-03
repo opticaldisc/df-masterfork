@@ -1,0 +1,10 @@
+text_child_age_proclamation
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:CHILD_AGE_PROCLAMATION]
+
+I'm [CONTEXT:NUMBER]!
+Guess what, I'm [CONTEXT:NUMBER]!
+I'm [CONTEXT:NUMBER]! I bet I'm older than you!
+I'm [CONTEXT:NUMBER]! I'm the oldest kid around here besides the kids older than me!

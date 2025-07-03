@@ -1,0 +1,11 @@
+text_guard_warning
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:GUARD_WARNING]
+
+Don't start any trouble.
+[spoiler]Nobody causes trouble in my town. You remember that now.
+Keep your hands where I can see them.
+Don't go fiddling with any locks around here.
+Let's keep everything nice and friendly, aye?

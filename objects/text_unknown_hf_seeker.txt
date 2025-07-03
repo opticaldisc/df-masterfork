@@ -1,0 +1,9 @@
+text_unknown_hf_seeker
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:UNKNOWN_HF_SEEKER]
+
+seek out [CONTEXT:HIST_FIG:TRANS_NAME], wherever you think [CONTEXT:HIST_FIG:PRO_SUB] might be
+I have no idea where [CONTEXT:HIST_FIG:TRANS_NAME] might be, search for [CONTEXT:HIST_FIG:PRO_SUB] yourself
+search for [CONTEXT:HIST_FIG:TRANS_NAME]. Unfortunately, I have no idea where [CONTEXT:HIST_FIG:PRO_SUB] might be

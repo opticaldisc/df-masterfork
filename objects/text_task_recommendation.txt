@@ -1,0 +1,19 @@
+text_task_recommendation
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:TASK_RECOMMENDATION]
+
+[CONTEXT:ANY:TRANS_NAME] might have a task for you
+[CONTEXT:ANY:TRANS_NAME] could have a task for you
+[CONTEXT:ANY:TRANS_NAME] likely has a task for you
+[CONTEXT:ANY:TRANS_NAME] probably has a task for you
+[CONTEXT:ANY:TRANS_NAME] should have a task for you
+I reckon [CONTEXT:ANY:TRANS_NAME] probably has something you could do.
+[CONTEXT:ANY:TRANS_NAME] probably has something you could do.
+I reckon [CONTEXT:ANY:TRANS_NAME] likely has work for you.
+I reckon [CONTEXT:ANY:TRANS_NAME] might have a task for you.
+You know, [CONTEXT:ANY:TRANS_NAME] might have a task for you.
+You know, [CONTEXT:ANY:TRANS_NAME] probably has something you could do.
+I suppose [CONTEXT:ANY:TRANS_NAME] probably has something you could do.
+I think [CONTEXT:ANY:TRANS_NAME] might have a task for you.

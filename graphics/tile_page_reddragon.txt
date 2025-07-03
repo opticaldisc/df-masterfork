@@ -1,0 +1,8 @@
+tile_page_reddragon
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:REDDRAGONS]
+	[FILE:images/reddragons.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:160:128]

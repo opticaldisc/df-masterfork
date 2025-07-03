@@ -1,0 +1,29 @@
+item_armor_shield
+
+# // from DPh Krakens' Immaterial Cultures // #
+
+[OBJECT:ITEM]
+
+Shield stats by Sver
+
+	armorlevels do work for shields!
+	npcs spawn with a shield corresponding to their profession
+
+	numbers near the BLOCKCHANCE are the weights for this shield made of iron/steel, for humans
+
+
+===========================================================
+
+[ITEM_SHIELD:ITEM_SHIELD_BUCKLER]
+[NAME:buckler:bucklers]
+[ARMORLEVEL:1]  not sure who can use it, needs testing
+[BLOCKCHANCE:10] 8 kg
+[UPSTEP:0]
+[MATERIAL_SIZE:3] 1 bar
+
+[ITEM_SHIELD:ITEM_SHIELD_SHIELD]
+[NAME:heater shield:heater shields]
+[ARMORLEVEL:2]  bodyguards and lawmen can use it
+[BLOCKCHANCE:35] 10 kg
+[UPSTEP:1]
+[MATERIAL_SIZE:9] 3 bars

@@ -1,0 +1,8 @@
+tile_page_lorr_dwarven_female_statues
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:LORR_STATUE_DWARF]
+	[FILE:images/lorr_statue_dwarf_female.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:32:128]

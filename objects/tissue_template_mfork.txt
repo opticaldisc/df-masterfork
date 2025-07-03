@@ -1,0 +1,1034 @@
+tissue_template_aaa_default_mfork
+
+[OBJECT:TISSUE_TEMPLATE]
+
+[TISSUE_TEMPLATE:SKIN_TEMPLATE]
+	[TISSUE_NAME:skin:NP]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SKIN]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:100]           Lower is faster.
+	[VASCULAR:1]
+	[PAIN_RECEPTORS:4]{:5        Revision: on the other hand, cuts were too painful.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:FAT_TEMPLATE]
+	[TISSUE_NAME:fat:NP]
+	[THICKENS_ON_ENERGY_STORAGE]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:FAT]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:100]
+	{VASCULAR:3        Revision: fat doesn't bleed anymore; this behaved poorly with high temperatures.}
+	{PAIN_RECEPTORS:5  Revision: fat feels no pain.  As above, this behaved poorly when fat melted.}
+	[CONNECTS]
+	[INSULATION:100]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:MUSCLE_TEMPLATE]
+	[TISSUE_NAME:muscle:muscles]
+	[THICKENS_ON_STRENGTH]
+	[ARTERIES]
+	[SCARS]
+	[MUSCULAR]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:MUSCLE]
+	[RELATIVE_THICKNESS:3]
+	[HEALING_RATE:100]
+	[VASCULAR:5]
+	[PAIN_RECEPTORS:5]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:BONE_TEMPLATE]
+	[TISSUE_NAME:bone:NP] Whether it has a plural depends on exact part
+	[STRUCTURAL]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:BONE]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]
+	[VASCULAR:6]{:3                Revision: bone fractures tend to make people bleed.}
+	[PAIN_RECEPTORS:50]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SHELL_TEMPLATE]
+	[TISSUE_NAME:shell:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SHELL]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:850]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:HORN_TEMPLATE]
+	[TISSUE_NAME:horn:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HORN]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]{+  Revision: horn damage shouldn't cause permanent injury.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:HOOF_TEMPLATE]
+	[TISSUE_NAME:hoof:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HOOF]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]{+  Revision: hoof damage shouldn't cause permanent injury.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]{+  Revision: these wounds need to be fixed by bone doctors.}
+	[SPLINTABLE]{+}
+
+[TISSUE_TEMPLATE:CARTILAGE_TEMPLATE]
+	[TISSUE_NAME:cartilage:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CARTILAGE]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]{+  Revision: cartilage damage shouldn't cause permanent injury.}
+	[PAIN_RECEPTORS:5]  Sver: shattered ears, noses etc. are painful
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:HAIR_TEMPLATE]
+	[TISSUE_NAME:hair:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:1]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[COSMETIC]
+	[STYLEABLE]
+	[INSULATION:100]
+	[HEALING_RATE:500]{+  Revision: hair grows back.}
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:CHEEK_WHISKERS_TEMPLATE]
+	[TISSUE_NAME:cheek whisker:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:500]{+}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:CHIN_WHISKERS_TEMPLATE]
+	[TISSUE_NAME:chin whisker:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:500]{+}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:MOUSTACHE_TEMPLATE]
+	[TISSUE_NAME:moustache:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:500]{+}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:SIDEBURNS_TEMPLATE]
+	[TISSUE_NAME:sideburns:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:500]{+}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:EYEBROW_TEMPLATE]
+	[TISSUE_NAME:eyebrow:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:500]{+}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:EYELASH_TEMPLATE]
+	[TISSUE_NAME:eyelash:eyelashes]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:500]{+}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:FEATHER_TEMPLATE]
+	[TISSUE_NAME:feather:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:FEATHER]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:200]{+}
+	[INSULATION:100]
+	[TISSUE_SHAPE:FEATHERS]
+
+[TISSUE_TEMPLATE:SCALE_TEMPLATE]
+	[TISSUE_NAME:scale:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SCALE]
+	[SCARS]
+	[RELATIVE_THICKNESS:1]{:1  Revision: scales were cut too easily.}
+	[HEALING_RATE:300]{:100    Revision: scale was healing too quickly.}
+	{VASCULAR:1                Revision: scale doesn't bleed anymore.}
+	[PAIN_RECEPTORS:2]{:5      Revision: scale injuries are also less painful.}
+	[CONNECTS]
+	[TISSUE_SHAPE:SCALES]
+
+[TISSUE_TEMPLATE:NAIL_TEMPLATE]
+	[TISSUE_NAME:nail:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:NAIL]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: nails grow back.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:CLAW_TEMPLATE]
+	[TISSUE_NAME:claw:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CLAW]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: claws grow back.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:TALON_TEMPLATE]
+	[TISSUE_NAME:talon:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:TALON]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: talons grow back.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:TOOTH_TEMPLATE]
+	[TISSUE_NAME:tooth:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:TOOTH]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: losing some teeth shouldn't be a permanent injury.}
+	[VASCULAR:1]{+        Revision: teeth now bleed.  At least, the gums do.}
+	[PAIN_RECEPTORS:5] 0  Sver: experimental, but seemed to work fine so far.
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:IVORY_TEMPLATE]
+	[TISSUE_NAME:ivory:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:IVORY]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: ivory should heal eventually.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:EYE_TEMPLATE]
+	[TISSUE_NAME:eye:NP]{:eye tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:EYE]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:500]{:100  Revision: eyes don't heal overnight.}
+	[VASCULAR:13]{:3         Revision: eyes bleed more when cut.}
+	[PAIN_RECEPTORS:40]{:5   Revision: eye injuries are damn painful.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:NERVE_TEMPLATE]
+	[TISSUE_NAME:nerve:NP]{:nervous tissue
+	[FUNCTIONAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:NERVE]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:1500]{+  Revision: nerve tissue is too easy to damage, so compensate a little with the healing rate.}
+	[VASCULAR:3]
+	[PAIN_RECEPTORS:100]{+}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:BRAIN_TEMPLATE]
+	[TISSUE_NAME:brain:NP]{:brain tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:BRAIN]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:1500]{+  Revision: brain tissue heals eventually.}
+	[VASCULAR:60]{:3       Revision: brain injuries should bleed profusely.}
+	[MAJOR_ARTERIES]       Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	Sver: no pain, same as vanilla. It appears to be redundant, as even bruising usually causes unconsciousness.
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:LUNG_TEMPLATE]
+	[TISSUE_NAME:lung:NP]{:lung tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:LUNG]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: lungs healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:33]{:8         Revision: lungs bleed more when cut.  Internal wounds should be punishing.}
+	[ARTERIES]               Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:35]{:5   Revision: lungs injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:HEART_TEMPLATE]
+	[TISSUE_NAME:heart:NP]{:heart tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HEART]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: hearts healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:100]{:50       Revision: heart injuries bleed profusely, who thought? - zey}
+	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:60]{:5   Revision: heart injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:LIVER_TEMPLATE]
+	[TISSUE_NAME:liver:NP]{:liver tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:LIVER]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: livers healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:60]{:8         Revision: liver bleeds more when cut.  Internal wounds should be punishing.}
+	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:55]{:5   Revision: liver injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:GUT_TEMPLATE]
+	[TISSUE_NAME:intestine:NP]{:gut
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:GUT]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: guts healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:23]{:3         Revision: gut bleeds more when cut.  Internal wounds should be punishing.}
+	[ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:40]{:5   Revision: gut injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:STOMACH_TEMPLATE]
+	[TISSUE_NAME:stomach:NP]{:stomach tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:STOMACH]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: stomachs healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:18]{:3         Revision: stomachs bleed more when cut.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:40]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:GIZZARD_TEMPLATE]
+	[TISSUE_NAME:gizzard:NP]{:gizzard tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:GIZZARD]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: gizzards healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:23]{:3         Revision: gizzards bleed more when cut.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:40]{:5   Revision: gizzard injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:PANCREAS_TEMPLATE]
+	[TISSUE_NAME:pancreas:pancreases]{:pancreatic tissue:NP
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:PANCREAS]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: pancreases healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:23]{:3         Revision: pancreases bleed more when cut.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:40]{:5   Revision: pancreas injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:SPLEEN_TEMPLATE]
+	[TISSUE_NAME:spleen:NP]{:spleen tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SPLEEN]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: spleens healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:50]{:5:33      Revision: spleens bleed more when cut.  Internal wounds should be punishing.}
+	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:40]{:5   Revision: spleen injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:KIDNEY_TEMPLATE]
+	[TISSUE_NAME:kidney:NP]{:kidney tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:KIDNEY]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: kidneys healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:33]{:8         Revision: kidneys bleed more when cut.  Internal wounds should be punishing.}
+	[ARTERIES]               Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:50]{:5   Revision: kidney injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:FLAME_TEMPLATE]
+	[TISSUE_NAME:flames:NP]
+	[MUSCULAR]
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:FLAME]
+	[TISSUE_MAT_STATE:GAS]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:5]{:1 Sver: experimental! Change to 100 if too hardcore!
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:CHITIN_TEMPLATE]
+	[TISSUE_NAME:carapace:NP]{:chitin}
+	{SCARS                     Revision: chitin creatureS molt; leaving no scars.}
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CHITIN]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:300]{:100    Revision: chitin healed too quickly.}
+	{VASCULAR:1                Revision: chitin doesn't bleed.}
+	{PAIN_RECEPTORS:5          Revision: chitin wounds are painless.}
+	[CONNECTS]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[STRUCTURAL]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SPINE_TEMPLATE]
+	[TISSUE_NAME:spine:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SPINE]
+	[HEALING_RATE:1500]{+      Revision: spine injuries shouldn't be permanent.}
+	[RELATIVE_THICKNESS:2]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:SPONGE_TEMPLATE]
+	[TISSUE_NAME:sponge:NP]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SPONGE]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:100]
+	[VASCULAR:3]
+	[PAIN_RECEPTORS:5]
+	[CONNECTS]
+	[INSULATION:100]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:PEARL_TEMPLATE]{+  Revision: add pearls to fix bug 4108; no pearls exist in Dwarf Fortress, despite being used for crafts.}
+	[TISSUE_NAME:pearl:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:PEARL]
+	[RELATIVE_THICKNESS:1]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:SKIN_TEMPLATE_MEDIUM]
+	[TISSUE_NAME:skin:NP]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_MEDIUM:SKIN]
+	[RELATIVE_THICKNESS:2]{:1
+	[HEALING_RATE:110] +10% slower
+	[VASCULAR:1]
+	[PAIN_RECEPTORS:3]{:4
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:BONE_TEMPLATE_MEDIUM]
+	[TISSUE_NAME:bone:NP]
+	[STRUCTURAL]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_MEDIUM:BONE]
+	[RELATIVE_THICKNESS:3]{:2
+	[HEALING_RATE:1100] +10% slower
+	[VASCULAR:5]{:6
+	[PAIN_RECEPTORS:45]{:50
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SHELL_TEMPLATE_MEDIUM]
+	[TISSUE_NAME:shell:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_MEDIUM:SHELL]
+	[RELATIVE_THICKNESS:3]{:2
+	[HEALING_RATE:935] +10% slower
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SCALE_TEMPLATE_MEDIUM]
+	[TISSUE_NAME:scale:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_MEDIUM:SCALE]
+	[SCARS]
+	[RELATIVE_THICKNESS:2]{:1
+	[HEALING_RATE:330] +10% slower
+	[PAIN_RECEPTORS:1]{:2
+	[CONNECTS]
+	[TISSUE_SHAPE:SCALES]
+	
+[TISSUE_TEMPLATE:CHITIN_TEMPLATE_MEDIUM]
+	[TISSUE_NAME:carapace:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_MEDIUM:CHITIN]
+	[RELATIVE_THICKNESS:2]{:1
+	[HEALING_RATE:330] +10% slower
+	[CONNECTS]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[STRUCTURAL]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+	
+[TISSUE_TEMPLATE:SKIN_TEMPLATE_HEAVY]
+	[TISSUE_NAME:skin:NP]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_HEAVY:SKIN]
+	[RELATIVE_THICKNESS:3]{:2
+	[HEALING_RATE:120] +20% slower
+	[VASCULAR:1]
+	[PAIN_RECEPTORS:1]{:3
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:BONE_TEMPLATE_HEAVY]
+	[TISSUE_NAME:bone:NP]
+	[STRUCTURAL]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_HEAVY:BONE]
+	[RELATIVE_THICKNESS:4]{:3
+	[HEALING_RATE:1200] +20% slower
+	[VASCULAR:4]{:5
+	[PAIN_RECEPTORS:40]{:50
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SHELL_TEMPLATE_HEAVY]
+	[TISSUE_NAME:shell:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_HEAVY:SHELL]
+	[RELATIVE_THICKNESS:4]{:3
+	[HEALING_RATE:1020] +20% slower
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SCALE_TEMPLATE_HEAVY]
+	[TISSUE_NAME:scale:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_HEAVY:SCALE]
+	[SCARS]
+	[RELATIVE_THICKNESS:3]{:2
+	[HEALING_RATE:360] +20% slower
+	{PAIN_RECEPTORS:1
+	[CONNECTS]
+	[TISSUE_SHAPE:SCALES]
+	
+[TISSUE_TEMPLATE:CHITIN_TEMPLATE_HEAVY]
+	[TISSUE_NAME:carapace:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_HEAVY:CHITIN]
+	[RELATIVE_THICKNESS:3]{:2
+	[HEALING_RATE:360] +20% slower
+	[CONNECTS]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[STRUCTURAL]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SKIN_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:skin:NP]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SKIN]
+	[RELATIVE_THICKNESS:2]{:1    Revision: skin was cut too easily.}
+	[HEALING_RATE:100]           Lower is faster.
+	[VASCULAR:1]
+	[PAIN_RECEPTORS:2]{:5      Revision: on the other hand, cuts were too painful. Still too painful, - zey.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:FAT_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:fat:NP]
+	[THICKENS_ON_ENERGY_STORAGE]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:FAT]
+	[RELATIVE_THICKNESS:2]{:1     Revision: made fat fatter, - zey.}
+	[HEALING_RATE:100]
+	{VASCULAR:3        Revision: fat doesn't bleed anymore; this behaved poorly with high temperatures.}
+	{PAIN_RECEPTORS:5  Revision: fat feels no pain.  As above, this behaved poorly when fat melted.}
+	[CONNECTS]
+	[INSULATION:100]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:MUSCLE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:muscle:muscles]
+	[THICKENS_ON_STRENGTH]
+	[ARTERIES]
+	[SCARS]
+	[MUSCULAR]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:MUSCLE]
+	[RELATIVE_THICKNESS:3]
+	[HEALING_RATE:100]
+	[VASCULAR:5]
+	[PAIN_RECEPTORS:5]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:BONE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:bone:NP] Whether it has a plural depends on exact part
+	[STRUCTURAL]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:BONE]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]
+	[VASCULAR:6]{:3                Revision: bone fractures tend to make people bleed.}
+	[PAIN_RECEPTORS:40]{:50        Revision: on the other hand, fractured bones were too painful.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SHELL_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:shell:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SHELL]
+	[RELATIVE_THICKNESS:3]
+	[HEALING_RATE:850]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:HORN_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:horn:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HORN]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]{+  Revision: horn damage shouldn't cause permanent injury.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:ANTLER_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:antler:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:ANTLER]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]		Modest Mod
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:HOOF_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:hoof:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HOOF]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]{+  Revision: hoof damage shouldn't cause permanent injury.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:CARTILAGE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:cartilage:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CARTILAGE]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:1000]{+  Revision: cartilage damage shouldn't cause permanent injury.}
+	[PAIN_RECEPTORS:5]  Sver: shattered ears, noses etc. are painful
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:HAIR_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:hair:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:1]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[COSMETIC]
+	[STYLEABLE]
+	[INSULATION:100]
+	[HEALING_RATE:1000]{+  Revision: hair grows back.}
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:WOOL_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:wool:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:WOOL]
+	[RELATIVE_THICKNESS:1]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:1000]
+	[COSMETIC]
+	[STYLEABLE]
+	[INSULATION:100]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:CHEEK_WHISKERS_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:cheek whisker:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:1000]{+  Revision: hair grows back.}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:CHIN_WHISKERS_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:chin whisker:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:1000]{+  Revision: hair grows back.}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:MOUSTACHE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:moustache:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:1000]{+  Revision: hair grows back.}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:SIDEBURNS_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:sideburns:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:1000]{+  Revision: hair grows back.}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:EYEBROW_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:eyebrow:NP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:1000]{+  Revision: hair grows back.}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:EYELASH_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:eyelash:eyelashes]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HAIR]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:1000]{+  Revision: hair grows back.}
+	[COSMETIC]
+	[STYLEABLE]
+	[TISSUE_SHAPE:STRANDS]
+
+[TISSUE_TEMPLATE:FEATHER_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:feather:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:FEATHER]
+	[RELATIVE_THICKNESS:2]
+	[SUBORDINATE_TO_TISSUE:SKIN]
+	[HEALING_RATE:200]{+  Revision: feathers grow back.}
+	[INSULATION:100]
+	[TISSUE_SHAPE:FEATHERS]
+
+[TISSUE_TEMPLATE:SCALE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:scale:STP]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SCALE]
+	[SCARS]
+	[RELATIVE_THICKNESS:2]{:1  Revision: scales were cut too easily.}
+	[HEALING_RATE:300]{:100    Revision: scale was healing too quickly.}
+	{VASCULAR:1                Revision: scale doesn't bleed anymore.}
+	[PAIN_RECEPTORS:1]{:5      Revision: scale injuries are also less painful.}
+	[CONNECTS]
+	[TISSUE_SHAPE:SCALES]
+
+[TISSUE_TEMPLATE:NAIL_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:nail:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:NAIL]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: nails grow back.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:CLAW_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:claw:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CLAW]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: claws grow back.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:TALON_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:talon:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:TALON]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: talons grow back.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:TOOTH_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:tooth:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:TOOTH]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: losing some teeth shouldn't be a permanent injury.}
+	[VASCULAR:1]{+        Revision: teeth now bleed.  At least, the gums do.}
+	[PAIN_RECEPTORS:5] 0  Sver: experimental, but seemed to work fine so far.
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:IVORY_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:ivory:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:IVORY]
+	[RELATIVE_THICKNESS:2]
+	[HEALING_RATE:500]{+  Revision: ivory should heal eventually.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:EYE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:eye:NP]{:eye tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:EYE]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:500]{:100  Revision: eyes don't heal overnight.}
+	[VASCULAR:13]{:3         Revision: eyes bleed more when cut.}
+	[PAIN_RECEPTORS:40]{:5   Revision: eye injuries are damn painful.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:NERVE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:nerve:NP]{:nervous tissue
+	[FUNCTIONAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:NERVE]
+	[RELATIVE_THICKNESS:2]{:1   Revision: too easily severed. - zey}
+	[HEALING_RATE:1500]{+       Revision: nerve grows back, especially when it's so easily damaged.}
+	[VASCULAR:3]
+	[PAIN_RECEPTORS:100]{+      Revision: on the other hand, nerve injuries are painful.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:BRAIN_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:brain:NP]{:brain tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:BRAIN]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:1500]{+  Revision: brain tissue heals eventually.}
+	[VASCULAR:50]{:3:23    Revision: brain injuries bleed profusely.}
+	[MAJOR_ARTERIES]       Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	Sver: no pain, same as vanilla. It appears to be redundant, as even bruising usually causes unconsciousness.
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:LUNG_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:lung:NP]{:lung tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:LUNG]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: lungs healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:33]{:8         Revision: lungs bleed more when cut.  Internal wounds should be punishing.}
+	[ARTERIES]               Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:55]{:5   Revision: lungs injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:HEART_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:heart:NP]{:heart tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HEART]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: hearts healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:80]{:50        Revision: heart injuries bleed profusely, who thought? - zey}
+	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:50]{:5   Revision: heart injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:LIVER_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:liver:NP]{:liver tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:LIVER]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: livers healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:33]{:8         Revision: liver bleeds more when cut.  Internal wounds should be punishing.}
+	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:55]{:5   Revision: liver injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:GUT_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:intestine:NP]{:gut
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:GUT]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: guts healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:23]{:3         Revision: gut bleeds more when cut.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:40]{:5   Revision: gut injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:STOMACH_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:stomach:NP]{:stomach tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:STOMACH]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: stomachs healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:23]{:3         Revision: stomachs bleed more when cut.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:40]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:GIZZARD_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:gizzard:NP]{:gizzard tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:GIZZARD]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: gizzards healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:23]{:3         Revision: gizzards bleed more when cut.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:40]{:5   Revision: gizzard injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:PANCREAS_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:pancreas:pancreases]{:pancreatic tissue:NP
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:PANCREAS]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: pancreases healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:23]{:3         Revision: pancreases bleed more when cut.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:40]{:5   Revision: pancreas injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:SPLEEN_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:spleen:NP]{:spleen tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SPLEEN]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: spleens healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:50]{:5:33      Revision: spleens bleed more when cut.  Internal wounds should be punishing.}
+	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:40]{:5   Revision: spleen injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:KIDNEY_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:kidney:NP]{:kidney tissue
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:KIDNEY]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:600]{:100  Revision: kidneys healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:33]{:8         Revision: kidneys bleed more when cut.  Internal wounds should be punishing.}
+	[ARTERIES]               Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:50]{:5   Revision: kidney injuries are painful.  Internal wounds should be punishing.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:FLAME_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:flames:NP]
+	[MUSCULAR]
+	[FUNCTIONAL]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:FLAME]
+	[TISSUE_MAT_STATE:GAS]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:10]{:1 Sver: experimental! Change to 100 if too hardcore!
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:CHITIN_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:carapace:NP]{:chitin}
+	#SCARS]{                   Revision: chitin creatures usually molt, leaving no scars, - zey.}
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CHITIN]
+	[RELATIVE_THICKNESS:3]{:1  Revision: chitin was too easily cut.}
+	[HEALING_RATE:300]{:100    Revision: chitin healed too quickly.}
+	{VASCULAR:1                Revision: chitin doesn't bleed.}
+	{PAIN_RECEPTORS:5          Revision: chitin wounds are painless.}
+	[CONNECTS]
+	[CONNECTIVE_TISSUE_ANCHOR]
+	[STRUCTURAL]
+	[TISSUE_SHAPE:LAYER]
+	[SETTABLE]
+	[SPLINTABLE]
+
+[TISSUE_TEMPLATE:SPINE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:spine:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SPINE]
+	[HEALING_RATE:1500]{+      Revision: spine injuries shouldn't be permanent.}
+	[RELATIVE_THICKNESS:3]{:2  Revision: spines are pretty tough, - zey.}
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]
+
+[TISSUE_TEMPLATE:SPONGE_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:sponge:NP]
+	[SCARS]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SPONGE]
+	[RELATIVE_THICKNESS:1]
+	[HEALING_RATE:100]
+	[VASCULAR:3]
+	[PAIN_RECEPTORS:5]
+	[CONNECTS]
+	[INSULATION:100]
+	[TISSUE_SHAPE:LAYER]
+	
+[TISSUE_TEMPLATE:PEARL_TEMPLATE_ACCELERATED]
+	[TISSUE_NAME:pearl:NP]
+	[STRUCTURAL]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:PEARL]
+	[RELATIVE_THICKNESS:1]
+	[CONNECTS]
+	[TISSUE_SHAPE:LAYER]

@@ -1,0 +1,11 @@
+text_animal_slayer
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:ANIMAL_SLAYER]
+
+I have taken down [CONTEXT:NUMBER] [CONTEXT:RACE:NUMBERED_NAME] while stalking [CONTEXT:PLACE:TRANS_NAME].
+I done killed [CONTEXT:NUMBER] [CONTEXT:RACE:NUMBERED_NAME] over in [CONTEXT:PLACE:TRANS_NAME].
+I don't mean to brag, but when I was in [CONTEXT:PLACE:TRANS_NAME] I got [CONTEXT:NUMBER] [CONTEXT:RACE:NUMBERED_NAME], and that's no mean feat.
+Hey, I've taken down [CONTEXT:NUMBER] [CONTEXT:RACE:NUMBERED_NAME] at [CONTEXT:PLACE:TRANS_NAME], and that's no mean feat.
+A lot of people probably think hunting [CONTEXT:RACE:NUMBERED_NAME] is a pretty serious sport, but I've taken down [CONTEXT:NUMBER] of them over in [CONTEXT:PLACE:TRANS_NAME].

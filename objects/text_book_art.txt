@@ -1,0 +1,252 @@
+text_book_art
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:BOOK_ART]
+[NAME]
+[PHRASE]
+[ADJ] [NO_ART_NAME]
+The [ADJ] [NO_ART_NAME]
+[NAME] [ADJ]
+[NAME] and the [NOUN]
+[NAME] and the [ADJ] [NOUN]
+The [NOUN] and [NAME]
+The [ADJ] [NOUN] and [NAME]
+[NAME]: [PHRASE]
+It Must Have Been [NAME]
+My Friend [NAME]
+The Birth of [NAME]
+The Sun Sets on [NAME]
+We See [NAME]
+[NAME] Ever Onward
+[NAME] and Nothing More
+And [ANY_PRONOUN] Sang '[NAME]!'
+[NAME]
+[PHRASE]
+[NAME] [ADJ]
+The [ADJ] [NO_ART_NAME]
+The [ADJ] [NO_ART_NAME]
+[ANY_AGE] and [NAME]
+Dreams of [NAME]
+A Book For [ADJ] [NO_ART_NAME]
+A [ADJ] [NOUN]'s [NO_ART_NAME]
+All's [ADJ] That Ends [ADJ]
+Chronicles of [PHRASE]
+Diary of [NAME]
+Folk [NO_ART_NAME]
+Hymn to [NAME]
+Much Ado About [NAME]
+Ode to [NAME]
+Slaves to [NAME]
+Homage to [NAME]
+Of [NOUN] and [NO_ART_NAME]
+Still [PHRASE]
+The Allegory of [NAME]
+The Ballad of [NAME]
+The Comedy of [NAME]
+The Land of [NAME]
+The Legend of [NAME]
+The Life of [NAME]
+The Secret of [NAME]
+The Saga of [NAME]
+The Song of [NAME]
+The Story of [NAME]
+The Tale of [NAME]
+The Tragedy of [NAME]
+The Path of [NAME]
+The Follies of [NAME]
+The Prophecy of [NAME]
+The [ADJ] [NOUN] of Koganusハ
+A [ADJ] of Koganusハ
+The [NOUN] of Koganusハ
+[NAME]'s [ADJ] of Koganusハ
+The [ADJ] [NOUN] of Koganusハ
+A [ADJ] of Koganusハ
+The [NOUN] of Koganusハ and [NAME]
+[NAME]'s account of the [ADJ] Koganusハ
+[NAME]'s venture into the [ADJ] ruins of Koganusハ
+[ANY_PRONOUN] shall be [NAME]
+[ADJ] [NO_ART_NAME]
+[ADJ] Stories
+[ADJ] Fantasies
+[ADJ] Tales
+[ADJ] Songs
+[ADJ] Chronicles
+[ADJ] Poetry
+[NAME] Affair
+[NAME] Saga
+[NAME] and the [NOUN] of [NOUN]
+[NAME] is [NOUN]
+[NAME] of [PHRASE]
+[NAME] is [ADJ]
+[NAME] out of [NOUN]
+[NAME]: [ADJ] [NOUN]
+[NOUN] of [NAME]
+[NO_ART_NAME] II: [ADJ] [NOUN]
+[NO_ART_NAME] II: [PHRASE]
+[NOUN] Chronicles
+[NOUN] Stories
+[NAME]'s Heart
+[NAME]'s Tale
+[NAME]'s [NOUN]
+[NAME]'s [NOUN]
+[NAME], [PHRASE]
+[PHRASE], [PHRASE]
+Histories of [NOUN] and [NAME]
+I Am [NOUN]
+To [NOUN] and [NAME]!
+An Offering to [NAME]
+[ADJ] [NO_ART_NAME] and [ADJ] [NO_ART_NAME]
+In Search of [ADJ] [NAME]
+From [NAME] to [NOUN]
+Within [NAME]
+[NAME]'s Journey
+[NAME]'s [NOUN]
+[NAME] in the [NOUN]
+[ADJ] [ANY_AGE]
+[NOUN] for [NO_ART_NAME]
+To Be [ADJ] and [ADJ]
+Life in [NAME]
+[NAME] in [NOUN]
+The Quest for [NAME]
+[ANY_AGE] and [NAME]
+All Hail [NAME]
+[NAME]bound
+[ANY_PRONOUN] Shall Be [ADJ]
+[NAME], the [ADJ]
+A [ADJ] [NO_ART_NAME] of [NOUN]
+After Many a [NO_ART_NAME]
+Letter to the [ADJ]
+Listen, [NAME]!
+A Matter of [NOUN] and [NAME]
+And [ANY_PRONOUN] Saw The [NO_ART_NAME]
+In a Word, '[NAME]'
+Hearken to [NAME]
+Be [ANY_PRONOUN] as [ADJ] as a [NO_ART_NAME]
+[ANY_PRONOUN] Who Would Be [ADJ]
+You Are Absolutely Certain [ANY_PRONOUN] Said That
+Land of [NAME] and [NOUN]
+[ADJ] Ever After
+As [ADJ], So [ADJ]
+May [ANY_PRONOUN] Be [ADJ]
+The [ADJ] [NO_ART_NAME] Sings
+[NAME], Forgotten in the [NOUN]
+He Waited Until [ANY_AGE]
+[PHRASE], Said the [NOUN]
+Among [ADJ] [NOUN]s, We Danced
+The [NOUN] Beneath Her [ADJ] Eyes
+[ANY_PRONOUN] Found [NAME] in the [ADJ] Light
+Why [NAME] Fears the [ADJ] [NOUN]
+Before the [NOUN] Came [PHRASE]
+[NAME], Lost to [ANY_AGE]
+[PHRASE] and the Quiet of [NO_ART_NAME]
+Let the [ADJ] [NOUN] Lie
+[NO_ART_NAME] Dreams in [ADJ] Time
+A [NOUN] of [ADJ] [PHRASE]
+[ANY_PRONOUN] Waits Where [NAME] Once Was
+[PHRASE]: A Song for [NAME]
+When [ANY_PRONOUN] Sang to the [NOUN]
+[ADJ], [ADJ], and Full of [NOUN]
+We Remember [NAME] by [ADJ] Firelight
+The [PHRASE] of [ANY_AGE]
+[NAME] and the Unstoppable Elephant
+In [ANY_AGE], [NAME] Pulled the Lever
+The [ADJ] [NOUN] Was Full of Screaming
+[PHRASE], Then the Fire Began
+We Buried [NAME] in the Halls of Koganusハ
+[ANY_PRONOUN] Promised [NOUN], We Got Lava
+[NAME]: A Study in Catastrophe
+The [ADJ] End of the Koganusハ Plan
+[PHRASE] Before the Tantrum Spiral
+[ANY_PRONOUN] Called It a Fortress, [ANY_PRONOUN] Called It Koganusハ
+Koganusハ and the Lever That [ANY_PRONOUN] Shouldn't Have Pulled
+Burn the [NOUN], Save the Ale
+[ANY_PRONOUN] Had a Vision, Then [PHRASE]
+The [ADJ] Silence After the Screaming
+Koganusハ Rises, Then [PHRASE]
+Of [NOUN] and Noble Sacrifices (Mostly Useless Ones)
+When [ANY_PRONOUN] Drowned in the Hall of Statues
+The Last Log of [NAME]
+[PHRASE], Carved on the Walls of Koganusハ
+Elegy for the [ADJ] Architect and [PHRASE]
+[NAME] in the Time of [ANY_AGE]
+The [ADJ] [NO_ART_NAME] Beneath Our Feet
+[PHRASE], Whispers [NAME]
+A Dream of [ADJ] [NOUN]s
+[ANY_PRONOUN] Watched the [NOUN] Burn
+When [NAME] Met the [ADJ] Sky
+[NAME], Scattered Across the [NOUN]
+The [PHRASE] of [NO_ART_NAME]
+[ADJ] [NOUN]: A Song for [ANY_PRONOUN]
+[NAME] and the [ADJ] Lie
+The Last [NOUN] of [ANY_AGE]
+Why [ANY_PRONOUN] Sang of [NAME]
+The Silence Between [PHRASE] and [NAME]
+We Found [ADJ] [NOUN] and Called It [NAME]
+[NO_ART_NAME] Beneath the [ADJ] [NOUN]
+[PHRASE], Then the [NOUN] Fell Silent
+The Song That [ANY_PRONOUN] Forgot
+In the [NOUN] of [ADJ] [NAME]
+[NAME]: As Remembered in [ANY_AGE]
+From [PHRASE] to [NAME], and Back Again
+Tales from [ANY_AGE]
+A Friendship with Living [NAME]
+At One with Living [NAME]
+Awakened [NAME]s: Separating Fact from Fiction
+Awakened [NAME]s: The Definitive Guide
+Awakened [NAME]s: The Truth
+Awakening [NAME]
+Calming Awakened [NAME]s
+Co-existing with Living [NAME]
+Common Ground with Awakened [NAME]s
+Comprehending Awakened [NAME]s
+Comprehending Living [NAME]
+Conversing with Awakened [NAME]s
+Dangers of Mining [NAME]
+Discovering Awakened [NAME]
+Earning the Goodwill of Living [NAME]
+Embers of Creation Burning within [NAME]
+Encountering Awakened [NAME]
+Encountering Living [NAME]
+Encounters while Mining [NAME]
+Guide to Awakened [NAME]s
+Guide to Living [NAME]
+Hard-Won Peace with Awakened [NAME]
+Hidden Gems and Awakened [NAME]s
+Hidden Gems and Other Wonders within the [NAME]
+Learning from Awakened [NAME]s
+Living with Living [NAME]
+Living [NAME]: Problems And Solutions
+Living [NAME]: Separating Fact from Fiction
+Living [NAME]: The Definitive Guide
+Living [NAME]: The Truth
+Mining and Awakened [NAME]s
+Mining and Living [NAME]
+Mining [NAME]: The Truth
+More than [NAME]
+My Friend, the Awakened [NAME]
+Mysteries of Living [NAME]
+Respecting [NAME]
+Respectful Mining of [NAME]
+Secret Knowledge of Living [NAME]
+Secrets of Hidden Gems and Living [NAME]
+Taming Awakened [NAME]
+The Facts about Living [NAME]
+The Many Facets of [NAME]
+The Mind of the Awakened [NAME]
+The Miner and [NAME]
+The Pick and [NAME]
+The Secret of [NAME]
+The Truth about Awakened [NAME]s
+The Truth about Living [NAME]
+The Wisdom of Awakened [NAME]s
+The Wise Miner's Guide to [NAME]
+Understanding Awakened [NAME]s
+Understanding Living [NAME]
+What is an Awakened [NAME]?
+What is Living [NAME]?
+When [NAME] Awakens
+[NAME] and the Embers of Creation
+[NAME] and the Miner
+[NAME]'s Secret Explained
+[NAME] in the Mines

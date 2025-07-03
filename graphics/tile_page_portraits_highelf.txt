@@ -1,0 +1,113 @@
+tile_page_creatures_fff_highelf
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_ARMOUR_NEW]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_armour_new.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:768]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_BODY]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_body.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:1536:1152]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_BREASTPLATE]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_breastplate.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:96]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_CAP]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_cap.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_CAPE]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_cape.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:384]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_MAIL_SHIRT]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_chainmail.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_CLOAK]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_cloak.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:480]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_COAT]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_coat.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_SCARF_HEAD]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_headscarf.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_VEIL_HEAD]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_headveil.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_HELM]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_helmet.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_HOOD]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_hood.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_LEATHER]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_leather.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:96]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_MASK]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_mask.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:480]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_NEW]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_new.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:288]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_SHIRT]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_shirt.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_TOGA]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_toga.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_TURBAN]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_turban.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:288]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_UNDER]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_under.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:96:96]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_VEIL_FACE]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_veil.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:192]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_CLOTHING_VEST]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_clothing_vest.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:672:960]
+
+[TILE_PAGE:PORTRAIT_HIGHELF_HAIR]
+	[FILE:images/fff_highelf/portraits/highelf_portrait_hair.png]
+	[TILE_DIM:96:96]
+	[PAGE_DIM_PIXELS:576:1536]

@@ -1,0 +1,11 @@
+text_wandering_profession_year
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:WANDERING_PROFESSION_YEAR]
+
+I have wandered [CONTEXT:PLACE:TRANS_NAME] for [CONTEXT:NUMBER] of my years.
+I am a wanderer. I have roamed [CONTEXT:PLACE:TRANS_NAME] for around [CONTEXT:NUMBER] years.
+I have roamed the land alone for [CONTEXT:NUMBER] years.
+I have lived a nomadic life in [CONTEXT:PLACE:TRANS_NAME] for [CONTEXT:NUMBER] years. Where I lay my head is home.
+I have gone where the wind has taken me for [CONTEXT:NUMBER] years.

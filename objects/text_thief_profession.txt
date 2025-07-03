@@ -1,0 +1,23 @@
+text_thief_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:THIEF_PROFESSION]
+
+I seek treasures and bring them back to [CONTEXT:PLACE:TRANS_NAME].
+My job is dangerous and prosecuted by guards, but rich people of [CONTEXT:PLACE:TRANS_NAME] pay a lot for it.
+You don't want to know.
+We all are the criminals of the world, and our difference is the depth of sin.
+What is locked - can be opened. What is hidden - can be found. What is yours - can be mine.
+I seek treasures and bring them back to [CONTEXT:PLACE:TRANS_NAME].
+I am a treasure hunter and what I find goes to [CONTEXT:PLACE:TRANS_NAME].
+I do a little of this, a little of that.
+What I do isn't important.
+I acquire things that have been lost and bring them back to [CONTEXT:PLACE:TRANS_NAME].
+I retrieve trinkets from lost ages.
+I help circulate wealth, keeping it from standing still and stagnating
+What's it to ya?
+Some call me a bandit, but I prefer to think of myself as a businessman
+I'm a farmer, don't mind me. Just a poor little farmer minding my own business. Nothing to see here.
+Me? Oh, I'm nothing special.
+I do what I have to. I'm not always proud of it, but we all have to eat.

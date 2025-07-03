@@ -1,0 +1,46 @@
+text_soldier_profession
+
+[OBJECT:TEXT_SET]
+
+[TEXT_SET:SOLDIER_PROFESSION]
+
+I am a soldier.
+I am a warrior.
+I am a soldier, I defend what you see now.
+I am a warrior, I defend what you see now.
+I fight and die for an honest paycheck.
+I stand in the mud and rain and pretend that war is glorious.
+I've dedicated my might to the military service of this land.
+I live by the sword.
+My profession is war.
+I bring death to those who would see [CONTEXT:PLACE:TRANS_NAME] fall to ruin.
+I simply do as I am told.
+I am a strong man among strong men, fighting for the weak.
+I'm a soldier.
+I live by the sword, I'll die by the sword.
+I follow the way of the sword.
+My sword should speak for itself.
+I am a writer, my sword is my pen, my enemies are my paper.
+I do as I am told.
+I simply do as I am told to.
+I do as I am ordered.
+I follow orders.
+I simply do as I am told.
+I do as I am commanded.
+I do as commanded.
+I fight for the weak.
+I protect the weak.
+My life is battle.
+My heart belongs to the sword.
+I am a dealer of death.
+I am the muscle of [CONTEXT:PLACE:TRANS_NAME]'s might.
+I am a guard.
+I am a warrior.
+I am an enforcer.
+I'm a dealer of death.
+I'm the muscle of [CONTEXT:PLACE:TRANS_NAME]'s might.
+I'm a guard.
+I'm a warrior.
+I'm an enforcer.
+I eliminate problems.
+You can call me "sir".

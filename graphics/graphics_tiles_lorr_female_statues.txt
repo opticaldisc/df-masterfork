@@ -1,0 +1,6 @@
+graphics_tiles_lorr_dwarven_female_statues
+
+[OBJECT:GRAPHICS]
+
+[STATUE_CREATURE_CASTE_GRAPHICS:DWARF:FEMALE]
+     [DEFAULT:LORR_STATUE_DWARF:0:0:0:1]

@@ -1,0 +1,166 @@
+item_ic_ammo
+
+# // from DPh Krakens' Immaterial Cultures // #
+
+Ammunition, trapcomps, siege ammo
+Includes changes from Sver's DF Combat Reworked
+
+[OBJECT:ITEM]
+
+==========================================================
+crossbow bolts
+==========================================================
+
+[ITEM_AMMO:ITEM_AMMO_BOLTS]  =VANILLA=
+[NAME:piercing bolt:piercing bolts]
+[CLASS:BOLT]
+[SIZE:6]
+[ATTACK:EDGE:6:740:stab:stabs:NO_SUB:330]
+	[ATTACK_PREPARE_AND_RECOVER:10:5]
+
+==========================================================
+bow arrows
+==========================================================
+
+[ITEM_AMMO:ITEM_AMMO_ARROWS]  =VANILLA=
+[NAME:bodkin arrow:bodkin arrows]
+[CLASS:ARROW]
+[SIZE:12]
+[ATTACK:EDGE:12:900:stab:stabs:NO_SUB:170]  shaft can bend on hit
+	[ATTACK_PREPARE_AND_RECOVER:9:5]
+[ATTACK:EDGE:6:2400:stick:sticks:NO_SUB:330]
+	[ATTACK_PREPARE_AND_RECOVER:10:6]
+
+==========================================================
+blowgun and sling
+==========================================================
+
+[ITEM_AMMO:ITEM_AMMO_BLOWDARTS]
+[NAME:blowdart:blowdarts]
+[CLASS:BLOWDART]
+[SIZE:20]
+[ATTACK:EDGE:10:100:stick:sticks:NO_SUB:330]
+	[ATTACK_PREPARE_AND_RECOVER:9:4]
+[ATTACK:EDGE:10:50:prick:pricks:NO_SUB:170]
+	[ATTACK_PREPARE_AND_RECOVER:5:4]
+
+==========================================================
+trap components
+==========================================================
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_GIANTAXEBLADE]  =VANILLA=
+[NAME:axe blade:axe blades]
+[ADJECTIVE:giant]
+[SIZE:1200]
+[HITS:2]
+[MATERIAL_SIZE:33]
+[METAL]
+[ATTACK:EDGE:1350:1800:swing at:swings at:NO_SUB:1000] slash
+	[ATTACK_PREPARE_AND_RECOVER:8:1]
+[ATTACK:EDGE:5400:5400:cleave:cleaves:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:8:1]
+[ATTACK:EDGE:180:900:impale:impales:flank:1000] thrust
+	[ATTACK_PREPARE_AND_RECOVER:8:10]
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_ENORMOUSCORKSCREW]  =VANILLA=
+	made weak as a weapon to keep the production cost low
+	as it is required for (magma) pumps
+[NAME:corkscrew:corkscrews]
+[ADJECTIVE:enormous]
+[SIZE:200]
+[HITS:1]
+[MATERIAL_SIZE:3]
+[IS_SCREW]
+[WOOD]
+[METAL]
+[ATTACK:EDGE:100:300:drill:drills:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:13:9]
+[ATTACK:EDGE:100:20:cut:cuts:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:13:9]
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_SPIKEDBALL]  =VANILLA=
+[NAME:ball:balls]
+[ADJECTIVE:spiked]
+[SIZE:690]
+[HITS:1]
+[MATERIAL_SIZE:27]
+WOOD  --doesn't make much sense
+[METAL]
+[ATTACK:EDGE:3:160:strike:strikes:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:9:16]
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_LARGESERRATEDDISC]  =VANILLA=
+[NAME:disc:discs]
+[ADJECTIVE:large, serrated]
+[SIZE:600]
+[HITS:2]
+[MATERIAL_SIZE:36]
+[METAL]
+[ATTACK:EDGE:10000:10000:saw:saws:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:13:1]
+[ATTACK:EDGE:400:400:grind:grinds:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:13:1]
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_MENACINGSPIKE]  =VANILLA=
+[NAME:spike:spikes]
+[ADJECTIVE:menacing]
+[SIZE:1600]
+[HITS:1]
+[MATERIAL_SIZE:15]
+[IS_SPIKE]
+[WOOD]
+[METAL]
+[ATTACK:EDGE:17:20000:impale:impales:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:1:13]
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_SPIKECOVEREDCAGE_SVER] by Sver
+[NAME:cage:cages]
+[ADJECTIVE:spike-covered]
+[SIZE:65]  going by the weight of a single spike
+[HITS:12]  54 is a possibility, but is certainly an overkill, especially since you can stack 10 of them in 1 trap
+[MATERIAL_SIZE:12]
+[WOOD]
+[METAL]
+[ATTACK:EDGE:15:120:stick:sticks:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:1:1]
+[ATTACK:EDGE:15:600:stab:stabs:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:1:1]
+[ATTACK:EDGE:15:1:poke:pokes:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:1:1]
+[ATTACK:EDGE:15:15:prick:pricks:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:1:1]
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_SWORD_SVER]
+[NAME:sword blade:sword blades]
+[ADJECTIVE:long]
+[SIZE:1200]
+[HITS:1]
+[MATERIAL_SIZE:21] based on warbrand
+[METAL]
+[ATTACK:EDGE:6300:6300:swing at:swings at:NO_SUB:1000] slash
+	[ATTACK_PREPARE_AND_RECOVER:5:1]
+	[ATTACK_FLAG_INDEPENDENT_MULTIATTACK]
+[ATTACK:EDGE:535:535:rip:rips:NO_SUB:1000] clean slash
+	[ATTACK_PREPARE_AND_RECOVER:7:3]
+[ATTACK:EDGE:20:5355:impale:impales:NO_SUB:1000] thrust
+	[ATTACK_PREPARE_AND_RECOVER:8:9] heavy
+
+[ITEM_TRAPCOMP:ITEM_TRAPCOMP_ARROWHEAD_SVER] trapcomp to automatically add it to the forge
+[NAME:arrowheads:arrowheads]
+[ADJECTIVE:sheaf of]
+[SIZE:12]
+[HITS:1]
+[MATERIAL_SIZE:3]
+[METAL]
+[ATTACK:EDGE:12:900:stab:stabs:NO_SUB:170]  shaft can bend on hit
+	[ATTACK_PREPARE_AND_RECOVER:9:5]
+[ATTACK:EDGE:6:2400:thrust:thrusts:NO_SUB:330]
+	[ATTACK_PREPARE_AND_RECOVER:10:6]
+
+==========================================================
+siege ammo
+==========================================================
+
+[ITEM_SIEGEAMMO:ITEM_SIEGEAMMO_BALLISTA]
+[NAME:ballista arrow:ballista arrows]
+[CLASS:BALLISTA]

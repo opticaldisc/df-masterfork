@@ -1,0 +1,562 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 0,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:AGAVE:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:AGAVE:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_AGAVE",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:AGAVE:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_AGAVE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 1,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:ALMOND_MUSHROOM:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:ALMOND_MUSHROOM:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_ALMOND_MUSHROOM",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ALMOND_MUSHROOM:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_ALMOND_MUSHROOM"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 2,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CATNIP:SEEDHEAD",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CATNIP:SEEDHEAD",
+				"reaction_id" : "COLLECT_SEEDS_FOR_CATNIP",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CATNIP:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_CATNIP"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 3,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CATTAIL:SEEDHEAD",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:CATTAIL:SEEDHEAD",
+				"reaction_id" : "COLLECT_SEEDS_FOR_CATTAIL",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CATTAIL:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_CATTAIL"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 4,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:CROCUS:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:CROCUS:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_CROCUS",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:CROCUS:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_CROCUS"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 5,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:OKRA:FRUIT",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:OKRA:FRUIT",
+				"reaction_id" : "COLLECT_SEEDS_FOR_OKRA",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:OKRA:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_OKRA"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 6,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ROSE:FRUIT",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:ROSE:FRUIT",
+				"reaction_id" : "COLLECT_SEEDS_FOR_ROSE",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:ROSE:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_ROSE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 7,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SAFFLOWER:SEEDHEAD",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SAFFLOWER:SEEDHEAD",
+				"reaction_id" : "COLLECT_SEEDS_FOR_SAFFLOWER",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SAFFLOWER:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_SAFFLOWER"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 8,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SHIITAKE:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SHIITAKE:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_SHIITAKE",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SHIITAKE:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_SHIITAKE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 9,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SPEARMINT:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SPEARMINT:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_SPEARMINT",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SPEARMINT:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_SPEARMINT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 10,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SUGAR_CANE:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:SUGAR_CANE:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_SUGAR_CANE",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SUGAR_CANE:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_SUGAR_CANE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 11,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SUMAC:FRUIT",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SUMAC:FRUIT",
+				"reaction_id" : "COLLECT_SEEDS_FOR_SUMAC",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SUMAC:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_SUMAC"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 12,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SUNFLOWER:SEEDHEAD",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"material" : "PLANT:SUNFLOWER:SEEDHEAD",
+				"reaction_id" : "COLLECT_SEEDS_FOR_SUNFLOWER",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:SUNFLOWER:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_SUNFLOWER"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 13,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:TURMERIC:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:TURMERIC:STRUCTURAL",
+				"reaction_id" : "COLLECT_SEEDS_FOR_TURMERIC",
+				"value" : 5
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "SEEDS",
+				"material" : "PLANT:TURMERIC:SEED",
+				"value" : 5
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "COLLECT_SEEDS_FOR_TURMERIC"
+	}
+]
