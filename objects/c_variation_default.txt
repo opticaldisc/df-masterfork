@@ -304,6 +304,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:LOCAL_POPS_PRODUCE_HEROES]
 	[CV_NEW_TAG:FANCIFUL]{+}
 	[CV_NEW_TAG:BENIGN]{+                        Revision: animal people are now benign, like most humanoids.}
+	[CV_NEW_TAG:NOSKIN]{+                        Revision: animal people cannot be skinned.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SWEAT:SWEAT_TEMPLATE]{+   Revision: animal people can now sweat, cry and spit like most humanoids.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:TEARS:TEARS_TEMPLATE]
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SPIT:SPIT_TEMPLATE]
@@ -708,6 +709,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:LOCAL_POPS_PRODUCE_HEROES]
 	[CV_NEW_TAG:FANCIFUL]{+}
 	[CV_NEW_TAG:BENIGN]{+                        Revision: animal people are now benign, like most humanoids.}
+	[CV_NEW_TAG:NOSKIN]{+                        Revision: animal people cannot be skinned.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SWEAT:SWEAT_TEMPLATE]{+   Revision: animal people can now sweat, cry and spit like most humanoids.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:TEARS:TEARS_TEMPLATE]
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SPIT:SPIT_TEMPLATE]
@@ -967,7 +969,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:ATTACK:BITE:BODYPART:BY_CATEGORY:MOUTH]
 		[CV_NEW_TAG:ATTACK_SKILL:BITE]
 		[CV_NEW_TAG:ATTACK_VERB:bite:bites]
-		[CV_NEW_TAG:ATTACK_CONTACT_PERC:100]
+		[CV_NEW_TAG:ATTACK_CONTACT_PERC:10]{:100
 		[CV_NEW_TAG:ATTACK_FLAG_EDGE]{+  Revision: attacks that don't break skin can't suck blood.}
 		[CV_NEW_TAG:ATTACK_PREPARE_AND_RECOVER:3:3]
 		[CV_NEW_TAG:ATTACK_PRIORITY:MAIN]
@@ -978,7 +980,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:ATTACK:BITE:BODYPART:BY_CATEGORY:PROBOSCIS]
 		[CV_NEW_TAG:ATTACK_SKILL:BITE]
 		[CV_NEW_TAG:ATTACK_VERB:jab:jabs]
-		[CV_NEW_TAG:ATTACK_CONTACT_PERC:10]{:100
+		[CV_NEW_TAG:ATTACK_CONTACT_PERC:5]{:100
 		[CV_NEW_TAG:ATTACK_FLAG_EDGE]
 		[CV_NEW_TAG:ATTACK_PREPARE_AND_RECOVER:3:3]
 		[CV_NEW_TAG:ATTACK_PRIORITY:MAIN]
@@ -1264,13 +1266,12 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:GAIT:CRAWL:Creep:!ARG6:NO_BUILD_UP:0]
 	[CV_NEW_TAG:CAN_DO_INTERACTION:BATTLE_FERVOUR_GRIMLOCKE]  Sver: adrenaline by Grimlocke for longer combat
 		[CV_NEW_TAG:CDI:ADV_NAME:Prepare for a fight]
-		[CV_NEW_TAG:CDI:CAN_BE_MUTUAL]
-		[CV_NEW_TAG:CDI:USAGE_HINT:ATTACK]
+		[CV_NEW_TAG:CDI:USAGE_HINT:DEFEND]
 		[CV_NEW_TAG:CDI:USAGE_HINT:FLEEING]
-		[CV_NEW_TAG:CDI:TARGET:A:SELF_ALLOWED]
-		[CV_NEW_TAG:CDI:TARGET_RANGE:A:25]
-		[CV_NEW_TAG:CDI:MAX_TARGET_NUMBER:A:20]
-		[CV_NEW_TAG:CDI:WAIT_PERIOD:10]
+		[CV_NEW_TAG:CDI:TARGET:A:SELF_ONLY:TOUCHABLE]
+		[CV_NEW_TAG:CDI:TARGET_RANGE:A:1]
+		[CV_NEW_TAG:CDI:MAX_TARGET_NUMBER:A:1]
+		[CV_NEW_TAG:CDI:WAIT_PERIOD:500]
 		[CV_NEW_TAG:CDI:FREE_ACTION]
 	[CV_REMOVE_TAG:VIEWRANGE]{+}
 	[CV_REMOVE_TAG:SKILL_RATES]{+}
