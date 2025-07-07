@@ -6,28 +6,32 @@ creature_civ_kobold_mfork
 	[DESCRIPTION:A small, squat humanoid with large pointy ears and yellow glowing eyes.]
 	[NAME:kobold:kobolds:kobold]
 	[CASTE_NAME:kobold:kobolds:kobold]
-	[BABYNAME:kobold hatchling:kobold hatchlings]{+}
-	[OUTSIDER_CONTROLLABLE]{+} playable in adv mode
 	[CREATURE_TILE:'k'][COLOR:6:0:0]
 	[GLOWTILE:'"'][GLOWCOLOR:6:0:1]
-	[CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]
-	[LOCKPICKER][TRAPAVOID](FLEEQUICK)
-	(UTTERANCES)[CAN_LEARN][CAN_SPEAK]
-	[LISP]{+}
+	[CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]{+}
+	[LOCKPICKER][TRAPAVOID][FLEEQUICK]
+	--CAN_LEARN]
+	--UTTERANCES]
+	[INTELLIGENT]{+}
 	[BONECARN]
 	[CANOPENDOORS]
-	[BENIGN]{+}
+	[BABYNAME:kobold hatchling:kobold hatchlings]{+}
+	[OUTSIDER_CONTROLLABLE]{+  playable in adv mode}
 	[PREFSTRING:mischief]
 	[PREFSTRING:adorable snouts]{+}
 	[PREFSTRING:floppy ears]{+}
-	[NATURAL_SKILL:SWIMMING:1]
-	[NATURAL_SKILL:DISCIPLINE:1]
-	[NATURAL_SKILL:MELEE_COMBAT:1]
-	[NATURAL_SKILL:DODGING:1]
-	[NATURAL_SKILL:SITUATIONAL_AWARENESS:1]
-	[NATURAL_SKILL:WRESTLING:1]
-	[NATURAL_SKILL:GRASP_STRIKE:1]
-	[NATURAL_SKILL:STANCE_STRIKE:1]
+	[PERSONALITY:ANXIETY_PROPENSITY:50:75:100]
+	[PERSONALITY:TRUST:0:25:50]
+	[PERSONALITY:ACTIVITY_LEVEL:50:75:100]
+	[PERSONALITY:GREED:50:75:100]
+	[NATURAL_SKILL:SWIMMING:1]{+}
+	[NATURAL_SKILL:DISCIPLINE:1]{+}
+	[NATURAL_SKILL:MELEE_COMBAT:1]{+}
+	[NATURAL_SKILL:DODGING:1]{+}
+	[NATURAL_SKILL:SITUATIONAL_AWARENESS:1]{+}
+	[NATURAL_SKILL:WRESTLING:1]{+}
+	[NATURAL_SKILL:GRASP_STRIKE:1]{+}
+	[NATURAL_SKILL:STANCE_STRIKE:1]{+}
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:3TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
 	[BODY_DETAIL_PLAN:STANDARD_TISSUES]
@@ -72,19 +76,19 @@ creature_civ_kobold_mfork
 		[CDI:MAX_TARGET_NUMBER:B:1]
 		[CDI:WAIT_PERIOD:20]
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
-	    [CDI:TOKEN:SPIT]
+		[CDI:TOKEN:SPIT]
 		[CDI:ADV_NAME:Spit]
 		[CDI:USAGE_HINT:NEGATIVE_SOCIAL_RESPONSE]
 		[CDI:USAGE_HINT:TORMENT]
 		[CDI:BP_REQUIRED:BY_CATEGORY:MOUTH]
-		[CDI:MATERIAL:CREATURE_MAT:ANIMAL:SPIT:LIQUID_GLOB]
+		[CDI:MATERIAL:LOCAL_CREATURE_MAT:SPIT:LIQUID_GLOB]
 		[CDI:VERB:spit:spits:NA]
 		[CDI:TARGET:C:LINE_OF_SIGHT]
 		[CDI:TARGET_RANGE:C:15]
 		[CDI:MAX_TARGET_NUMBER:C:1]
 		[CDI:WAIT_PERIOD:30]
 	[PHYS_ATT_RANGE:STRENGTH:450:950:1150:1250:1350:1550:2250]               +
-	[PHYS_ATT_RANGE:AGILITY:1200:1400:1500:1600:1800:2500]                   ++
+	[PHYS_ATT_RANGE:AGILITY:700:1200:1400:1500:1600:1800:2500]               ++
 	[PHYS_ATT_RANGE:TOUGHNESS:450:950:1150:1250:1350:1550:2250]              +
 	[PHYS_ATT_RANGE:RECUPERATION:450:950:1150:1250:1350:1550:2250]           +
 	[PHYS_ATT_RANGE:DISEASE_RESISTANCE:450:950:1150:1250:1350:1550:2250]     +
@@ -94,16 +98,16 @@ creature_civ_kobold_mfork
 	[MENT_ATT_RANGE:INTUITION:150:600:800:900:1000:1100:1500]                -
 	[MENT_ATT_RANGE:PATIENCE:450:950:1150:1250:1350:1550:2250]               +
 	[MENT_ATT_RANGE:MEMORY:0:100:200:300:400:450:500]                        ---
-	[MENT_ATT_RANGE:LINGUISTIC_ABILITY:0:100:200:300:400:450:500]            ---
-		[MENT_ATT_RATES:LINGUISTIC_ABILITY:400:NONE:NONE:NONE]
-	(MENT_ATT_RANGE:MUSICALITY:0:0:0:0:0:0:0)                                unattainable
-		(MENT_ATT_RATES:MUSICALITY:NONE:NONE:NONE:NONE)
-	(MENT_ATT_RANGE:EMPATHY:0:100:200:300:400:450:500)                       ---
+	--MENT_ATT_RANGE:LINGUISTIC_ABILITY:0:0:0:0:0:0:0]                       unattainable
+		--MENT_ATT_RATES:LINGUISTIC_ABILITY:NONE:NONE:NONE:NONE]
+	--MENT_ATT_RANGE:MUSICALITY:0:0:0:0:0:0:0]                               unattainable
+		--MENT_ATT_RATES:MUSICALITY:NONE:NONE:NONE:NONE]
+	[MENT_ATT_RANGE:EMPATHY:0:100:200:300:400:450:500]                       ---
 	[BODY_SIZE:0:0:1000]
 	[BODY_SIZE:1:168:5000]
 	[BODY_SIZE:12:0:20000]
-	[BODY_SIZE:50:0:25000]{+}
-	[BODY_SIZE:100:0:30000]{+}
+	[BODY_SIZE:100:0:25000]{+}
+	[BODY_SIZE:200:0:30000]{+}
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:75:95:98:100:102:105:125]
 		[APP_MOD_IMPORTANCE:500]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:75:95:98:100:102:105:125]
@@ -162,22 +166,20 @@ creature_civ_kobold_mfork
 		[BP_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
 			[APP_MOD_IMPORTANCE:700]
 			[APP_MOD_DESC_RANGE:91:94:98:102:106:109]
-
-	[MAXAGE:250:270]{: 150:170
-
+	[MAXAGE:150:300]{: 150:170
 	[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
 		[ATTACK_SKILL:GRASP_STRIKE]
 		[ATTACK_VERB:punch:punches]
 		[ATTACK_CONTACT_PERC:110]{:        +10% }
-		[ATTACK_VELOCITY_MODIFIER:850]{:   -15% }
+		[ATTACK_VELOCITY_MODIFIER:1100]{:  +10% }
 		[ATTACK_PREPARE_AND_RECOVER:3:3]
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:MAIN]
 	[ATTACK:KICK:BODYPART:BY_TYPE:STANCE]
 		[ATTACK_SKILL:STANCE_STRIKE]
 		[ATTACK_VERB:kick:kicks]
-		[ATTACK_CONTACT_PERC:120]{:        +20% }
-		[ATTACK_VELOCITY_MODIFIER:750]{:   -25% }
+		[ATTACK_CONTACT_PERC:115]{:         +15% }
+		[ATTACK_VELOCITY_MODIFIER:1200]{:   +20% }
 		[ATTACK_PREPARE_AND_RECOVER:4:4]
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:SECOND]
@@ -185,16 +187,16 @@ creature_civ_kobold_mfork
 	[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
 		[ATTACK_SKILL:BITE]
 		[ATTACK_VERB:bite:bites]
-		[ATTACK_CONTACT_PERC:80]{:       -20% }
-		[ATTACK_PENETRATION_PERC:75]{:   -25% }
-		[ATTACK_VELOCITY_MODIFIER:750]{: -25% }
+		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PENETRATION_PERC:75]{:      -25% }
+		[ATTACK_VELOCITY_MODIFIER:500]{:    -50% }
 		[ATTACK_FLAG_EDGE]
-		[ATTACK_PREPARE_AND_RECOVER:5:5]
+		[ATTACK_PREPARE_AND_RECOVER:4:5]
 		[ATTACK_PRIORITY:SECOND]
+		[ATTACK_FLAG_BAD_MULTIATTACK]
 		{  removed latching  }
-
 	[BABY:1]
-	[CHILD:5]{:12
+	[CHILD:12]{:18
 	[EQUIPS]
 	[NOCTURNAL]
 	[SMELL_TRIGGER:20]{:25
@@ -229,49 +231,48 @@ creature_civ_kobold_mfork
 	[MANNERISM_POSTURE]
 	[MANNERISM_STRETCH]
 	[MANNERISM_EYELIDS]
-	
-	[PROFESSION_NAME:RECRUIT:skulker:skulkers]
-	[PROFESSION_NAME:STANDARD:dweller:dwellers]
+	[PROFESSION_NAME:RECRUIT:skulker:skulkers]{+  Revision: renamed professions to more thematic ones.}
+	[PROFESSION_NAME:STANDARD:dweller:dwellers]{+
 	[PROFESSION_NAME:CRAFTSMAN:craftsbold:craftsbolds]
 	[PROFESSION_NAME:FISHERMAN:fisherbold:fisherbolds]
-	[PROFESSION_NAME:HAMMERMAN:bola throwers:bola throwers] => hammer
-	[PROFESSION_NAME:SPEARMAN:spearbold:spearbolds]
-	[PROFESSION_NAME:AXEMAN:chopperbold:chopperbolds]
-	[PROFESSION_NAME:SWORDSMAN:machetebold:machetebolds]
-	[PROFESSION_NAME:MACEMAN:clubbold:clubbolds]
-	[PROFESSION_NAME:PIKEMAN:pikebold:pikebolds] => pike
-	[PROFESSION_NAME:BOWMAN:bowbold:bowbolds]
-	[PROFESSION_NAME:LASHER:whipbold:whipbolds]
-	[PROFESSION_NAME:MASTER_HAMMERMAN:master bola thrower:master bola throwers] => hammer
-	[PROFESSION_NAME:MASTER_SPEARMAN:master spearbold:master spearbolds]
-	[PROFESSION_NAME:MASTER_AXEMAN:master chopperbold:master chopperbolds]
-	[PROFESSION_NAME:MASTER_SWORDSMAN:master machetebold:master machetebolds]
-	[PROFESSION_NAME:MASTER_MACEMAN:master clubbold:master clubbolds]
-	[PROFESSION_NAME:MASTER_PIKEMAN:master pikebold:master pikebolds] => pike
-	[PROFESSION_NAME:MASTER_BOWMAN:master bowbold:master bowbolds]
-	[PROFESSION_NAME:MASTER_LASHER:master whipbold:master whipbolds]
-	
+	[PROFESSION_NAME:HAMMERMAN:bola throwers:bola throwers]{+
+	[PROFESSION_NAME:SPEARMAN:spearbold:spearbolds]{+
+	[PROFESSION_NAME:AXEMAN:chopperbold:chopperbolds]{+
+	[PROFESSION_NAME:SWORDSMAN:machetebold:machetebolds]{+
+	[PROFESSION_NAME:MACEMAN:clubbold:clubbolds]{+
+	[PROFESSION_NAME:PIKEMAN:pikebold:pikebolds]{+
+	[PROFESSION_NAME:BOWMAN:bowbold:bowbolds]{+
+	[PROFESSION_NAME:LASHER:whipbold:whipbolds]{+
+	[PROFESSION_NAME:MASTER_HAMMERMAN:master bola thrower:master bola throwers]{+
+	[PROFESSION_NAME:MASTER_SPEARMAN:master spearbold:master spearbolds]{+
+	[PROFESSION_NAME:MASTER_AXEMAN:master chopperbold:master chopperbolds]{+
+	[PROFESSION_NAME:MASTER_SWORDSMAN:master machetebold:master machetebolds]{+
+	[PROFESSION_NAME:MASTER_MACEMAN:master clubbold:master clubbolds]{+
+	[PROFESSION_NAME:MASTER_PIKEMAN:master pikebold:master pikebolds]{+
+	[PROFESSION_NAME:MASTER_BOWMAN:master bowbold:master bowbolds]{+
+	[PROFESSION_NAME:MASTER_LASHER:master whipbold:master whipbolds]{+
 	[CASTE:FEMALE]
 		[FEMALE]
-		[CHILDNAME:kobold girl:kobold girls]{+}
-		[DESCRIPTION:A small, quiet woman with leathery, scale-like skin and large, floppy ears.  She has wide, bright eyes and an innocent expression, feigned or real.  She lives in a cave with her tribe; she leaves often to steal.  Like most kobolds, she doesn't know her real parents.  Her tribe is her family.]{+}
-        [LITTERSIZE:10:20]
+		[LAYS_EGGS]
+			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGGSHELL:SOLID]
+			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
+			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
+			[EGG_SIZE:1100]
+			[CLUTCH_SIZE:2:4]{:1:2
+		[DESCRIPTION:A small, quiet woman with leathery, scale-like skin and large, floppy ears.  She has wide, bright eyes and an innocent expression, feigned or real.  She lives in a cave with her tribe; she leaves often to steal.  Like most kobolds, she most likely doesn't know her real parents.  Her tribe is her family.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[CHILDNAME:kobold boy:kobold boys]{+}
-		[DESCRIPTION:A small, quiet man with leathery, scale-like skin and large, floppy ears.  He has wide, bright eyes and an innocent expression, feigned or real.  He lives in a cave with his tribe; he leaves often to steal.  Like most kobolds, he doesn't know his real parents.  His tribe is his family.]{+}
-		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]{+}
-
-    [APPLY_CREATURE_VARIATION:CREATURE_ORIENTATION]{+}
-
+		undescended, not geldable
+		[DESCRIPTION:A small, quiet man with leathery, scale-like skin and large, floppy ears.  He has wide, bright eyes and an innocent expression, feigned or real.  He lives in a cave with his tribe; he leaves often to steal.  Like most kobolds, he most likely doesn't know his real parents.  His tribe is his family.]{+}
+	[APPLY_CREATURE_VARIATION:CREATURE_ORIENTATION]{+}
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
-			[TL_COLOR_MODIFIER:BROWN:1:RUSSET:1:PALE_BROWN:1:DARK_BROWN:1:TAN:1:DARK_TAN:1:GRAY:1:ASH_GRAY:1:SLATE_GRAY:1:DARK_CHESTNUT:1:AUBURN:1]{:BROWN:1}
+			[TL_COLOR_MODIFIER:BROWN:1:DARK_BROWN:1:LIGHT_BROWN:1:PALE_BROWN:1]
 				[TLCM_NOUN:skin:SINGULAR]
 			[TISSUE_LAYER_APPEARANCE_MODIFIER:WRINKLY:0:0:0:0:0:0:0]
 				[APP_MOD_RATE:1:YEARLY:0:100:60:0:NO_END]
 				[APP_MOD_NOUN:skin:SINGULAR]
 				[APP_MOD_DESC_RANGE:0:0:0:1:25:50]
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
-			[TL_COLOR_MODIFIER:PUPIL_EYE_YELLOW:1:PUPIL_EYE_GOLDEN_YELLOW:1:PUPIL_EYE_AMBER:1:PUPIL_EYE_SAFFRON:1]{:PUPIL_EYE_YELLOW:1}
+			[TL_COLOR_MODIFIER:PUPIL_EYE_YELLOW:1]
 				[TLCM_NOUN:eyes:PLURAL]

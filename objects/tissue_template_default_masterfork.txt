@@ -308,10 +308,10 @@ tissue_template_default_masterfork
 	[SCARS]
 	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:LIVER]
 	[RELATIVE_THICKNESS:1]
-	[HEALING_RATE:600]{:100  Revision: livers healed too quickly; internal wounds need recovery time.}
-	[VASCULAR:60]{:8         Revision: liver bleeds more when cut.  Internal wounds should be punishing.}
-	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
-	[PAIN_RECEPTORS:55]{:5   Revision: liver injuries are painful.  Internal wounds should be punishing.}
+	[HEALING_RATE:600]{:100   Revision: livers healed too quickly; internal wounds need recovery time.}
+	[VASCULAR:60]{:8          Revision: liver bleeds more when cut.  Internal wounds should be punishing.}
+	[MAJOR_ARTERIES]          Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
+	[PAIN_RECEPTORS:100]{:5   Revision: liver trauma is EXTREMELY painful, hence why it's banned almost every single sport.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -338,7 +338,7 @@ tissue_template_default_masterfork
 	[RELATIVE_THICKNESS:1]
 	[HEALING_RATE:600]{:100  Revision: stomachs healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:15]{:3         Revision: stomachs bleed more when cut.  Internal wounds should be punishing.}
-	[PAIN_RECEPTORS:40]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:30]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
