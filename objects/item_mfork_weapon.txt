@@ -474,7 +474,7 @@ Penetration size currently only matters for edged attacks.
 [LOADED:30:7]
 [INITIATE_SHOT_TIME:1]
 [SHOT_RECOVERY_TIME:0]
-[SHOOT_FORCE:1000]
+[SHOOT_FORCE:1200]{:1000
 no shot force requirements
 [SHOOT_MAXVEL:200]  This is just to make sure a near-weightless object doesn't go faster than the string could possibly go.
 [TWO_HANDED:0]
@@ -488,8 +488,8 @@ no shot force requirements
 [SIZE:300]
 [SKILL:SWORD]
 [RANGED:BOW:ARROW]
-[AIM_DIFFICULTY:5]
-[NOCKED:20:7]
+[AIM_DIFFICULTY:4]
+[NOCKED:20:5]
 [INITIATE_SHOT_TIME:1]
 [SHOT_RECOVERY_TIME:0]
 [SHOOT_FORCE:1000]

@@ -15,7 +15,7 @@ crossbow bolts
 [NAME:piercing bolt:piercing bolts]
 [CLASS:BOLT]
 [SIZE:6]
-[ATTACK:EDGE:6:740:stab:stabs:NO_SUB:330]
+[ATTACK:EDGE:6:740:pierce:pierces:NO_SUB:330]
 	[ATTACK_PREPARE_AND_RECOVER:10:5]
 
 ==========================================================
@@ -26,7 +26,7 @@ bow arrows
 [NAME:bodkin arrow:bodkin arrows]
 [CLASS:ARROW]
 [SIZE:12]
-[ATTACK:EDGE:12:900:stab:stabs:NO_SUB:170]  shaft can bend on hit
+[ATTACK:EDGE:12:900:pierce:pierces:NO_SUB:170]  shaft can bend on hit
 	[ATTACK_PREPARE_AND_RECOVER:9:5]
 [ATTACK:EDGE:6:2400:stick:sticks:NO_SUB:330]
 	[ATTACK_PREPARE_AND_RECOVER:10:6]

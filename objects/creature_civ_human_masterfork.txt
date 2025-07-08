@@ -23,6 +23,19 @@ creature_civ_human_masterfork
 	[NATURAL_SKILL:WRESTLING:1]
 	[NATURAL_SKILL:GRASP_STRIKE:1]
 	[NATURAL_SKILL:STANCE_STRIKE:1]
+	human social skills
+	[NATURAL_SKILL:PERSUASION:1]
+	[NATURAL_SKILL:NEGOTIATION:1]
+	[NATURAL_SKILL:JUDGING_INTENT:1]
+	[NATURAL_SKILL:LYING:1]
+	[NATURAL_SKILL:INTIMIDATION:1]
+	[NATURAL_SKILL:CONVERSATION:1]
+	[NATURAL_SKILL:FLATTERY:1]
+	[NATURAL_SKILL:CONSOLE:1]
+	[NATURAL_SKILL:PACIFY:1]
+	[NATURAL_SKILL:SPEAKING:1]
+	[NATURAL_SKILL:KNOWLEDGE_ACQUISITION:1]
+	[NATURAL_SKILL:APPRAISAL:1]
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
 	[BODY_DETAIL_PLAN:STANDARD_TISSUES]
@@ -85,11 +98,11 @@ creature_civ_human_masterfork
 	
 	[BODY_SIZE:0:0:7000]
 	[BODY_SIZE:1:168:14000]
-	[BODY_SIZE:8:0:70000]
+	[BODY_SIZE:10:0:70000]
 	
-	[BODY_APPEARANCE_MODIFIER:HEIGHT:75:95:98:100:102:105:125]
+	[BODY_APPEARANCE_MODIFIER:HEIGHT:70:75:85:100:115:125:135]{:75:95:98:100:102:105:125  Revision: humans' height varies by much.}
 		[APP_MOD_IMPORTANCE:500]
-	[BODY_APPEARANCE_MODIFIER:BROADNESS:75:95:98:100:102:105:125]
+	[BODY_APPEARANCE_MODIFIER:BROADNESS:70:75:85:100:115:125:135]{:75:95:98:100:102:105:125  Revision: humans' broadness varies by much.}
 		[APP_MOD_IMPORTANCE:500]
 	[SET_BP_GROUP:BY_CATEGORY:EYE]
 		[BP_APPEARANCE_MODIFIER:CLOSE_SET:0:70:90:100:110:130:200]
@@ -183,7 +196,7 @@ creature_civ_human_masterfork
 	[BABY:1]
 	[GENERAL_BABY_NAME:baby:babies]
 	[BABYNAME:baby:babies]
-	[CHILD:6]  lowered to increase population
+	[CHILD:10]  lowered to increase population
 	[GENERAL_CHILD_NAME:child:children]
 	[CHILDNAME:child:children]
 	[EQUIPS]
@@ -196,33 +209,32 @@ creature_civ_human_masterfork
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph, NO DATA
 
-	[SKILL_RATES:75:NONE:NONE:NONE]{+               humans learn all skills about 25% faster than other races and have no rust.}
-	[SKILL_RATE:CONVERSATION:120:NONE:NONE:NONE]{+  social skills learn even faster.}
-    [SKILL_RATE:NEGOTIATION:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:JUDGING_INTENT:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:ORGANIZATION:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:LYING:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:INTIMIDATION:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:CONVERSATION:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:COMEDY:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:FLATTERY:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:CONSOLE:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:PACIFY:120:NONE:NONE:NONE]{+
-	[SKILL_RATE:CONCENTRATION:120:NONE:NONE:NONE]{+
+	[SKILL_RATES:75:8:16:16]{+                       humans learn all skills about 25% faster.}
+	[SKILL_RATE:CONVERSATION:125:NONE:NONE:NONE]{+   humans learn social skills even faster and have no rust.}
+    [SKILL_RATE:NEGOTIATION:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:JUDGING_INTENT:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:ORGANIZATION:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:LYING:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:INTIMIDATION:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:CONVERSATION:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:COMEDY:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:FLATTERY:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:CONSOLE:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:PACIFY:125:NONE:NONE:NONE]{+
+	[SKILL_RATE:CONCENTRATION:125:NONE:NONE:NONE]{+
 
 	[SKILL_RATE:DISCIPLINE:50:16:4:2]{+
 	[SKILL_RATE:MELEE_COMBAT:50:16:8:6]{+
 	[SKILL_RATE:RANGED_COMBAT:50:16:8:6]{+
 
-	[PERSONALITY:AMBITION:5:55:100]
-	[PERSONALITY:VIOLENT:5:55:100]
-	[PERSONALITY:HOPEFUL:10:60:100]
-	[PERSONALITY:CURIOUS:5:55:100]
+	[PERSONALITY:AMBITION:0:45:100]
+	[PERSONALITY:HOPEFUL:10:55:100]
+	[PERSONALITY:CURIOUS:10:55:100]
 	
 	// Humans learn most soul attributes 10% faster than other races. no rust. //
 	[MENT_ATT_RATES:ANALYTICAL_ABILITY:500:NONE:NONE:NONE]
 	[MENT_ATT_RATES:CREATIVITY:500:NONE:NONE:NONE]
-	[MENT_ATT_RATES:EMPATHY:450:3:4:3]                      --
+	[MENT_ATT_RATES:EMPATHY:500:NONE:NONE:NONE]
 	[MENT_ATT_RATES:FOCUS:500:NONE:NONE:NONE]
     [MENT_ATT_RATES:INTUITION:500:NONE:NONE:NONE]
     [MENT_ATT_RATES:KINESTHETIC_SENSE:500:NONE:NONE:NONE]
@@ -288,13 +300,13 @@ creature_civ_human_masterfork
 		[LITTERSIZE:4:6]{+}
 		[BABYNAME:human baby girl:human babies]{+}
 		[CHILDNAME:human girl:human children]{+}
-		[DESCRIPTION:A medium-sized woman of great potential.  She looks almost ordinary in a world of strange things.  She works with others to build villages, kingdoms, and trade networks.]{+}
+		[DESCRIPTION:A medium-sized woman of great potential.  She looks almost ordinary in a world of strange things.  She toils with others to build villages, kingdoms, and trade networks, and die in wars.]{+}
 	[CASTE:MALE]
 		[MALE]
 		[POP_RATIO:1000]
 		[BABYNAME:human baby boy:human babies]{+}
 		[CHILDNAME:human boy:human children]{+}
-		[DESCRIPTION:A medium-sized man of great potential.  He looks almost ordinary in a world of strange things.  He works with others to build villages, kingdoms, and trade networks.]{+}
+		[DESCRIPTION:A medium-sized man of great potential.  He looks almost ordinary in a world of strange things.  He toils with others to build villages, kingdoms, and trade networks, and die in wars.]{+}
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
 
@@ -305,33 +317,73 @@ creature_civ_human_masterfork
 		[OUTSIDER_CONTROLLABLE]{+} playable in adv mode
         [CASTE_PROFESSION_NAME:RECRUIT:levy:levies]
 		[CASTE_PROFESSION_NAME:STANDARD:serf:serfs]
-		[SKILL_RATE:READING:25:12:24:24]  peasants cant read/write
-		[SKILL_RATE:WRITING:25:12:24:24]
+		[SKILL_RATE:READING:50:8:12:12]  peasants cant read/write
+		[SKILL_RATE:WRITING:50:8:12:12]
+		[PERSONALITY:ABSTRACT_INCLINED:0:45:100]
+		[PERSONALITY:TOLERANT:0:55:100]
+		[PERSONALITY:CLOSEMINDED:0:45:100]
+		[PERSONALITY:DISCORD:0:55:100]
+		[PERSONALITY:GREGARIOUSNESS:0:55:100]
 
     // noble castes are modified from Fantastic Fantasy Fortress //
 	[CASTE:FEMALE_NOBLE]
 		[FEMALE]
 		[POP_RATIO:10]
 		(MULTIPLE_LITTER_RARE)
-		[DESCRIPTION:A medium-sized woman of great potential.  She is of noble birth, and is prone to great ambitions.  She works with others to rule villages, kingdoms, establishing trade networks, and start wars.]{+}
+		[DESCRIPTION:A medium-sized woman of great potential.  She is of noble birth, and is prone to great ambitions.  She rule others to rule villages, kingdoms, establishing trade networks, and start wars.]{+}
 		[CASTE_NAME:human noblewoman:humans:human]
 	[CASTE:MALE_NOBLE]
 		[MALE]
 		[POP_RATIO:10]
-		[DESCRIPTION:A medium-sized man of great potential.  He is of noble birth, and is prone to great ambitions.  He works with others to rule villages, kingdoms, establishing trade networks, and start wars.]{+}
+		[DESCRIPTION:A medium-sized man of great potential.  He is of noble birth, and is prone to great ambitions.  He rule others to rule villages, kingdoms, establishing trade networks, and start wars.]{+}
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUES]
 		[CASTE_NAME:human nobleman:humans:human]
 	[SELECT_CASTE:FEMALE_NOBLE]
 	    [SELECT_ADDITIONAL_CASTE:MALE_NOBLE]
 		[CREATURE_CLASS:HUMAN_NOBLE]
-        [CASTE_PROFESSION_NAME:RECRUIT:squire:squires]
-		[CASTE_PROFESSION_NAME:STANDARD:noble:nobles]
+        [CASTE_PROFESSION_NAME:RECRUIT:Squire:Squires]
+		[CASTE_PROFESSION_NAME:STANDARD:Noble:Nobles]
 		[MAXAGE:100:120]
 		--STRANGE_MOODS]{+ can create artifacts.}
-		[SKILL_RATE:READING:100:NONE:NONE:NONE]
-		[SKILL_RATE:WRITING:100:NONE:NONE:NONE]
+		[SKILL_RATE:READING:125:NONE:NONE:NONE]
+		[SKILL_RATE:WRITING:125:NONE:NONE:NONE]
+		[SKILL_RATE:INTRIGUE:150:NONE:NONE:NONE]
+		[SKILL_RATE:LYING:150:NONE:NONE:NONE]
+		[SKILL_RATE:FLATTERY:150:NONE:NONE:NONE]
 	    [MENT_ATT_RANGE:EMPATHY:160:560:720:850:880:1040:2000]               -
+	    [PERSONALITY:HATE_PROPENSITY:0:60:100]
+	    [PERSONALITY:ENVY_PROPENSITY:0:60:100]
+	    [PERSONALITY:ANGER_PROPENSITY:0:60:100]
+	    [PERSONALITY:LUST_PROPENSITY:0:60:100]
+	    [PERSONALITY:GREED:0:60:100]
+	    [PERSONALITY:IMMODERATION:0:60:100]
+	    [PERSONALITY:VIOLENT:0:60:100]
+	    [PERSONALITY:WASTEFULNESS:0:60:100]
+	    [PERSONALITY:FRIENDLINESS:0:40:100]
+	    [PERSONALITY:POLITENESS:0:60:100]
+	    [PERSONALITY:DISDAIN_ADVICE:0:60:100]
+	    [PERSONALITY:BRAVERY:0:45:100]
+	    [PERSONALITY:CONFIDENCE:0:55:100]
+	    [PERSONALITY:VANITY:25:55:80]
+	    [PERSONALITY:AMBITION:0:55:100]
+	    [PERSONALITY:GRATITUDE:0:40:100]
+	    [PERSONALITY:IMMODESTY:0:60:100]
+	    [PERSONALITY:PRIDE:0:55:100]
+	    [PERSONALITY:CRUELTY:0:60:100]
+	    [PERSONALITY:BASHFUL:0:55:100]
+	    [PERSONALITY:PRIVACY:0:55:100]
+	    [PERSONALITY:CLOSEMINDED:0:60:100]
+	    [PERSONALITY:TOLERANT:0:40:100]
+	    [PERSONALITY:EMOTIONALLY_OBSESSIVE:0:45:100]
+	    [PERSONALITY:SWAYED_BY_EMOTIONS:0:40:100]
+	    [PERSONALITY:ALTRUISM:0:40:100]
+	    [PERSONALITY:DUTIFULNESS:0:60:100]
+	    [PERSONALITY:THOUGHTLESSNESS:0:40:100]
+	    [PERSONALITY:TRUST:0:45:100]
+	    [PERSONALITY:ASSERTIVENESS:0:55:100]
+	    [PERSONALITY:IMAGINATION:0:45:100]
+	    [PERSONALITY:ART_INCLINED:10:60:100]
 		
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:HEAD:HAIR]
