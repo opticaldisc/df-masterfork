@@ -315,7 +315,7 @@ material_template_default_masterfork
 	[STATE_NAME:GAS:ashes]		Modest Mod
 	[STATE_ADJ:GAS:n/a]
 	[DISPLAY_COLOR:4:0:0]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:870]		        Modest Mod
 	[IGNITE_POINT:10508]
 	[MELTING_POINT:11000]		Modest Mod
@@ -1475,7 +1475,7 @@ material_template_default_masterfork
 	[STATE_COLOR:GAS:GRAY]
 	[STATE_NAME_ADJ:GAS:n/a]
 	[DISPLAY_COLOR:7:0:0]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:1530] {:420}
 	[IGNITE_POINT:10508]
 	[MELTING_POINT:11000]		Modest Mod
@@ -1570,7 +1570,7 @@ material_template_default_masterfork
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
 	[DISPLAY_COLOR:7:0:1]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:1000]
 	[IGNITE_POINT:10508]
 	[MELTING_POINT:NONE]
@@ -1933,7 +1933,7 @@ material_template_default_masterfork
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
 	[DISPLAY_COLOR:7:0:1]
-	[MATERIAL_VALUE:5]{:1
+	[MATERIAL_VALUE:3]{:1
 	[SPEC_HEAT:800]
 	[IGNITE_POINT:10508]
 	[MELTING_POINT:10078]
@@ -2220,7 +2220,7 @@ material_template_default_masterfork
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
 	[DISPLAY_COLOR:7:0:1]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
 	[IGNITE_POINT:10338]
 	[MELTING_POINT:10000]
@@ -2381,7 +2381,7 @@ material_template_default_masterfork
 	[STATE_NAME:GAS:none]
 	[STATE_ADJ:GAS:none]
 	[DISPLAY_COLOR:6:0:0]
-	[MATERIAL_VALUE:3]{:2
+	[MATERIAL_VALUE:2]
 	[SPEC_HEAT:800]
 	[IGNITE_POINT:10400]
 	[MELTING_POINT:NONE]
@@ -2653,7 +2653,7 @@ material_template_default_masterfork
 	[STATE_NAME:GAS:none]
 	[STATE_ADJ:GAS:none]
 	[DISPLAY_COLOR:7:0:0]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:2]
 	[SPEC_HEAT:420]
 	[IGNITE_POINT:10378]{:10508  Revision: 410 F, lights more easily.}
 	[MELTING_POINT:NONE]
@@ -3099,7 +3099,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[STATE_NAME:GAS:boiling vegetable oil]
 	[STATE_ADJ:GAS:boiling vegetable oil]
 	[DISPLAY_COLOR:6:0:1]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:1820] olive oil 1.97, "vegetable oil" 1.67
 	[IGNITE_POINT:10588]
 	[MELTING_POINT:9978] real world values for different veg oils appear to be all over the map
@@ -3148,7 +3148,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
 	[DISPLAY_COLOR:7:0:1]
-	[MATERIAL_VALUE:5]{:1
+	[MATERIAL_VALUE:3]{:1
 	[SPEC_HEAT:800]
 	[IGNITE_POINT:10508]
 	[MELTING_POINT:10078]
@@ -3193,7 +3193,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
 	[DISPLAY_COLOR:6:0:1]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:3400]
 	[IGNITE_POINT:10368]
 	[MELTING_POINT:10113]
@@ -3351,7 +3351,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[STATE_NAME:GAS:boiling ink]
 	[STATE_ADJ:GAS:boiling ink]
 	[DISPLAY_COLOR:0:0:1]
-	[MATERIAL_VALUE:2]{:1
+	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
 	[IGNITE_POINT:NONE]
 	[MELTING_POINT:9950]

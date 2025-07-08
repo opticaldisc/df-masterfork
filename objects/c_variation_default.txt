@@ -1137,7 +1137,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_REMOVE_TAG:BENIGN]{+}
 	[CV_REMOVE_TAG:TRAINABLE]{+}
 	[CV_REMOVE_TAG:TRAINABLE_HUNTING]{+}
-	[CV_REMOVE_TAG:TRAINABLE_WAR]{+}
+	--CV_REMOVE_TAG:TRAINABLE_WAR]{+}
 	[CV_REMOVE_TAG:COOKABLE_LIVE]{+  Revision: giant animals must be butchered, they're too big to eat whole.}
 	[CV_REMOVE_TAG:FREQUENCY]{+}
 	[CV_CONVERT_TAG]{+  Revision: they're too big for small pools, so move them to lakes.}
@@ -1195,9 +1195,6 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:LARGE_ROAMING]
 	[CV_NEW_TAG:SAVAGE]
 	[CV_NEW_TAG:PREFSTRING:staggering magnitude]{+}
-	[CV_NEW_TAG:TRAINABLE]{+}
-	[CV_NEW_TAG:PET_EXOTIC]{+}
-	[CV_NEW_TAG:MOUNT_EXOTIC]{+}
 	[CV_NEW_TAG:PETVALUE:665]{+}
 	[CV_NEW_TAG:SELECT_CASTE:ALL]
 		[CV_NEW_TAG:CHANGE_BODY_SIZE_PERC:200]

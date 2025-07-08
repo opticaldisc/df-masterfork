@@ -1,6 +1,6 @@
 entity_animal_people_masterfork
 
-[OBJECT:ENTITY]
+--OBJECT:ENTITY]  disabled for now
 
 [ENTITY:WILD]
 	[ALL_MAIN_POPS_CONTROLLABLE]
