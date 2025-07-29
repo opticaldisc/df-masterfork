@@ -55,7 +55,7 @@ Masterfork contains RAWs and other assets from the following mods, either in par
  - 'Rounded hills'                         author(s): Poss                                                                            # https://steamcommunity.com/sharedfiles/filedetails/?id=2900381145
  - 'Sver's DF Combat Reworked'             author(s): Sver                                                                            # https://www.bay12forums.com/smf/index.php?topic=170474.0
  - 'Writing systems'                       author(s): niemst                                                                          # https://steamcommunity.com/sharedfiles/filedetails/?id=3311055744
- - ''                                      author(s):                                                                                 # https://
+ - 'Simon Swerwer Soundtrack'              author(s): Simon Swerwer, DPh Kraken, HippieCab                                            # https://steamcommunity.com/sharedfiles/filedetails/?id=3009635554
  - ''                                      author(s):                                                                                 # https://
  - ''                                      author(s):                                                                                 # https://
  - ''                                      author(s):                                                                                 # https://

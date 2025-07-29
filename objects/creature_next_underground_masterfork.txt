@@ -1913,7 +1913,7 @@ creature_next_underground_masterfork
 	[CHILD:1][GENERAL_CHILD_NAME:blind cave bear cub:blind cave bear cubs]
 	[CREATURE_TILE:'B'][COLOR:7:0:1]
 	[CREATURE_CLASS:MAMMAL]
-	[PETVALUE:600]{:500
+	[PETVALUE:850]{:500
 	[PET_EXOTIC]
 	[TRAINABLE_WAR]{+}
 	[MOUNT_EXOTIC]
@@ -1924,7 +1924,7 @@ creature_next_underground_masterfork
 	[BIOME:SUBTERRANEAN_CHASM]
 	[UNDERGROUND_DEPTH:1:2]
 	[LARGE_PREDATOR]
-	[MEANDERER]
+	--MEANDERER]
 	[EXTRAVISION]  I wonder if they should still be called eye teeth...  eye socket teeth...
 	[PREFSTRING:drooping ears]
 	[SOUND:ALERT:100:10000:VOCALIZATION:roar:roars:a loud roar]{+}

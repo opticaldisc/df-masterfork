@@ -23,6 +23,7 @@ creature_aaa_insects_mfork
 	[BIOME:ANY_WETLAND]{+}
 	[BENIGN]{+}
 	[VERMIN_MICRO][VERMIN_ROTTER][VERMIN_GROUNDER][FREQUENCY:100][VERMIN_HATEABLE]
+	[NO_WINTER]{+}
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
 	[POPULATION_NUMBER:500:500]{:2500:5000
@@ -188,6 +189,7 @@ creature_aaa_insects_mfork
 	[BIOME:NOT_FREEZING]
 	[VERMIN_EATER][PENETRATEPOWER:3]{:2}[VERMIN_HATEABLE][VERMIN_GROUNDER]
 	[VERMIN_NOTRAP]
+	[NO_WINTER]{+}
 	[POPULATION_NUMBER:500:500]{:250:500
 	[FREQUENCY:100]{+}
 	[TRIGGERABLE_GROUP:5:50]
@@ -320,6 +322,7 @@ creature_aaa_insects_mfork
 	[VERMIN_NOTRAP]
 	[POPULATION_NUMBER:500:500]{:250:500
 	[SMALL_REMAINS]
+	[NO_WINTER]{+}
 	[PREFSTRING:protective shells]
 	[PREFSTRING:conviction in an impenetrable defense]
 	[PREFSTRING:stoicism]
@@ -444,6 +447,7 @@ creature_aaa_insects_mfork
 	[POPULATION_NUMBER:500:500]{:250:500
 	[CLUSTER_NUMBER:100:200]
 	[SMALL_REMAINS]
+	[NO_WINTER]{+}
 	[PREFSTRING:propensity to dig]
 	[DIURNAL]
 	[NO_SLEEP]
@@ -912,6 +916,7 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:500:500]{:250:500
 	[CLUSTER_NUMBER:100:200]
 	[SMALL_REMAINS]
+	[NO_WINTER]{+}
 	[PETVALUE:1]
 	[PETVALUE_DIVISOR:1000]
 	[PREFSTRING:busy nature]
@@ -1054,6 +1059,7 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 	[POPULATION_NUMBER:500:500]{:250:500
 	[CLUSTER_NUMBER:100:200]
 	[SMALL_REMAINS]
+	[NO_WINTER]{+}
 	[PREFSTRING:woolly appearance]
 	[DIURNAL]
 	[NO_SLEEP]

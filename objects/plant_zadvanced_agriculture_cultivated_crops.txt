@@ -2187,6 +2187,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_HAS_SEED]
 	[SELECT_MATERIAL:ALL]
 	    [MULTIPLY_VALUE:3]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:FONIO]
 
@@ -2525,6 +2527,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_HAS_SEED]
 	[SELECT_MATERIAL:ALL]
 	    [MULTIPLY_VALUE:3]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:HARD_WHEAT]
 
@@ -2687,6 +2691,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_HAS_SEED]
 	[SELECT_MATERIAL:ALL]
 	    [MULTIPLY_VALUE:3]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:ROOT_HIDE]
 
@@ -3001,6 +3007,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_TIMING:150000:210000]
 		[GROWTH_PRINT:0:6:6:0:1:150000:210000:4]
 		[GROWTH_HAS_SEED]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:LEEK]
 
@@ -4102,6 +4110,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_HAS_SEED]
 	[SELECT_MATERIAL:ALL]
 	    [MULTIPLY_VALUE:3]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:PEARL_MILLET]
 
@@ -4846,6 +4856,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_HAS_SEED]
 	[SELECT_MATERIAL:ALL]
 	    [MULTIPLY_VALUE:3]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:QUINOA]
 
@@ -5938,6 +5950,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_HAS_SEED]
 	[SELECT_MATERIAL:ALL]
 	    [MULTIPLY_VALUE:3]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:SPELT]
 
@@ -6947,6 +6961,8 @@ plant_advanced_agriculture_cultivated_crops
 		[GROWTH_HAS_SEED]
 	[SELECT_MATERIAL:ALL]
 	    [MULTIPLY_VALUE:3]
+	[SELECT_MATERIAL:SOAP]
+	    [MULTIPLY_VALUE:5]
 
 [CUT_PLANT:VINE_WHIP]
 

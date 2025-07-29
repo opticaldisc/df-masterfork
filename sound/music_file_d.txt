@@ -1,0 +1,103 @@
+music_file_d
+
+[OBJECT:MUSIC_FILE]
+
+[MUSIC_FILE:BONECRAFTER_SIMON_SWERWER]
+    [FILE:bonecrafter.ogg]
+    [TITLE:Bonecrafter]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:CUGGANS_COVE_SIMON_SWERWER]
+    [FILE:cuggans_cove.ogg]
+    [TITLE:Cuggan's Cove]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:DAGGER_DANCE_SIMON_SWERWER]
+    [FILE:dagger_dance.ogg]
+    [TITLE:Dagger Dance]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:DANGER_ROOM_SIMON_SWERWER]
+    [FILE:danger_room.ogg]
+    [TITLE:Danger Room]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:DECAPITATED_CAMELS_SIMON_SWERWER]
+    [FILE:decapitated_camels.ogg]
+    [TITLE:Decapitated Camels]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:DOLOMITE_LULLABY_SIMON_SWERWER]
+    [FILE:dolomite_lullaby.ogg]
+    [TITLE:Dolomite Lullaby]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:EMERGENCE_SIMON_SWERWER]
+    [FILE:emergence.ogg]
+    [TITLE:Emergence]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:ENCOUNTER_SIMON_SWERWER]
+    [FILE:encounter.ogg]
+    [TITLE:Encounter]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:GALENA_SIMON_SWERWER]
+    [FILE:galena.ogg]
+    [TITLE:Galena]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:INITH_AND_OD_TRAVEL_NORTH_SIMON_SWERWER]
+    [FILE:inith_and_od_travel_north.ogg]
+    [TITLE:Inith and Od Travel North]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:KOBOLD_MARCH_SIMON_SWERWER]
+    [FILE:kobold_march.ogg]
+    [TITLE:Kobold March]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:KOGANUSAN_SIMON_SWERWER]
+    [FILE:koganusan.ogg]
+    [TITLE:Koganusan]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:SPELUNKER_SIMON_SWERWER]
+    [FILE:spelunker.ogg]
+    [TITLE:Spelunker]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:THE_BALANCED_DUNES_SIMON_SWERWER]
+    [FILE:the_balanced_dunes.ogg]
+    [TITLE:The Balanced Dunes]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:THE_ELVES_OF_THE_COAST_SIMON_SWERWER]
+    [FILE:the_elves_of_the_coast.ogg]
+    [TITLE:The Elves of the Coast]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:THE_KING_IS_DEAD_SIMON_SWERWER]
+    [FILE:the_king_is_dead.ogg]
+    [TITLE:The King is Dead]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:THE_STORM_AND_THE_BOUNTY_SIMON_SWERWER]
+    [FILE:the_storm_and_the_bounty.ogg]
+    [TITLE:The Storm and the Bounty]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:THE_TANKARD_BASHER_SIMON_SWERWER]
+    [FILE:the_tankard_basher.ogg]
+    [TITLE:The Tankard Basher]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:WHIP_VINE_SIMON_SWERWER]
+    [FILE:whip_vine.ogg]
+    [TITLE:Whip Vine]
+    [AUTHOR:Simon Swerwer]
+
+[MUSIC_FILE:ZTIQ_SIMON_SWERWER]
+    [FILE:ztiq.ogg]
+    [TITLE:ZTIQ]
+    [AUTHOR:Simon Swerwer]

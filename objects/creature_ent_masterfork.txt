@@ -16,7 +16,7 @@ creature_ent_masterfork
 	[FANCIFUL]
 	[MEANDERER]
 	[GRASSTRAMPLE:0] walking very carefully around friends
-	[SAVAGE]
+	[GOOD]
 	[FREQUENCY:50][POPULATION_NUMBER:500:500]
 	[BIOME:ANY_FOREST]
 	[LARGE_ROAMING][LARGE_PREDATOR] --predator of dwarves coz dwarves hurt forests.
@@ -31,7 +31,6 @@ creature_ent_masterfork
 	[BUILDINGDESTROYER:2]
 	[TRAPAVOID] arrow trap? spike? little hand axe or spear? hah, puny trap!
 	--CURIOUSBEAST_GUZZLER]
-	[ODOR_LEVEL:64] --pleasant smell
 	[SMELL_TRIGGER:1] skill: 1 is best, 50 is default. Ents have ultra-detection.
 	
 	[PREFSTRING:slow speech]

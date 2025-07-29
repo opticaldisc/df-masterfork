@@ -275,6 +275,7 @@ Grasshoppers were sponsored by the generous contributions of the Bay 12 communit
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
 	[FREQUENCY:100]
+	[NO_WINTER]{+}
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
 	[POPULATION_NUMBER:250:500]
@@ -586,6 +587,7 @@ Mantises were sponsored by the generous contributions of the Bay 12 community.
 	[NATURAL]
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
+	[NO_WINTER]{+}
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[VERMIN_NOTRAP]
 	[POPULATION_NUMBER:25:50]
@@ -722,6 +724,7 @@ Ticks were sponsored by the generous contributions of the Bay 12 community.
 	[NATURAL]
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
+	[NO_WINTER]{+}
 	[VERMIN_SOIL][FREQUENCY:100]
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
@@ -852,6 +855,7 @@ Lice were sponsored by the generous contributions of the Bay 12 community.
 	[NATURAL]
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
+	[NO_WINTER]{+}
 	[VERMIN_SOIL][FREQUENCY:100]
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
@@ -980,6 +984,7 @@ Thrips were sponsored by the generous contributions of the Bay 12 community.
 	[NATURAL]
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
+	[NO_WINTER]{+}
 	[VERMIN_SOIL][FREQUENCY:100]
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
@@ -1109,7 +1114,8 @@ Slugs were sponsored by the generous contributions of the Bay 12 community.
 	[PETVALUE:10]
 	[VERMIN_SOIL][FREQUENCY:100][VERMIN_HATEABLE]
 	[SMALL_REMAINS][VERMIN_NOTRAP][NOBONES]
-	[NATURAL][PET]
+	[NATURAL]--PET]
+	[NO_WINTER]{+}
 	[VISION_ARC:0:360]{+  Revision: eyestalks have good vision.}
 	[BENIGN][NOT_BUTCHERABLE]
 	[BIOME:NOT_FREEZING]
@@ -1223,6 +1229,7 @@ Mosquitos were sponsored by the generous contributions of the Bay 12 community.
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
 	[BIOME:ANY_POOL]
+	[NO_WINTER]{+}
 	[VERMIN_MICRO][VERMIN_GROUNDER][FREQUENCY:100][VERMIN_HATEABLE]
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
@@ -1361,6 +1368,7 @@ Jumping spiders were sponsored by the generous contributions of the Bay 12 commu
 	[NATURAL]
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
+	[NO_WINTER]{+}
 	[VERMIN_GROUNDER][VERMIN_HATEABLE]
 	[POPULATION_NUMBER:250:500]
 	[SMALL_REMAINS]
@@ -1487,6 +1495,7 @@ Termites were sponsored by the generous contributions of the Bay 12 community.
 	[NATURAL]
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
+	[NO_WINTER]{+}
 	[VERMIN_SOIL_COLONY][FREQUENCY:100]
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
@@ -1690,6 +1699,7 @@ Brown recluse spiders were sponsored by the generous contributions of the Bay 12
 	[PET_EXOTIC]
 	[WEBIMMUNE]
 	[NATURAL]
+	[NO_WINTER]{+}
 	[VISION_ARC:30:360]{+  Revision: recluse spiders have good vision.}
 	[BIOME:FOREST_TEMPERATE_BROADLEAF]
 	[VERMIN_GROUNDER][VERMIN_HATEABLE]
@@ -1874,8 +1884,9 @@ Snails were sponsored by the generous contributions of the Bay 12 community.
 	[PETVALUE:10]
 	[VERMIN_SOIL][FREQUENCY:100][VERMIN_HATEABLE]
 	[SMALL_REMAINS][VERMIN_NOTRAP][NOBONES]
-	[BENIGN][NATURAL][PET]
+	[BENIGN][NATURAL]--PET]
 	[NOT_BUTCHERABLE]
+	[NO_WINTER]{+}
 	[BIOME:NOT_FREEZING]
 	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:shells]

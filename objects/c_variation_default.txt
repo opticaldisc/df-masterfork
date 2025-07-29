@@ -41,7 +41,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_REMOVE_TAG:MOUNT]
 	[CV_REMOVE_TAG:PET_EXOTIC]
 	[CV_REMOVE_TAG:MOUNT_EXOTIC]
-	[CV_REMOVE_TAG:NOT_BUTCHERABLE]
+	--CV_REMOVE_TAG:NOT_BUTCHERABLE]
 	[CV_REMOVE_TAG:SPEED]
 	[CV_REMOVE_TAG:SWIM_SPEED]
 	[CV_REMOVE_TAG:MUNDANE]
@@ -304,7 +304,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:LOCAL_POPS_PRODUCE_HEROES]
 	[CV_NEW_TAG:FANCIFUL]{+}
 	[CV_NEW_TAG:BENIGN]{+                        Revision: animal people are now benign, like most humanoids.}
-	[CV_NEW_TAG:NOSKIN]{+                        Revision: animal people cannot be skinned.}
+	[CV_NEW_TAG:NOT_BUTCHERABLE]{+                        Revision: animal people cannot be skinned.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SWEAT:SWEAT_TEMPLATE]{+   Revision: animal people can now sweat, cry and spit like most humanoids.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:TEARS:TEARS_TEMPLATE]
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SPIT:SPIT_TEMPLATE]
@@ -315,14 +315,12 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:LOW_LIGHT_VISION:10000]{+        Revision: animal people can see very well in the dark.}
 	[CV_NEW_TAG:CREATURE_CLASS:ANIMAL_PERSON]
 	[CV_NEW_TAG:CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]
-	[CV_NEW_TAG:NATURAL_SKILL:SWIMMING:1]{+                 Revision: animal people these skills, as does every civ creature.}
-	[CV_NEW_TAG:NATURAL_SKILL:DISCIPLINE:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:MELEE_COMBAT:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:DODGING:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:SITUATIONAL_AWARENESS:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:WRESTLING:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:GRASP_STRIKE:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:STANCE_STRIKE:1]{+
+	[CV_NEW_TAG:SKILL_RATE:BITE:250:NONE:NONE:NONE]{+       Revision: animal people learn these skills much faster than the civ races, no rust.}
+	[CV_NEW_TAG:SKILL_RATE:GRASP_STRIKE:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:STANCE_STRIKE:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:WRESTLING:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:SWIMMING:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:CLIMBING:200:NONE:NONE:NONE]{+
 	[CV_NEW_TAG:CAN_DO_INTERACTION:PET_ANIMAL]
 		[CV_NEW_TAG:CDI:ADV_NAME:Pet animal]
 		[CV_NEW_TAG:CDI:USAGE_HINT:GREETING]
@@ -435,9 +433,10 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:MENT_ATT_RANGE:MUSICALITY:300:625:950:1000:1050:1925:3000]{+
 	[CV_NEW_TAG:MENT_ATT_RANGE:KINESTHETIC_SENSE:300:625:950:1000:1050:1925:3000]{+
 	[CV_NEW_TAG:MENT_ATT_RANGE:EMPATHY:300:625:950:1000:1050:1925:3000]{+
-	[CV_NEW_TAG:SELECT_CASTE:FEMALE]{+                   Revision: redefine animal people genders.}
+	[CV_NEW_TAG:SELECT_CASTE:FEMALE]{+            Revision: redefine animal people genders.}
 	    [CV_NEW_TAG:MULTIPLE_LITTER_RARE]{+
-	    [CV_NEW_TAG:LITTERSIZE:1:2]{+
+	[CV_REMOVE_TAG:FREQUENCY]{+                   Revision: animal people now appear rarely in savage biomes.}
+	[CV_NEW_TAG:FREQUENCY:10]{+
 
 [CREATURE_VARIATION:ANIMAL_PERSON_LEGLESS]
 	[CV_REMOVE_TAG:NAME]
@@ -469,7 +468,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_REMOVE_TAG:MOUNT]
 	[CV_REMOVE_TAG:PET_EXOTIC]
 	[CV_REMOVE_TAG:MOUNT_EXOTIC]
-	[CV_REMOVE_TAG:NOT_BUTCHERABLE]
+	--CV_REMOVE_TAG:NOT_BUTCHERABLE]
 	[CV_REMOVE_TAG:SPEED]
 	[CV_REMOVE_TAG:SWIM_SPEED]
 	[CV_REMOVE_TAG:MUNDANE]
@@ -709,7 +708,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:LOCAL_POPS_PRODUCE_HEROES]
 	[CV_NEW_TAG:FANCIFUL]{+}
 	[CV_NEW_TAG:BENIGN]{+                        Revision: animal people are now benign, like most humanoids.}
-	[CV_NEW_TAG:NOSKIN]{+                        Revision: animal people cannot be skinned.}
+	[CV_NEW_TAG:NOT_BUTCHERABLE]{+                        Revision: animal people cannot be skinned.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SWEAT:SWEAT_TEMPLATE]{+   Revision: animal people can now sweat, cry and spit like most humanoids.}
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:TEARS:TEARS_TEMPLATE]
 	[CV_NEW_TAG:USE_MATERIAL_TEMPLATE:SPIT:SPIT_TEMPLATE]
@@ -720,14 +719,12 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:LOW_LIGHT_VISION:10000]{+        Revision: animal people can see very well in the dark.}
 	[CV_NEW_TAG:CREATURE_CLASS:ANIMAL_PERSON]
 	[CV_NEW_TAG:CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]
-	[CV_NEW_TAG:NATURAL_SKILL:SWIMMING:1]{+                 Revision: animal people these skills, as does every civ creature.}
-	[CV_NEW_TAG:NATURAL_SKILL:DISCIPLINE:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:MELEE_COMBAT:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:DODGING:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:SITUATIONAL_AWARENESS:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:WRESTLING:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:GRASP_STRIKE:1]{+
-	[CV_NEW_TAG:NATURAL_SKILL:STANCE_STRIKE:1]{+
+	[CV_NEW_TAG:SKILL_RATE:BITE:250:NONE:NONE:NONE]{+       Revision: animal people learn these skills much faster than the civ races, no rust.}
+	[CV_NEW_TAG:SKILL_RATE:GRASP_STRIKE:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:STANCE_STRIKE:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:WRESTLING:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:SWIMMING:200:NONE:NONE:NONE]{+
+	[CV_NEW_TAG:SKILL_RATE:CLIMBING:200:NONE:NONE:NONE]{+
 	[CV_NEW_TAG:CAN_DO_INTERACTION:PET_ANIMAL]
 		[CV_NEW_TAG:CDI:ADV_NAME:Pet animal]
 		[CV_NEW_TAG:CDI:USAGE_HINT:GREETING]
@@ -840,9 +837,10 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:MENT_ATT_RANGE:MUSICALITY:300:625:950:1000:1050:1925:2500]{+
 	[CV_NEW_TAG:MENT_ATT_RANGE:KINESTHETIC_SENSE:300:625:950:1000:1050:1925:2500]{+
 	[CV_NEW_TAG:MENT_ATT_RANGE:EMPATHY:300:625:950:1000:1050:1925:2500]{+
-	[CV_NEW_TAG:SELECT_CASTE:FEMALE]{+                   Revision: redefine animal people genders.}
+	[CV_NEW_TAG:SELECT_CASTE:FEMALE]{+            Revision: redefine animal people genders.}
 	    [CV_NEW_TAG:MULTIPLE_LITTER_RARE]{+
-	    [CV_NEW_TAG:LITTERSIZE:1:2]{+
+	[CV_REMOVE_TAG:FREQUENCY]{+                   Revision: animal people now appear rarely in savage biomes.}
+	[CV_NEW_TAG:FREQUENCY:10]{+
 
 [CREATURE_VARIATION:PUNCH_ATTACK]
 	[CV_NEW_TAG:ATTACK:PUNCH:BODYPART:BY_CATEGORY:HAND]
@@ -1135,11 +1133,10 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_REMOVE_TAG:GAIT]
 	[CV_REMOVE_TAG:UBIQUITOUS]
 	[CV_REMOVE_TAG:BENIGN]{+}
-	[CV_REMOVE_TAG:TRAINABLE]{+}
-	[CV_REMOVE_TAG:TRAINABLE_HUNTING]{+}
-	--CV_REMOVE_TAG:TRAINABLE_WAR]{+}
 	[CV_REMOVE_TAG:COOKABLE_LIVE]{+  Revision: giant animals must be butchered, they're too big to eat whole.}
 	[CV_REMOVE_TAG:FREQUENCY]{+}
+	[CV_REMOVE_TAG:VIEWRANGE]{+}
+	[CV_REMOVE_TAG:DIFFICULTY]{+}
 	[CV_CONVERT_TAG]{+  Revision: they're too big for small pools, so move them to lakes.}
 		[CVCT_MASTER:BIOME]
 		[CVCT_TARGET:POOL_TEMPERATE_FRESHWATER]
@@ -1194,8 +1191,11 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 		[CVCT_REPLACEMENT:STANDARD_HEAVY_TISSUES]
 	[CV_NEW_TAG:LARGE_ROAMING]
 	[CV_NEW_TAG:SAVAGE]
+	[CV_NEW_TAG:VIEWRANGE:25]{:20                           Revision: giant creatures can see farther.}
+	[CV_NEW_TAG:GENERAL_MATERIAL_FORCE_MULTIPLIER:1:5]{+    Revision: giant creatures are 20% resistant to force.}
+	[CV_NEW_TAG:DIFFICULTY:4]{+                             Revision: slaying giant creatures should be a tough quest.}
 	[CV_NEW_TAG:PREFSTRING:staggering magnitude]{+}
-	[CV_NEW_TAG:PETVALUE:665]{+}
+	[CV_NEW_TAG:PETVALUE:680]{+}
 	[CV_NEW_TAG:SELECT_CASTE:ALL]
 		[CV_NEW_TAG:CHANGE_BODY_SIZE_PERC:200]
 		[CV_NEW_TAG:CHANGE_FREQUENCY_PERC:50]
@@ -1204,6 +1204,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	    [CV_NEW_TAG:PHYS_ATT_CAP_PERC:TOUGHNESS:300]{+}
 	    [CV_NEW_TAG:PHYS_ATT_CAP_PERC:ENDURANCE:300]{+}
 	    [CV_NEW_TAG:PHYS_ATT_CAP_PERC:AGILITY:300]{+}
+	[CV_REMOVE_TAG:FREQUENCY]{+}
 	[CV_NEW_TAG:FREQUENCY:20]{+}
 
 [CREATURE_VARIATION:STANDARD_BIPED_GAITS]
@@ -1270,7 +1271,6 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 		[CV_NEW_TAG:CDI:MAX_TARGET_NUMBER:A:1]
 		[CV_NEW_TAG:CDI:WAIT_PERIOD:1000:DWF_STRETCH:144]
 		[CV_NEW_TAG:CDI:FREE_ACTION]
-	[CV_REMOVE_TAG:VIEWRANGE]{+}
 	[CV_REMOVE_TAG:SKILL_RATES]{+}
 	[CV_REMOVE_TAG:SKILL_RATE]{+}
 	[CV_REMOVE_TAG:SKILL_LEARN_RATE]{+}
@@ -1278,19 +1278,19 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_REMOVE_TAG:SKILL_RUST_RATE]{+}
 	[CV_REMOVE_TAG:SKILL_RUST_RATES]{+}
 	[CV_NEW_TAG:SKILL_RATES:50:12:24:24]{+                Revision: universal -50% skill learn rates, slower rust rates.}
-	[CV_NEW_TAG:SKILL_RATE:MINING:10:12:24:24]{+          Revision: mining learned -90% slower.}
-	[CV_NEW_TAG:SKILL_RATE:COOK:10:12:24:24]{+            Revision: cooking learned -90% slower; too strong.}
-	[CV_NEW_TAG:SKILL_RATE:BREWING:10:12:24:24]
+	[CV_NEW_TAG:SKILL_RATE:MINING:25:12:24:24]{+          Revision: mining learned -75% slower.}
+	[CV_NEW_TAG:SKILL_RATE:COOK:25:12:24:24]{+            Revision: cooking learned -80% slower; too strong.}
+	[CV_NEW_TAG:SKILL_RATE:BREWING:25:12:24:24]
 	[CV_NEW_TAG:SKILL_RATE:PLANT:33:12:24:24]
 	[CV_NEW_TAG:SKILL_RATE:DISCIPLINE:33:16:6:6]{+        Revision: some combat skills are too strong/should take time to master. Discipline decays rapidly without regular training.}
 	[CV_NEW_TAG:SKILL_RATE:MELEE_COMBAT:33:16:8:8]
 	[CV_NEW_TAG:SKILL_RATE:RANGED_COMBAT:33:16:8:8]
 	[CV_NEW_TAG:SKILL_RATE:DODGING:33:16:8:8]
 	[CV_NEW_TAG:CREATURE_CLASS:ALL_CREATURES]{+           Revision: applies to all creatures to be used in syndromes/interactions.}
-	[CV_NEW_TAG:VIEWRANGE:22]{:20                         Revision: all creatures can see slightly farther.}
-	[CV_NEW_TAG:SKILL_RATE:BLOWGUN:25:8:16:16]{+          Revision: most creatures struggle to handle firearms.}
+	[CV_NEW_TAG:SKILL_RATE:BLOWGUN:33:8:16:16]{+          Revision: most creatures struggle to handle firearms.}
 	[CV_NEW_TAG:PROFESSION_NAME:BLOWGUNMAN:Sharpshooter:Sharpshooters]
 	[CV_NEW_TAG:PROFESSION_NAME:MASTER_BLOWGUNMAN:Veteran Sharpshooter:Veteran Sharpshooters]
+
 
 [CREATURE_VARIATION:STANDARD_FLYING_GAITS]
 	[CV_NEW_TAG:GAIT:FLY:Maximum Flight Speed:!ARG4:10:3:!ARG2:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]

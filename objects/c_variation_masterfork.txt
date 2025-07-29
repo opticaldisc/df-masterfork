@@ -183,13 +183,13 @@ c_variation_masterwork
 		[CV_NEW_TAG:CDI:FREE_ACTION]
 		[CV_NEW_TAG:CDI:WAIT_PERIOD:40]
 
-[CREATURE_VARIATION:CREATURE_ORIENTATION]
+[CREATURE_VARIATION:CREATURE_ORIENTATION] makes it easier to track hist characters in legendsmode
 	[CV_NEW_TAG:SELECT_CASTE:MALE]
-	    [CV_NEW_TAG:ORIENTATION:100:0:0]    same sex
-		[CV_NEW_TAG:ORIENTATION:0:25:100]   opposite sex
+	    [CV_NEW_TAG:ORIENTATION:MALE:100:0:0]    same sex
+		[CV_NEW_TAG:ORIENTATION:FEMALE:0:25:100]   opposite sex
 	[CV_NEW_TAG:SELECT_CASTE:FEMALE]
-	    [CV_NEW_TAG:ORIENTATION:100:0:0]    same sex
-		[CV_NEW_TAG:ORIENTATION:0:15:100]   opposite sex
+	    [CV_NEW_TAG:ORIENTATION:FEMALE:100:0:0]    same sex
+		[CV_NEW_TAG:ORIENTATION:MALE:0:15:100]   opposite sex
 
 // tanmod variations
 
