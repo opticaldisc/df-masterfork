@@ -178,6 +178,7 @@ function basic_animation(regional)
     tbl[#tbl+1]="[IT_AFFECTED_CLASS:GENERAL_POISON]"
     tbl[#tbl+1]="[IT_REQUIRES:FIT_FOR_ANIMATION]"
     tbl[#tbl+1]="[IT_FORBIDDEN:NOT_LIVING]"
+    tbl[#tbl+1]="[IT_MANUAL_INPUT:corpses]"
     tbl[#tbl+1]="[I_EFFECT:ANIMATE]"
     tbl[#tbl+1]="  [IE_TARGET:A]"
     if regional then

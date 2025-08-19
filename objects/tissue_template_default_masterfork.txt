@@ -46,7 +46,7 @@ tissue_template_default_masterfork
 	[STRUCTURAL]
 	[CONNECTIVE_TISSUE_ANCHOR]
 	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:BONE]
-	[RELATIVE_THICKNESS:3]{:2      Revision: thicker bones.}
+	[RELATIVE_THICKNESS:2]
 	[HEALING_RATE:1000]
 	[VASCULAR:6]{:3                Revision: bone fractures tend to make people bleed.}
 	[PAIN_RECEPTORS:50]
@@ -91,7 +91,7 @@ tissue_template_default_masterfork
 	[STRUCTURAL]
 	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CARTILAGE]
 	[RELATIVE_THICKNESS:2]
-	[HEALING_RATE:1000]{+  Revision: cartilage damage shouldn't cause permanent injury.}
+	[HEALING_RATE:500]{+  Revision: cartilage damage shouldn't cause permanent injury. Heals pretty fast.}
 	[PAIN_RECEPTORS:5]  Sver: shattered ears, noses etc. are painful
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
@@ -280,7 +280,7 @@ tissue_template_default_masterfork
 	[SCARS]
 	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:LUNG]
 	[RELATIVE_THICKNESS:1]
-	[HEALING_RATE:600]{:100  Revision: lungs healed too quickly; internal wounds need recovery time.}
+	[HEALING_RATE:800]{:100  Revision: lungs healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:33]{:8         Revision: lungs bleed more when cut.  Internal wounds should be punishing.}
 	[ARTERIES]               Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
 	[PAIN_RECEPTORS:35]{:5   Revision: lungs injuries are painful.  Internal wounds should be punishing.}
@@ -294,7 +294,7 @@ tissue_template_default_masterfork
 	[SCARS]
 	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:HEART]
 	[RELATIVE_THICKNESS:1]
-	[HEALING_RATE:600]{:100  Revision: hearts healed too quickly; internal wounds need recovery time.}
+	[HEALING_RATE:800]{:100  Revision: hearts healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:100]{:50       Revision: heart injuries bleed profusely, who thought? - zey}
 	[MAJOR_ARTERIES]         Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
 	[PAIN_RECEPTORS:60]{:5   Revision: heart injuries are painful.  Internal wounds should be punishing.}
@@ -311,7 +311,7 @@ tissue_template_default_masterfork
 	[HEALING_RATE:600]{:100   Revision: livers healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:60]{:8          Revision: liver bleeds more when cut.  Internal wounds should be punishing.}
 	[MAJOR_ARTERIES]          Revision: experimental; should hopefully cause internal organ trauma to be even more severe, - zey.}
-	[PAIN_RECEPTORS:100]{:5   Revision: liver trauma is EXTREMELY painful, hence why it's banned almost every single sport.}
+	[PAIN_RECEPTORS:100]{:5   Revision: liver trauma is EXTREMELY painful, hence why it's banned almost every single fighting sport.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -338,7 +338,7 @@ tissue_template_default_masterfork
 	[RELATIVE_THICKNESS:1]
 	[HEALING_RATE:600]{:100  Revision: stomachs healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:15]{:3         Revision: stomachs bleed more when cut.  Internal wounds should be punishing.}
-	[PAIN_RECEPTORS:30]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:20]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -364,7 +364,7 @@ tissue_template_default_masterfork
 	[RELATIVE_THICKNESS:1]
 	[HEALING_RATE:600]{:100  Revision: pancreases healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:15]{:3         Revision: pancreases bleed more when cut.  Internal wounds should be punishing.}
-	[PAIN_RECEPTORS:40]{:5   Revision: pancreas injuries are painful.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:15]{:5   Revision: pancreas injuries are painful.  Internal wounds should be punishing.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -410,7 +410,7 @@ tissue_template_default_masterfork
 
 [TISSUE_TEMPLATE:CHITIN_TEMPLATE]
 	[TISSUE_NAME:carapace:NP]{:chitin}
-	#SCARS]{                   Revision: chitin creatures usually molt, leaving no scars, - zey.}
+	--SCARS]{                  Revision: chitin creatures usually molt, leaving no scars, - zey.}
 	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:CHITIN]
 	[RELATIVE_THICKNESS:2]{:1  Revision: chitin was too easily cut.}
 	[HEALING_RATE:300]{:100    Revision: chitin healed too quickly.}
@@ -429,6 +429,8 @@ tissue_template_default_masterfork
 	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:SPINE]
 	[HEALING_RATE:1500]{+      Revision: spine injuries shouldn't be permanent.}
 	[RELATIVE_THICKNESS:2]
+	[PAIN_RECEPTORS:60]{+      Revision: spinal injuries are very painful.  Internal wounds should be punishing.}
+	[VASCULAR:3]{+}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -468,8 +470,8 @@ tissue_template_default_masterfork
 	[TISSUE_NAME:bone:NP]
 	[STRUCTURAL]
 	[CONNECTIVE_TISSUE_ANCHOR]
-	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:BONE]
-	[RELATIVE_THICKNESS:4]
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_MEDIUM:BONE]
+	[RELATIVE_THICKNESS:3]
 	[HEALING_RATE:1100] +10% slower
 	[VASCULAR:5]{:6
 	[PAIN_RECEPTORS:45]{:50
@@ -530,8 +532,8 @@ tissue_template_default_masterfork
 	[TISSUE_NAME:bone:NP]
 	[STRUCTURAL]
 	[CONNECTIVE_TISSUE_ANCHOR]
-	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL:BONE]
-	[RELATIVE_THICKNESS:5]{:4
+	[TISSUE_MATERIAL:CREATURE_MAT:ANIMAL_HEAVY:BONE]
+	[RELATIVE_THICKNESS:4]
 	[HEALING_RATE:1200] +20% slower
 	[VASCULAR:4]{:5
 	[PAIN_RECEPTORS:40]{:50

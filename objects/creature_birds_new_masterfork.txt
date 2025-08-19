@@ -148,7 +148,7 @@ Crows were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:crow man:crow men:crow man]
 	[DESCRIPTION:A small person with the head and wings of a crow.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'c']
 	[COLOR:0:0:1]
 	[SKILL_LEARN_RATE:DODGING:300]{+}
@@ -337,7 +337,7 @@ Ravens were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:raven man:raven men:raven man]
 	[DESCRIPTION:A person with the head and wings of a raven.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'r']
 	[COLOR:0:0:1]
 	[SKILL_LEARN_RATE:DODGING:300]{+}
@@ -512,7 +512,7 @@ Cassowaries were sponsored by the generous contributions of the Bay 12 community
 	[GO_TO_START]
 	[NAME:cassowary man:cassowary men:cassowary man]
 	[DESCRIPTION:A brightly-colored person with the head of a cassowary.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'c']
 	[COLOR:0:0:1]
 	[SKILL_LEARN_RATE:DODGING:300]{+}
@@ -691,7 +691,7 @@ Kea were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:kea man:kea men:kea man]
 	[DESCRIPTION:A green person with the head of a kea.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'k']
 	[COLOR:2:0:0]
 	[SKILL_LEARN_RATE:DODGING:300]{+  Revision: help kea people feel more unique.}
@@ -877,7 +877,7 @@ Snowy owls were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:snowy owl man:snowy owl men:snowy owl man]
 	[DESCRIPTION:A person with the wings and head of a snowy owl.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'o']
 	[COLOR:7:0:1]
 	[SKILL_LEARN_RATE:TEACHING:300]{+}
@@ -1065,7 +1065,7 @@ Sparrows were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:sparrow man:sparrow men:sparrow man]
 	[DESCRIPTION:A person with the head and wings of a sparrow.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'s']
 	[COLOR:6:0:0]
 	[SKILL_LEARN_RATE:DODGING:300]{+}
@@ -1231,7 +1231,7 @@ Storks were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:white stork man:white stork men:white stork man]
 	[DESCRIPTION:A person with the head and wings of a stork, also standing on long legs.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'s']
 	[COLOR:7:0:1]
 
@@ -1394,7 +1394,7 @@ Loons were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:loon man:loon men:loon man]
 	[DESCRIPTION:A person with the head and wings of a loon.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'l']
 	[COLOR:0:0:1]
 
@@ -1580,7 +1580,7 @@ Barn owl were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:barn owl man:barn owl men:barn owl man]
 	[DESCRIPTION:A person with the arms and wings of a barn owl.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'b']
 	[COLOR:6:0:0]
 	[SKILL_LEARN_RATE:TEACHING:300]{+}
@@ -1764,7 +1764,7 @@ Parakeets were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:parakeet man:parakeet men:parakeet man]
 	[DESCRIPTION:A person with the head and wings of a parakeet.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'p']
 	[COLOR:2:0:1]
 	[SKILL_LEARN_RATE:DODGING:300]{+}
@@ -1930,7 +1930,7 @@ Kakapo were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:kakapo man:kakapo men:kakapo man]
 	[DESCRIPTION:A person with the head and wings of a kakapo.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'k']
 	[COLOR:2:0:0]
 
@@ -2091,7 +2091,7 @@ Grey parrots were sponsored by the generous contributions of the Bay 12 communit
 	[GO_TO_START]
 	[NAME:gray parrot man:gray parrot men:gray parrot man]{:grey parrot man:grey parrot men:grey parrot man}
 	[DESCRIPTION:A person with the head and wings of a grey parrot.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'p']
 	[COLOR:7:0:0]
 
@@ -2249,7 +2249,7 @@ Puffins were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:puffin man:puffin men:puffin man]
 	[DESCRIPTION:A feathered person with the head of a puffin.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'p']
 	[COLOR:0:0:1]
 
@@ -2407,7 +2407,7 @@ Swans were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:swan man:swan men:swan man]
 	[DESCRIPTION:A person with the head and wings of a swan.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'s']
 	[COLOR:7:0:1]
 
@@ -2580,7 +2580,7 @@ Lorikeets were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:lorikeet man:lorikeet men:lorikeet man]
 	[DESCRIPTION:A colorful person with the head and wings of a lorikeet.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'l']
 	[COLOR:4:0:1]
 
@@ -2760,7 +2760,7 @@ Wrens were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:wren man:wren men:wren man]
 	[DESCRIPTION:A person with the head and wings of a wren.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'w']
 	[COLOR:6:0:0]
 	[SKILL_LEARN_RATE:DODGING:300]{+}
@@ -2947,7 +2947,7 @@ Ospreys were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:osprey man:osprey men:osprey man]
 	[DESCRIPTION:A person with the head and wings of an osprey.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'o']
 	[COLOR:7:0:1]
 	[SKILL_LEARN_RATE:TRAPPING:300]{+}
@@ -3122,7 +3122,7 @@ Emus were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:emu man:emu men:emu man]
 	[DESCRIPTION:A feathered person with the head of an emu.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'E']
 	[COLOR:6:0:0]
 	[SKILL_LEARN_RATE:DANCE:300]{+  Revision: emus are silly creatures.}
@@ -3296,7 +3296,7 @@ Cockatiels were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:cockatiel man:cockatiel men:cockatiel man]
 	[DESCRIPTION:A crested person with the head and wings of a cockatiel.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'c']
 	[COLOR:7:0:1]
 
@@ -3469,7 +3469,7 @@ Peach-faced lovebirds were sponsored by the generous contributions of the Bay 12
 	[GO_TO_START]
 	[NAME:peach-faced lovebird man:peach-faced lovebird men:peach-faced lovebird man]
 	[DESCRIPTION:A colorful person with the head and wings of a peach-faced lovebird.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'l']
 	[COLOR:2:0:1]
 
@@ -3644,7 +3644,7 @@ Magpies were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:magpie man:magpie men:magpie man]
 	[DESCRIPTION:A person with the head and wings of a magpie.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'m']
 	[COLOR:0:0:1]
 	[SKILL_LEARN_RATE:DODGING:300]{+}
@@ -3833,7 +3833,7 @@ Kestrels were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:kestrel man:kestrel men:kestrel man]
 	[DESCRIPTION:A person with the head and wings of a kestrel.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'k']
 	[COLOR:4:0:0]
 	[SKILL_LEARN_RATE:TRAPPING:300]{+}
@@ -3994,7 +3994,7 @@ Albatrosses were sponsored by the generous contributions of the Bay 12 community
 	[GO_TO_START]
 	[NAME:albatross man:albatross men:albatross man]
 	[DESCRIPTION:A person with the head and wings of an albatross.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'a']
 	[COLOR:7:0:1]
 
@@ -4181,7 +4181,7 @@ Great horned owls were sponsored by the generous contributions of the Bay 12 com
 	[GO_TO_START]
 	[NAME:great horned owl man:great horned owl men:great horned owl man]
 	[DESCRIPTION:A feathered person with the head and wings of a great horned owl.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'o']
 	[COLOR:7:0:0]
 	[SKILL_LEARN_RATE:TEACHING:3]{+}
@@ -4371,7 +4371,7 @@ Eagles were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:eagle man:eagle men:eagle man]
 	[DESCRIPTION:A feathered person with the head and wings of an eagle.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'e']
 	[COLOR:6:0:0]
 	[SKILL_LEARN_RATE:TRAPPING:300]{+}
@@ -4548,7 +4548,7 @@ Hornbills were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:hornbill man:hornbill men:hornbill man]
 	[DESCRIPTION:A feathered person with a brightly-colored bill.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'h']
 	[COLOR:0:0:1]
 
@@ -4719,7 +4719,7 @@ Masked lovebirds were sponsored by the generous contributions of the Bay 12 comm
 	[GO_TO_START]
 	[NAME:masked lovebird man:masked lovebird men:masked lovebird man]
 	[DESCRIPTION:A colorful person with the head and wings of a masked lovebird.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'l']
 	[COLOR:2:0:1]
 
@@ -4890,7 +4890,7 @@ Bushtits were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:bushtit man:bushtit men:bushtit man]
 	[DESCRIPTION:A person with the head and wings of a bushtit.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'b']
 	[COLOR:6:0:0]
 

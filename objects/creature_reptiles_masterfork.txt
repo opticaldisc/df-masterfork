@@ -109,7 +109,7 @@ creature_aaa_reptiles_mfork
 	[GO_TO_START]
 	[NAME:lizard man:lizard men:lizard man]
 	[DESCRIPTION:A person with the head and tail of a lizard.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[LISP]{+}
 	[CREATURE_TILE:'l']
 	[COLOR:6:0:0]
@@ -264,7 +264,7 @@ creature_aaa_reptiles_mfork
 	[GO_TO_START]
 	[NAME:skink man:skink men:skink man]
 	[DESCRIPTION:A long-bodied person with the head and tail of a skink.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[LISP]{+}
 	[CREATURE_TILE:'s']
 	[COLOR:7:0:0]
@@ -420,7 +420,7 @@ creature_aaa_reptiles_mfork
 	[GO_TO_START]
 	[NAME:chameleon man:chameleon men:chameleon man]
 	[DESCRIPTION:A colorful person with the head and tail of a chameleon.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'c']
 	[COLOR:2:0:1]
 	[SOUND:ALERT:100:2500:VOCALIZATION:hiss:hisses:hissing]{+}
@@ -572,7 +572,7 @@ creature_aaa_reptiles_mfork
 	[GO_TO_START]
 	[NAME:anole man:anole men:anole man]
 	[DESCRIPTION:A person with the head and tail of an anole.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'a']
 	[COLOR:2:0:1]
 	[SOUND:ALERT:100:2500:VOCALIZATION:hiss:hisses:hissing]{+}
@@ -737,7 +737,7 @@ creature_aaa_reptiles_mfork
 	[GO_TO_START]
 	[NAME:iguana man:iguana men:iguana man]
 	[DESCRIPTION:A person with the head and tail of an iguana.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'i']
 	[COLOR:2:0:1]
 	[GO_TO_TAG:USE_TISSUE_TEMPLATE:CLAW:CLAW_TEMPLATE]

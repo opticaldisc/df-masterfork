@@ -968,10 +968,10 @@ tweaks={
     SKINLESS={body=function(body_str,options) options.eyelids,options.cheeks,options.throat=false,false,false end,
         surface=function(lines,options)
             options.pcg_layering_modifier.SURFACE_SKINLESS=true
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_MATERIALS]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_MATERIALS]"
             lines[#lines+1]="[REMOVE_MATERIAL:HAIR]"
             lines[#lines+1]="[REMOVE_MATERIAL:SKIN]"
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_TISSUES]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_TISSUES]"
             lines[#lines+1]="[REMOVE_TISSUE:HAIR]"
             lines[#lines+1]="[REMOVE_TISSUE:SKIN]"
         end,
@@ -980,11 +980,11 @@ tweaks={
     HAIR={
         surface=function(lines,options)
             options.pcg_layering_modifier.SURFACE_FUR=true
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_MATERIALS]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_MATERIALS]"
             if random_creature_class[options.r_class].material_template then
                 lines[#lines+1]="[USE_MATERIAL_TEMPLATE:"..random_creature_class[options.r_class].material_template.."]"
             end
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_TISSUES]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_TISSUES]"
             if random_creature_class[options.r_class].tissue_template then
                 lines[#lines+1]="[USE_TISSUE_TEMPLATE:"..random_creature_class[options.r_class].tissue_template.."]"
             end
@@ -1011,13 +1011,13 @@ tweaks={
     },
     FEATHERS={surface=function(lines,options)
             options.pcg_layering_modifier.SURFACE_FEATHERS=true
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_MATERIALS]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_MATERIALS]"
             lines[#lines+1]="[REMOVE_MATERIAL:HAIR]"
             lines[#lines+1]="[USE_MATERIAL_TEMPLATE:FEATHER:FEATHER_TEMPLATE]"
             if random_creature_class[options.r_class].material_template then
                 lines[#lines+1]="[USE_MATERIAL_TEMPLATE:"..random_creature_class[options.r_class].material_template.."]"
             end
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_TISSUES]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_TISSUES]"
             lines[#lines+1]="[REMOVE_TISSUE:HAIR]"
             lines[#lines+1]="[USE_TISSUE_TEMPLATE:FEATHER:FEATHER_TEMPLATE]"
             if random_creature_class[options.r_class].tissue_template then
@@ -1045,17 +1045,17 @@ tweaks={
     },
     SCALES={surface=function(lines,options)
             options.pcg_layering_modifier.SURFACE_SCALES=true
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_MATERIALS]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_MATERIALS]"
             if options.r_class~="FLESHY" then lines[#lines+1]="[REMOVE_MATERIAL:SKIN]" end
             lines[#lines+1]="[REMOVE_MATERIAL:HAIR]"
-            lines[#lines+1]="[USE_MATERIAL_TEMPLATE:SCALE:SCALE_TEMPLATE]"
+            lines[#lines+1]="[USE_MATERIAL_TEMPLATE:SCALE:HEAVY_SCALE_TEMPLATE]"
             if random_creature_class[options.r_class].material_template then
                 lines[#lines+1]="[USE_MATERIAL_TEMPLATE:"..random_creature_class[options.r_class].material_template.."]"
             end
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_TISSUES]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_TISSUES]"
             if options.r_class~="FLESHY" then lines[#lines+1]="[REMOVE_TISSUE:SKIN]" end
             lines[#lines+1]="[REMOVE_TISSUE:HAIR]"
-            lines[#lines+1]="[USE_TISSUE_TEMPLATE:SCALE:SCALE_TEMPLATE]"
+            lines[#lines+1]="[USE_TISSUE_TEMPLATE:SCALE:SCALE_TEMPLATE_HEAVY]"
             if random_creature_class[options.r_class].tissue_template then
                 lines[#lines+1]="[USE_TISSUE_TEMPLATE:"..random_creature_class[options.r_class].tissue_template.."]"
             end
@@ -1085,9 +1085,9 @@ tweaks={
     },
     SKIN_BONES={surface=function(lines,options)
             options.pcg_layering_modifier.SURFACE_SKIN=true
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_MATERIALS]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_MATERIALS]"
             lines[#lines+1]="[REMOVE_MATERIAL:HAIR]"
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_TISSUES]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_TISSUES]"
             lines[#lines+1]="[REMOVE_TISSUE:HAIR]"
         end,
         color_surf="SKIN",
@@ -1111,10 +1111,10 @@ tweaks={
     },
     SKIN={surface=function(lines,options)
         options.pcg_layering_modifier.SURFACE_SKIN=true
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_MATERIALS]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_MATERIALS]"
             lines[#lines+1]="[REMOVE_MATERIAL:HAIR]"
             lines[#lines+1]="[REMOVE_MATERIAL:BONE]"
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_TISSUES]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_TISSUES]"
             lines[#lines+1]="[REMOVE_TISSUE:HAIR]"
             lines[#lines+1]="[REMOVE_TISSUE:BONE]"
         end,
@@ -1139,14 +1139,14 @@ tweaks={
     },
     EXOSKELETON={surface=function(lines,options)
             options.pcg_layering_modifier.SURFACE_SKIN=true
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_MATERIALS]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_MATERIALS]"
             lines[#lines+1]="[REMOVE_MATERIAL:HAIR]"
             lines[#lines+1]="[REMOVE_MATERIAL:SKIN]"
-            lines[#lines+1]="[USE_MATERIAL_TEMPLATE:CHITIN:CHITIN_TEMPLATE]"
-            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_TISSUES]"
+            lines[#lines+1]="[USE_MATERIAL_TEMPLATE:CHITIN:HEAVY_CHITIN_TEMPLATE]"
+            lines[#lines+1]="[BODY_DETAIL_PLAN:STANDARD_HEAVY_TISSUES]"
             lines[#lines+1]="[REMOVE_TISSUE:HAIR]"
             lines[#lines+1]="[REMOVE_TISSUE:BONE]"
-            lines[#lines+1]="[USE_TISSUE_TEMPLATE:CHITIN:CHITIN_TEMPLATE]"
+            lines[#lines+1]="[USE_TISSUE_TEMPLATE:CHITIN:CHITIN_TEMPLATE_HEAVY]"
         end,
         color_surf="CHITIN",
         adj="armored",
@@ -1721,7 +1721,7 @@ random_creature_class={
         },
         good_tweaks={},
         surface="SCALES",
-        material_template="SCALE:SCALE_TEMPLATE",
+        material_template="SCALE:HEAVY_SCALE_TEMPLATE",
         tissue_template="SCALE:SCALE_TEMPLATE",
         body_plan=function(lines,options)
         if options.btc2=="SKINLESS" then
@@ -2117,6 +2117,7 @@ attack_tweaks={
             lines[#lines+1]="[CDI:TARGET:C:LINE_OF_SIGHT]"
             lines[#lines+1]="[CDI:TARGET_RANGE:C:15]"
             lines[#lines+1]="[CDI:MAX_TARGET_NUMBER:C:1]"
+            options.poison_state=pick_random({"LIQUID","SOLID_POWDER"})
             local name=options.poison_state
             if name~="LIQUID" then name=string.sub(name,1,5) end
             lines[#lines+1]="[CDI:ADV_NAME:Spit glob]"
@@ -2144,7 +2145,7 @@ attack_tweaks={
             end
             lines[#lines+1]="[CDI:ADV_NAME:Spray "..name.."]"
             lines[#lines+1]="[CDI:MATERIAL:LOCAL_CREATURE_MAT:POISON:UNDIRECTED_"..caps.."]"
-            lines[#lines+1]="[CDI:DEFAULT_ICON:ADVENTURE_INTERACTION_ICON_EMIT"..caps.."]"
+            lines[#lines+1]="[CDI:DEFAULT_ICON:ADVENTURE_INTERACTION_ICON_EMIT_"..caps.."]"
         end,
         desc=function(options)
             if options.poison_state=="LIQUID" then return "Beware its poisonous vapors"
@@ -3023,8 +3024,8 @@ function build_body_from_rcp(rcp,lines,options)
             lines[#lines+1]="[USE_TISSUE_TEMPLATE:HORN:HORN_TEMPLATE]"
         end
         if is_in_body("RCP_SHELL") then
-            lines[#lines+1]="[USE_MATERIAL_TEMPLATE:SHELL:SHELL_TEMPLATE]"
-            lines[#lines+1]="[USE_TISSUE_TEMPLATE:SHELL:SHELL_TEMPLATE]"
+            lines[#lines+1]="[USE_MATERIAL_TEMPLATE:SHELL:HEAVY_SHELL_TEMPLATE]"
+            lines[#lines+1]="[USE_TISSUE_TEMPLATE:SHELL:SHELL_TEMPLATE_HEAVY]"
         end
     end
     options.name_mat=options.name_mat or {}
@@ -3245,15 +3246,31 @@ function build_body_from_rcp(rcp,lines,options)
     l2("Tweaks")
     if not options.attack_tweak then
         if not options.is_good and not options.no_tweak and ((options.experiment_attack_tweak and one_in(4)) or options.strong_attack_tweak) and (not options.intangible or one_in(10)) then
-            options.attack_tweak=pick_random_conditional(attack_tweaks,"cond",options)
+            options.attack_tweak=pick_random_conditional_pairs(attack_tweaks,"cond",options)
         end
     end
     if options.attack_tweak then
         if not (attack_tweaks[options.attack_tweak] and attack_tweaks[options.attack_tweak].apply) then
             log(options.attack_tweak,"has no code associated! Did someone forget to add it?")
+            print_table(options.attack_tweak)
         else
             attack_tweaks[options.attack_tweak].apply(lines,options)
         end
+    end
+    -- USE THIS VAR BECAUSE CAN BE OVERWRITTEN BY WEBS IN SPIDERS
+    if options.do_webs then
+        lines[#lines+1]="[THICKWEB][WEBIMMUNE]"
+        lines[#lines+1]="[USE_MATERIAL_TEMPLATE:SILK:SILK_TEMPLATE]"
+        lines[#lines+1]="[WEBBER:LOCAL_CREATURE_MAT:SILK]"
+        lines[#lines+1]="[CAN_DO_INTERACTION:RCP_MATERIAL_EMISSION]"
+            lines[#lines+1]="[CDI:ADV_NAME:Spray web]"
+            lines[#lines+1]="[CDI:USAGE_HINT:ATTACK]"
+            lines[#lines+1]="[CDI:MATERIAL:LOCAL_CREATURE_MAT:SILK:WEB_SPRAY]"
+            lines[#lines+1]="[CDI:TARGET:C:LINE_OF_SIGHT]"
+            lines[#lines+1]="[CDI:TARGET_RANGE:C:5]"
+            lines[#lines+1]="[CDI:MAX_TARGET_NUMBER:C:1]"
+            lines[#lines+1]="[CDI:WAIT_PERIOD:30]"
+            lines[#lines+1]="[CDI:DEFAULT_ICON:ADVENTURE_INTERACTION_ICON_SPRAY_WEB]"
     end
     if options.fire_immune then lines[#lines+1]="[FIREIMMUNE]" end
     for k,v in pairs(post_attack_tweaks) do

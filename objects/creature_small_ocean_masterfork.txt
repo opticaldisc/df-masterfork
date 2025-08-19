@@ -1614,7 +1614,7 @@ Squids were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:squid man:squid men:squid man]
 	[DESCRIPTION:A small person with a head bearing ten tentacles.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'s']
 	[COLOR:7:0:1]
 

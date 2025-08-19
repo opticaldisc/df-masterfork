@@ -1096,7 +1096,6 @@ creature_domestic_masterfork
 	[NAME:goat:goats:hircine]
 	[CHILD:1][GENERAL_CHILD_NAME:goat kid:goat kids]
 	[CREATURE_TILE:'g'][COLOR:6:0:0]
-	[PETVALUE:50]
 	[PREFSTRING:eating habits]
 	[PREFSTRING:delicious cheese]
 	[PREFSTRING:bleating]
@@ -1195,6 +1194,7 @@ creature_domestic_masterfork
 		[FEMALE]
 		[DESCRIPTION:A medium-sized, hooved grazer with coarse fur, short horns and a scraggly beard.  She lives in herds with her kind and is kept for milk and meat.]{+}
 		[MULTIPLE_LITTER_RARE]
+		[PETVALUE:60]
 		[USE_MATERIAL_TEMPLATE:MILK:MILK_TEMPLATE]
 			[STATE_NAME:ALL_SOLID:frozen goat's milk]
 			[STATE_ADJ:ALL_SOLID:frozen goat's milk]
@@ -1219,6 +1219,7 @@ creature_domestic_masterfork
 		[MALE]
 		[DESCRIPTION:A medium-sized, hooved grazer with coarse fur, short horns and a scraggly beard.  He lives in herds with his kind and is kept for milk and meat.]{+}
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
+		[PETVALUE:40]
 	[SELECT_MATERIAL:CHEESE]
 		[MULTIPLY_VALUE:3]
 	[SELECT_CASTE:ALL]
@@ -1327,7 +1328,7 @@ creature_domestic_masterfork
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
 			[EGG_SIZE:62]
-			[CLUTCH_SIZE:4:15]
+			[CLUTCH_SIZE:1:5]{: 4:15  waay too many
 	[CASTE:MALE]
 		[CASTE_NAME:rooster:roosters:rooster]
 		[MALE]
@@ -1523,7 +1524,7 @@ creature_domestic_masterfork
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
 			[EGG_SIZE:52]
-			[CLUTCH_SIZE:8:13]
+			[CLUTCH_SIZE:1:5]{: 8:13  waay too many
 	[CASTE:MALE]
 		[CASTE_NAME:drake:drakes:drake]
 		[MALE]
@@ -1861,7 +1862,7 @@ creature_domestic_masterfork
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
 			[EGG_SIZE:152]
-			[CLUTCH_SIZE:3:8]
+			[CLUTCH_SIZE:1:5]
 	[CASTE:MALE]
 		[CASTE_NAME:gander:ganders:gander]
 		[MALE]
@@ -2319,7 +2320,7 @@ creature_domestic_masterfork
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
 			[EGG_SIZE:42]
-			[CLUTCH_SIZE:4:15] should be 25 to 30
+			[CLUTCH_SIZE:1:5]{: 4:15  waay too many
 	[CASTE:MALE]
 		[CASTE_NAME:guineacock:guineacocks:guineacock]
 		[MALE]
@@ -2425,7 +2426,7 @@ creature_domestic_masterfork
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
 			[EGG_SIZE:102]
-			[CLUTCH_SIZE:6:8]
+			[CLUTCH_SIZE:1:5]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
 			[TL_COLOR_MODIFIER:BROWN:1]
 				[TLCM_NOUN:feathers:PLURAL]
@@ -2534,14 +2535,14 @@ creature_domestic_masterfork
 	[CASTE:FEMALE]
 		[CASTE_NAME:turkey hen:turkey hens:turkey hen]
 		[DESCRIPTION:A small domesticated bird with distinctive flaps of skin hanging from her face and a fan-shaped tail.  She's prized for her tasty meat.]{+}
-		[PETVALUE:21]
+		[PETVALUE:32]
 		[FEMALE]
 		[LAYS_EGGS]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGGSHELL:SOLID]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
 			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
 			[EGG_SIZE:87]
-			[CLUTCH_SIZE:10:14]
+			[CLUTCH_SIZE:1:4]{: 10:14  waay too many
 	[CASTE:MALE]
 		[CASTE_NAME:turkey gobbler:turkey gobblers:turkey gobbler]
 		[DESCRIPTION:A small domesticated bird with distinctive flaps of skin hanging from his face.  He's prized for his tasty meat.  When attracting mates, he puffs up his feathers, flares his tail into a fan, and makes gobbling sounds while he struts.]{+}

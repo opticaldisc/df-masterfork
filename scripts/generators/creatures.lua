@@ -379,6 +379,7 @@ creatures.demon.default=function(demon_type,difficulty,tok)
 [PERSONALITY:CRUELTY:100:100:100]
 [PERSONALITY:PRIDE:100:100:100]
 [PERSONALITY:GREED:100:100:100]
+[PERSONALITY:AMBITION:25:75:100]
 [NO_DRINK][NO_EAT][NO_SLEEP]
 [BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
 [BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
@@ -471,7 +472,7 @@ creatures.demon.default=function(demon_type,difficulty,tok)
     end
     populate_sphere_info(tbl,options)
     local rcp=get_random_creature_profile(options)
-    local body_size = difficulty==6 and (400000+trandom(9)*10000 + trandom(11)*1000) or (10000000)
+    local body_size = difficulty==6 and (450000+trandom(9)*10000 + trandom(11)*1000) or (10000000) --slightly larger
     add_body_size(tbl,math.max(body_size, rcp.min_size),options)
     tbl[#tbl+1]="[CREATURE_TILE:'&']"
     build_procgen_creature(rcp,tbl,options)
@@ -959,7 +960,6 @@ end
 creatures.night_creature.nightmare.default=function(tok)
     local lines={}
     local options={
-        can_bogey_polymorph=true,
         spheres={
             NIGHT=true,
             NIGHTMARES=true,
@@ -2124,7 +2124,9 @@ creatures.angel.humanoid_warrior.default=function(tok)
     add_body_size(lines,math.max(rcp.min_size,50000+trandom(4)*10000+trandom(11)*1000),options)
     lines[#lines+1]="[CREATURE_TILE:"..((options.body_size<=60000) and "132]" or "142]") -- ä or Ä
     options.custom_desc_func=function(options)
-        local add_tbl=pick_random_conditional(sphere_flavor,function(sphere) return options.spheres[sphere] end)
+        local add_tbl=sphere_flavor[pick_random_conditional_pairs(sphere_flavor,function(sphere,_,options) 
+            return options.spheres[sphere] 
+        end,options)]
         if not add_tbl then add_tbl={add="it is a divine being"} end
         if add_tbl.odor then
             options.always_odor=true
@@ -2195,7 +2197,9 @@ creatures.angel.humanoid_generic.default=function(tok)
     add_body_size(lines,math.max(rcp.min_size,50000+trandom(4)*10000+trandom(11)*1000),options)
     lines[#lines+1]="[CREATURE_TILE:"..((options.body_size<=60000) and "132]" or "142]") -- ä or Ä
     options.custom_desc_func=function(options)
-        local add_tbl=pick_random_conditional(sphere_flavor,function(sphere) return options.spheres[sphere] end)
+        local add_tbl=sphere_flavor[pick_random_conditional_pairs(sphere_flavor,function(sphere,_,options) 
+            return options.spheres[sphere] 
+        end,options)]
         if not add_tbl then add_tbl={add="it is a divine being"} end
         if add_tbl.odor then
             options.always_odor=true
@@ -2259,7 +2263,9 @@ creatures.angel.great_beast.default=function(tok)
     add_body_size(lines,math.max(rcp.min_size,10000000),options)
     lines[#lines+1]="[CREATURE_TILE:"..((options.body_size<=60000) and "132]" or "142]") -- ä or Ä
     options.custom_desc_func=function(options)
-        local add_tbl=pick_random_conditional(sphere_flavor,function(sphere) return options.spheres[sphere] end)
+        local add_tbl=sphere_flavor[pick_random_conditional_pairs(sphere_flavor,function(sphere,_,options) 
+            return options.spheres[sphere] 
+        end,options)]
         if not add_tbl then add_tbl={add="it is a divine being"} end
         if add_tbl.odor then
             options.always_odor=true

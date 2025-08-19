@@ -97,7 +97,6 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_REMOVE_TAG:WAGON_PULLER]{+}
 	[CV_REMOVE_TAG:VERMIN_NOFISH]{+}
 	[CV_REMOVE_TAG:VERMIN_NOROAM]{+}
-	[CV_REMOVE_TAG:FREQUENCY]{+}
 	[CV_REMOVE_TAG:BONECARN]{+                    Revision: animal people are omnivores.}
 	[CV_REMOVE_TAG:CARNIVORE]{+
 	[CV_CONVERT_TAG]{+                           Revision: some animal people get grasping tails.}
@@ -343,7 +342,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 		[CV_NEW_TAG:CDI:TARGET_RANGE:C:15]
 		[CV_NEW_TAG:CDI:MAX_TARGET_NUMBER:C:1]
 		[CV_NEW_TAG:CDI:WAIT_PERIOD:30]
-	[CV_NEW_TAG:MAXAGE:60:100]{+                         Revision: animal people normal duration lives.}
+	[CV_NEW_TAG:MAXAGE:60:80]{+                         Revision: animal people normal duration lives.}
 	[CV_NEW_TAG:CHILD:20]{+                              Revision: animal people live long lives, so give them children by age 20.}
 	[CV_NEW_TAG:VIEWRANGE:25]{+                          Revision: animal people can see farther.}
 	[CV_NEW_TAG:MANNERISM_HEAD:head]{+                   Revision: animal people now have mannerisms, like other humanoids.}
@@ -436,7 +435,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:SELECT_CASTE:FEMALE]{+            Revision: redefine animal people genders.}
 	    [CV_NEW_TAG:MULTIPLE_LITTER_RARE]{+
 	[CV_REMOVE_TAG:FREQUENCY]{+                   Revision: animal people now appear rarely in savage biomes.}
-	[CV_NEW_TAG:FREQUENCY:10]{+
+	[CV_NEW_TAG:FREQUENCY:15]{+
 
 [CREATURE_VARIATION:ANIMAL_PERSON_LEGLESS]
 	[CV_REMOVE_TAG:NAME]
@@ -747,7 +746,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 		[CV_NEW_TAG:CDI:TARGET_RANGE:C:15]
 		[CV_NEW_TAG:CDI:MAX_TARGET_NUMBER:C:1]
 		[CV_NEW_TAG:CDI:WAIT_PERIOD:30]
-	[CV_NEW_TAG:MAXAGE:60:100]{+                         Revision: animal people normal duration lives.}
+	[CV_NEW_TAG:MAXAGE:60:80]{+                         Revision: animal people normal duration lives.}
 	[CV_NEW_TAG:CHILD:20]{+                              Revision: animal people live long lives, so give them children by age 20.}
 	[CV_NEW_TAG:VIEWRANGE:25]{+                          Revision: animal people can see farther.}
 	[CV_NEW_TAG:MANNERISM_HEAD:head]{+                   Revision: animal people now have mannerisms, like other humanoids.}
@@ -840,7 +839,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:SELECT_CASTE:FEMALE]{+            Revision: redefine animal people genders.}
 	    [CV_NEW_TAG:MULTIPLE_LITTER_RARE]{+
 	[CV_REMOVE_TAG:FREQUENCY]{+                   Revision: animal people now appear rarely in savage biomes.}
-	[CV_NEW_TAG:FREQUENCY:10]{+
+	[CV_NEW_TAG:FREQUENCY:15]{+
 
 [CREATURE_VARIATION:PUNCH_ATTACK]
 	[CV_NEW_TAG:ATTACK:PUNCH:BODYPART:BY_CATEGORY:HAND]
@@ -1290,7 +1289,7 @@ Change TAG to CTAG and add, for example, CV_REMOVE_CTAG:1:YES:<regular stuff> to
 	[CV_NEW_TAG:SKILL_RATE:BLOWGUN:33:8:16:16]{+          Revision: most creatures struggle to handle firearms.}
 	[CV_NEW_TAG:PROFESSION_NAME:BLOWGUNMAN:Sharpshooter:Sharpshooters]
 	[CV_NEW_TAG:PROFESSION_NAME:MASTER_BLOWGUNMAN:Veteran Sharpshooter:Veteran Sharpshooters]
-
+	[CV_NEW_TAG:PROFESSION_NAME:PLANTER:Farmer:Farmers]{+ Revision: renamed from Planter.}
 
 [CREATURE_VARIATION:STANDARD_FLYING_GAITS]
 	[CV_NEW_TAG:GAIT:FLY:Maximum Flight Speed:!ARG4:10:3:!ARG2:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]

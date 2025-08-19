@@ -113,7 +113,7 @@ Geckos were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:leopard gecko man:leopard gecko men:leopard gecko man]
 	[DESCRIPTION:A person with the head and fingers of a gecko.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'g']
 	[COLOR:6:0:1]
 
@@ -275,7 +275,7 @@ Desert tortoises were sponsored by the generous contributions of the Bay 12 comm
 	[GO_TO_START]
 	[NAME:desert tortoise man:desert tortoise men:desert tortoise man]
 	[DESCRIPTION:A reptile person with the head and tail of a desert tortoise.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'t']
 	[COLOR:6:0:0]
 
@@ -475,7 +475,7 @@ Gila monsters were sponsored by the generous contributions of the Bay 12 communi
 	[GO_TO_START]
 	[NAME:gila monster man:gila monster men:gila monster man]
 	[DESCRIPTION:A venomous person with the head and tail of a gila monster.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'g']
 	[COLOR:4:0:1]
 

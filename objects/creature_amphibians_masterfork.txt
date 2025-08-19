@@ -110,7 +110,7 @@ creature_aaa_amphibians_mfork
 	[GO_TO_START]
 	[NAME:toad man:toad men:toad man]
 	[DESCRIPTION:A dark green man with the distinct head of a toad.]
-	[CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'t']
 	[COLOR:2:0:0]
 	[SKILL_LEARN_RATE:CLIMBING:300]{+}

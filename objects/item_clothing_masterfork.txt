@@ -84,9 +84,9 @@ headwear
 [LAYER_PERMIT:100]
 [MATERIAL_SIZE:2]
 [SOFT]
---LEATHER]
+[LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
-(STRUCTURAL_ELASTICITY_CHAIN_ALL)
+[STRUCTURAL_ELASTICITY_CHAIN_ALL]
 
 [ITEM_HELM:ITEM_HELM_SCARF_HEAD]
 [NAME:headscarf:headscarves]
@@ -96,7 +96,7 @@ headwear
 [LAYER_PERMIT:100]
 [MATERIAL_SIZE:2]
 [SOFT]
-LEATHER
+--LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_COAT]
@@ -108,13 +108,13 @@ LEATHER
 [LAYER_SIZE:20]
 [LAYER_PERMIT:50]
 [MATERIAL_SIZE:5]
---SOFT]
+[SOFT]
 [LEATHER]
-(STRUCTURAL_ELASTICITY_WOVEN_THREAD)
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_SHIRT]
 [NAME:shirt:shirts]
-[UBSTEP:3]{:MAX  Revision: avoid bug 1821 by capping UBSTEP at 3.  At 3 facial features and feet are protected (incorrectly), but not toes.  Feet are hardcoded not to be and I set facial features as INTERNAL to prevent this.}
+[UBSTEP:2]
 [LBSTEP:0]
 [LAYER:UNDER]
 [COVERAGE:100]
@@ -127,8 +127,8 @@ LEATHER
 
 [ITEM_ARMOR:ITEM_ARMOR_CLOAK]
 [NAME:cloak:cloaks]
-[UBSTEP:3]{:MAX     Revision: avoid bug 1821 by capping UBSTEP at 3.  At 3 facial features and feet are protected (incorrectly), but not toes.  Feet are hardcoded not to be and I set facial features as INTERNAL to prevent this.}
-[LBSTEP:2]{:1       Revision: compensate for the (new) hips.}
+[UBSTEP:MAX]
+[LBSTEP:1]
 [LAYER:COVER]
 [COVERAGE:100]
 [LAYER_SIZE:15]
@@ -140,21 +140,21 @@ LEATHER
 
 [ITEM_ARMOR:ITEM_ARMOR_TUNIC]
 [NAME:tunic:tunics]
-[UBSTEP:1]{:0       Revision: compensate for the (new) shoulders.}
-[LBSTEP:2]{:1       Revision: compensate for the (new) hips, plus change.}
+[UBSTEP:1] +
+[LBSTEP:1]
 [LAYER:UNDER]
-[COVERAGE:100]
+[COVERAGE:90]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:50]
 [MATERIAL_SIZE:3]
 [SOFT]
-[LEATHER]
+--LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_TOGA]
 [NAME:toga:togas]
-[UBSTEP:2]{:1       Revision: compensate for the (new) shoulders.}
-[LBSTEP:MAX]{:1       Revision: compensate for the (new) hips, then make it even longer.}
+[UBSTEP:1]
+[LBSTEP:1]
 [LAYER:OVER]
 [COVERAGE:100]
 [LAYER_SIZE:30]
@@ -166,8 +166,8 @@ LEATHER
 
 [ITEM_ARMOR:ITEM_ARMOR_CAPE]
 [NAME:cape:capes]
-[UBSTEP:1]{:0  Revision: compensate for the (new) shoulders.}
-[LBSTEP:2]{:0  Revision: compensate for the (new) hips, plus change.}
+[UBSTEP:0]
+[LBSTEP:0]
 [LAYER:COVER]
 [COVERAGE:50]
 [LAYER_SIZE:10]
@@ -186,16 +186,16 @@ LEATHER
 [LAYER_SIZE:10]
 [LAYER_PERMIT:50]
 [MATERIAL_SIZE:2]
---SOFT]
+[SOFT]
 [LEATHER]
-(STRUCTURAL_ELASTICITY_WOVEN_THREAD)
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_ARMOR:ITEM_ARMOR_DRESS]
 [NAME:dress:dresses]
-[UBSTEP:3]{:MAX  Revision: avoid bug 1821 by capping UBSTEP at 3.  At 3 facial features and feet are protected (incorrectly), but not toes.  Feet are hardcoded not to be and I set facial features as INTERNAL to prevent this.}
+[UBSTEP:2]
 [LBSTEP:MAX]
 [LAYER:UNDER]
-[COVERAGE:100]
+[COVERAGE:90]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:50]
 [MATERIAL_SIZE:5]
@@ -205,7 +205,7 @@ LEATHER
 
 [ITEM_ARMOR:ITEM_ARMOR_ROBE]
 [NAME:robe:robes]
-[UBSTEP:3]{:MAX  Revision: avoid bug 1821 by capping UBSTEP at 3.  At 3 facial features and feet are protected (incorrectly), but not toes.  Feet are hardcoded not to be and I set facial features as INTERNAL to prevent this.}
+[UBSTEP:MAX]
 [LBSTEP:MAX]
 [LAYER:OVER]
 [COVERAGE:100]
@@ -223,9 +223,9 @@ LEATHER
 [COVERAGE:100]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:10]
---SOFT]
+[SOFT]
 [LEATHER]
-(STRUCTURAL_ELASTICITY_WOVEN_THREAD)
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_GLOVES:ITEM_GLOVES_MITTENS]
 [NAME:mitten:mittens]
@@ -239,6 +239,7 @@ LEATHER
 [SHAPED]
 
 [ITEM_PANTS:ITEM_PANTS_PANTS]
+[PREPLURAL:pairs of]
 [NAME:trousers:trousers]
 [LBSTEP:MAX]
 [LAYER:OVER]
@@ -252,7 +253,6 @@ LEATHER
 
 [ITEM_PANTS:ITEM_PANTS_LOINCLOTH]
 [NAME:loincloth:loincloths]
-[LBSTEP:1]{+  Revision: compensate for the (new) hips.}
 [LAYER:UNDER]
 [COVERAGE:50]
 [LAYER_SIZE:10]
@@ -263,37 +263,37 @@ LEATHER
 
 [ITEM_PANTS:ITEM_PANTS_THONG]
 [NAME:thong:thongs]
-[LBSTEP:1]{+  Revision: compensate for the (new) hips.}
 [LAYER:UNDER]
 [COVERAGE:25]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:30]
 [MATERIAL_SIZE:1]
-[SOFT]
---LEATHER]
+[LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_PANTS:ITEM_PANTS_SKIRT]
 [NAME:skirt:skirts]
-[LBSTEP:2]{:1  Revision: compensate for the (new) hips.}
+[LBSTEP:1]
 [LAYER:OVER]
 [COVERAGE:100]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:100]
 [MATERIAL_SIZE:2]
 [SOFT]
+--LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+--STRUCTURAL_ELASTICITY_CHAIN_ALL]
 
 [ITEM_PANTS:ITEM_PANTS_SKIRT_SHORT]
 [NAME:skirt:skirts]
 [ADJECTIVE:short]
-[LBSTEP:1]{+  Revision: compensate for the (new) hips.}
 [LAYER:OVER]
-[COVERAGE:100]
+[COVERAGE:90]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:100]
-[MATERIAL_SIZE:2]
+[MATERIAL_SIZE:1]
 [SOFT]
+--LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
 [ITEM_PANTS:ITEM_PANTS_SKIRT_LONG]
@@ -301,24 +301,28 @@ LEATHER
 [ADJECTIVE:long]
 [LBSTEP:MAX]
 [LAYER:OVER]
-[COVERAGE:100]
+[COVERAGE:200]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:100]
-[MATERIAL_SIZE:2]
+[MATERIAL_SIZE:3]
 [SOFT]
+--LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+--STRUCTURAL_ELASTICITY_CHAIN_ALL]
 
 [ITEM_PANTS:ITEM_PANTS_BRAIES]
 [PREPLURAL:pairs of]
-[NAME:breeches:breeches]{:braies:braies
-[LBSTEP:2]{:1  Revision: compensate for the (new) hips.}
+[NAME:braies:braies]
+[LBSTEP:1]
 [LAYER:UNDER]
 [COVERAGE:100]
 [LAYER_SIZE:10]
 [LAYER_PERMIT:30]
 [MATERIAL_SIZE:3]
 [SOFT]
+--LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+--STRUCTURAL_ELASTICITY_CHAIN_ALL]
 
 [ITEM_SHOES:ITEM_SHOES_SHOES]
 [NAME:shoe:shoes]
@@ -327,10 +331,10 @@ LEATHER
 [LAYER_SIZE:20]
 [LAYER_PERMIT:15]
 [MATERIAL_SIZE:1]
-[SHAPED]{+  Revision: shoes aren't usually worn over other shoes.}
---SOFT]
-[LEATHER]
-(STRUCTURAL_ELASTICITY_WOVEN_THREAD)
+[SOFT]
+--LEATHER]
+[STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+[SHAPED]
 
 [ITEM_SHOES:ITEM_SHOES_SOCKS]
 [NAME:sock:socks]
@@ -342,28 +346,28 @@ LEATHER
 [SOFT]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
 
-[ITEM_SHOES:ITEM_SHOES_BOOTS_LOW]
+[ITEM_SHOES:ITEM_SHOES_BOOTS_LOW] civilian boots
 [NAME:boot:boots]{:low boot:low boots
+--UPSTEP:1]
 --ARMORLEVEL:1]
 --METAL_ARMOR_LEVELS]
 [LAYER:OVER]
-[COVERAGE:100]
+[COVERAGE:125]
 [LAYER_SIZE:25]
 [LAYER_PERMIT:15]
 [MATERIAL_SIZE:1]
-[SHAPED]{+  Revision: shoes aren't usually worn over other shoes.}
---METAL]
 [LEATHER]
---HARD]
+[SHAPED]
+[STRUCTURAL_ELASTICITY_CHAIN_ALL]
 
 [ITEM_SHOES:ITEM_SHOES_SANDAL]
 [NAME:sandal:sandals]
 [LAYER:OVER]
-[COVERAGE:100]
+[COVERAGE:95]
 [LAYER_SIZE:25]
 [LAYER_PERMIT:15]
 [MATERIAL_SIZE:1]
-[SHAPED]{+  Revision: sandals aren't usually worn over sandals or boots.}
 [SOFT]
 [LEATHER]
 [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
+[SHAPED]

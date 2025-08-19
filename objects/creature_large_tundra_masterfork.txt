@@ -147,7 +147,7 @@ creature_aaa_large_tundra_mfork
 	[GO_TO_START]
 	[NAME:muskox man:muskox men:muskox man]
 	[DESCRIPTION:A horned person with the head of a muskox.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'M']
 	[COLOR:6:0:0]
 
@@ -330,7 +330,7 @@ creature_aaa_large_tundra_mfork
 	[GO_TO_START]
 	[NAME:elk man:elk men:elk man]
 	[DESCRIPTION:A person with the head of an elk.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'E']
 	[COLOR:6:0:0]
 
@@ -505,7 +505,7 @@ creature_aaa_large_tundra_mfork
 	[GO_TO_START]
 	[NAME:polar bear man:polar bear men:polar bear man]
 	[DESCRIPTION:A large person with the head of a polar bear.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'B']
 	[COLOR:7:0:1]
 	[GO_TO_TAG:USE_TISSUE_TEMPLATE:NAIL:NAIL_TEMPLATE]

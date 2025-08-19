@@ -11,6 +11,7 @@ creature_civ_highelf_chp
 	[CREATURE_SOLDIER_TILE:137]
 	[CREATURE_CLASS:MAMMAL]
 	[CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]
+	[CREATURE_CLASS:HIGH_ELF]
 	[INTELLIGENT]
 	[VIEWRANGE:30]{+ high elves can see farther.}
 	[CANOPENDOORS]
@@ -19,17 +20,9 @@ creature_civ_highelf_chp
 	[PREFSTRING:arrogance]
 	[PREFSTRING:vanity]
 	[NATURAL_SKILL:SWIMMING:1]
-	[NATURAL_SKILL:DISCIPLINE:1]
-	[NATURAL_SKILL:MELEE_COMBAT:2]
-	[NATURAL_SKILL:DODGING:1]
-	[NATURAL_SKILL:SITUATIONAL_AWARENESS:3]
-	[NATURAL_SKILL:WRESTLING:1]
-	[NATURAL_SKILL:GRASP_STRIKE:1]
-	[NATURAL_SKILL:STANCE_STRIKE:1]
 	[TRAPAVOID]
 	[STRANGE_MOODS]{+ can create artifacts.}
 	[SLAIN_SPEECH:SLAIN_ELF]
-	[CREATURE_CLASS:HIGH_ELF]
 	[PERSONALITY:LOVE_PROPENSITY:0:55:100]
 	[PERSONALITY:HATE_PROPENSITY:0:45:100]
 	[PERSONALITY:ENVY_PROPENSITY:0:45:100]
@@ -182,7 +175,7 @@ creature_civ_highelf_chp
 
 	[BODY_SIZE:0:0:7000]
 	[BODY_SIZE:10:168:17500]
-	[BODY_SIZE:25:0:70000]
+	[BODY_SIZE:40:0:70000]
 
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:94:96:98:100:106:112:115]{:75:95:98:100:102:105:125  Revision: elves are more tall than broad.}
 		[APP_MOD_IMPORTANCE:600]{:500  Revision: height is more important than the other descriptors.}
@@ -276,7 +269,7 @@ creature_civ_highelf_chp
 		{  removed latching  }
 
 	[BABY:1]
-	[CHILD:25]
+	[CHILD:40]
 	[EQUIPS]
 	[DIURNAL]
 	[SMELL_TRIGGER:10]
@@ -321,6 +314,7 @@ creature_civ_highelf_chp
 		[BABYNAME:elven baby girl:elven baby girls]{+}
 		[CHILDNAME:elven girl:elven girls]{+}
 		[MULTIPLE_LITTER_RARE]
+		[LITTERSIZE:1:2]
 		[DESCRIPTION:A medium-sized, graceful woman with flawless pale skin, eldritch eyes, golden hair, and a reputation for grace and beauty.  She has a natural talent of magic.  She does not seem to age.]{+}
 	[CASTE:MALE]
 		[MALE]

@@ -148,7 +148,7 @@ creature_aaa_large_mountain_mfork
 	[GO_TO_START]
 	[NAME:mountain goat man:mountain goat men:mountain goat man]
 	[DESCRIPTION:A horned person with the head of a mountain goat.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'g']
 	[COLOR:7:0:1]
 
@@ -312,7 +312,7 @@ creature_aaa_large_mountain_mfork
 	[GO_TO_START]
 	[NAME:hoary marmot man:hoary marmot men:hoary marmot man]
 	[DESCRIPTION:A person with the head and fur of a hoary marmot.]
-	[FREQUENCY:50][CLUSTER_NUMBER:1:5][POPULATION_NUMBER:10:20]
+	[POPULATION_NUMBER:5:10][CLUSTER_NUMBER:2:10]
 	[CREATURE_TILE:'m']
 	[COLOR:7:0:0]
 	[GO_TO_TAG:USE_TISSUE_TEMPLATE:NAIL:NAIL_TEMPLATE]

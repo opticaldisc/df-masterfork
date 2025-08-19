@@ -11,21 +11,13 @@ creature_civ_goblin_mfork
 	[CREATURE_CLASS:MAMMAL]
 	[CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]
 	[CREATURE_CLASS:EVIL_CREATURE]
+	[CREATURE_CLASS:GOBLIN]
 	[EVIL]
 	[INTELLIGENT]
 	[CANOPENDOORS]
 	[BONECARN][NO_DRINK][NO_EAT]
 	[PREFSTRING:terrifying features]
 	[NATURAL_SKILL:SWIMMING:1]
-	[NATURAL_SKILL:DISCIPLINE:1]
-	[NATURAL_SKILL:MELEE_COMBAT:1]
-	[NATURAL_SKILL:RANGED_COMBAT:1]
-	[NATURAL_SKILL:DODGING:2]
-	[NATURAL_SKILL:SITUATIONAL_AWARENESS:2]
-	[NATURAL_SKILL:WRESTLING:1]
-	[NATURAL_SKILL:GRASP_STRIKE:1]
-	[NATURAL_SKILL:STANCE_STRIKE:1]
-	[NATURAL_SKILL:SNEAK:1]
 	[NOCTURNAL]
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
@@ -104,7 +96,7 @@ creature_civ_goblin_mfork
 	[PERSONALITY:BRAVERY:0:45:100]
 	[PERSONALITY:CONFIDENCE:20:60:100]
 	[PERSONALITY:VANITY:0:20:75]
-	[PERSONALITY:AMBITION:100:100:100]
+	[PERSONALITY:AMBITION:25:75:100]
 	[PERSONALITY:GRATITUDE:0:0:0]
 	[PERSONALITY:IMMODESTY:0:45:75]
 	[PERSONALITY:HUMOR:20:50:75]
@@ -173,6 +165,8 @@ creature_civ_goblin_mfork
 	[BODY_SIZE:0:0:2000]
 	[BODY_SIZE:1:168:15000]
 	[BODY_SIZE:10:0:60000]
+	
+	[MAXAGE:800:1000]
 
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:75:95:98:100:102:105:125]
 		[APP_MOD_IMPORTANCE:600]
@@ -362,13 +356,13 @@ creature_civ_goblin_mfork
 		[LITTERSIZE:4:6]
 		[BABYNAME:goblin baby girl:goblin baby girls]{+}
 		[CHILDNAME:goblin girl:goblin girls]{+}
-		[DESCRIPTION:A medium-sized, cruel woman with leathery skin, sharply-defined features, and a lanky body.  She only eats meat and only sleep and distractions from her boredom.  She works with others to dig pits and trenches that connect many towers.  She does not seem to age.]{+}
+		[DESCRIPTION:A medium-sized, cruel woman with leathery skin, sharply-defined features, and a lanky body.  She only eats meat and only sleep and distractions from her boredom.  She works with others to dig pits and trenches that connect many towers.  She appears to age at a slow pace.]{+}
 	[CASTE:MALE]
 		[MALE]
 		[POP_RATIO:100]
 		[BABYNAME:goblin baby boy:goblin baby boys]{+}
 		[CHILDNAME:goblin boy:goblin boys]{+}
-		[DESCRIPTION:A medium-sized, cruel man with leathery skin, sharply-defined features, and a lanky body.  He only eats meat and only sleep and distractions from her boredom.  He works with others to dig pits and trenches that connect many towers.  He does not seem to age.]{+}
+		[DESCRIPTION:A medium-sized, cruel man with leathery skin, sharply-defined features, and a lanky body.  He only eats meat and only sleep and distractions from her boredom.  He works with others to dig pits and trenches that connect many towers.  He appears to age at a slow pace.]{+}
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
 

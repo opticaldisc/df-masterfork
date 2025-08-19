@@ -3,7 +3,7 @@ reaction_Encrust_items
 [OBJECT:REACTION]
 
 [REACTION:ENCRUST_WEAPON_MFORK]
-[NAME:Encrust a weapon with gemstones]
+[NAME:Encrust a metal weapon with gemstones]
 [BUILDING:CRAFTSMAN:NONE]
 [REAGENT:small cut gem:1:SMALLGEM:NONE:INORGANIC:NONE]
 [REAGENT:metal weapon:1:WEAPON:NONE:NONE:NONE]
@@ -11,11 +11,11 @@ reaction_Encrust_items
 [IMPROVEMENT:100:metal weapon:COVERED:GET_MATERIAL_FROM_REAGENT:small cut gem:NONE]
 [SKILL:ENCRUSTGEM]
 [CATEGORY:ENCRUST_ITEMS]
-[CATEGORY_NAME:Encrust weapons and armor]
+[CATEGORY_NAME:Encrust weapons and armor with gemstones]
 [CATEGORY_DESCRIPTION:Encrust weapons and armor with small cut gems.  (artifacts work!)]
 
 [REACTION:ENCRUST_HELM_MFORK]
-[NAME:Encrust a helm with gems]
+[NAME:Encrust a metal helmet with gemstones]
 [BUILDING:CRAFTSMAN:NONE]
 [REAGENT:small cut gem:1:SMALLGEM:NONE:INORGANIC:NONE]
 [REAGENT:metal helm:1:HELM:NONE:NONE:NONE]
@@ -25,7 +25,7 @@ reaction_Encrust_items
 [CATEGORY:ENCRUST_ITEMS]
 
 [REACTION:ENCRUST_ARMOR_MFORK]
-[NAME:Encrust armor with gems]
+[NAME:Encrust metal armor with gemstones]
 [BUILDING:CRAFTSMAN:NONE]
 [REAGENT:small cut gem:1:SMALLGEM:NONE:INORGANIC:NONE]
 [REAGENT:metal armor:1:ARMOR:NONE:NONE:NONE]
@@ -35,7 +35,7 @@ reaction_Encrust_items
 [CATEGORY:ENCRUST_ITEMS]
 
 [REACTION:ENCRUST_LEGGINGS_MFORK]
-[NAME:Encrust leggings with gems]
+[NAME:Encrust metal leggings with gemstones]
 [BUILDING:CRAFTSMAN:NONE]
 [REAGENT:small cut gem:1:SMALLGEM:NONE:INORGANIC:NONE]
 [REAGENT:metal greaves:1:PANTS:NONE:NONE:NONE]
@@ -45,7 +45,7 @@ reaction_Encrust_items
 [CATEGORY:ENCRUST_ITEMS]
 
 [REACTION:ENCRUST_HANDS_MFORK]
-[NAME:Encrust gloves with gems]
+[NAME:Encrust metal gloves with gemstones]
 [BUILDING:CRAFTSMAN:NONE]
 [REAGENT:small cut gem:1:SMALLGEM:NONE:INORGANIC:NONE]
 [REAGENT:metal gauntlets:1:GLOVES:NONE:NONE:NONE]
@@ -55,7 +55,7 @@ reaction_Encrust_items
 [CATEGORY:ENCRUST_ITEMS]
 
 [REACTION:ENCRUST_BOOTS_MFORK]
-[NAME:Encrust metal boots with gems]
+[NAME:Encrust metal boots with gemstones]
 [BUILDING:CRAFTSMAN:NONE]
 [REAGENT:small cut gem:1:SMALLGEM:NONE:INORGANIC:NONE]
 [REAGENT:metal boots:1:SHOES:NONE:NONE:NONE]
@@ -65,11 +65,11 @@ reaction_Encrust_items
 [CATEGORY:ENCRUST_ITEMS]
 
 [REACTION:ENCRUST_SHIELD_MFORK]
-[NAME:Encrust a shield with gems]
+[NAME:Encrust a metal shield with gemstones]
 [BUILDING:CRAFTSMAN:NONE]
 [REAGENT:small cut gem:1:SMALLGEM:NONE:INORGANIC:NONE]
 [REAGENT:metal shield:1:SHIELD:NONE:NONE:NONE]
-    [PRESERVE_REAGENT][CAN_USE_ARTIFACT]
+    [PRESERVE_REAGENT][CAN_USE_ARTIFACT][METAL_ITEM_MATERIAL]
 [IMPROVEMENT:100:metal shield:COVERED:GET_MATERIAL_FROM_REAGENT:small cut gem:NONE]
 [SKILL:ENCRUSTGEM]
 [CATEGORY:ENCRUST_ITEMS]

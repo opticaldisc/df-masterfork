@@ -14,7 +14,7 @@ Shield stats by Sver
 
 ===========================================================
 
-[ITEM_SHIELD:ITEM_SHIELD_BUCKLER]
+[ITEM_SHIELD:ITEM_SHIELD_BUCKLER]  =VANILLA=
 [NAME:buckler:bucklers]
 [ARMORLEVEL:1]  not sure who can use it, needs testing
 [BLOCKCHANCE:10] 8 kg
@@ -26,4 +26,18 @@ Shield stats by Sver
 [ARMORLEVEL:2]  bodyguards and lawmen can use it
 [BLOCKCHANCE:35] 10 kg
 [UPSTEP:1]
-[MATERIAL_SIZE:9] 3 bars
+[MATERIAL_SIZE:27] 9 bars
+
+[ITEM_SHIELD:ITEM_SHIELD_KITE_SPL]
+[NAME:kite shield:kite shields]
+[ARMORLEVEL:2]
+[BLOCKCHANCE:60] 12 kg
+[UPSTEP:2]
+[MATERIAL_SIZE:57] 19 bars
+
+[ITEM_SHIELD:ITEM_SHIELD_TOWER_SPL]
+[NAME:tower shield:tower shields]
+[ARMORLEVEL:3]
+[BLOCKCHANCE:75] 14 kg
+[UPSTEP:MAX]
+[MATERIAL_SIZE:78] 26 bars
