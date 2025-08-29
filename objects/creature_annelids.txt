@@ -1,0 +1,88 @@
+creature_annelids
+
+[OBJECT:CREATURE]
+
+[CREATURE:WORM]
+	[DESCRIPTION:A tiny burrowing creature; segmented, legless, and wriggling.  It feels its way through moist soil and surfaces when it rains.]{:A tiny burrowing creature, found in moist soil.  It is legless, long, and thin.}
+	[NAME:worm:worms:worm]
+	[CASTE_NAME:worm:worms:worm]
+	[CREATURE_TILE:'~'][COLOR:7:0:0]
+	[PETVALUE:10]
+	[VERMIN_SOIL][FREQUENCY:100][VERMIN_HATEABLE]
+	[SMALL_REMAINS][VERMIN_NOTRAP][NOBONES]
+	[NATURAL][PET_EXOTIC]{PET}
+	[NOT_BUTCHERABLE]
+	[BIOME:FOREST_TAIGA]
+	[BIOME:ANY_TEMPERATE]
+	[BIOME:ANY_TROPICAL]
+	[POPULATION_NUMBER:250:500]
+	[PREFSTRING:wriggling]
+	[BODY:BODY_WITH_HEAD_FLAG:TAIL_ANIMALMAN_GRASP:HEART:GUTS:BRAIN:MOUTH]{:BODY_WITH_HEAD_FLAG:HEART  Revision: add a tail that will be converted to a grasping one.}
+	[BODY_DETAIL_PLAN:STANDARD_NOLEATHER_MATERIALS]{:STANDARD_MATERIALS}
+		[REMOVE_MATERIAL:HAIR]
+		[REMOVE_MATERIAL:BONE]
+	[BODY_DETAIL_PLAN:STANDARD_TISSUES]
+		[REMOVE_TISSUE:HAIR]
+		[REMOVE_TISSUE:BONE]
+	[BODY_DETAIL_PLAN:EXOSKELETON_TISSUE_LAYERS:SKIN:FAT:MUSCLE]
+	[HAS_NERVES]
+	[MUNDANE]
+	[GAIT:WALK:Crawl:2900:NO_BUILD_UP:0:LAYERS_SLOW:STRENGTH:AGILITY]
+	[GAIT:CRAWL:Crawl:2900:NO_BUILD_UP:0:LAYERS_SLOW:STRENGTH:AGILITY]
+	[USE_MATERIAL_TEMPLATE:ICHOR:ICHOR_TEMPLATE]
+	[BLOOD:LOCAL_CREATURE_MAT:ICHOR:LIQUID]
+	[CREATURE_CLASS:GENERAL_POISON]
+	[GETS_WOUND_INFECTIONS]
+	[GETS_INFECTIONS_FROM_ROT]
+	[USE_MATERIAL_TEMPLATE:PUS:PUS_TEMPLATE]
+	[PUS:LOCAL_CREATURE_MAT:PUS:LIQUID]
+	[BODY_SIZE:0:0:100]
+	[BODY_APPEARANCE_MODIFIER:LENGTH:90:95:98:100:102:105:110]
+	[MAXAGE:2:3]
+	[CANNOT_JUMP]
+	[ALL_ACTIVE]
+	[NO_SLEEP]
+	[NO_DIZZINESS]
+	[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
+		[TL_COLOR_MODIFIER:GRAY:1]
+			[TLCM_NOUN:skin:SINGULAR]
+
+[CREATURE:WORM_MAN]
+	[COPY_TAGS_FROM:WORM]
+	[DOES_NOT_EXIST][ARENA_RESTRICTED]{+  disabled for now.}
+	--APPLY_CREATURE_VARIATION:ANIMAL_PERSON_LEGLESS]
+	[GO_TO_END]
+	[CASTE:MALE]{+  Revision: I dislike ungendered humanoids.}
+		[MALE]
+		[CASTE_NAME:worm man:worm men:worm man]
+		[BABYNAME:worm baby boy:worm baby boys]
+		[CHILDNAME:worm boy:worm boys]
+		[DESCRIPTION:A small and unnerving worm-like horror with a gaunt, nude body of segmented rings and a wriggling, tube-like neck that ends in a gaping mouth.  His thighs merge into a slimy tail.]
+	[CASTE:FEMALE]{+}
+		[FEMALE]
+		[CASTE_NAME:worm woman:worm women:worm woman]
+		[BABYNAME:worm baby girl:worm baby girls]
+		[CHILDNAME:worm girl:worm girls]
+		[DESCRIPTION:A small and unnerving worm-like horror with a gaunt, nude body of segmented rings and a wriggling, tube-like neck that ends in a gaping mouth.  Her thighs merge into a slimy tail.]
+	--SELECT_CASTE:ALL]{+}
+	--SET_BP_GROUP:BY_CATEGORY:ARM_UPPER]{+  Revision: worm people get freakishly long arms.}
+		--PLUS_BP_GROUP:BY_CATEGORY:ARM_LOWER]
+			--BP_APPEARANCE_MODIFIER:LENGTH:160:170:180:185:190:195:200]
+			--APP_MOD_NOUN:arms:PLURAL]
+	--APPLY_CREATURE_VARIATION:PUNCH_ATTACK]
+	[APPLY_CREATURE_VARIATION:STANDARD_WALK_CRAWL_GAITS:900:750:600:439:1900:2900] 20 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
+	[GO_TO_START]
+	[NAME:worm man:worm men:worm man]
+	{CASTE_NAME:worm man:worm men:worm man}
+	[DESCRIPTION:A worm-like creature with the torso of a man.]
+	[POPULATION_NUMBER:5:10]
+	[CLUSTER_NUMBER:1:5]
+	[MAXAGE:80:120]{:60:80
+	[CREATURE_TILE:'w']
+	[COLOR:7:0:0]
+	[EXTRAVISION]
+	[SKILL_LEARN_RATE:WRESTLING:300]{+}
+	[SKILL_LEARN_RATE:DODGING:300]{+}
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:3:5]{+  Revision: worm people need all the help they can get.}

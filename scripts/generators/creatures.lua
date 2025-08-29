@@ -177,6 +177,7 @@ creatures.fb.default=function(layer_type,tok)
     [NATURAL_SKILL:DODGING:6]
     [NATURAL_SKILL:SITUATIONAL_AWARENESS:6]
     [LARGE_PREDATOR]
+	[UNDERGROUND_DEPTH:2:3]
     ]])
     add_regular_tokens(tbl,options)
     tbl[#tbl+1]=layer_type==0 and "[BIOME:SUBTERRANEAN_WATER]" or "[BIOME:SUBTERRANEAN_CHASM]"

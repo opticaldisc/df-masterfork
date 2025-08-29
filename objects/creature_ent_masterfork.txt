@@ -17,7 +17,7 @@ creature_ent_masterfork
 	[MEANDERER]
 	[GRASSTRAMPLE:0] walking very carefully around friends
 	[GOOD]
-	[FREQUENCY:50][POPULATION_NUMBER:500:500]
+	[FREQUENCY:25][POPULATION_NUMBER:10:20]
 	[BIOME:ANY_FOREST]
 	[LARGE_ROAMING][LARGE_PREDATOR] --predator of dwarves coz dwarves hurt forests.
 	[AMBUSHPREDATOR][NATURAL_SKILL:SNEAK:10]  blending in

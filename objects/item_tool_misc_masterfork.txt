@@ -30,6 +30,7 @@ mostly the same as vanilla except knives and stone axes have been removed
 [NAME:bowl:bowls]
 [VALUE:10]
 [HARD_MAT]
+[BONE_MAT]{+  zey: a bit grim but possible?}
 [TOOL_USE:MEAL_CONTAINER]
 [TILE:248]
 [SIZE:100]
@@ -41,6 +42,7 @@ mostly the same as vanilla except knives and stone axes have been removed
 [NAME:mortar:mortars]
 [VALUE:10]
 [HARD_MAT]
+[BONE_MAT]{+  zey: a bit grim but possible?}
 [TOOL_USE:GRIND_POWDER_RECEPTACLE]
 [TILE:248]
 [SIZE:100]
@@ -52,6 +54,7 @@ mostly the same as vanilla except knives and stone axes have been removed
 [NAME:pestle:pestles]
 [VALUE:10]
 [HARD_MAT]
+[BONE_MAT]{+  zey: a bit grim but possible?}
 [TOOL_USE:GRIND_POWDER_GRINDER]
 [TILE:'/']
 [SIZE:20]
@@ -68,6 +71,7 @@ ITEM_TOOL_FORK_CARVING
 [NAME:nest box:nest boxes]
 [VALUE:10]
 [HARD_MAT]
+[BONE_MAT] {+}
 [TOOL_USE:NEST_BOX]
 [TILE:8]
 [SIZE:1000]
@@ -76,8 +80,11 @@ ITEM_TOOL_FORK_CARVING
 
 [ITEM_TOOL:ITEM_TOOL_JUG]
 [NAME:jug:jugs]
-[VALUE:10]
-[HARD_MAT]
+[VALUE:11]{:10
+--HARD_MAT]
+[CERAMIC_MAT]{+}
+[GLASS_MAT]{+}
+[METAL_MAT]{+}
 [TOOL_USE:LIQUID_CONTAINER]
 [TILE:229]
 [SIZE:300]
@@ -87,13 +94,13 @@ ITEM_TOOL_FORK_CARVING
 [ITEM_TOOL:ITEM_TOOL_LARGE_POT]
 [NAME:pot:pots]
 [ADJECTIVE:large]
-[VALUE:10]
-HARD_MAT {Kraken: Removed wood pots.}
+[VALUE:11]{:10
+--HARD_MAT Kraken: Removed wood pots.}
 [CERAMIC_MAT] {+}
 [GLASS_MAT] {+}
 [METAL_MAT] {+}
 [STONE_MAT] {+}
-{I would add FURNITURE but that would mess things up}
+  Kraken: I would add FURNITURE but that would mess things up}
 [TOOL_USE:FOOD_STORAGE]
 [TILE:232]
 [SIZE:5000]
@@ -159,6 +166,7 @@ HARD_MAT {Kraken: Removed wood pots.}
 [VALUE:50]
 [METAL_MAT]
 [WOOD_MAT]
+[BONE_MAT] {+}
 [TOOL_USE:STAND_AND_WORK_ABOVE]
 [FURNITURE]
 [TILE:158]
@@ -182,6 +190,7 @@ HARD_MAT {Kraken: Removed wood pots.}
 [VALUE:10]
 [HARD_MAT]
 [LEATHER_MAT] {+}
+[BONE_MAT] {+}
 [TOOL_USE:PROTECT_FOLDED_SHEETS]
 [TILE:246]
 [SIZE:100]
@@ -215,6 +224,7 @@ HARD_MAT {Kraken: Removed wood pots.}
 [NAME:bookcase:bookcases]
 [VALUE:10]
 [HARD_MAT]
+[BONE_MAT] {+}
 [TOOL_USE:BOOKCASE]
 [FURNITURE]
 [TILE:240]
@@ -241,6 +251,7 @@ ITEM_TOOL_STONE_AXE
 [NAME:pedestal:pedestals]
 [VALUE:10]
 [HARD_MAT]
+[BONE_MAT] {+}
 [TOOL_USE:DISPLAY_OBJECT]
 [FURNITURE]
 [TILE:139]
@@ -249,24 +260,28 @@ ITEM_TOOL_STONE_AXE
 
 [ITEM_TOOL:ITEM_TOOL_DISPLAY_CASE]
 [NAME:display case:display cases]
-[VALUE:10]
-[HARD_MAT]
+[VALUE:12]{:10  zey: display cases can now only be made with metals & glass so raising value.}
+--HARD_MAT]
+[GLASS_MAT]{+}
+[METAL_MAT]{+}
 [TOOL_USE:DISPLAY_OBJECT]
 [FURNITURE]
 [TILE:227]
 [INVERTED_TILE]
 [SIZE:1000]
 [NO_DEFAULT_JOB]
+[MATERIAL_SIZE:6]{+}
 
 [ITEM_TOOL:ITEM_TOOL_ALTAR]
 [NAME:altar:altars]
-[VALUE:10]
+[VALUE:12]{:10  zey: altars were always kinda useless so raised the value slightly.}
 [HARD_MAT]
+[BONE_MAT] {+}
 [TOOL_USE:PLACE_OFFERING]
 [FURNITURE]
 [TILE:144]
-[SIZE:500]
-[MATERIAL_SIZE:6]
+[SIZE:1000]{:500
+[MATERIAL_SIZE:9]{:6
 
 [ITEM_TOOL:ITEM_TOOL_DIE]
 [NAME:die:dice]

@@ -35,10 +35,10 @@ renamed bodyparts
 	[BP:LB:groin:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 
-[BODY:BASIC_3PARTARMS]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+[BODY:BASIC_3PARTARMS]  Sver: made joints stronger
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CONTYPE:UPPERBODY}
 		[DEFAULT_RELSIZE:200]
@@ -53,7 +53,7 @@ renamed bodyparts
 	[BP:LH:left hand:STP][CON:LLA][GRASP][LEFT][CATEGORY:HAND]
 		[DEFAULT_RELSIZE:80]
 
-[BODY:BASIC_3PARTLEGS]
+[BODY:BASIC_3PARTLEGS]  Sver: made joints stronger
 	[BP:RUL_J:right hip:STP][CONTYPE:LOWERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
 	[BP:LUL_J:left hip:STP][CONTYPE:LOWERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
@@ -96,9 +96,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:200]
 	[BP:LUA:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][LEFT][CATEGORY:ARM_UPPER]
 		[DEFAULT_RELSIZE:200]
-	[BP:RLA:right forearm:STP][CON:RUA][LIMB][RIGHT][CATEGORY:ARM_LOWER]{:right lower arm}
+	[BP:RLA:right forearm:STP][CON:RUA][LIMB][RIGHT][CATEGORY:ARM_LOWER]{:right forearm}
 		[DEFAULT_RELSIZE:200]
-	[BP:LLA:left forearm:STP][CON:LUA][LIMB][LEFT][CATEGORY:ARM_LOWER]{:left lower arm}
+	[BP:LLA:left forearm:STP][CON:LUA][LIMB][LEFT][CATEGORY:ARM_LOWER]{:left forearm}
 		[DEFAULT_RELSIZE:200]
 	[BP:RH:right hand:STP][CON:RLA][GRASP][RIGHT][CATEGORY:HAND][STANCE]
 		[DEFAULT_RELSIZE:80]
@@ -153,10 +153,10 @@ renamed bodyparts
 	[BP:HD:torso:STP][UPPERBODY][LOWERBODY][HEAD][CATEGORY:HEAD]{:body:bodies}
 		[DEFAULT_RELSIZE:2000]
 
-[BODY:HUMANOID]
+[BODY:HUMANOID]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -184,9 +184,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:500]
 	[BP:LUL:left thigh:STP][CON:LUL_J][LIMB][LEFT][CATEGORY:LEG_UPPER]{CON:LB}
 		[DEFAULT_RELSIZE:500]
-	[BP:RLL:right calf:right calf][CON:RUL][LIMB][RIGHT][CATEGORY:LEG_LOWER]
+	[BP:RLL:right calf:right calves][CON:RUL][LIMB][RIGHT][CATEGORY:LEG_LOWER]
 		[DEFAULT_RELSIZE:400]
-	[BP:LLL:left calf:right calf][CON:LUL][LIMB][LEFT][CATEGORY:LEG_LOWER]
+	[BP:LLL:left calf:left calves][CON:LUL][LIMB][LEFT][CATEGORY:LEG_LOWER]
 		[DEFAULT_RELSIZE:400]
 	[BP:RF:right foot:right feet][CON:RLL][STANCE][RIGHT][CATEGORY:FOOT]
 		[DEFAULT_RELSIZE:120]
@@ -196,13 +196,13 @@ renamed bodyparts
 [BODY:HUMANOID_HOOF]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -236,15 +236,15 @@ renamed bodyparts
 [BODY:HUMANOID_NECK]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
 	[BP:HD:head:STP][CON:NK][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -278,15 +278,15 @@ renamed bodyparts
 [BODY:HUMANOID_NECK_HOOF]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
 	[BP:HD:head:STP][CON:NK][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -320,15 +320,15 @@ renamed bodyparts
 [BODY:HUMANOID_LEGLESS_NECK]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
 	[BP:HD:head:STP][CON:NK][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -346,13 +346,13 @@ renamed bodyparts
 [BODY:HUMANOID_FLIER]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RWING_J1:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RWING_J1:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:70]
-	[BP:LWING_J1:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LWING_J1:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:70]
 	[BP:RWING_J2:right keel:STP][CON:RWING_J1][LIMB][RIGHT][INTERNAL][SMALL][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:50]
@@ -366,9 +366,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:200]
 	[BP:LUA:left upper winged arm:STP][CON:LWING_J3][LIMB][LEFT][CATEGORY:ARM_UPPER]{:left upper arm}{CON:UB}
 		[DEFAULT_RELSIZE:200]
-	[BP:RLA:right lower winged arm:STP][CON:RUA][LIMB][RIGHT][CATEGORY:ARM_LOWER]{:right lower arm}
+	[BP:RLA:right lower winged arm:STP][CON:RUA][LIMB][RIGHT][CATEGORY:ARM_LOWER]{:right forearm}
 		[DEFAULT_RELSIZE:200]
-	[BP:LLA:left lower winged arm:STP][CON:LUA][LIMB][LEFT][CATEGORY:ARM_LOWER]{:left lower arm}
+	[BP:LLA:left lower winged arm:STP][CON:LUA][LIMB][LEFT][CATEGORY:ARM_LOWER]{:left forearm}
 		[DEFAULT_RELSIZE:200]
 	[BP:RH:right hand:STP][CON:RLA][GRASP][RIGHT][CATEGORY:HAND]
 		[DEFAULT_RELSIZE:80]
@@ -394,15 +394,15 @@ renamed bodyparts
 [BODY:HUMANOID_NECK_FLIER]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
 	[BP:HD:head:STP][CON:NK][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RWING_J1:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RWING_J1:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:70]
-	[BP:LWING_J1:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LWING_J1:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:70]
 	[BP:RWING_J2:right keel:STP][CON:RWING_J1][LIMB][RIGHT][INTERNAL][SMALL][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:50]
@@ -416,9 +416,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:200]
 	[BP:LUA:left upper winged arm:STP][CON:LWING_J3][LIMB][LEFT][CATEGORY:ARM_UPPER]{:left upper arm}{CON:UB}
 		[DEFAULT_RELSIZE:200]
-	[BP:RLA:right lower winged arm:STP][CON:RUA][LIMB][RIGHT][CATEGORY:ARM_LOWER]{:right lower arm}
+	[BP:RLA:right lower winged arm:STP][CON:RUA][LIMB][RIGHT][CATEGORY:ARM_LOWER]{:right forearm}
 		[DEFAULT_RELSIZE:200]
-	[BP:LLA:left lower winged arm:STP][CON:LUA][LIMB][LEFT][CATEGORY:ARM_LOWER]{:left lower arm}
+	[BP:LLA:left lower winged arm:STP][CON:LUA][LIMB][LEFT][CATEGORY:ARM_LOWER]{:left forearm}
 		[DEFAULT_RELSIZE:200]
 	[BP:RH:right hand:STP][CON:RLA][GRASP][RIGHT][CATEGORY:HAND]
 		[DEFAULT_RELSIZE:80]
@@ -442,9 +442,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:120]
 
 [BODY:2WINGS]  Sver: made joints stronger
-	[BP:RWING_J1:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RWING_J1:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:70]
-	[BP:LWING_J1:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LWING_J1:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:70]
 	[BP:RWING_J2:right keel:STP][CON:RWING_J1][LIMB][RIGHT][INTERNAL][SMALL][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:50]
@@ -462,7 +462,7 @@ renamed bodyparts
 [BODY:HUMANOID_ARMLESS]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -486,13 +486,13 @@ renamed bodyparts
 [BODY:HUMANOID_LEGLESS]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -510,7 +510,7 @@ renamed bodyparts
 [BODY:HUMANOID_4ARMS]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -566,7 +566,7 @@ renamed bodyparts
 [BODY:HUMANOID_6ARMS]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -638,7 +638,7 @@ renamed bodyparts
 [BODY:HUMANOID_LEGLESS_4ARMS]  Sver: made joints stronger
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -678,7 +678,7 @@ renamed bodyparts
 [BODY:HUMANOID_LEGLESS_6ARMS]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -734,7 +734,7 @@ renamed bodyparts
 [BODY:HUMANOID_NECK_4ARMS]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
@@ -818,15 +818,15 @@ renamed bodyparts
 [BODY:HUMANOID_2HEAD]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:RHD:right head:STP][CON:UB][HEAD][RIGHT][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
 	[BP:LHD:left head:STP][CON:UB][HEAD][LEFT][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -860,7 +860,7 @@ renamed bodyparts
 [BODY:HUMANOID_NECK_2HEAD]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:RNK:right neck:STP][CON:UB][RIGHT][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
@@ -870,9 +870,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:300]
 	[BP:LHD:left head:STP][CON:LNK][HEAD][LEFT][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -906,7 +906,7 @@ renamed bodyparts
 [BODY:HUMANOID_SIMPLE]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -930,7 +930,7 @@ renamed bodyparts
 [BODY:QUADRUPED]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
@@ -954,7 +954,7 @@ renamed bodyparts
 [BODY:QUADRUPED_NECK_FRONT_GRASP]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
@@ -980,7 +980,7 @@ renamed bodyparts
 [BODY:QUADRUPED_NECK]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
@@ -1006,7 +1006,7 @@ renamed bodyparts
 [BODY:QUADRUPED_NECK_HOOF]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
@@ -1066,7 +1066,7 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:500]
 	[BP:HD:head:STP][CON:UB][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:500]
-	[BP:LB:abdomen:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:lower thorax:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:RUA:right upper foreleg:STP][CON:UB][LIMB][RIGHT][CATEGORY:ARM_UPPER]{:right upper front leg}
 		[DEFAULT_RELSIZE:200]
@@ -1100,7 +1100,7 @@ renamed bodyparts
 [BODY:SPIDER]
 	[BP:UB:cephalothorax:cephalothoraxes][HEAD][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:500]
-	[BP:LB:abdomen:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:lower cephalothorax:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:1500]
 	[BP:RA1:right front leg:STP][CON:UB][LIMB][RIGHT][CATEGORY:LEG_FRONT]
 		[DEFAULT_RELSIZE:400]
@@ -1181,9 +1181,6 @@ renamed bodyparts
 	[BP:MOUTH:mouth:STP][CON_CAT:TENTACLE][MOUTH][SMALL][EMBEDDED][APERTURE][CATEGORY:MOUTH]
 		[DEFAULT_RELSIZE:20]
 
-[BODY:TENTACLE_TEETH]
-	[BP:TOOTH:tooth:teeth][CON_CAT:TENTACLE][CATEGORY:TOOTH][NUMBER:30][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
-		[DEFAULT_RELSIZE:1]
 
 [BODY:8_SIMPLE_HEAD_ARMS]
 	[BP:ARM1:first arm:STP][CON_CAT:HEAD][LIMB][CATEGORY:ARM]
@@ -1427,9 +1424,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:100]
 
 [BODY:HUMANOID_JOINTS]  Sver: made joints thicker and sturdier, same applied to all individual body plans
-	{BP:RUA_J:right shoulder:STP}{CON:RUA}{JOINT}{SMALL}{INTERNAL}{RIGHT}{CATEGORY:JOINT  Revision: removed shoulders; they've been repurposed.}
+	{BP:RUA_J:right upper arm:STP}{CON:RUA}{JOINT}{SMALL}{INTERNAL}{RIGHT}{CATEGORY:JOINT  Revision: removed shoulders; they've been repurposed.}
 		{DEFAULT_RELSIZE:150}
-	{BP:LUA_J:left shoulder:STP}{CON:LUA}{JOINT}{SMALL}{INTERNAL}{LEFT}{CATEGORY:JOINT}
+	{BP:LUA_J:left upper arm:STP}{CON:LUA}{JOINT}{SMALL}{INTERNAL}{LEFT}{CATEGORY:JOINT}
 		{DEFAULT_RELSIZE:150}
 	[BP:RLA_J:right elbow:STP][CON:RLA][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]
 		[DEFAULT_RELSIZE:100]
@@ -1814,32 +1811,33 @@ renamed bodyparts
 	[BP:R_EYELID:right eyelid:STP][CONTYPE:HEAD][CATEGORY:EYELID][SMALL][EMBEDDED]
 		[DEFAULT_RELSIZE:2]
 
+Revision: added INTERNAL to prevent facial features from being targeted or severed
 [BODY:TONGUE]
-	[BP:TONGUE:tongue:STP][CONTYPE:HEAD][CATEGORY:TONGUE][SMALL][INTERNAL] Sver: tongue cannot be targeted or severed
+	[BP:TONGUE:tongue:STP][CONTYPE:HEAD][CATEGORY:TONGUE][SMALL][INTERNAL]{+}
 		[DEFAULT_RELSIZE:20]
 
 [BODY:FORKED_TONGUE]
-	[BP:TONGUE:forked tongue:STP][CONTYPE:HEAD][CATEGORY:TONGUE][SMALL][INTERNAL] Sver: tongue cannot be targeted or severed
+	[BP:TONGUE:forked tongue:STP][CONTYPE:HEAD][CATEGORY:TONGUE][SMALL][INTERNAL]{+}
 		[DEFAULT_RELSIZE:20]
 
 [BODY:LIPS]
-	[BP:L_LIP:lower lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL] Sver: lips cannot be targeted or severed
+	[BP:L_LIP:lower lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL]{+}
 		[DEFAULT_RELSIZE:6]
-	[BP:U_LIP:upper lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL] Sver: lips cannot be targeted or severed
+	[BP:U_LIP:upper lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL]{+}
 		[DEFAULT_RELSIZE:6]
 
 [BODY:FACIAL_FEATURES]
-	[BP:L_CHEEK:left cheek:STP][CONTYPE:HEAD][CATEGORY:CHEEK][SMALL][EMBEDDED][LEFT][INTERNAL] Sver: cheeks cannot be targeted or severed, left cheek is on the left
+	[BP:L_CHEEK:left cheek:STP][CONTYPE:HEAD][CATEGORY:CHEEK][SMALL][EMBEDDED][INTERNAL][LEFT]{+,+LEFT}
 		[DEFAULT_RELSIZE:10]
-	[BP:R_CHEEK:right cheek:STP][CONTYPE:HEAD][CATEGORY:CHEEK][SMALL][EMBEDDED][RIGHT][INTERNAL] Sver: cheeks cannot be targeted or severed, right cheek is on the right
+	[BP:R_CHEEK:right cheek:STP][CONTYPE:HEAD][CATEGORY:CHEEK][SMALL][EMBEDDED][INTERNAL][RIGHT]{+,+RIGHT}
 		[DEFAULT_RELSIZE:10]
 	[BP:L_EYELID:left eyelid:STP][CONTYPE:HEAD][CATEGORY:EYELID][SMALL][EMBEDDED]
 		[DEFAULT_RELSIZE:2]
 	[BP:R_EYELID:right eyelid:STP][CONTYPE:HEAD][CATEGORY:EYELID][SMALL][EMBEDDED]
 		[DEFAULT_RELSIZE:2]
-	[BP:L_LIP:lower lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL] Sver: lips cannot be targeted or severed
+	[BP:L_LIP:lower lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL]{+}
 		[DEFAULT_RELSIZE:6]
-	[BP:U_LIP:upper lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL] Sver: lips cannot be targeted or severed
+	[BP:U_LIP:upper lip:STP][CONTYPE:HEAD][CATEGORY:LIP][SMALL][EMBEDDED][INTERNAL]{+}
 		[DEFAULT_RELSIZE:6]
 
 [BODY:ONE_EYELID]
@@ -1861,93 +1859,100 @@ renamed bodyparts
 	[BP:R_FLOATING_RIB:right floating rib:STP][CONTYPE:UPPERBODY][CATEGORY:RIB_FLOATING][NUMBER:2][SMALL][INTERNAL]
 		[DEFAULT_RELSIZE:20]
 
-[BODY:GENERIC_TEETH_WITH_LARGE_EYE_TEETH]
-	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:28][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+Revision: added INTERNAL to prevent teeth from being targeted or severed. SOCKET was removed as well, because INTERNAL makes it invalid.
+Kraken: renamed teeth for consistency, accuracy. Added SKELETON and directional tokens.
+[BODY:TEETH]
+	[BP:U_F_TOOTH:top front tooth:top front teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:6][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:1]
-	[BP:R_EYE_TOOTH:right eye tooth:right eye teeth][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+		Adding individual names tells the game what to call each individual part in a NUMBERed bodypart.  This command replaces "first upper front tooth" for example.
+		[INDIVIDUAL_NAME:top right central incisor:STP]
+		[INDIVIDUAL_NAME:top left central incisor:STP]
+		[INDIVIDUAL_NAME:top right lateral incisor:STP]
+		[INDIVIDUAL_NAME:top left lateral incisor:STP]
+		[INDIVIDUAL_NAME:right eye tooth:right eye teeth]
+		[INDIVIDUAL_NAME:left eye tooth:left eye teeth]
+	[BP:L_F_TOOTH:bottom front tooth:bottom front teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:6][SMALL][INTERNAL][SKELETON]{+-}
+		[DEFAULT_RELSIZE:1]
+		[INDIVIDUAL_NAME:bottom right central incisor:STP]
+		[INDIVIDUAL_NAME:bottom left central incisor:STP]
+		[INDIVIDUAL_NAME:bottom right lateral incisor:STP]
+		[INDIVIDUAL_NAME:bottom left lateral incisor:STP]
+		[INDIVIDUAL_NAME:bottom right canine:STP]
+		[INDIVIDUAL_NAME:bottom left canine:STP]
+	[BP:U_R_B_TOOTH:top right back tooth:top right back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL][SKELETON][RIGHT]{+-}
+		[DEFAULT_RELSIZE:1]
+		[INDIVIDUAL_NAME:first top right premolar:STP]
+		[INDIVIDUAL_NAME:second top right premolar:STP]
+		[INDIVIDUAL_NAME:first top right molar:STP]
+		[INDIVIDUAL_NAME:first top right molar:STP]
+	[BP:L_R_B_TOOTH:lower right back tooth:lower right back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL][SKELETON][RIGHT]{+-}
+		[DEFAULT_RELSIZE:1]
+		[INDIVIDUAL_NAME:first bottom right premolar:STP]
+		[INDIVIDUAL_NAME:second bottom right premolar:STP]
+		[INDIVIDUAL_NAME:first bottom right molar:STP]
+		[INDIVIDUAL_NAME:second bottom right molar:STP]
+	[BP:U_L_B_TOOTH:bottom left back tooth:top left back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL][SKELETON][LEFT]{+-}
+		[DEFAULT_RELSIZE:1]
+		[INDIVIDUAL_NAME:first top left premolar:STP]
+		[INDIVIDUAL_NAME:second top left premolar:STP]
+		[INDIVIDUAL_NAME:first top left molar:STP]
+		[INDIVIDUAL_NAME:second top left molar:STP]
+	[BP:L_L_B_TOOTH:bottom left back tooth:bottom left back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL][SKELETON][LEFT]{+-}
+		[DEFAULT_RELSIZE:1]
+		[INDIVIDUAL_NAME:first bottom left premolar:STP]
+		[INDIVIDUAL_NAME:second bottom left premolar:STP]
+		[INDIVIDUAL_NAME:first bottom left molar:STP]
+		[INDIVIDUAL_NAME:second bottom left molar:STP]
+		
+[BODY:GENERIC_TEETH]
+	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:30][SMALL][INTERNAL][SKELETON]{+-}
+		[DEFAULT_RELSIZE:1]
+
+[BODY:GENERIC_TEETH_WITH_LARGE_EYE_TEETH]
+	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:28][SMALL][INTERNAL][SKELETON]{+-}
+		[DEFAULT_RELSIZE:1]
+	[BP:R_EYE_TOOTH:right eye tooth:right eye teeth][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON][RIGHT]{+-}
 		[DEFAULT_RELSIZE:15]
-	[BP:L_EYE_TOOTH:left eye tooth:left eye teeth][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:L_EYE_TOOTH:left eye tooth:left eye teeth][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON][LEFT]{+-}
 		[DEFAULT_RELSIZE:15]
 
 [BODY:GENERIC_TEETH_WITH_FANGS]
-	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:28][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:28][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:1]
-	[BP:R_FANG:right fang:right fangs][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:R_FANG:right fang:right fangs][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON][RIGHT]{+-}
 		[DEFAULT_RELSIZE:10]
-	[BP:L_FANG:left fang:left fangs][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:L_FANG:left fang:left fangs][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON][LEFT]{+-}
 		[DEFAULT_RELSIZE:10]
 
+Kraken: more renaming
 [BODY:RODENT_TEETH]
-	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:16][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:16][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:1]
-	[BP:RU_INCISOR:right upper incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:RU_INCISOR:top right incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:8]
-	[BP:LU_INCISOR:left upper incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:LU_INCISOR:top left incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:8]
-	[BP:RL_INCISOR:right lower incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:RL_INCISOR:bottom right incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:6]
-	[BP:LL_INCISOR:left lower incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+	[BP:LL_INCISOR:bottom left incisor:STP][CONTYPE:HEAD][CATEGORY:TOOTH][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:6]
 
-[BODY:GENERIC_TEETH]
-	[BP:TOOTH:tooth:teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:30][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
+[BODY:TENTACLE_TEETH]
+	[BP:TOOTH:tooth:teeth][CON_CAT:TENTACLE][CATEGORY:TOOTH][NUMBER:30][SMALL][INTERNAL][SKELETON]{+-}
 		[DEFAULT_RELSIZE:1]
-
-[BODY:TEETH]
-	[BP:U_F_TOOTH:upper front tooth:upper front teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:6][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
-		[DEFAULT_RELSIZE:1]
-		Adding individual names tells the game what to call each individual part in a NUMBERed bodypart.  This command replaces "first upper front tooth" for example.
-		[INDIVIDUAL_NAME:first upper right incisor:STP]
-		[INDIVIDUAL_NAME:first upper left incisor:STP]
-		[INDIVIDUAL_NAME:second upper right incisor:STP]
-		[INDIVIDUAL_NAME:second upper left incisor:STP]
-		[INDIVIDUAL_NAME:right eye tooth:right eye teeth]
-		[INDIVIDUAL_NAME:left eye tooth:left eye teeth]
-	[BP:L_F_TOOTH:lower front tooth:lower front teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:6][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
-		[DEFAULT_RELSIZE:1]
-		[INDIVIDUAL_NAME:first lower right incisor:STP]
-		[INDIVIDUAL_NAME:first lower left incisor:STP]
-		[INDIVIDUAL_NAME:second lower right incisor:STP]
-		[INDIVIDUAL_NAME:second lower left incisor:STP]
-		[INDIVIDUAL_NAME:lower right canine:STP]
-		[INDIVIDUAL_NAME:lower left canine:STP]
-	[BP:U_R_B_TOOTH:upper right back tooth:upper right back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
-		[DEFAULT_RELSIZE:1]
-		[INDIVIDUAL_NAME:first upper right premolar:STP]
-		[INDIVIDUAL_NAME:second upper right premolar:STP]
-		[INDIVIDUAL_NAME:first upper right molar:STP]
-		[INDIVIDUAL_NAME:second upper right molar:STP]
-	[BP:L_R_B_TOOTH:lower right back tooth:lower right back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
-		[DEFAULT_RELSIZE:1]
-		[INDIVIDUAL_NAME:first lower right premolar:STP]
-		[INDIVIDUAL_NAME:second lower right premolar:STP]
-		[INDIVIDUAL_NAME:first lower right molar:STP]
-		[INDIVIDUAL_NAME:second lower right molar:STP]
-	[BP:U_L_B_TOOTH:upper left back tooth:upper left back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
-		[DEFAULT_RELSIZE:1]
-		[INDIVIDUAL_NAME:first upper left premolar:STP]
-		[INDIVIDUAL_NAME:second upper left premolar:STP]
-		[INDIVIDUAL_NAME:first upper left molar:STP]
-		[INDIVIDUAL_NAME:second upper left molar:STP]
-	[BP:L_L_B_TOOTH:lower left back tooth:lower left back teeth][CONTYPE:HEAD][CATEGORY:TOOTH][NUMBER:4][SMALL][INTERNAL] SOCKET  Sver: teeth cannot be targeted or severed
-		[DEFAULT_RELSIZE:1]
-		[INDIVIDUAL_NAME:first lower left premolar:STP]
-		[INDIVIDUAL_NAME:second lower left premolar:STP]
-		[INDIVIDUAL_NAME:first lower left molar:STP]
-		[INDIVIDUAL_NAME:second lower left molar:STP]
 
 [BODY:HAND_FOOT_CENTAUR_NECK]
 	[BP:UB:torso:STP][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
-	[BP:LB:upper leg:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
+	[BP:LB:waist:STP][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
 		[DEFAULT_RELSIZE:2000]
 	[BP:NK:neck:STP][CON:UB][CATEGORY:NECK]
 		[DEFAULT_RELSIZE:150]
 	[BP:HD:head:STP][CON:NK][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUA_J:right shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
+	[BP:RUA_J:right upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][RIGHT][CATEGORY:JOINT]{+  Revision: added separating 'limbs' for better armor coverage.}
 		[DEFAULT_RELSIZE:150]
-	[BP:LUA_J:left shoulder:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
+	[BP:LUA_J:left upper arm:STP][CONTYPE:UPPERBODY][LIMB][JOINT][SMALL][INTERNAL][LEFT][CATEGORY:JOINT]{+}
 		[DEFAULT_RELSIZE:150]
 	[BP:RUA:right upper arm:STP][CON:RUA_J][LIMB][RIGHT][CATEGORY:ARM_UPPER]{CON:UB}
 		[DEFAULT_RELSIZE:200]
@@ -2005,9 +2010,9 @@ renamed bodyparts
 		[DEFAULT_RELSIZE:150]
 	[BP:HD:head:STP][CON:NK][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:300]
-	[BP:RUL:right thigh:STP][CON:LB][LIMB][RIGHT][CATEGORY:LEG_UPPER]{:right upper leg}
+	[BP:RUL:right thigh:STP][CON:LB][LIMB][RIGHT][CATEGORY:LEG_UPPER]{:right thigh}
 		[DEFAULT_RELSIZE:500]
-	[BP:LUL:left thigh:STP][CON:LB][LIMB][LEFT][CATEGORY:LEG_UPPER]{:left upper leg}
+	[BP:LUL:left thigh:STP][CON:LB][LIMB][LEFT][CATEGORY:LEG_UPPER]{:left thigh}
 		[DEFAULT_RELSIZE:500]
 	[BP:RLL:right shank:STP][CON:RUL][LIMB][RIGHT][CATEGORY:LEG_LOWER]{:right lower leg}
 		[DEFAULT_RELSIZE:400]

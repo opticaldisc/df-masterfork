@@ -1915,6 +1915,7 @@ random_creature_class={
     [CDI:WAIT_PERIOD:30]
     [CDI:DEFAULT_ICON:ADVENTURE_INTERACTION_ICON_HURL_FIREBALL]
 [FIREIMMUNE_SUPER]
+[IMMOLATE]
 ]])
             end
             if options.odor_string then

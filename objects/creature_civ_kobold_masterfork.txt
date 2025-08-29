@@ -6,6 +6,7 @@ creature_civ_kobold_mfork
 	[DESCRIPTION:A small, squat humanoid with large pointy ears and yellow glowing eyes.]
 	[NAME:kobold:kobolds:kobold]
 	[CASTE_NAME:kobold:kobolds:kobold]
+	[SKILL_RATES:50:8:12:12]{+                Revision: civ creatures learn all skills at 50% rate but rust slower.}
 	[CREATURE_TILE:'k'][COLOR:6:0:0]
 	[GLOWTILE:'"'][GLOWCOLOR:6:0:1]
 	[CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]{+}
@@ -14,26 +15,57 @@ creature_civ_kobold_mfork
 	--CAN_LEARN]
 	--UTTERANCES]
 	[INTELLIGENT]{+}
-	[BONECARN]
+	[VIEWRANGE:25]{+ kobolds can see slightly farther.}
+	[CARNIVORE]--BONECARN]
+	[BENIGN]{+}
 	[CANOPENDOORS]
-	[BABYNAME:kobold hatchling:kobold hatchlings]{+}
 	[OUTSIDER_CONTROLLABLE]{+  playable in adv mode}
 	[PREFSTRING:mischief]
 	[PREFSTRING:adorable snouts]{+}
 	[PREFSTRING:floppy ears]{+}
+	[NATURAL_SKILL:SWIMMING:1]
+	[NATURAL_SKILL:DISCIPLINE:1]
 	[PERSONALITY:ANXIETY_PROPENSITY:0:60:100]
 	[PERSONALITY:TRUST:0:25:100]
 	[PERSONALITY:ACTIVITY_LEVEL:0:60:100]
 	[PERSONALITY:GREED:0:60:100]
 	[PERSONALITY:CURIOUS:0:60:100]
-	[NATURAL_SKILL:SWIMMING:2]{+}
-	[NATURAL_SKILL:BITE:1]{+}
+	[PERSONALITY:DISCORD:0:60:100] mischief!
+	[PERSONALITY:VANITY:0:25:100]
+	[PERSONALITY:AMBITION:0:25:100]
+	[PERSONALITY:BASHFUL:0:75:100] shy
+	[PERSONALITY:TOLERANT:25:75:100] very tolerant
+	[PERSONALITY:ASSERTIVENESS:0:25:100] not very assertive
+	[PERSONALITY:THOUGHTLESSNESS:0:25:100]
+	[PERSONALITY:CLOSEMINDED:0:20:100]
+	[PERSONALITY:IMAGINATION:0:20:100]
+	[PERSONALITY:ABSTRACT_INCLINED:0:20:100]
+	[PERSONALITY:ART_INCLINED:0:20:100]
+	
+	[NATURAL_SKILL:BITE:2]{+}
 	[NATURAL_SKILL:CLIMBING:1]{+}
 	[NATURAL_SKILL:SNEAK:1]{+}
-	[SKILL_RATE:SNEAK:125:60:12:120]
+	[NATURAL_SKILL:DODGING:1]{+}
+	[NATURAL_SKILL:TRACKING:1]{+}
+	[NATURAL_SKILL:LYING:1]{+}
+	[NATURAL_SKILL:SITUATIONAL_AWARENESS:1]{+}
+	
+	[SKILL_RATE:SNEAK:125:NONE:NONE:NONE]
 	[SKILL_RATE:BITE:125:60:12:120]
 	[SKILL_RATE:SITUATIONAL_AWARENESS:125:60:12:120]
-	[SKILL_RATE:DODGING:100:60:12:120]
+	[SKILL_RATE:DODGING:100:NONE:NONE:NONE]
+	[SKILL_RATE:LYING:125:NONE:NONE:NONE]
+	[SKILL_RATE:PACIFY:125:NONE:NONE:NONE]
+	[SKILL_RATE:SWIMMING:125:NONE:NONE:NONE]
+	[SKILL_RATE:CLIMBING:125:NONE:NONE:NONE]
+	[SKILL_RATE:ANIMALTRAIN:133:NONE:NONE:NONE]
+	[SKILL_RATE:ANIMALCARE:133:NONE:NONE:NONE]
+	[SKILL_RATE:TRACKING:133:NONE:NONE:NONE]
+	
+	[SKILL_RATE:SPEAKING:25:4:8:8] slower learing and faster rust
+	[SKILL_RATE:POETRY:25:4:8:8] slower learing and faster rust
+	[SKILL_RATE:SING:25:4:8:8] slower learing and faster rust
+	
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:3TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
 	[BODY_DETAIL_PLAN:STANDARD_TISSUES]
@@ -100,16 +132,14 @@ creature_civ_kobold_mfork
 	[MENT_ATT_RANGE:INTUITION:150:600:800:900:1000:1100:1500]                -
 	[MENT_ATT_RANGE:PATIENCE:450:950:1150:1250:1350:1550:2250]               +
 	[MENT_ATT_RANGE:MEMORY:0:100:200:300:400:450:500]                        ---
-	--MENT_ATT_RANGE:LINGUISTIC_ABILITY:0:0:0:0:0:0:0]                       unattainable
-		--MENT_ATT_RATES:LINGUISTIC_ABILITY:NONE:NONE:NONE:NONE]
-	--MENT_ATT_RANGE:MUSICALITY:0:0:0:0:0:0:0]                               unattainable
-		--MENT_ATT_RATES:MUSICALITY:NONE:NONE:NONE:NONE]
+	[MENT_ATT_RANGE:LINGUISTIC_ABILITY:0:100:200:300:400:450:500]            ---
+		[MENT_ATT_RATES:LINGUISTIC_ABILITY:NONE:NONE:NONE:NONE]
+	[MENT_ATT_RANGE:MUSICALITY:150:600:800:900:1000:1100:1500]               --
+		[MENT_ATT_RATES:MUSICALITY:NONE:NONE:NONE:NONE]
 	[MENT_ATT_RANGE:EMPATHY:0:100:200:300:400:450:500]                       ---
 	[BODY_SIZE:0:0:1000]
 	[BODY_SIZE:1:168:5000]
-	[BODY_SIZE:10:0:20000]
-	[BODY_SIZE:100:0:25000]{+}
-	[BODY_SIZE:200:0:30000]{+}
+	[BODY_SIZE:6:0:20000]
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:75:95:98:100:102:105:125]
 		[APP_MOD_IMPORTANCE:500]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:75:95:98:100:102:105:125]
@@ -148,10 +178,14 @@ creature_civ_kobold_mfork
 			[APP_MOD_DESC_RANGE:91:94:98:102:106:109]
 	[SET_BP_GROUP:BY_CATEGORY:TOOTH]
 		[BP_APPEARANCE_MODIFIER:GAPS:0:70:90:100:110:130:200]
-			[APP_MOD_NOUN:teeth:PLURAL]
-		[BP_APPEARANCE_MODIFIER:LENGTH:100:100:100:100:100:100:100] for vampires
+			[APP_MOD_NOUN:pointy teeth:PLURAL]{:teeth:PLURAL}
+		[BP_APPEARANCE_MODIFIER:LENGTH:110:110:110:110:110:110:110]{:LENGTH:100:100:100:100:100:100:100  Revision: kobold teeth are slightly longer than other races' teeth.}
+			[APP_MOD_IMPORTANCE:900]
+			[APP_MOD_NOUN:pointy teeth:PLURAL]{:teeth:PLURAL}
+			[APP_MOD_DESC_RANGE:30:60:90:110:150:190]
+		[BP_APPEARANCE_MODIFIER:BROADNESS:90:90:90:90:90:90:90]{+  Revision: kobold teeth slightly pointy.}
 			[APP_MOD_IMPORTANCE:1000]
-			[APP_MOD_NOUN:teeth:PLURAL]
+			[APP_MOD_NOUN:pointy teeth:PLURAL]{+}
 			[APP_MOD_DESC_RANGE:30:60:90:110:150:190]
 	[SET_BP_GROUP:BY_CATEGORY:SKULL]
 		[BP_APPEARANCE_MODIFIER:HIGH_CHEEKBONES:0:70:90:100:110:130:200]
@@ -201,16 +235,17 @@ creature_civ_kobold_mfork
 	[CHILD:8]{:18
 	[EQUIPS]
 	[NOCTURNAL]
-	[SMELL_TRIGGER:20]{:25
+	[SMELL_TRIGGER:25]
 	[LOW_LIGHT_VISION:10000]
 	[HOMEOTHERM:10067]
-	[SYNDROME_DILUTION_FACTOR:INEBRIATION:110]{+  less barfights.}
+	[SYNDROME_DILUTION_FACTOR:INEBRIATION:115]{+  less barfights.}
 	[CAVE_ADAPT]{+}
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:691:482:251:1900:2900] 35 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:3512:2634:1756:878:4900:6900] 10 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[SWIMS_LEARNED]
+	[GRASSTRAMPLE:10]{+}
 	[MANNERISM_FINGERS:finger:fingers]
 	[MANNERISM_NOSE:nose]
 	[MANNERISM_EAR:ear]
@@ -253,20 +288,23 @@ creature_civ_kobold_mfork
 	[PROFESSION_NAME:MASTER_PIKEMAN:master pikebold:master pikebolds]{+
 	[PROFESSION_NAME:MASTER_BOWMAN:master bowbold:master bowbolds]{+
 	[PROFESSION_NAME:MASTER_LASHER:master whipbold:master whipbolds]{+
+	
+	[GENERAL_BABY_NAME:kobold hatchling:kobold hatchlings]{+}
+	[GENERAL_CHILD_NAME:kobold child:kobold children]{+}
+	
 	[CASTE:FEMALE]
 		[FEMALE]
-		[LAYS_EGGS]
-			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGGSHELL:SOLID]
-			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_WHITE:LIQUID]
-			[EGG_MATERIAL:LOCAL_CREATURE_MAT:EGG_YOLK:LIQUID]
-			[EGG_SIZE:1100]
-			[CLUTCH_SIZE:6:8]{:1:2
-		[DESCRIPTION:A small, quiet woman with leathery, scale-like skin and large, floppy ears.  She has wide, bright eyes and an innocent expression, feigned or real.  She lives in a cave with her tribe; she leaves often to steal.  Like most kobolds, she most likely doesn't know her real parents.  Her tribe is her family.]{+}
+		--MULTIPLE_LITTER_RARE]
+		[LITTERSIZE:4:12]{+}
+		[BABYNAME:kobold hatchling girl:kobold hatchlings]{+}
+		[CHILDNAME:kobold girl:kobold children]{+}
+		[DESCRIPTION:A small, quiet female with leathery, scale-like skin and large, floppy ears.  She has wide, bright eyes and an innocent expression, feigned or real.  She lives in a cave with her tribe; she leaves often to steal.  Like most kobolds, she most likely doesn't know her real parents.  Her tribe is her family.]{+}
 	[CASTE:MALE]
 		[MALE]
+		[BABYNAME:kobold hatchling boy:kobold hatchlings]{+}
+		[CHILDNAME:kobold boy:kobold children]{+}
 		undescended, not geldable
-		[DESCRIPTION:A small, quiet man with leathery, scale-like skin and large, floppy ears.  He has wide, bright eyes and an innocent expression, feigned or real.  He lives in a cave with his tribe; he leaves often to steal.  Like most kobolds, he most likely doesn't know his real parents.  His tribe is his family.]{+}
-	[APPLY_CREATURE_VARIATION:CREATURE_ORIENTATION]{+}
+		[DESCRIPTION:A small, quiet male with leathery, scale-like skin and large, floppy ears.  He has wide, bright eyes and an innocent expression, feigned or real.  He lives in a cave with his tribe; he leaves often to steal.  Like most kobolds, he most likely doesn't know his real parents.  His tribe is his family.]{+}
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
 			[TL_COLOR_MODIFIER:BROWN:1:DARK_BROWN:1:LIGHT_BROWN:1:PALE_BROWN:1]
