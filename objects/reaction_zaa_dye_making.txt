@@ -21,7 +21,7 @@ reaction_zaa_dye_making
 	[SKILL:DYER]
 	[CATEGORY:GENERIC_REACTIONS]
 		[CATEGORY_NAME:Generic reactions]
-		[CATEGORY_DESCRIPTION:Reactions for using any available plants or growths]
+		[CATEGORY_DESCRIPTION:Reactions for producing dyes using any available plants or growths]
 
 [REACTION:AA_CONCENTRATE_DYE_FROM_PLANT_GROWTH]
 	[NAME:Concentrate dye powder from plant growths]

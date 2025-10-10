@@ -16,9 +16,11 @@ Geckos were sponsored by the generous contributions of the Bay 12 community.
 	[SMALL_REMAINS]
 	[NATURAL][PET_EXOTIC]
 	[NOT_BUTCHERABLE]
+	[NOBONES]{+}
+	[NOMEAT]{+}
 	[CARNIVORE]
 	[BIOME:ANY_DESERT]
-	[POPULATION_NUMBER:250:500]
+	[POPULATION_NUMBER:200:450]{:250:500
 	[PREFSTRING:coloration]
 	[SOUND:ALERT:100:2500:VOCALIZATION:hiss:hisses:hissing]{+}
 	[SOUND:ALERT:50:1000:VOCALIZATION:snap:snaps:a hostile snapping]{+}

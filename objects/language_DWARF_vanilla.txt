@@ -18,6 +18,7 @@ language_DWARF
 	[T_WORD:APPLE:bemïng]
 	[T_WORD:ARCH:gost]
 	[T_WORD:ARM:întak]
+	[T_WORD:ARMOK:armak] +
 	[T_WORD:ARMOR:tosid]
 	[T_WORD:ARROW:feb]
 	[T_WORD:ARTIFICE:berim]
@@ -697,6 +698,7 @@ language_DWARF
 	[T_WORD:ROT:zodost]
 	[T_WORD:ROUGH:dumat]
 	[T_WORD:ROYAL:relon]
+	[T_WORD:RUBY:rubi] +
 	[T_WORD:RUIN:notlith]
 	[T_WORD:RUIN_V:suthÜn]
 	[T_WORD:RULER:ilid]
@@ -706,6 +708,8 @@ language_DWARF
 	[T_WORD:SACK:fath]
 	[T_WORD:SAINT:tîl£n]
 	[T_WORD:SALT:nabid]
+	[T_WORD:SAPLING:sp°ra]
+	[T_WORD:SAPPHIRE:safir]
 	[T_WORD:SALVE:sibrek]
 	[T_WORD:SAP:thining]
 	[T_WORD:SATIN:gasçs]

@@ -1,4 +1,4 @@
-graphics_aaa_interactions
+graphics_interactions
 
 [OBJECT:GRAPHICS]
 

@@ -33,7 +33,7 @@ inorganic_fuel_masterwork
 
 [INORGANIC:PEAT]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:compact peat]
+[STATE_NAME_ADJ:ALL_SOLID:peat]
 [DISPLAY_COLOR:4:6:0]
 [TILE:136] was 58
 [ITEM_SYMBOL:157] 
@@ -45,3 +45,5 @@ inorganic_fuel_masterwork
 [BOILING_POINT:11500] 
 [SOLID_DENSITY:1346]
 [IS_STONE]
+[REACTION_CLASS:COAL]
+[BLOCK_NAME:briquette:briquettes]

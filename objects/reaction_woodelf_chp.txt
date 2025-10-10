@@ -1,9 +1,0 @@
-reaction_woodelf_chp
-
-[OBJECT:REACTION]
-
-[REACTION:ENCHANT_WOOD] basically a cheat reaction to give them thematically appropriate metal
-[NAME:enchant wooden log]
-[BUILDING:SMELTER:NONE]
-[PRODUCT:100:1:BAR:NO_SUBTYPE:METAL:ENCHANTED_WOOD][PRODUCT_DIMENSION:150]
-[SKILL:SMELT]

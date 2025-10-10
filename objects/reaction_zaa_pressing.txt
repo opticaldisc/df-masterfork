@@ -27,7 +27,7 @@ reaction_aa_pressing
 	[FORTRESS_MODE_ENABLED]
 	[SKILL:PRESSING]
 	[CATEGORY:GENERIC_REACTIONS]
-		[CATEGORY_NAME:Generic reactions]
+		[CATEGORY_NAME:Generic reactions (Adv. Agriculture)]
 		[CATEGORY_DESCRIPTION:Reactions for using any available plants or growths]
 
 [REACTION:AA_PRESS_OIL_INTO_BARREL]
@@ -113,7 +113,7 @@ reaction_aa_pressing
 		[PRODUCT_DIMENSION:150]
 	[FORTRESS_MODE_ENABLED]
 	[CATEGORY:HONEY_COMBINATION]
-		[CATEGORY_NAME:Combine honey containers]
+		[CATEGORY_NAME:Combine honey containers (Adv. Agriculture)]
 		[CATEGORY_DESCRIPTION:Combine 20 jugs or 4 barrels of honey into one barrel]
 
 [REACTION:AA_COMBINE_BARRELS_OF_HONEY]
@@ -156,7 +156,7 @@ reaction_aa_pressing
 	[SKILL:PRESSING]
 		[SKILL_IP:100]
 	[CATEGORY:PRESS_OIL_JUGS]
-		[CATEGORY_NAME:Press oil into jugs]
+		[CATEGORY_NAME:Press oil into jugs (Adv. Agriculture)]
 		[CATEGORY_DESCRIPTION:Press plant oils from pastes into jugs]
 
 [REACTION:AA_BARREL_OIL_FROM_ALMOND_NUT]
@@ -178,7 +178,7 @@ reaction_aa_pressing
 	[SKILL:PRESSING]
 		[SKILL_IP:100]
 	[CATEGORY:PRESS_OIL_BARRELS]
-		[CATEGORY_NAME:Press oil into barrels]
+		[CATEGORY_NAME:Press oil into barrels (Adv. Agriculture)]
 		[CATEGORY_DESCRIPTION:Press plant oils from pastes into barrels]
 
 [REACTION:AA_PRESS_OIL_FROM_AVOCADO_FRUIT]

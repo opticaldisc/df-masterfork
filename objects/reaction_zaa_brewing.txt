@@ -86,7 +86,11 @@ reaction_aa_brewing
 		[PRODUCT_DIMENSION:150]
 	[FORTRESS_MODE_ENABLED]
 	[SKILL:BREWING]
+	[CATEGORY:SPECIFIC_BREWING]
+		[CATEGORY_NAME:Selective Brewing]
+		[CATEGORY_DESCRIPTION:Brew from a specific plant or fruit as well as the brew quantity]
 	[CATEGORY:BREW_SOME_DRINKS]
+		[CATEGORY_PARENT:SPECIFIC_BREWING]
 		[CATEGORY_NAME:Brew some drinks (5-25)]
 		[CATEGORY_DESCRIPTION:Brew a single stack of plants or fruits]
 
@@ -107,6 +111,7 @@ reaction_aa_brewing
 	[FORTRESS_MODE_ENABLED]
 	[SKILL:BREWING]
 	[CATEGORY:BREW_FIVE_DRINKS]
+		[CATEGORY_PARENT:SPECIFIC_BREWING]
 		[CATEGORY_NAME:Brew five drinks per barrel for cooking]
 		[CATEGORY_DESCRIPTION:Brew exactly 5 drinks per barrel for cooking]
 
@@ -128,6 +133,7 @@ reaction_aa_brewing
 	[SKILL:BREWING]
 		[SKILL_IP:400]
 	[CATEGORY:BREW_FULL_BARRELS]
+		[CATEGORY_PARENT:SPECIFIC_BREWING]
 		[CATEGORY_NAME:Brew full barrels (100)]
 		[CATEGORY_DESCRIPTION:Brew 100 drinks per barrel for tavern or export]
 

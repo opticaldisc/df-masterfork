@@ -13,8 +13,8 @@ reaction_encrust_items
 [FORTRESS_MODE_ENABLED]
 [SKILL:ENCRUSTGEM]
 [CATEGORY:ENCRUST_ITEMS]
-[CATEGORY_NAME:Encrust metal equipment with gemstones]
-[CATEGORY_DESCRIPTION:Encrust weapons and armor with small cut gems. (including artifacts)]
+    [CATEGORY_NAME:Encrust equipment with gemstones]
+    [CATEGORY_DESCRIPTION:Encrust weapons and armor with small cut gems. (including artifacts)]
 
 [REACTION:ENCRUST_HELM_MFORK]
 [NAME:Encrust a metal helmet with gemstones]

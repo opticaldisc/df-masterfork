@@ -21,6 +21,8 @@ Squads don't use the MILITARY_UNIT symbol, but I've defined them for all of the 
 	[S_WORD:PALACE] >
 	[S_WORD:TOWN] >
 	[S_WORD:VILLAGE] >
+	++
+	[S_WORD:FORTRESS] >
 
 	Construction Geonyms
 	[S_WORD:ARCH NOUN] <>
@@ -95,6 +97,11 @@ Squads don't use the MILITARY_UNIT symbol, but I've defined them for all of the 
 	[S_WORD:WEALTH] <>
 	[S_WORD:WHISKY] <
 	[S_WORD:WINE] <>
+	[S_WORD:FURNACE] <>
+	+
+	[S_WORD:CUP] >
+	[S_WORD:MUG] >
+	[S_WORD:GOBLET] >
 
 	Earth
 	[S_WORD:BLACK] <
@@ -120,6 +127,25 @@ Squads don't use the MILITARY_UNIT symbol, but I've defined them for all of the 
 	[S_WORD:STEEL] <>
 	[S_WORD:STONE] <>
 	[S_WORD:UNDER] <
+	++
+	[S_WORD:GORGE_NOUN]
+	[S_WORD:TIN]
+	[S_WORD:COPPER]
+	[S_WORD:PEBBLE]
+	[S_WORD:MINE]
+	[S_WORD:AVALANCHE]
+	[S_WORD:AMETHYST]
+	[S_WORD:AQUAMARINE]
+	[S_WORD:COBALT]
+	[S_WORD:EMERALD]
+	[S_WORD:FISSURE]
+	[S_WORD:HEAVY]
+	[S_WORD:ROUGH]
+	[S_WORD:SHOVEL]
+	[S_WORD:MITHRIL]
+	[S_WORD:SAPPHIRE]
+	[S_WORD:RUBY]
+	[S_WORD:JADE]
 
 	Professions and organizations
 	[S_WORD:DEFEND] V>
@@ -142,6 +168,7 @@ Squads don't use the MILITARY_UNIT symbol, but I've defined them for all of the 
 	[S_WORD:LOW] <>
 	[S_WORD:PLAIT] <>
 	[S_WORD:RUSSET] <
+	[S_WORD:CLAN] <>
 
 	Virtues and Adjectives
 	[S_WORD:BATTLE] <>
@@ -157,6 +184,8 @@ Squads don't use the MILITARY_UNIT symbol, but I've defined them for all of the 
 	[S_WORD:WAR] <
 	[S_WORD:WHITE] <
 	[S_WORD:WISDOM] <>
+	+
+	[S_WORD:ANGER]
 
 [SYMBOL:DWARF_NAME_MAIN]
 As the primary name symbol, this uses exclusivity to prevent too much overlap on things dwarves feel strongly about - no dwarf would be caught dead being named "Clanbane" or so.
@@ -217,6 +246,8 @@ As the primary name symbol, this uses exclusivity to prevent too much overlap on
 	[S_WORD:DIKE] >
 	[S_WORD:EMERALD] <>
 	[S_WORD:JADE] <>
+	[S_WORD:SAPPHIRE] <>
+	[S_WORD:RUBY] <>
 	[S_WORD:OCHRE] <>
 	[S_WORD:SALT] <>
 	[S_WORD:SHADOW] <>
@@ -645,6 +676,21 @@ These words can appear either with a negator or with the words dwarves value mos
 	[S_WORD:SOLDIER]
 	[S_WORD:TROOPER]
 	[S_WORD:WARRIOR]
+	++
+	[S_WORD:STEEL]
+	[S_WORD:SILVER]
+	[S_WORD:BRONZE]
+	[S_WORD:BASTION]
+	[S_WORD:BULWARK]
+	[S_WORD:CLAN]
+	[S_WORD:FELLOWSHIP]
+	[S_WORD:KIN]
+	[S_WORD:LEAGUE GROUP]
+	[S_WORD:LORD]
+	[S_WORD:ORDER GROUP]
+	[S_WORD:SEAL_ART]
+	[S_WORD:SOCIETY]
+	[S_WORD:TREASURY]
 
 [SYMBOL:DWARF_SQUAD_ADJ]
 	[S_WORD:ANGER]

@@ -107,7 +107,7 @@ Stoats were sponsored by the generous contributions of the Bay 12 community.
 [CREATURE:STOAT_MAN]
 	[COPY_TAGS_FROM:STOAT]
 	[APPLY_CREATURE_VARIATION:ANIMAL_PERSON]
-	[APPLY_CREATURE_VARIATION:RENAME_LEATHER_TO:FUR]{+  Revision: the leather is still furry after tanning.}
+	[APPLY_CREATURE_VARIATION:CONVERT_LEATHER_TO_FUR]{+  Revision: the leather is still furry after tanning.}
 	[GO_TO_END]
 	[SELECT_CASTE:MALE]
 		[CASTE_NAME:stoat man:stoat men:stoat man]
@@ -144,7 +144,7 @@ Stoats were sponsored by the generous contributions of the Bay 12 community.
 	[APPLY_CREATURE_VARIATION:GIANT]
 	[CV_REMOVE_TAG:CHANGE_BODY_SIZE_PERC]
 	[APPLY_CURRENT_CREATURE_VARIATION]
-	[APPLY_CREATURE_VARIATION:RENAME_LEATHER_TO:FUR]{+  Revision: the leather is still furry after tanning.}
+	[APPLY_CREATURE_VARIATION:CONVERT_LEATHER_TO_FUR]{+  Revision: the leather is still furry after tanning.}
 	[GO_TO_END]
 	[SELECT_CASTE:FEMALE]
 		[DESCRIPTION:A furry, weasel-like monster with a long, low-slung body and a fluffy black-tipped tail that swishes in the cold.  Her small ears flick as she watches for trouble.]{+}
@@ -237,7 +237,7 @@ Lynx were sponsored by the generous contributions of the Bay 12 community.
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
 	[MAXAGE:10:20]
-	[APPLY_CREATURE_VARIATION:RENAME_LEATHER_TO:FUR]{+  Revision: the leather is still furry after tanning.}
+	[APPLY_CREATURE_VARIATION:CONVERT_LEATHER_TO_FUR]{+  Revision: the leather is still furry after tanning.}
 	[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
 		[ATTACK_SKILL:BITE]
 		[ATTACK_VERB:bite:bites]

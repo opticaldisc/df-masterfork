@@ -185,20 +185,20 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:BIRD]
 	[S_WORD:BOAR]
 	[S_WORD:BUCK]
-	[S_WORD:BUG]
+	S_WORD:BUG -
 	[S_WORD:BUNNY]
 	[S_WORD:BUTTERFLY]
 	[S_WORD:BUZZARD]
 	[S_WORD:CAT]
-	[S_WORD:CLAM]
+	S_WORD:CLAM -
 	[S_WORD:COBRA]
-	[S_WORD:CRAB]
+	S_WORD:CRAB -
 	[S_WORD:CREATURE]
 	[S_WORD:CRITTER]
 	[S_WORD:CROW]
 	[S_WORD:DEER]
-	[S_WORD:EEL]
-	[S_WORD:FISH_ANIMAL]
+	S_WORD:EEL -
+	S_WORD:FISH_ANIMAL -
 	[S_WORD:FROG]
 	[S_WORD:GERBIL]
 	[S_WORD:GRUB]
@@ -208,13 +208,13 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:INSECT]
 	[S_WORD:JACKAL]
 	[S_WORD:LARK]
-	[S_WORD:LARVA]
+	S_WORD:LARVA -
 	[S_WORD:LEOPARD]
 	[S_WORD:LION]
 	[S_WORD:LIZARD]
-	[S_WORD:LOBSTER]
-	[S_WORD:MAGGOT]
-	[S_WORD:MITE]
+	S_WORD:LOBSTER -
+	S_WORD:MAGGOT -
+	S_WORD:MITE -
 	[S_WORD:MOLE]
 	[S_WORD:MONKEY]
 	[S_WORD:MOTH]
@@ -224,30 +224,29 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:RABBIT]
 	[S_WORD:RAM]
 	[S_WORD:RAPTOR]
-	[S_WORD:RAT]
+	S_WORD:RAT -
 	[S_WORD:RAVEN]
-	[S_WORD:SCORPION]
-	[S_WORD:SEAL_ANIMAL]
+	S_WORD:SCORPION -
+	S_WORD:SEAL_ANIMAL -
 	[S_WORD:SEED]
 	[S_WORD:SERPENT]
-	[S_WORD:SHARK]
+	S_WORD:SHARK -
 	[S_WORD:SKUNK]
-	[S_WORD:SLUG]
-	[S_WORD:SNAIL]
-	[S_WORD:SNAKE]
-	[S_WORD:SPIDERY]
-	[S_WORD:SPIDER]
-	[S_WORD:SQUID]
+	S_WORD:SLUG -
+	S_WORD:SNAIL -
+	S_WORD:SNAKE]
+	S_WORD:SPIDERY -
+	S_WORD:SPIDER -
+	S_WORD:SQUID -
 	S_WORD:TEAL -
-	[S_WORD:TICK_ANIMAL]
-	[S_WORD:TOAD]
+	S_WORD:TICK_ANIMAL -
+	S_WORD:TOAD -
 	[S_WORD:VIPER]
 	[S_WORD:VULTURE]
 	[S_WORD:WASP]
 	[S_WORD:WEASEL]
 	[S_WORD:WEEVIL]
-	[S_WORD:WORM]
-
+	S_WORD:WORM -
 	[S_WORD:AUTUMN]
 	[S_WORD:BIRTH]
 	[S_WORD:DAWN]
@@ -262,7 +261,6 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:SUMMER]
 	[S_WORD:TWILIGHT]
 	[S_WORD:WINTER]
-
 	[S_WORD:BEAK]
 	S_WORD:BEARD -
 	[S_WORD:CHIRP]
@@ -274,7 +272,7 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:FLIGHT]
 	[S_WORD:FUR]
 	[S_WORD:GNARLED]
-	[S_WORD:GORE]
+	S_WORD:GORE -
 	[S_WORD:GROWL]
 	[S_WORD:HIDE]
 	[S_WORD:HOARY]
@@ -307,7 +305,6 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:TWEET]
 	[S_WORD:WHISKER]
 	S_WORD:WING -
-
 	[S_WORD:BEAN]
 	[S_WORD:BERRY]
 	[S_WORD:BLOSSOM]
@@ -372,7 +369,6 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:WEED]
 	[S_WORD:WHEAT]
 	[S_WORD:WOOD]
-
 	[S_WORD:BLAZE]
 	[S_WORD:CHILL]
 	[S_WORD:CLOUD]
@@ -384,10 +380,10 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:HAIL ICE]
 	[S_WORD:HURRICANE]
 	[S_WORD:MIST]
-	[S_WORD:MUD]
+	S_WORD:MUD -
 	[S_WORD:RAIN]
-	[S_WORD:ROCK]
-	[S_WORD:SILT]
+	S_WORD:ROCK -
+	S_WORD:SILT -
 	[S_WORD:SKY]
 	[S_WORD:SOIL]
 	[S_WORD:STONE]
@@ -403,7 +399,6 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:WEATHER VERB]
 	[S_WORD:WEATHER]
 	[S_WORD:WIND STORM]
-
 	[S_WORD:BASIN]
 	[S_WORD:BEACH]
 	[S_WORD:BOG]
@@ -453,11 +448,13 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:HONEY]
 	[S_WORD:LIFE]
 	[S_WORD:MOON]
+	[S_WORD:STAR]
 	[S_WORD:PROWL]
 	[S_WORD:QUILL]
 	[S_WORD:SENSE]
 	[S_WORD:UNTAMED]
 	[S_WORD:WILD]
+	[S_WORD:SAPLING]
 
 [SYMBOL:PRIMITIVE]
 	[S_WORD:ANIMAL]
@@ -573,6 +570,10 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:SOUL]
 	[S_WORD:SPIRIT]
 	[S_WORD:WORD]
+	[S_WORD:CULT]
+	[S_WORD:COVEN]
+	[S_WORD:SECT]
+	[S_WORD:ORDER GROUP]
 
 [SYMBOL:EVIL]
 	[S_WORD:BAD]
@@ -1046,6 +1047,7 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:PAIN]
 	[S_WORD:STRATEGY]
 	[S_WORD:TACTIC]
+	[S_WORD:ARMOK] the god of blood himself
 
 [SYMBOL:PEACE]
 	[S_WORD:BUTTERFLY]
@@ -1296,6 +1298,13 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:TRAGEDY]
 	[S_WORD:WEEP]
 	[S_WORD:WEIRD]
+	[S_WORD:DUSK]
+	[S_WORD:AGELESS]
+	[S_WORD:ETERNAL]
+	[S_WORD:TOME]
+	[S_WORD:EVERLASTING]
+	[S_WORD:EVER]
+	[S_WORD:GLOOM]
 
 [SYMBOL:OLD]
 	[S_WORD:AGE]
@@ -1569,6 +1578,7 @@ Symbols marked with *** have seen heavy redefinition, otherwise expansions on de
 	[S_WORD:SWIFT]
 	[S_WORD:VIGOR]
 	[S_WORD:VIRGIN]
+	[S_WORD:SAPLING]
 
 [SYMBOL:DOMESTIC] *** Since this influences market names, and an entity's name lists are handcrafted anyways, redefining to be a little more trade good oriented. Keeping some of the less resonant names in here, maybe redesign those?
 People
@@ -1911,8 +1921,7 @@ Misc verbs/adjectives
 	[S_WORD:WORTHY]
 	[S_WORD:YORE]
 	[S_WORD:ZEPHYR]
-	+
-	[S_WORD:MITHRIL]
+	[S_WORD:ARMOK] the god of blood himself
 
 [SYMBOL:ARTIFICE] *** This also needed some thematic redefining into being the list for gods of crafts, initially it was anything manmade. No precious metals are on the list.
 
@@ -2127,6 +2136,9 @@ Misc verbs/adjectives
 	[S_WORD:TEAL]
 	[S_WORD:TURQUOISE]
 	[S_WORD:VERMILION]
+	++
+	[S_WORD:SAPPHIRE]
+	[S_WORD:RUBY]
 
 [SYMBOL:MYSTERY]
 	[S_WORD:AURA]
@@ -2722,6 +2734,7 @@ Misc verbs/adjectives
 	[S_WORD:ONE]
 	[S_WORD:PRAISE]
 	[S_WORD:VOICE]
+	[S_WORD:ARMOK] the god of blood himself
 
 [SYMBOL:AQUATIC]
 	[S_WORD:BATH]
@@ -3082,6 +3095,7 @@ Misc verbs/adjectives
 	[S_WORD:SOUTH]
 	[S_WORD:EAST]
 	[S_WORD:WEST]
+	[S_WORD:MIST]
 
 [SYMBOL:NAME_DESERT]
 	[S_WORD:WASTE]
@@ -3171,6 +3185,34 @@ Misc verbs/adjectives
 	[S_WORD:SOUTH]
 	[S_WORD:EAST]
 	[S_WORD:WEST]
+	++
+	[S_WORD:BOAT]
+	[S_WORD:DROWNED]
+	[S_WORD:SHIP]
+	[S_WORD:SHORE]
+	[S_WORD:BEACH]
+	[S_WORD:COAST]
+	[S_WORD:SLOSH]
+	[S_WORD:SOAK]
+	[S_WORD:SPRAY]
+	[S_WORD:WASH]
+	[S_WORD:SINK]
+	[S_WORD:DIVE]
+	[S_WORD:AQUAMARINE]
+	[S_WORD:SAPPHIRE]
+	[S_WORD:RUBY]
+	[S_WORD:BASIN]
+	[S_WORD:HUMID]
+	[S_WORD:PEARL]
+	[S_WORD:SPRING_SEASON]
+	[S_WORD:SUMMER]
+	[S_WORD:SALT]
+	[S_WORD:SHARK]
+	[S_WORD:TYPHOON]
+	[S_WORD:WHIRL]
+	[S_WORD:STORM]
+	[S_WORD:MIST]
+	[S_WORD:FOG]
 
 [SYMBOL:NAME_GLACIER]
 	[S_WORD:ICE]
@@ -3251,7 +3293,7 @@ Misc verbs/adjectives
 	++
 	[S_WORD:AGE]
 	[S_WORD:COAST]
-	[S_WORD:COMEDY]
+	--S_WORD:COMEDY]
 	[S_WORD:CONTINENT]
 	[S_WORD:COSMOS]
 	[S_WORD:CRADLE]
@@ -3287,6 +3329,9 @@ Misc verbs/adjectives
 	[S_WORD:SOUTH]
 	[S_WORD:EAST]
 	[S_WORD:WEST]
+	[S_WORD:AGELESS]
+	[S_WORD:ANCIENT]
+	[S_WORD:ELDER]
 
 [SYMBOL:NAME_CAVE]
 	[S_WORD:CAVE]
@@ -3388,8 +3433,10 @@ Misc verbs/adjectives
 	[S_WORD:SOIL]
 	[S_WORD:WEIGHT]
 	[S_WORD:YELLOW]
-	+
 	[S_WORD:MITHRIL]
+	[S_WORD:SAPPHIRE]
+	[S_WORD:RUBY]
+	[S_WORD:JADE]
 
 [SYMBOL:NAME_LAKE]
 	[S_WORD:BLUE]
@@ -3420,7 +3467,8 @@ Misc verbs/adjectives
 	[S_WORD:NATION]
 	++
 	[S_WORD:ALLIANCE]
-	++
+	[S_WORD:DOMINION]
+	[S_WORD:LAND]
 	[S_WORD:NORTH]
 	[S_WORD:SOUTH]
 	[S_WORD:EAST]
@@ -3505,6 +3553,43 @@ Misc verbs/adjectives
 	[S_WORD:SOUTH]
 	[S_WORD:EAST]
 	[S_WORD:WEST]
+	[S_WORD:AURA]
+	[S_WORD:DARK]
+	[S_WORD:DECEIVER]
+	[S_WORD:DEEP]
+	[S_WORD:DUSK]
+	[S_WORD:EERIE]
+	[S_WORD:FOG]
+	[S_WORD:GHOST]
+	[S_WORD:GUISE]
+	[S_WORD:HAUNT]
+	[S_WORD:LONE]
+	[S_WORD:LOST]
+	[S_WORD:LURK]
+	[S_WORD:MIST]
+	[S_WORD:MYSTERY]
+	[S_WORD:NIGHT]
+	[S_WORD:SECRET]
+	[S_WORD:SEER]
+	[S_WORD:SHADOW]
+	[S_WORD:SMOKE]
+	[S_WORD:TWILIGHT]
+	[S_WORD:DAWN]
+	[S_WORD:DAY]
+	[S_WORD:UNSEEN]
+	[S_WORD:WISP]
+	[S_WORD:DREAM]
+	[S_WORD:SUBTLE]
+	[S_WORD:IMPERVIOUS]
+	[S_WORD:INFINITE]
+	[S_WORD:VEIL]
+	[S_WORD:TENEBROUS]
+	[S_WORD:RIDDLE]
+	[S_WORD:VAULT PLACE]
+	[S_WORD:MEMORY]
+	[S_WORD:MYTH]
+	[S_WORD:OMINOUS]
+	[S_WORD:TEMPLE HEAD] "aspect"
 
 [SYMBOL:NAME_ISLAND]
 	S_WORD:LAND -
@@ -3569,6 +3654,12 @@ Misc verbs/adjectives
 	[S_WORD:SOUTH]
 	[S_WORD:EAST]
 	[S_WORD:WEST]
+	[S_WORD:SMITH]
+	[S_WORD:SMOKE]
+	[S_WORD:PEAK]
+	[S_WORD:SUMMIT]
+	[S_WORD:ANVIL]
+	[S_WORD:PILLAR]
 
 [SYMBOL:NAME_COMMON_RELIGION]
 	[S_WORD:CULT]
@@ -3602,6 +3693,10 @@ Misc verbs/adjectives
 	[S_WORD:TEMPLE]
 	[S_WORD:WAY]
 	[S_WORD:WORD]
+	[S_WORD:TEMPLE HEAD]
+	[S_WORD:OCCULT]
+	[S_WORD:ORDER CONCEPT]
+	[S_WORD:FAITH LOYALTY]
 
 [SYMBOL:BALANCE]
 	[S_WORD:FAIR EVEN]
@@ -4304,8 +4399,9 @@ Misc verbs/adjectives
 	[S_WORD:TRIBUTE]
 	[S_WORD:TRIFLE]
 	[S_WORD:TUMMY] "chest"
-	+
-	[S_WORD:MITHRIL]
+	[S_WORD:SAPPHIRE]
+	[S_WORD:EMERALD]
+	[S_WORD:RUBY]
 
 [SYMBOL:NAME_BUILDING_TEMPLE]
 	[S_WORD:ABBEY]

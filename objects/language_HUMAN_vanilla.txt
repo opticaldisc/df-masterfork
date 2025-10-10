@@ -18,6 +18,7 @@ language_HUMAN
 	[T_WORD:APPLE:ramet]
 	[T_WORD:ARCH:icmon]
 	[T_WORD:ARM:ozi]
+	[T_WORD:ARMOK:armoc] +
 	[T_WORD:ARMOR:stalcon]
 	[T_WORD:ARROW:nek]
 	[T_WORD:ARTIFICE:l stta]
@@ -697,6 +698,7 @@ language_HUMAN
 	[T_WORD:ROT:suthro]
 	[T_WORD:ROUGH:atlel]
 	[T_WORD:ROYAL:kashmez]
+	[T_WORD:RUBY:gimm] +
 	[T_WORD:RUIN:bistra]
 	[T_WORD:RUIN_V:jamak]
 	[T_WORD:RULER:kastrol]
@@ -706,6 +708,8 @@ language_HUMAN
 	[T_WORD:SACK:das]
 	[T_WORD:SAINT:kazis]
 	[T_WORD:SALT:oni]
+    [T_WORD:SAPLING:spraett] +
+    [T_WORD:SAPPHIRE:sigil] +
 	[T_WORD:SALVE:bemta]
 	[T_WORD:SAP:ikka]
 	[T_WORD:SATIN:smenre]

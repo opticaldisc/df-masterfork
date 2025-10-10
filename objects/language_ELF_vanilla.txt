@@ -18,6 +18,7 @@ language_ELF
 	[T_WORD:APPLE:fena]
 	[T_WORD:ARCH:òaniye]
 	[T_WORD:ARM:atho]
+	[T_WORD:ARMOK:cidaama]
 	[T_WORD:ARMOR:datome]
 	[T_WORD:ARROW:lari]
 	[T_WORD:ARTIFICE:aratha]
@@ -697,6 +698,7 @@ language_ELF
 	[T_WORD:ROT:feware]
 	[T_WORD:ROUGH:otha]
 	[T_WORD:ROYAL:ariyi]
+	[T_WORD:RUBY:derneth] +
 	[T_WORD:RUIN:sebeca]
 	[T_WORD:RUIN_V:cafu]
 	[T_WORD:RULER:thäne]
@@ -706,6 +708,8 @@ language_ELF
 	[T_WORD:SACK:fama]
 	[T_WORD:SAINT:elale]
 	[T_WORD:SALT:cäro]
+    [T_WORD:SAPLING:ciriel] +
+    [T_WORD:SAPPHIRE:reriel] +
 	[T_WORD:SALVE:olaca]
 	[T_WORD:SAP:fimere]
 	[T_WORD:SATIN:lesana]

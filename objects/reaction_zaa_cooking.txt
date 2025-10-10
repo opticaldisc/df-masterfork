@@ -17,9 +17,7 @@ reaction_aa_cooking
 	[WORLDGEN_ENABLED]
 	[FORTRESS_MODE_ENABLED]
 	[SKILL:CHEESEMAKING]
-	[CATEGORY:GENERIC_REACTIONS]
-		[CATEGORY_NAME:Generic reactions]
-		[CATEGORY_DESCRIPTION:Reactions for using any available plants or growths]
+	[CATEGORY:MAKE_TOFU]
 
 [REACTION:AA_MAKE_TOFU_FROM_BAMBARA_GROUNDNUT_MILK]
 	[NAME:Make five bambara groundnut tofu]

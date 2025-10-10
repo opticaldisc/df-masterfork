@@ -22,6 +22,7 @@ Wolverines were sponsored by the generous contributions of the Bay 12 community.
 	[CLUSTER_NUMBER:1:1]
 	[BIOME:FOREST_TAIGA]
 	[BIOME:MOUNTAIN]
+	[FREQUENCY:20]{+}
 	[BONECARN]
 	[BENIGN][PRONE_TO_RAGE:10]
 	[GRASSTRAMPLE:0]
@@ -60,6 +61,7 @@ Wolverines were sponsored by the generous contributions of the Bay 12 community.
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
 	[MAXAGE:5:15]
+	[APPLY_CREATURE_VARIATION:CONVERT_LEATHER_TO_HIDE]{+  Revision: the leather is tough.}
 	[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
 		[ATTACK_SKILL:BITE]
 		[ATTACK_VERB:bite:bites]
@@ -140,6 +142,7 @@ Wolverines were sponsored by the generous contributions of the Bay 12 community.
 	[GO_TO_START]
 	[NAME:wolverine man:wolverine men:wolverine man]
 	[DESCRIPTION:A person with the head and tail of a wolverine.]
+	[TRANCES]{+  can enter battle trances.}
 	[POPULATION_NUMBER:5:10]
 	[CLUSTER_NUMBER:1:5]
 	[MAXAGE:80:120]{:60:80
@@ -194,6 +197,7 @@ Chinchillas were sponsored by the generous contributions of the Bay 12 community
 	[NATURAL]
 	[LARGE_ROAMING]
 	[BIOME:MOUNTAIN]
+	[FREQUENCY:20]{+}
 	[POPULATION_NUMBER:15:30]
 	[CLUSTER_NUMBER:3:5]
 	[BENIGN][MEANDERER]

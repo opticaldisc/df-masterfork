@@ -312,9 +312,6 @@ creature_cavern_new_fff
 	Need to make sure goo isn't solid at regular temperatures.
 	[SELECT_MATERIAL:BLOOD]
 		[MELTING_POINT:10000]
-	[APPLY_CREATURE_VARIATION:LEATHER_SCALE_FFF]
-	[SELECT_MATERIAL:LEATHER]
-		[STATE_COLOR:ALL:RED]
 
 [CREATURE:CAVE_THRESHER_CHP]
 	[DESCRIPTION:A large, insect-like monster with serrated, scythe-like forelimbs. They use their claws to shred fungi, rock, or flesh with equal ease.]
@@ -417,7 +414,7 @@ creature_cavern_new_fff
 	[UNDERGROUND_DEPTH:1:3]
 	[THICKWEB][WEBIMMUNE]
 	[USE_MATERIAL_TEMPLATE:SILK:SILK_TEMPLATE]
-	[WEBBER:CREATURE_MAT:ANIMAL:SILK]{:LOCAL_CREATURE_MAT:SILK  standardized.}
+	[WEBBER:CREATURE_MAT:SPIDER_CAVE:SILK]{:LOCAL_CREATURE_MAT:SILK  revision: use cave spider as material.}
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:TOKEN:SPRAY_WEB]
 		[CDI:ADV_NAME:Spray web]

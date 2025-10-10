@@ -29,6 +29,7 @@ creature_insects
 	[STANCE_CLIMBER][NATURAL_SKILL:CLIMBING:15]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
+	[NOMEAT]{+}
 	[NOBONES]
 	[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]
 	[BODY_DETAIL_PLAN:CHITIN_NOYIELD_MATERIALS]{:CHITIN_MATERIALS}
@@ -58,13 +59,13 @@ creature_insects
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:BLACK:1:DARK_OLIVE:1:DARK_GREEN:1:CHARCOAL:1]{:BLACK:1}
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:WING:CHITIN]{+}
 			[TL_COLOR_MODIFIER:CLEAR:1]
 				[TLCM_NOUN:wings:PLURAL]
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1:RED:1:CRIMSON:1]{:BLACK:1}
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:FLY_MAN]
 	[COPY_TAGS_FROM:FLY]
@@ -96,7 +97,7 @@ creature_insects
 			[SYN_IMMUNE_CREATURE:FLY_MAN:ALL]
 			[SYN_IMMUNE_CREATURE:GIANT_FLY:ALL]
 		[SYN_CONTACT]
-	[CE_NAUSEA:SEV:100:PROB:50:RESISTABLE:START:50:PEAK:250:END:500:DWF_STRETCH:12]
+	[CE_NAUSEA:SEV:50:PROB:50:RESISTABLE:START:50:PEAK:250:END:500:DWF_STRETCH:12]
 	[CE_PAIN:SEV:750:PROB:100:SIZE_DILUTES:LOCALIZED:START:50:PEAK:500:END:1500:ABRUPT_START:ABRUPT_END:DWF_STRETCH:12]
 	[CE_BLISTERS:SEV:500:PROB:100:RESISTABLE:SIZE_DILUTES:LOCALIZED:VASCULAR_ONLY:START:0:PEAK:500:END:1500:ABRUPT_START:ABRUPT_END:DWF_STRETCH:12]
 	[CE_NECROSIS:SEV:5000:PROB:100:LOCALIZED:START:0:PEAK:500:END:1500:ABRUPT_START:ABRUPT_END:DWF_STRETCH:12]
@@ -159,7 +160,7 @@ creature_insects
 			[SYN_IMMUNE_CREATURE:FLY_MAN:ALL]
 			[SYN_IMMUNE_CREATURE:GIANT_FLY:ALL]
 		[SYN_CONTACT]
-	[CE_NAUSEA:SEV:100:PROB:50:RESISTABLE:START:50:PEAK:250:END:500:DWF_STRETCH:12]
+	[CE_NAUSEA:SEV:50:PROB:50:RESISTABLE:START:50:PEAK:250:END:500:DWF_STRETCH:12]
 	[CE_PAIN:SEV:750:PROB:100:SIZE_DILUTES:LOCALIZED:START:50:PEAK:500:END:1500:ABRUPT_START:ABRUPT_END:DWF_STRETCH:12]
 	[CE_BLISTERS:SEV:500:PROB:100:RESISTABLE:SIZE_DILUTES:LOCALIZED:VASCULAR_ONLY:START:0:PEAK:500:END:1500:ABRUPT_START:ABRUPT_END:DWF_STRETCH:12]
 	[CE_NECROSIS:SEV:5000:PROB:100:LOCALIZED:START:0:PEAK:500:END:1500:ABRUPT_START:ABRUPT_END:DWF_STRETCH:12]
@@ -178,9 +179,9 @@ creature_insects
 	[PETVALUE:5]
 	[VISION_ARC:30:360]{+  Revision: compound eyes have a wide field of view.}
 	[BIOME:NOT_FREEZING]
-	[VERMIN_EATER][PENETRATEPOWER:2][VERMIN_HATEABLE][VERMIN_GROUNDER]
+	[VERMIN_EATER][PENETRATEPOWER:4][VERMIN_HATEABLE][VERMIN_GROUNDER]
 	[VERMIN_NOTRAP]
-	[POPULATION_NUMBER:250:500]
+	[POPULATION_NUMBER:200:450]{:250:500
 	[TRIGGERABLE_GROUP:5:50]
 	[SMALL_REMAINS]
 	[PREFSTRING:ability to disgust]
@@ -194,6 +195,7 @@ creature_insects
 	[STANCE_CLIMBER][NATURAL_SKILL:CLIMBING:15]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
+	[NOMEAT]{+}
 	[NOBONES]
 	[CREATURE_CLASS:EDIBLE_GROUND_BUG]
 	[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]
@@ -224,10 +226,10 @@ creature_insects
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:BROWN:1]
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:ROACH_MAN]
 	[COPY_TAGS_FROM:ROACH_LARGE]
@@ -306,7 +308,7 @@ creature_insects
 	[VERMIN_SOIL][FREQUENCY:100]
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
-	[POPULATION_NUMBER:250:500]
+	[POPULATION_NUMBER:200:450]{:250:500
 	[SMALL_REMAINS]
 	[PREFSTRING:protective shells]
 	Could be FLIER but leaving it off so they crawl around.
@@ -318,6 +320,7 @@ creature_insects
 	[STANCE_CLIMBER][NATURAL_SKILL:CLIMBING:15]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
+	[NOMEAT]{+}
 	[NOBONES]
 	[CREATURE_CLASS:EDIBLE_GROUND_BUG]
 	[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]
@@ -348,10 +351,10 @@ creature_insects
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:RED:1]
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:BEETLE_MAN]
 	[COPY_TAGS_FROM:BEETLE]
@@ -426,7 +429,7 @@ creature_insects
 	[VERMIN_SOIL_COLONY][FREQUENCY:100]
 	[UBIQUITOUS]
 	[VERMIN_NOTRAP]
-	[POPULATION_NUMBER:250:500]
+	[POPULATION_NUMBER:200:450]{:250:500
 	[CLUSTER_NUMBER:100:200]
 	[SMALL_REMAINS]
 	[PREFSTRING:propensity to dig]
@@ -435,6 +438,8 @@ creature_insects
 	[CREATURE_CLASS:EDIBLE_GROUND_BUG]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
+	[NOMEAT]{+}
+	[NOBONES]{+}
 	[USE_MATERIAL_TEMPLATE:SINEW:SINEW_TEMPLATE]
 	[TENDONS:LOCAL_CREATURE_MAT:SINEW:200]
 	[LIGAMENTS:LOCAL_CREATURE_MAT:SINEW:200]
@@ -469,7 +474,7 @@ creature_insects
 		[FEMALE]
 		[CASTE_NAME:queen ant:queen ants:queen ant]
 		[DESCRIPTION:A tiny digging insect found in huge colonies comprised of many physical castes, some of which have poison bites.  The colony overwhelms its enemies with swarms.  She lives to breed with her drones and lay eggs for her colony's future.]{+}
-		[POP_RATIO:1]
+		[POP_RATIO:2]
 	[SELECT_CASTE:WORKER]
 	 [SELECT_ADDITIONAL_CASTE:SOLDIER]
 	 [SELECT_ADDITIONAL_CASTE:QUEEN]
@@ -495,10 +500,10 @@ creature_insects
 		[BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:BUTTERFLY_MONARCH]
 	[DESCRIPTION:A small insect with large orange wings.  It is admired for its beauty.]
@@ -510,7 +515,7 @@ creature_insects
 	[BIOME:NOT_FREEZING]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[VERMIN_NOTRAP]
-	[POPULATION_NUMBER:250:500]
+	[POPULATION_NUMBER:200:450]{:250:500
 	[SMALL_REMAINS][NO_WINTER]
 	[PREFSTRING:coloration]
 	[FLIER]
@@ -523,6 +528,7 @@ creature_insects
 	[STANCE_CLIMBER][NATURAL_SKILL:CLIMBING:15]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
+	[NOMEAT]{+}
 	[NOBONES]
 	[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]
 	[BODY_DETAIL_PLAN:CHITIN_NOYIELD_MATERIALS]{:CHITIN_MATERIALS}
@@ -552,10 +558,10 @@ creature_insects
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:ORANGE:1] *** This obviously needs work.
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:BUTTERFLY_MONARCH_MAN]
 	[COPY_TAGS_FROM:BUTTERFLY_MONARCH]
@@ -632,7 +638,7 @@ creature_insects
 	[BIOME:NOT_FREEZING]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[VERMIN_NOTRAP]
-	[POPULATION_NUMBER:250:500]
+	[POPULATION_NUMBER:200:450]{:250:500
 	[CLUSTER_NUMBER:1:10]
 	[SMALL_REMAINS][NO_WINTER]
 	[PREFSTRING:enchanting glow]
@@ -647,6 +653,7 @@ creature_insects
 	[STANCE_CLIMBER][NATURAL_SKILL:CLIMBING:15]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
+	[NOMEAT]{+}
 	[NOBONES]
 	[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]
 	[BODY_DETAIL_PLAN:CHITIN_NOYIELD_MATERIALS]{:CHITIN_MATERIALS}
@@ -676,10 +683,10 @@ creature_insects
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:FIREFLY_MAN]
 	[COPY_TAGS_FROM:FIREFLY]
@@ -757,7 +764,7 @@ creature_insects
 	[BIOME:ANY_POOL]
 	[VERMIN_GROUNDER][FREQUENCY:100]
 	[VERMIN_NOTRAP]
-	[POPULATION_NUMBER:250:500]
+	[POPULATION_NUMBER:200:450]{:250:500
 	[SMALL_REMAINS][NO_WINTER]
 	[PREFSTRING:faceted eyes]
 	[FLIER]
@@ -770,6 +777,7 @@ creature_insects
 	[STANCE_CLIMBER][NATURAL_SKILL:CLIMBING:15]
 	[MUNDANE]
 	[NOT_BUTCHERABLE]
+	[NOMEAT]{+}
 	[NOBONES]
 	[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]
 	[BODY_DETAIL_PLAN:CHITIN_NOYIELD_MATERIALS]{:CHITIN_MATERIALS}
@@ -799,10 +807,10 @@ creature_insects
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:AQUAMARINE:1]
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:DRAGONFLY_MAN]
 	[COPY_TAGS_FROM:DRAGONFLY]
@@ -972,7 +980,6 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 	[HIVE_PRODUCT:1:201600:LIQUID_MISC:NONE:LOCAL_CREATURE_MAT:ROYAL_JELLY]
 	[CASTE:WORKER]
 		[CASTE_NAME:honey bee worker:honey bee workers:honey bee worker]
-		[DESCRIPTION:A flying insect that lives in a large colony prized for its honey.  It finds food and cleans the hive.  It has a striped yellow and black body and a powerful stinger on its tail.]{+}
 		[POP_RATIO:10000]
 		[COLONY_EXTERNAL]
 		[EXTRACT:LOCAL_CREATURE_MAT:VENOM]
@@ -981,12 +988,10 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 		[REMAINS_ON_VERMIN_BITE_DEATH]
 	[CASTE:DRONE]
 		[MALE]
-		[DESCRIPTION:A flying insect that lives in a large colony prized for its honey.  He lives to breed with his queen.  He has a striped yellow and black body and a powerful stinger on his tail.]{+}
 		[CASTE_NAME:honey bee drone:honey bee drones:honey bee drone]
 		[POP_RATIO:5]
 	[CASTE:QUEEN]
 		[FEMALE]
-		[DESCRIPTION:A flying insect that lives in a large colony prized for its honey.  She breeds with her drones and lays the eggs needed for the hive's future.  She has a striped yellow and black body and a powerful stinger on her tail.]{+}
 		[CASTE_NAME:honey bee queen:honey bee queens:honey bee queen]
 		[POP_RATIO:1]
 	[SELECT_CASTE:ALL]
@@ -999,10 +1004,10 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 		[BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:YELLOW:1]
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL
 
 [CREATURE:BUMBLEBEE]
 	[DESCRIPTION:A small woolly insect that lives in hive colonies.  It has an annoying sting which it rarely uses.]
@@ -1093,7 +1098,6 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 	[HIVE_PRODUCT:1:201600:LIQUID_MISC:NONE:LOCAL_CREATURE_MAT:ROYAL_JELLY]
 	[CASTE:WORKER]
 		[CASTE_NAME:bumblebee worker:bumblebee workers:bumblebee worker]
-		[DESCRIPTION:A woolly insect that lives in a large colony prized for their honey.  It finds food and cleans the hive.  It has a striped yellow and black body and an annoying sting that it rarely uses.]{+}
 		[POP_RATIO:10000]
 		[COLONY_EXTERNAL]
 		[EXTRACT:LOCAL_CREATURE_MAT:VENOM]
@@ -1101,12 +1105,10 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 	[CASTE:DRONE]
 		[MALE]
 		[CASTE_NAME:bumblebee drone:bumblebee drones:bumblebee drone]
-		[DESCRIPTION:A woolly insect that lives in a large colony prized for its honey.  He lives to breed with his queen.  He has a striped yellow and black body and an annoying sting that he rarely uses.]{+}
 		[POP_RATIO:5]
 	[CASTE:QUEEN]
 		[FEMALE]
 		[CASTE_NAME:bumblebee queen:bumblebee queens:bumblebee queen]
-		[DESCRIPTION:A woolly insect that lives in large colony prized for its honey.  She breeds with her drones and lays the eggs needed for her hive's future.  She has a striped yellow and black body and an annoying sting that she rarely uses.]{+}
 		[POP_RATIO:1]
 	[SELECT_CASTE:ALL]
 		[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]
@@ -1118,7 +1120,7 @@ Bees were sponsored by the generous contributions of the Bay 12 community.
 		[BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:CHITIN]
 			[TL_COLOR_MODIFIER:YELLOW:1]
-				[TLCM_NOUN:chitin:SINGULAR]
+				[TLCM_NOUN:exoskeleton:SINGULAR]{:chitin:SINGULAR
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
-				[TLCM_NOUN:eyes:PLURAL]
+				[TLCM_NOUN:compound eyes:PLURAL]{:eyes:PLURAL

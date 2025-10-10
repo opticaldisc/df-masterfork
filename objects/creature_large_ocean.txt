@@ -51,6 +51,7 @@ creature_large_ocean
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
 	[MAXAGE:20:30]
+	[APPLY_CREATURE_VARIATION:CONVERT_LEATHER_TO_HIDE]{+  Revision: the leather is tougher.}
 	[APPLY_CREATURE_VARIATION:TUSK_STAB_ATTACK]
 	[DIURNAL]
 	[HOMEOTHERM:10067]
@@ -75,6 +76,11 @@ creature_large_ocean
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:IRIS_EYE_GRAY:1]
 				[TLCM_NOUN:eyes:PLURAL]
+		[SET_TL_GROUP:BY_CATEGORY:ALL:IVORY]{+ varied ivory coloring.}
+			[TL_COLOR_MODIFIER:WHITE:1:BEIGE:1:IVORY:1:CREAM:1]{+
+				[TLCM_NOUN:tusks:PLURAL]{+
+	[SELECT_MATERIAL:ALL]{+}
+		[MULTIPLY_VALUE:3]{+
 
 [CREATURE:WALRUS_MAN]
 	[COPY_TAGS_FROM:WALRUS]
@@ -3019,6 +3025,7 @@ Narwhals were sponsored by the generous contributions of the Bay 12 community.
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
 	[MAXAGE:40:50]
+	[APPLY_CREATURE_VARIATION:CONVERT_LEATHER_TO_HIDE]{+  Revision: the leather is tougher.}
 	[ATTACK:STAB:BODYPART:BY_CATEGORY:TUSK]
 		[ATTACK_SKILL:BITE]
 		[ATTACK_VERB:stab:stabs]
@@ -3064,10 +3071,16 @@ Narwhals were sponsored by the generous contributions of the Bay 12 community.
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
+		[SET_TL_GROUP:BY_CATEGORY:ALL:IVORY]{+ varied ivory coloring.}
+			[TL_COLOR_MODIFIER:WHITE:1:BEIGE:1:IVORY:1:CREAM:1]{+
+				[TLCM_NOUN:tusks:PLURAL]{+
+	[SELECT_MATERIAL:ALL]{+}
+		[MULTIPLY_VALUE:4]{+
 
 [CREATURE:NARWHAL MAN]
 	[COPY_TAGS_FROM:NARWHAL]
 	[APPLY_CREATURE_VARIATION:ANIMAL_PERSON_LEGLESS]
+	[APPLY_CREATURE_VARIATION:CONVERT_AQUATIC_TO_AMPHIBIOUS]{+  able to walk and breathe on land.}
 	[GO_TO_END]
 	[SELECT_CASTE:MALE]
 		[CASTE_NAME:narwhal man:narwhal men:narwhal man]
@@ -3081,7 +3094,7 @@ Narwhals were sponsored by the generous contributions of the Bay 12 community.
 		[DESCRIPTION:A towering, stocky beastwoman with thighs that merge into a long, finned tail, a long, thin horn on her nose, and the head of a narwhal.  She glides through the water while her tail flows behind her.  Her horn makes romance tedious but is useful as a tool and weapon.  She doesn't care that she's naked.  What use is clothing in the sea?]{+}
 	[SELECT_CASTE:ALL]
 	[APPLY_CREATURE_VARIATION:PUNCH_ATTACK]
-	[APPLY_CREATURE_VARIATION:TAIL_ATTACK]
+	[APPLY_CREATURE_VARIATION:TAIL_ATTACK]{+ tail slap attack.}
 	[APPLY_CREATURE_VARIATION:TUSK_STAB_ATTACK]
 	[APPLY_CREATURE_VARIATION:STANDARD_WALK_CRAWL_GAITS:900:750:600:439:1900:2900] 20 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
@@ -3095,7 +3108,7 @@ Narwhals were sponsored by the generous contributions of the Bay 12 community.
 	[MAXAGE:80:120]{:60:80
 	[CREATURE_TILE:'N']
 	[COLOR:7:0:0]
-	[SKILL_LEARN_RATE:SING:300]{+}
+	[SKILL_LEARN_RATE:SING:200]{+}
 	[PHYS_ATT_RANGE:ENDURANCE:450:950:1150:1250:1350:1550:2250]{+}
 	[PHYS_ATT_RANGE:TOUGHNESS:450:950:1150:1250:1350:1550:2250]{+}
 

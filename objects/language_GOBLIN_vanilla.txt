@@ -18,6 +18,7 @@ language_GOBLIN
 	[T_WORD:APPLE:slusna]
 	[T_WORD:ARCH:sasne]
 	[T_WORD:ARM:odu]
+	[T_WORD:ARMOK:ogom–sp]
 	[T_WORD:ARMOR:nuklat]
 	[T_WORD:ARROW:ost]
 	[T_WORD:ARTIFICE:urdu]
@@ -697,6 +698,7 @@ language_GOBLIN
 	[T_WORD:ROT:nom]
 	[T_WORD:ROUGH:basnung]
 	[T_WORD:ROYAL:xasnos]
+	[T_WORD:RUBY:gƒgh]
 	[T_WORD:RUIN:ng–tdo]
 	[T_WORD:RUIN_V:steg]
 	[T_WORD:RULER:ongno]
@@ -706,6 +708,8 @@ language_GOBLIN
 	[T_WORD:SACK:stror]
 	[T_WORD:SAINT:s†kno]
 	[T_WORD:SALT:kosmdasp]
+	[T_WORD:SAPLING:r–z] +
+	[T_WORD:SAPPHIRE:ƒk] +
 	[T_WORD:SALVE:spug]
 	[T_WORD:SAP:at]
 	[T_WORD:SATIN:ungxa]
