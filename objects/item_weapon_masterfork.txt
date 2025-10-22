@@ -180,8 +180,7 @@ item_weapon_masterfork
 [ITEM_WEAPON:ITEM_WEAPON_PIKE]  decided to turn the pike into a long spear
 	stabbing coef. = 1
 	sharp point
-[NAME:spear:spears]{:pike:pikes}
-[ADJECTIVE:long]
+[NAME:long spear:long spears]{:pike:pikes}
 [SIZE:400]
 [SKILL:SPEAR]{:PIKE
 [TWO_HANDED:895000] 2H
@@ -374,8 +373,7 @@ item_weapon_masterfork
 [ITEM_WEAPON:ITEM_WEAPON_SCOURGE]
 	blunt-only vel x3.5
 	1/3 unlucky
-[NAME:flail:flails]{:scourge:scourges}  two-handed flail type, not the cattle whip
-[ADJECTIVE:two-handed]
+[NAME:great flail:great flails]{:scourge:scourges}  two-handed flail type, not the cattle whip
 [SIZE:220] 100% +39%  w39
 [SKILL:WHIP]
 [TWO_HANDED:263000] 2H
