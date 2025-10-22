@@ -296,7 +296,7 @@ tissue_template_default
 	[HEALING_RATE:1000]{:100  Revision: hearts healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:250]{:50        Revision: heart injuries bleed profusely, who thought? - zey}
 	[MAJOR_ARTERIES]          Revision: experimental; should hopefully cause internal organ trauma to be even more severe.  -zey.}
-	[PAIN_RECEPTORS:60]{:5    Revision: heart injuries are painful.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:200]{:5   Revision: heart injuries are EXTREMELY painful.  Internal wounds should be punishing.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -310,7 +310,7 @@ tissue_template_default
 	[HEALING_RATE:1000]{:100  Revision: livers healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:40]{:8          Revision: liver bleeds more when cut.  Internal wounds should be punishing.}
 	[MAJOR_ARTERIES]          Revision: liver has major arteries.}
-	[PAIN_RECEPTORS:100]{:5   Revision: liver trauma is EXTREMELY painful, hence why it's banned almost every single fighting sport.}
+	[PAIN_RECEPTORS:200]{:5   Revision: liver trauma is EXTREMELY painful, hence why it's banned almost every single fighting sport.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -336,7 +336,7 @@ tissue_template_default
 	[RELATIVE_THICKNESS:1]
 	[HEALING_RATE:1000]{:100 Revision: stomachs healed too quickly; internal wounds need recovery time.}
 	[VASCULAR:15]{:3         Revision: stomachs bleed more when cut.  Internal wounds should be punishing.}
-	[PAIN_RECEPTORS:20]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:50]{:5   Revision: stomach injuries are painful.  Internal wounds should be punishing.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 
@@ -426,7 +426,7 @@ tissue_template_default
 	[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:SPINE]
 	[HEALING_RATE:1500]{+      Revision: spine injuries shouldn't be permanent.}
 	[RELATIVE_THICKNESS:2]
-	[PAIN_RECEPTORS:60]{+      Revision: spinal injuries are very painful.  Internal wounds should be punishing.}
+	[PAIN_RECEPTORS:100]{+     Revision: spinal injuries are very painful.  Internal wounds should be punishing.}
 	[CONNECTS]
 	[TISSUE_SHAPE:LAYER]
 

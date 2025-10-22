@@ -875,12 +875,13 @@ creature_standard
 	[CASTE_NAME:ancient dragon:dragons:draconic]
 	[CREATURE_TILE:'D'][COLOR:4:0:0]
 	[CHILD:10][CHILDNAME:dragon hatchling:dragon hatchlings]
+	[DOES_NOT_EXIST][ARENA_RESTRICTED] replaced by colored dragons
 	[PETVALUE:10000]
 	[PET_EXOTIC]
 	[TRAINABLE_WAR]{TRAINABLE  Revision: dragons are too deadly to hunt.}
 	[MOUNT_EXOTIC]
 	[BIOME:ANY_LAND]
-	[FREQUENCY:7]{:5
+	[FREQUENCY:0]{:5
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
 	    [CDI:TOKEN:BREATHE_FIRE]
 		[CDI:ADV_NAME:Breathe fire]
@@ -904,7 +905,7 @@ creature_standard
 	[CURIOUSBEAST_ITEM]
 	[NOFEAR][NOEXERT]
 	[BUILDINGDESTROYER:2]
-	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:5]{+  20% force restance.}
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[FLIER]
 	[SMELL_TRIGGER:12]
 	[LOW_LIGHT_VISION:10000]
@@ -1023,7 +1024,7 @@ creature_standard
 			[CLUTCH_SIZE:1:2]{:1:3
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:2]{+}
+		[POP_RATIO:3]{+}
 		[DESCRIPTION:An ancient and titanic scaled flying reptilian creature.  He is magical and can exhale fire.  These monsters can live for thousands of years.]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]{+}
 	[SELECT_CASTE:ALL]
@@ -1050,7 +1051,6 @@ creature_standard
 	[SELECT_MATERIAL:BLOOD]
 	 [PLUS_MATERIAL:PUS]
 		[MELTING_POINT:10000]
-	[DOES_NOT_EXIST][ARENA_RESTRICTED] replaced by colored dragons
 
 [CREATURE:SATYR]
 	[DESCRIPTION:A medium-sized humanoid with the horns and legs of a goat.]
@@ -1347,6 +1347,7 @@ creature_standard
 		[ATTACK_TRIGGER:3:3:3]
 	[FANCIFUL]
 	[AT_PEACE_WITH_WILDLIFE]{+  makes sense to ignore wild animals.}
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[NOPAIN][EXTRAVISION][NOBREATHE][NOSTUN][NONAUSEA][NOEMOTION]
 		[NOTHOUGHT][NOEXERT]
 	[NO_DIZZINESS]
@@ -1432,7 +1433,7 @@ creature_standard
 	[FANCIFUL]
 	[LARGE_PREDATOR]
 	[BONECARN]
-	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:5]{+  20% force restance.}
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:5]
 		[ATTACK_TRIGGER:2:2:2]
 	[CAN_LEARN][SLOW_LEARNER][CAN_SPEAK]
@@ -1445,6 +1446,7 @@ creature_standard
 	[CURIOUSBEAST_ITEM]
 	[SPHERE:FOOD]
 	[SPHERE:STRENGTH]
+	[POWER][SPREAD_EVIL_SPHERES_IF_RULER]{+  can be ruler of civs.}
 	[MANNERISM_FINGERS:finger:fingers]
 	[MANNERISM_NOSE:nose]
 	[MANNERISM_EAR:ear]
@@ -1464,17 +1466,22 @@ creature_standard
 	[MANNERISM_POSTURE]
 	[MANNERISM_STRETCH]
 	[MANNERISM_EYELIDS]
-	--POWER]
 	[PERSONALITY:BASHFUL:0:0:0]{+}
 	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:0:0]{+}
-	[PERSONALITY:SWAYED_BY_EMOTIONS:0:25:50]{+}
+	[PERSONALITY:SWAYED_BY_EMOTIONS:0:0:0]{+}
 	[PERSONALITY:DUTIFULNESS:0:0:0]{+}
 	[PERSONALITY:DISCORD:50:75:100]{+}
 	[PERSONALITY:TOLERANT:50:75:100]{+}
-	[PERSONALITY:THOUGHTLESSNESS:25:75:100]{+}
-	[PERSONALITY:POLITENESS:0:25:75]{+}
-	[PERSONALITY:FRIENDLINESS:0:25:75]{+}
+	[PERSONALITY:THOUGHTLESSNESS:50:75:100]{+}
+	[PERSONALITY:POLITENESS:0:25:50]{+}
+	[PERSONALITY:FRIENDLINESS:0:25:50]{+}
 	[PERSONALITY:GREED:25:75:100]{+}
+	[PERSONALITY:PRIVACY:25:75:100]{+}
+	[PERSONALITY:TRUST:0:25:50]{+}
+	[PERSONALITY:HATE_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:ANGER_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:VIOLENT:25:75:100]{+}
+	[PERSONALITY:IMMODERATION:25:75:100]{+}
 	[SYNDROME_DILUTION_FACTOR:FEAR:150]{+}
 	[APPLY_CREATURE_VARIATION:EMOTION_AURA_TERROR]{+  terror inducing presence.}
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
@@ -1666,7 +1673,7 @@ creature_standard
 		[DESCRIPTION:A gigantic and monstrous overweight woman almost unparalleled in size.  She has a hairy, strong body, shaggy hair, and an almost primitive appearance.  She lives quietly in a cozy burrow and keeps to herself.  She steps over fortifications and crushes buildings underfoot, whether she means to or not.  Her great size makes her nudity obvious, although she certainly seem oblivious and uncaring to the fact.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:2]{+}
+		[POP_RATIO:3]{+}
 		[BABYNAME:giant baby boy:giant baby boys]{+}
 		[CHILDNAME:giant boy:giant boys]{+}
 		[DESCRIPTION:A gigantic and monstrous overweight man almost unparalleled in size.  He has a hairy, strong body, shaggy hair, and an almost primitive appearance.  He lives quietly in a cozy burrow and keeps to himself.  He steps over fortifications and crushes buildings underfoot, whether he means to or not.  His great size makes his nudity obvious, although he certainly seem oblivious and uncaring to the fact.]{+}
@@ -1732,6 +1739,8 @@ creature_standard
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:IRIS_EYE_AMBER:1:IRIS_EYE_AQUA:1:IRIS_EYE_AQUAMARINE:1:IRIS_EYE_ASH_GRAY:1:IRIS_EYE_AUBURN:1:IRIS_EYE_AZURE:1:IRIS_EYE_BLUE:1:IRIS_EYE_BRASS:1:IRIS_EYE_BRONZE:1:IRIS_EYE_BROWN:1:IRIS_EYE_CERULEAN:1:IRIS_EYE_CHESTNUT:1:IRIS_EYE_CHOCOLATE:1:IRIS_EYE_CINNAMON:1:IRIS_EYE_COPPER:1:IRIS_EYE_DARK_BLUE:1:IRIS_EYE_DARK_BROWN:1:IRIS_EYE_DARK_CHESTNUT:1:IRIS_EYE_DARK_GREEN:1:IRIS_EYE_DARK_OLIVE:1:IRIS_EYE_DARK_TAN:1:IRIS_EYE_ECRU:1:IRIS_EYE_EMERALD:1:IRIS_EYE_FERN_GREEN:1:IRIS_EYE_GRAY:1:IRIS_EYE_GREEN:1:IRIS_EYE_JADE:1:IRIS_EYE_LIGHT_BLUE:1:IRIS_EYE_LIGHT_BROWN:1:IRIS_EYE_MAHOGANY:1:IRIS_EYE_MIDNIGHT_BLUE:1:IRIS_EYE_OCHRE:1:IRIS_EYE_OLIVE:1:IRIS_EYE_PALE_BLUE:1:IRIS_EYE_PALE_BROWN:1:IRIS_EYE_PALE_CHESTNUT:1:IRIS_EYE_PERIWINKLE:1:IRIS_EYE_PINE_GREEN:1:IRIS_EYE_RAW_UMBER:1:IRIS_EYE_RUSSET:1:IRIS_EYE_SEA_GREEN:1:IRIS_EYE_SEPIA:1:IRIS_EYE_SKY_BLUE:1:IRIS_EYE_SLATE_GRAY:1:IRIS_EYE_SPRING_GREEN:1:IRIS_EYE_TAN:1:IRIS_EYE_TAUPE_DARK:1:IRIS_EYE_TAUPE_GRAY:1:IRIS_EYE_TAUPE_MEDIUM:1:IRIS_EYE_TAUPE_PALE:1:IRIS_EYE_TAUPE_SANDY:1:IRIS_EYE_TEAL:1:IRIS_EYE_TURQUOISE:1]
 				[TLCM_NOUN:eyes:PLURAL]
+	[SELECT_TISSUE_LAYER:ALL]{+  quickened healing.}
+		[TL_HEALING_RATE:150]{+
 	[SELECT_MATERIAL:ALL]
 		[MULTIPLY_VALUE:15]
 
@@ -1745,7 +1754,7 @@ creature_standard
 	[FANCIFUL]
 	[LARGE_PREDATOR]
 	[BONECARN]
-	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:5]{+  20% force restance.}
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:5]
 		[ATTACK_TRIGGER:2:2:2]
 	[CAN_LEARN][CAN_SPEAK]
@@ -1789,7 +1798,10 @@ creature_standard
 	[PERSONALITY:POLITENESS:0:25:75]{+}
 	[PERSONALITY:FRIENDLINESS:0:25:75]{+}
 	[PERSONALITY:GREED:25:75:100]{+}
+	[PERSONALITY:PRIVACY:0:25:50]{+}
+	[PERSONALITY:TRUST:0:25:50]{+}
 	[SYNDROME_DILUTION_FACTOR:FEAR:150]{+}
+	[APPLY_CREATURE_VARIATION:EMOTION_AURA_TERROR]{+  terror inducing presence.}
 	[BODY:HUMANOID_NECK:1EYE:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:CHEEKS:LIPS:ONE_EYELID:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:MONSTER_MATERIALS]{:STANDARD_MATERIALS}
 	[BODY_DETAIL_PLAN:MONSTER_TISSUES]{:STANDARD_TISSUES}
@@ -1974,7 +1986,7 @@ creature_standard
 		[DESCRIPTION:A giant, monstrous woman with leathery, veined skin and a primitive-looking face with one large eye set in her forehead.  She mostly stays in her cozy cave but is sometimes lured into pillaging by rumors of wealth.  Her great size makes her nudity obvious, although she certainly seem oblivious and uncaring to the fact.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:2]{+}
+		[POP_RATIO:3]{+}
 		[BABYNAME:cyclops baby boy:cyclops baby boys]{+}
 		[CHILDNAME:cyclops boy:cyclops boys]{+}
 		[DESCRIPTION:A giant, monstrous man with leathery, veined skin and a primitive-looking face with one large eye set in his forehead.  He mostly stays in his cozy cave but is sometimes lured into pillaging by rumors of wealth.  His great size makes his nudity obvious, although he certainly seem oblivious and uncaring to the fact.]{+}
@@ -2039,6 +2051,8 @@ creature_standard
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 	[TL_COLOR_MODIFIER:IRIS_EYE_AMBER:1:IRIS_EYE_AQUA:1:IRIS_EYE_AQUAMARINE:1:IRIS_EYE_ASH_GRAY:1:IRIS_EYE_AUBURN:1:IRIS_EYE_AZURE:1:IRIS_EYE_BLUE:1:IRIS_EYE_BRASS:1:IRIS_EYE_BRONZE:1:IRIS_EYE_BROWN:1:IRIS_EYE_CERULEAN:1:IRIS_EYE_CHESTNUT:1:IRIS_EYE_CHOCOLATE:1:IRIS_EYE_CINNAMON:1:IRIS_EYE_COPPER:1:IRIS_EYE_DARK_BLUE:1:IRIS_EYE_DARK_BROWN:1:IRIS_EYE_DARK_CHESTNUT:1:IRIS_EYE_DARK_GREEN:1:IRIS_EYE_DARK_OLIVE:1:IRIS_EYE_DARK_TAN:1:IRIS_EYE_ECRU:1:IRIS_EYE_EMERALD:1:IRIS_EYE_FERN_GREEN:1:IRIS_EYE_GRAY:1:IRIS_EYE_GREEN:1:IRIS_EYE_JADE:1:IRIS_EYE_LIGHT_BLUE:1:IRIS_EYE_LIGHT_BROWN:1:IRIS_EYE_MAHOGANY:1:IRIS_EYE_MIDNIGHT_BLUE:1:IRIS_EYE_OCHRE:1:IRIS_EYE_OLIVE:1:IRIS_EYE_PALE_BLUE:1:IRIS_EYE_PALE_BROWN:1:IRIS_EYE_PALE_CHESTNUT:1:IRIS_EYE_PERIWINKLE:1:IRIS_EYE_PINE_GREEN:1:IRIS_EYE_RAW_UMBER:1:IRIS_EYE_RUSSET:1:IRIS_EYE_SEA_GREEN:1:IRIS_EYE_SEPIA:1:IRIS_EYE_SKY_BLUE:1:IRIS_EYE_SLATE_GRAY:1:IRIS_EYE_SPRING_GREEN:1:IRIS_EYE_TAN:1:IRIS_EYE_TAUPE_DARK:1:IRIS_EYE_TAUPE_GRAY:1:IRIS_EYE_TAUPE_MEDIUM:1:IRIS_EYE_TAUPE_PALE:1:IRIS_EYE_TAUPE_SANDY:1:IRIS_EYE_TEAL:1:IRIS_EYE_TURQUOISE:1]
 				[TLCM_NOUN:eye:SINGULAR]
+	[SELECT_TISSUE_LAYER:ALL]{+  quickened healing.}
+		[TL_HEALING_RATE:150]{+
 	[SELECT_MATERIAL:ALL]{+}
 		[MULTIPLY_VALUE:8]
 
@@ -2052,7 +2066,7 @@ creature_standard
 	[FANCIFUL]
 	[LARGE_PREDATOR]
 	[BONECARN]
-	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:5]{+  20% force restance.}
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:5]
 		[ATTACK_TRIGGER:2:2:2]
 	[CAN_LEARN][CAN_SPEAK]
@@ -2065,6 +2079,7 @@ creature_standard
 	[CURIOUSBEAST_ITEM]
 	[SPHERE:SPEECH]
 	[SPHERE:STRENGTH]
+	[POWER][SPREAD_EVIL_SPHERES_IF_RULER]{+  can be ruler of civs.}
 	[MANNERISM_FINGERS:finger:fingers]
 	[MANNERISM_NOSE:noses]
 	[MANNERISM_EAR:ears]
@@ -2084,17 +2099,22 @@ creature_standard
 	[MANNERISM_POSTURE]
 	[MANNERISM_STRETCH]
 	[MANNERISM_EYELIDS]
-	--POWER]
 	[PERSONALITY:BASHFUL:0:0:0]{+}
 	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:0:0]{+}
-	[PERSONALITY:SWAYED_BY_EMOTIONS:0:25:50]{+}
+	[PERSONALITY:SWAYED_BY_EMOTIONS:0:0:0]{+}
 	[PERSONALITY:DUTIFULNESS:0:0:0]{+}
 	[PERSONALITY:DISCORD:50:75:100]{+}
 	[PERSONALITY:TOLERANT:50:75:100]{+}
-	[PERSONALITY:THOUGHTLESSNESS:25:75:100]{+}
-	[PERSONALITY:POLITENESS:0:25:75]{+}
-	[PERSONALITY:FRIENDLINESS:0:25:75]{+}
+	[PERSONALITY:THOUGHTLESSNESS:50:75:100]{+}
+	[PERSONALITY:POLITENESS:0:25:50]{+}
+	[PERSONALITY:FRIENDLINESS:0:25:50]{+}
 	[PERSONALITY:GREED:25:75:100]{+}
+	[PERSONALITY:PRIVACY:25:75:100]{+}
+	[PERSONALITY:TRUST:0:25:50]{+}
+	[PERSONALITY:HATE_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:ANGER_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:VIOLENT:25:75:100]{+}
+	[PERSONALITY:IMMODERATION:25:75:100]{+}
 	[SYNDROME_DILUTION_FACTOR:FEAR:150]{+}
 	[BODY:HUMANOID_NECK_2HEAD:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:MONSTER_MATERIALS]{:STANDARD_MATERIALS}
@@ -2287,7 +2307,7 @@ creature_standard
 		[DESCRIPTION:A giant and monstrous overweight woman with a thick, muscular body and two arguing heads.  Each head controls one arm, resulting in movement strange and (often) funny.  She mostly lives in her cozy cave but is sometimes lured into pillaging by rumors of wealth.  Her great size makes her nudity obvious, although she certainly seem oblivious and uncaring to the fact.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:2]{+}
+		[POP_RATIO:3]{+}
 		[BABYNAME:ettin baby boy:ettin baby boys]{+}
 		[CHILDNAME:ettin boy:ettin boys]{+}
 		[DESCRIPTION:A giant and monstrous overweight man with a thick, muscular body and two arguing heads.  Each head controls one arm, resulting in movement strange and (often) funny.  He mostly lives in his cozy cave but is sometimes lured into pillaging by rumors of wealth.  His great size makes his nudity obvious, although he certainly seem oblivious and uncaring to the fact.]{+}
@@ -2352,6 +2372,8 @@ creature_standard
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:IRIS_EYE_AMBER:1:IRIS_EYE_AQUA:1:IRIS_EYE_AQUAMARINE:1:IRIS_EYE_ASH_GRAY:1:IRIS_EYE_AUBURN:1:IRIS_EYE_AZURE:1:IRIS_EYE_BLUE:1:IRIS_EYE_BRASS:1:IRIS_EYE_BRONZE:1:IRIS_EYE_BROWN:1:IRIS_EYE_CERULEAN:1:IRIS_EYE_CHESTNUT:1:IRIS_EYE_CHOCOLATE:1:IRIS_EYE_CINNAMON:1:IRIS_EYE_COPPER:1:IRIS_EYE_DARK_BLUE:1:IRIS_EYE_DARK_BROWN:1:IRIS_EYE_DARK_CHESTNUT:1:IRIS_EYE_DARK_GREEN:1:IRIS_EYE_DARK_OLIVE:1:IRIS_EYE_DARK_TAN:1:IRIS_EYE_ECRU:1:IRIS_EYE_EMERALD:1:IRIS_EYE_FERN_GREEN:1:IRIS_EYE_GRAY:1:IRIS_EYE_GREEN:1:IRIS_EYE_JADE:1:IRIS_EYE_LIGHT_BLUE:1:IRIS_EYE_LIGHT_BROWN:1:IRIS_EYE_MAHOGANY:1:IRIS_EYE_MIDNIGHT_BLUE:1:IRIS_EYE_OCHRE:1:IRIS_EYE_OLIVE:1:IRIS_EYE_PALE_BLUE:1:IRIS_EYE_PALE_BROWN:1:IRIS_EYE_PALE_CHESTNUT:1:IRIS_EYE_PERIWINKLE:1:IRIS_EYE_PINE_GREEN:1:IRIS_EYE_RAW_UMBER:1:IRIS_EYE_RUSSET:1:IRIS_EYE_SEA_GREEN:1:IRIS_EYE_SEPIA:1:IRIS_EYE_SKY_BLUE:1:IRIS_EYE_SLATE_GRAY:1:IRIS_EYE_SPRING_GREEN:1:IRIS_EYE_TAN:1:IRIS_EYE_TAUPE_DARK:1:IRIS_EYE_TAUPE_GRAY:1:IRIS_EYE_TAUPE_MEDIUM:1:IRIS_EYE_TAUPE_PALE:1:IRIS_EYE_TAUPE_SANDY:1:IRIS_EYE_TEAL:1:IRIS_EYE_TURQUOISE:1]
 				[TLCM_NOUN:eyes:PLURAL]
+	[SELECT_TISSUE_LAYER:ALL]{+  quickened healing.}
+		[TL_HEALING_RATE:150]{+
 	[SELECT_MATERIAL:ALL]{+}
 		[MULTIPLY_VALUE:8]
 
@@ -2365,6 +2387,7 @@ creature_standard
 	[FANCIFUL]
 	[BONECARN]
 	[LARGE_PREDATOR]
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:6]{:5
 		[ATTACK_TRIGGER:2:2:2]
 	[CAN_LEARN][CAN_SPEAK]
@@ -2546,7 +2569,7 @@ creature_standard
 		[DESCRIPTION:A giant, brutish woman with woolly legs and arms, large hooves, and a bull's head.  She rarely leaves her labyrinth but enjoys taunting her (rare) intruders.  She doesn't care that she's naked.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:2]{+}
+		[POP_RATIO:3]{+}
 		[CASTE_NAME:minotaur:minotaurs:minotaur]{+}
 		[BABYNAME:minotaur baby boy:minotaur baby boys]{+}
 		[CHILDNAME:minotaur boy:minotaur boys]{+}
@@ -2562,6 +2585,8 @@ creature_standard
 		[SET_TL_GROUP:BY_CATEGORY:EYE:EYE]
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
+	[SELECT_TISSUE_LAYER:ALL]{+  quickened healing.}
+		[TL_HEALING_RATE:150]{+
 	[SELECT_MATERIAL:ALL]{+}
 		[MULTIPLY_VALUE:8]
 
@@ -2576,7 +2601,7 @@ creature_standard
 	[BIOME:MOUNTAIN]
 	[BIOME:GLACIER]
 	[BIOME:TUNDRA]
-	[LARGE_ROAMING][SAVAGE][DIFFICULTY:2][FREQUENCY:10]
+	[LARGE_ROAMING][SAVAGE][DIFFICULTY:2][FREQUENCY:5]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:5]
 	[BUILDINGDESTROYER:2]
@@ -2710,7 +2735,7 @@ creature_standard
 	[CHILD:10][BABY:1]
 	[BIOME:ANY_TEMPERATE_FOREST]
 	[BIOME:FOREST_TAIGA]
-	[LARGE_ROAMING][SAVAGE][DIFFICULTY:2][FREQUENCY:10]
+	[LARGE_ROAMING][SAVAGE][DIFFICULTY:2][FREQUENCY:5]
 	[POPULATION_NUMBER:10:20]
 	[CLUSTER_NUMBER:1:5]
 	[BUILDINGDESTROYER:2]
@@ -4234,7 +4259,7 @@ creature_standard
 	[TRAINABLE_WAR]{+}
 	[CHILD:1][GENERAL_CHILD_NAME:hydra hatchling:hydra hatchlings]{+  Revision: taming requires a child tag (bug 7983).}
 	[BIOME:ANY_LAND]
-    [FREQUENCY:7]{:5
+    [FREQUENCY:5]
 	[FANCIFUL]
 	[LARGE_PREDATOR]
 	[BONECARN]
@@ -4355,7 +4380,7 @@ creature_standard
 		[DESCRIPTION:A giant dragon-like monster with seven biting heads on long, flexible necks.  Her armored tail whips and thrashes aggressively.  She preys on her victims with a flurry of attacks as her heads all bite at once.  Her wounds heal quickly.  Her scales are akin to metal.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:2]{+}
+		[POP_RATIO:3]{+}
 		[DESCRIPTION:A giant dragon-like monster with seven biting heads on long, flexible necks.  His armored tail whips and thrashes aggressively.  He preys on his victims with a flurry of attacks as his heads all bite at once.  His wounds heal quickly.  His scales are akin to metal.]{+}
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]{+}
 	[SELECT_CASTE:ALL]
@@ -4846,9 +4871,9 @@ creature_standard
 	[MOUNT_EXOTIC]
 	[CHILD:1][GENERAL_CHILD_NAME:roc chick:roc chicks]{+  Revision: taming requires a child tag (bug 7983).}
 	[BIOME:MOUNTAIN]
-    [FREQUENCY:7]{:5
+    [FREQUENCY:5]
 	[FANCIFUL]
-	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:5]{+  20% force restance.}
+	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[MEGABEAST][DIFFICULTY:10]
 		[ATTACK_TRIGGER:3:3:3]
     [VIEWRANGE:25]{:20                         Revision: rocs can see farther.}
@@ -4975,7 +5000,7 @@ creature_standard
 			[CLUTCH_SIZE:1:2]{:1:3
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:2]{+}
+		[POP_RATIO:3]{+}
 		[DESCRIPTION:A graceful bird of prey so large he dwarfs many dragons.  He has shaggy, scalloped feathers, a long beak, and huge, menacing claws.  All beneath his mighty wings should fear the sky.]{+}
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]{+}
 	[SELECT_CASTE:ALL]
@@ -4993,5 +5018,7 @@ creature_standard
 		 	[TISSUE_LAYER_APPEARANCE_MODIFIER:LENGTH:80:90:95:100:110:130:150]{+
 				[APP_MOD_NOUN:talons:PLURAL]{+
 				[APP_MOD_DESC_RANGE:60:80:90:110:130:150]{+
+	[SELECT_TISSUE_LAYER:ALL]{+  quickened healing.}
+		[TL_HEALING_RATE:150]{+
 	[SELECT_MATERIAL:ALL]
 		[MULTIPLY_VALUE:15]

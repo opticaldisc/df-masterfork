@@ -3293,7 +3293,6 @@ Misc verbs/adjectives
 	++
 	[S_WORD:AGE]
 	[S_WORD:COAST]
-	--S_WORD:COMEDY]
 	[S_WORD:CONTINENT]
 	[S_WORD:COSMOS]
 	[S_WORD:CRADLE]
@@ -3308,7 +3307,6 @@ Misc verbs/adjectives
 	[S_WORD:ISLAND]
 	[S_WORD:LEGEND]
 	[S_WORD:MEMORY]
-	[S_WORD:MOUNTAIN]
 	[S_WORD:MYTH]
 	[S_WORD:POEM]
 	[S_WORD:POINT]

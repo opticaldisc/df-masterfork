@@ -157,7 +157,7 @@ creature_civ_human_masterfork
 		[ATTACK_SKILL:GRASP_STRIKE]
 		[ATTACK_VERB:punch:punches]
 		[ATTACK_CONTACT_PERC:90]{:100      -10% }
-		[ATTACK_VELOCITY_MODIFIER:800]{+   -20% }
+		[ATTACK_VELOCITY_MODIFIER:750]{+   -25% }
 		[ATTACK_PREPARE_AND_RECOVER:3:4]{:3:3  revision: made melee combat slower.}
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:MAIN]
@@ -165,7 +165,7 @@ creature_civ_human_masterfork
 		[ATTACK_SKILL:STANCE_STRIKE]
 		[ATTACK_VERB:kick:kicks]
 		[ATTACK_CONTACT_PERC:90]{:100      -10% }
-		[ATTACK_VELOCITY_MODIFIER:800]{+   -20% }
+		[ATTACK_VELOCITY_MODIFIER:750]{+   -25% }
 		[ATTACK_PREPARE_AND_RECOVER:4:5]{:4:4  revision: made melee combat slower.}
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:SECOND]
@@ -258,6 +258,8 @@ creature_civ_human_masterfork
 		[DESCRIPTION:A medium-sized man of great ambition and potential.  He looks almost ordinary in a world of strange things.  He toils with others to build villages, kingdoms, trade networks and die in wars.]{+}
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
+	[SELECT_CASTE:MALE]
+		[CREATURE_CLASS:HUMAN_MALE]
 	[SELECT_CASTE:FEMALE]
       [SELECT_ADDITIONAL_CASTE:MALE]
         [CASTE_PROFESSION_NAME:RECRUIT:levy:levies]
@@ -305,6 +307,8 @@ creature_civ_human_masterfork
 		[PERSONALITY:ANXIETY_PROPENSITY:0:50:100]
 		[PERSONALITY:STRESS_VULNERABILITY:0:50:100]
 		[PERSONALITY:PRIDE:0:52:100]
+		[NATURAL_SKILL:LYING:1]
+		[NATURAL_SKILL:INTRIGUE:1]
         [CASTE_PROFESSION_NAME:RECRUIT:squire:squires]
 		[CASTE_PROFESSION_NAME:STANDARD:noble:nobles]
 		[SKILL_LEARN_RATES:110]

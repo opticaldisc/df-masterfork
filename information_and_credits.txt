@@ -56,8 +56,8 @@ Masterfork contains RAWs and other assets from the following mods, either in par
  - 'Sver's DF Combat Reworked'             author(s): Sver                                                                            # https://www.bay12forums.com/smf/index.php?topic=170474.0
  - 'Writing systems'                       author(s): niemst                                                                          # https://steamcommunity.com/sharedfiles/filedetails/?id=3311055744
  - 'Simon Swerwer Soundtrack'              author(s): Simon Swerwer, DPh Kraken, HippieCab                                            # https://steamcommunity.com/sharedfiles/filedetails/?id=3009635554
- - ''                                      author(s):                                                                                 # https://
- - ''                                      author(s):                                                                                 # https://
+ - 'Bourbon's March of Wrath'              author(s): Bourbon, Nikov                                                                  # https://steamcommunity.com/sharedfiles/filedetails/?id=3218038109
+ - 'ZM5's Mod Depository'                  author(s): ZM5                                                                             # https://www.bay12forums.com/smf/index.php?topic=158898.0
  - ''                                      author(s):                                                                                 # https://
  - ''                                      author(s):                                                                                 # https://
  - ''                                      author(s):                                                                                 # https://

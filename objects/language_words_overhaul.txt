@@ -241,7 +241,7 @@ Introduces additional forms, especially if they're fitting adjectives.
 
 [WORD:AWE-INSPIRING]
 	[ADJ:awesome] *
-		[ADJ_DIST:3]
+		[ADJ_DIST:4]
 
 [WORD:AXE]
 	[NOUN:axe:axes]

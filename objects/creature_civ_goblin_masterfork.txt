@@ -17,6 +17,7 @@ creature_civ_goblin_mfork
 	[INTELLIGENT]
 	[CANOPENDOORS]
 	[BONECARN][NO_DRINK][NO_EAT]
+	[SPREAD_EVIL_SPHERES_IF_RULER]{+}
 	[PREFSTRING:terrifying features]
 	[PREFSTRING:sadistic nature]{+}
 	// BASE SKILLS //
@@ -135,12 +136,12 @@ creature_civ_goblin_mfork
 	[MENT_ATT_RANGE:CREATIVITY:0:400:600:750:800:900:1100]                   --
 	[MENT_ATT_RANGE:INTUITION:0:400:600:750:800:900:1100]                    --
 	[MENT_ATT_RANGE:MEMORY:5000:5000:5000:5000:5000:5000:5000]               max
-	[MENT_ATT_RANGE:EMPATHY:0:100:200:300:400:450:500]                       ---
+	[MENT_ATT_RANGE:EMPATHY:0:0:0:0:0:0:0]                                   none
 	[MENT_ATT_RANGE:SOCIAL_AWARENESS:700:1200:1400:1500:1600:1800:2500]      ++
 	[BODY_SIZE:0:0:3000]
 	[BODY_SIZE:1:168:15000]
 	[BODY_SIZE:12:0:60000]
-	[BODY_SIZE:500:0:65000]{+}
+	[BODY_SIZE:1000:0:65000]{+}
 	[BODY_APPEARANCE_MODIFIER:HEIGHT:75:95:98:100:102:105:125]
 		[APP_MOD_IMPORTANCE:600]
 	[BODY_APPEARANCE_MODIFIER:BROADNESS:75:95:98:100:102:105:125]
@@ -210,7 +211,7 @@ creature_civ_goblin_mfork
 		[ATTACK_SKILL:GRASP_STRIKE]
 		[ATTACK_VERB:punch:punches]
 		[ATTACK_CONTACT_PERC:90]{:100      -10% }
-		[ATTACK_VELOCITY_MODIFIER:800]{+   -20% }
+		[ATTACK_VELOCITY_MODIFIER:750]{+   -25% }
 		[ATTACK_PREPARE_AND_RECOVER:3:4]{:3:3  revision: made melee combat slower.}
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:MAIN]
@@ -218,7 +219,7 @@ creature_civ_goblin_mfork
 		[ATTACK_SKILL:STANCE_STRIKE]
 		[ATTACK_VERB:kick:kicks]
 		[ATTACK_CONTACT_PERC:90]{:100      -10% }
-		[ATTACK_VELOCITY_MODIFIER:800]{+   -20% }
+		[ATTACK_VELOCITY_MODIFIER:750]{+   -25% }
 		[ATTACK_PREPARE_AND_RECOVER:4:5]{:4:4  revision: made melee combat slower.}
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:SECOND]
@@ -248,7 +249,7 @@ creature_civ_goblin_mfork
 	[CHILD:25]{:18
 	[EQUIPS]
 	[SMELL_TRIGGER:50]
-	[LOW_LIGHT_VISION:100]
+	[LOW_LIGHT_VISION:10000]{:100  goblins should have nightvision.}
 	[HOMEOTHERM:10067]
 	[SYNDROME_DILUTION_FACTOR:INEBRIATION:110]{+  less barfights.}
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:675:450:225:1900:2900] 39 kph
@@ -288,7 +289,7 @@ creature_civ_goblin_mfork
 		[DESCRIPTION:A medium-sized, cruel woman with leathery skin, glowing eyes, sharply-defined features and a lanky body.  She only eats meat and only sleep and distractions from her boredom.  She works with others to dig pits and trenches that connect many towers.  She does not appear to age.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[DESCRIPTION:A medium-sized, cruel man with leathery skin, glowing eyes, sharply-defined features and a lanky body.  He only eats meat and only sleep and distractions from her boredom.  He works with others to dig pits and trenches that connect many towers.  He does not appear to age.]{+}
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]

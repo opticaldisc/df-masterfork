@@ -16,6 +16,14 @@ creature_civ_kobold
 	--BONECARN] limits population too much
 	[CANOPENDOORS]
 	[BENIGN]{+}
+	[BIOME:SUBTERRANEAN_CHASM]{+  revision: kobolds are no longer an entity civ, spawns in the wild.}
+	[UNDERGROUND_DEPTH:1:2]
+	[LARGE_ROAMING][FREQUENCY:50]{:25
+	[POPULATION_NUMBER:40:80]{:10:20
+	[CLUSTER_NUMBER:2:5]{:1:1
+	[CAVE_ADAPT]{+}
+	[LOCAL_POPS_CONTROLLABLE]
+	[LOCAL_POPS_PRODUCE_HEROES]
 	[PREFSTRING:mischief]
 	[PERSONALITY:ANXIETY_PROPENSITY:50:75:100]
 	[PERSONALITY:TRUST:0:25:50]
@@ -178,7 +186,7 @@ creature_civ_kobold
 		[ATTACK_SKILL:GRASP_STRIKE]
 		[ATTACK_VERB:punch:punches]
 		[ATTACK_CONTACT_PERC:90]{:100      -10% }
-		[ATTACK_VELOCITY_MODIFIER:800]{+   -20% }
+		[ATTACK_VELOCITY_MODIFIER:750]{+   -25% }
 		[ATTACK_PREPARE_AND_RECOVER:3:4]{:3:3  revision: made melee combat slower.}
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:MAIN]
@@ -186,7 +194,7 @@ creature_civ_kobold
 		[ATTACK_SKILL:STANCE_STRIKE]
 		[ATTACK_VERB:kick:kicks]
 		[ATTACK_CONTACT_PERC:90]{:100      -10% }
-		[ATTACK_VELOCITY_MODIFIER:800]{+   -20% }
+		[ATTACK_VELOCITY_MODIFIER:750]{+   -25% }
 		[ATTACK_PREPARE_AND_RECOVER:4:5]{:4:4  revision: made melee combat slower.}
 		[ATTACK_FLAG_WITH]
 		[ATTACK_PRIORITY:SECOND]
