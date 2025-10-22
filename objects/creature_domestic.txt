@@ -2647,7 +2647,7 @@ creature_domestic
 			[EGG_SIZE:87]
 			[CLUTCH_SIZE:1:8]{:10:14  zey: an absurd amount of eggs for the best egg-laying bird.}
 	[CASTE:MALE]
-	    [FEMALE]
+	    [MALE]
 		[PETVALUE:12]
 		[CASTE_NAME:turkey gobbler:turkey gobblers:turkey gobbler]
 		[DESCRIPTION:A small domesticated bird with distinctive flaps of skin hanging from his face.  He's prized for his tasty meat.  When attracting mates, he puffs up his feathers, flares his tail into a fan, and makes gobbling sounds while he struts.]{+}
