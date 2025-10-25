@@ -39,7 +39,6 @@ item_weapon_masterfork
 [ITEM_WEAPON:ITEM_WEAPON_AXE_GREAT]
 	stabbing coef. = 17/60 = 0.283
 [NAME:great axe:great axes]{:battle axe:battle axes}  dane axe, voulge, bardiche etc.
-[ADJECTIVE:two-handed]
 [SIZE:260]  80% +48%  w8
 [SKILL:AXE]
 [TWO_HANDED:404000] 2H
@@ -103,7 +102,6 @@ item_weapon_masterfork
 
 [ITEM_WEAPON:ITEM_WEAPON_MAUL]  larger sledgehammer  +15% momentum
 [NAME:maul:mauls]
-[ADJECTIVE:two-handed]
 [SIZE:1200]{:815} 1200ml
 [SKILL:HAMMER]
 [TWO_HANDED:724000] 2H, blunt
@@ -133,9 +131,8 @@ item_weapon_masterfork
 [ITEM_WEAPON:ITEM_WEAPON_MORNINGSTAR]
 	stabbing coef. = 1
 [NAME:morningstar:morningstars]
-[ADJECTIVE:two-handed]
 [SIZE:230] 61% +38%  w6
-[SKILL:HAMMER]{:MACE  small, focused contact area
+[SKILL:MACE]
 [TWO_HANDED:86000] 2H
 [MINIMUM_SIZE:5900] 9200
 [CAN_STONE]
@@ -204,7 +201,6 @@ item_weapon_masterfork
 	stabbing coef. = 1
 	sharp point
 [NAME:halberd:halberds]  english bill etc.
-[ADJECTIVE:two-handed]
 [SIZE:530] 70% +81%  w4
 [SKILL:PIKE]
 [TWO_HANDED:2245000] 2H, as axe
@@ -232,7 +228,6 @@ item_weapon_masterfork
 	stabbing coef. = 1
 	+10% swinging vel for leverage
 [NAME:greatsword:greatswords]{:two-handed sword:two-handed swords}
-[ADJECTIVE:two-handed]
 [SIZE:470] 70% +58% (48)
 [SKILL:SWORD]{:PIKE
 [TWO_HANDED:2373000] 2H
@@ -284,8 +279,7 @@ item_weapon_masterfork
 
 [ITEM_WEAPON:ITEM_WEAPON_SWORD_SHORT]
 	stabbing coef. = 1
-[NAME:sword:swords]{:short sword:short swords}  arming sword etc.
-[ADJECTIVE:short]
+[NAME:short sword:short swords]  arming sword etc.
 [SIZE:150] 75% +27%
 [SKILL:SWORD]
 [TWO_HANDED:38000] 1H
@@ -316,8 +310,7 @@ item_weapon_masterfork
 [ITEM_WEAPON:ITEM_WEAPON_SWORD_LONG]
 	stabbing coef. = 1
 	sharp point
-[NAME:sword:swords]{:longsword:longswords}
-[ADJECTIVE:long]
+[NAME:longsword:longswords]
 [SIZE:250] 65% +40%
 [SKILL:SWORD]
 [TWO_HANDED:478000] 2H
@@ -349,7 +342,6 @@ item_weapon_masterfork
 	stabbing coef. = 17/22 = 0.772
 	sharp point
 [NAME:sabre:sabres]  war knife, messer, falchion etc.
-[ADJECTIVE:curved]
 [SIZE:215] 50% +24%
 [SKILL:SWORD]
 [TWO_HANDED:37000] 1H
@@ -553,8 +545,7 @@ item_weapon_masterfork
 	[ATTACK_PREPARE_AND_RECOVER:7:5]
 
 [ITEM_WEAPON:ITEM_WEAPON_HEAVY_CROSSBOW_SPL]
-[NAME:crossbow:crossbows]
-[ADJECTIVE:siege]
+[NAME:siege crossbow:siege crossbows]
 [SIZE:225]  +50%
 [SKILL:PIKE]
 [RANGED:CROSSBOW:BOLT]
@@ -861,7 +852,6 @@ item_weapon_masterfork
 
 [ITEM_WEAPON:ITEM_WEAPON_SLEDGEHAMMER_ZM5]  sver maul stats
 [NAME:sledgehammer:sledgehammer]
-[ADJECTIVE:two-handed]
 [SIZE:815] 83% +36%  w4
 [SKILL:HAMMER]
 [TWO_HANDED:724000] 2H, blunt

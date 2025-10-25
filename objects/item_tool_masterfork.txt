@@ -275,7 +275,7 @@ ITEM_TOOL_STONE_AXE
 
 [ITEM_TOOL:ITEM_TOOL_ALTAR]
 [NAME:altar:altars]
-[VALUE:15]{:10  zey: altars were always kinda useless so raised the value slightly.}
+[VALUE:13]{:10  zey: altars were always somewhat useless so raised the value slightly.}
 --HARD_MAT]
 [STONE_MAT]{+}
 [METAL_MAT]{+}

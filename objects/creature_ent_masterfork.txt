@@ -28,7 +28,7 @@ creature_ent_masterfork
 	[NO_THOUGHT_CENTER_FOR_MOVEMENT]
 	[PRONE_TO_RAGE:5]
 	[BUILDINGDESTROYER:2]
-	[TRAPAVOID] arrow trap? spike? little hand axe or spear? hah, puny trap!
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	--CURIOUSBEAST_GUZZLER]
 	[SMELL_TRIGGER:1] skill: 1 is best, 50 is default. Ents have ultra-detection.
 	[PREFSTRING:slow speech]

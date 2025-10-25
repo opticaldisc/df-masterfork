@@ -29,8 +29,8 @@ contributors:
 ---------------------------------------- MASTERFORK CONTENT CREDITS ----------------------------------------
 
 Masterfork contains RAWs and other assets from the following mods, either in part or in full:
-(  Note: Please contact me if you have any grievances/concerns about your mod being included in MFORK, or if I forgot to credit you
-   -mod authors reserve the right to request their mod to be removed from the project if they so desire. Please contact me if you do. - zey.)
+(  Note: Please contact me if you have any grievances/concerns about your mod being included in MFORK, or if I forgot to credit you-
+   mod authors reserve the right to request their mod to be removed from the project if they so desire. Please contact me if you do. - zey.)
 
  - 'The Way the Words Work'                author(s): DPh Kraken                                                                      # https://steamcommunity.com/sharedfiles/filedetails/?id=3309091369
  - 'Immaterial Cultures'                   author(s): DPh Kraken (removed upon request)                                               # http://www.bay12forums.com/smf/index.php?topic=181821.0
@@ -58,7 +58,7 @@ Masterfork contains RAWs and other assets from the following mods, either in par
  - 'Simon Swerwer Soundtrack'              author(s): Simon Swerwer, DPh Kraken, HippieCab                                            # https://steamcommunity.com/sharedfiles/filedetails/?id=3009635554
  - 'Bourbon's March of Wrath'              author(s): Bourbon, Nikov                                                                  # https://steamcommunity.com/sharedfiles/filedetails/?id=3218038109
  - 'ZM5's Mod Depository'                  author(s): ZM5                                                                             # https://www.bay12forums.com/smf/index.php?topic=158898.0
- - ''                                      author(s):                                                                                 # https://
+ - 'More Book Titles'                      author(s): La Creatura                                                                     # https://steamcommunity.com/sharedfiles/filedetails/?id=2925944109
  - ''                                      author(s):                                                                                 # https://
  - ''                                      author(s):                                                                                 # https://
  - ''                                      author(s):                                                                                 # https://

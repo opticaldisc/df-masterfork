@@ -1,4 +1,4 @@
-inorganic_aaa_stone_layer_mfork
+inorganic_stone_layer
 
 [OBJECT:INORGANIC]
 
@@ -16,7 +16,6 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [STATE_NAME_ADJ:ALL_SOLID:sandstone][DISPLAY_COLOR:6:7:0][TILE:'#']
 [SEDIMENTARY][AQUIFER][SEDIMENTARY_OCEAN_SHALLOW]
-[MATERIAL_VALUE:2] added value. - zey
 [IS_STONE]
 [MELTING_POINT:12070]
 [SOLID_DENSITY:2400]
@@ -70,7 +69,7 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [REACTION_CLASS:FLUX]
 [REACTION_CLASS:CALCIUM_CARBONATE]
 [SEDIMENTARY][SEDIMENTARY_OCEAN_DEEP]
-[MATERIAL_VALUE:2] increased value. - zey
+[MATERIAL_VALUE:2]
 [IS_STONE]
 [MELTING_POINT:11485]
 [SOLID_DENSITY:2710]
@@ -104,7 +103,6 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [MELTING_POINT:13101]
 [SOLID_DENSITY:2650]
 [STATE_COLOR:ALL_SOLID:TAUPE_PALE]
-[USE_MATERIAL_TEMPLATE:FLINT_EXTRA]
 
 [INORGANIC:CHALK]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
@@ -264,7 +262,7 @@ MELTING_POINT:11818 <-- I think this is from the data collected by the contribut
 [REACTION_CLASS:FLUX]
 [REACTION_CLASS:CALCIUM_CARBONATE] depends on marble classification
 [METAMORPHIC]
-[MATERIAL_VALUE:3] increased value, marble is quite nice. - zey
+[MATERIAL_VALUE:3]{:2
 [IS_STONE]
 [SOLID_DENSITY:2780]
 [MELTING_POINT:11485]

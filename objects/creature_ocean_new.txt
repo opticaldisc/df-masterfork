@@ -172,7 +172,7 @@ Crabs were sponsored by the generous contributions of the Bay 12 community.
 	[FREQUENCY:100]
 	[UBIQUITOUS]{+}
 	[LARGE_ROAMING]
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:pincers]
 	[PREFSTRING:sideways walk]
 	[AMPHIBIOUS][UNDERSWIM]
@@ -459,7 +459,7 @@ Cuttlefish were sponsored by the generous contributions of the Bay 12 community.
 	[NOT_BUTCHERABLE]
 	[BIOME:ANY_OCEAN]
 	[NO_DRINK]
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:ability to change color]
 	[PREFSTRING:distinctive pupils]
 	[BODY:BASIC_1PARTBODY:BASIC_HEAD:2EYES:BEAK:2_HEAD_CLUBBED_TENTACLES:8_SIMPLE_HEAD_ARMS]
@@ -761,7 +761,7 @@ Sponges were sponsored by the generous contributions of the Bay 12 community.
 	[NO_THOUGHT_CENTER_FOR_MOVEMENT]
 	[EXTRAVISION]
 	[MUNDANE]
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:squishy texture]
 	[BODY:BASIC_1PARTBODY_THOUGHT]
 	[USE_MATERIAL_TEMPLATE:SPONGE:SPONGE_TEMPLATE]
@@ -833,7 +833,7 @@ Sponges were sponsored by the generous contributions of the Bay 12 community.
 	[NAME:giant sponge:giant sponges:giant sponge]
 	[CASTE_NAME:giant sponge:giant sponges:giant sponge]
 	[DESCRIPTION:A strange and colorful monster which dwells on the ocean floor attached to something, devoid of senses or motion.  Water seeps through its porous body, which it filters to eat.]{:A huge immobile sponge.}
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[CREATURE_TILE:'S']
 	[COLOR:4:0:1]
 	[PET_EXOTIC]
@@ -858,7 +858,7 @@ Horseshoe crabs were sponsored by the generous contributions of the Bay 12 commu
 	[AMPHIBIOUS][UNDERSWIM]
 	[FREQUENCY:100]
 	[UBIQUITOUS]{+}
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:ability to hide in sand]
 	[ALL_ACTIVE]
 	[NO_SLEEP]
@@ -950,7 +950,7 @@ Horseshoe crabs were sponsored by the generous contributions of the Bay 12 commu
 	[CASTE_NAME:giant horseshoe crab:giant horseshoe crabs:giant horseshoe crab]
 	[GENERAL_CHILD_NAME:giant horseshoe crabling:giant horseshoe crablings:giant horseshoe crabling]{+}
 	[DESCRIPTION:A huge monster in the form of a horseshoe crab.]
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[CLUSTER_NUMBER:1:1]
 	[CREATURE_TILE:'C']
 	[COLOR:6:0:0]
@@ -1429,7 +1429,7 @@ Nautiluses were sponsored by the generous contributions of the Bay 12 community.
 	[NOT_BUTCHERABLE]
 	[BIOME:ANY_OCEAN]
 	[NO_DRINK]
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:shells]
 	[PREFSTRING:many tentacles]
 	[BODY:BASIC_1PARTBODY:BASIC_HEAD:2EYES:SHELL:BEAK] 90 tentacles

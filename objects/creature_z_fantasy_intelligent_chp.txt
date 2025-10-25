@@ -840,7 +840,6 @@ creature_fantasy_intelligent_chp
 	[CREATURE_CLASS:MAMMAL]
 	[CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]
 	[CREATURE_CLASS:GNOLL]
-	[TRAPAVOID]
 	[CARNIVORE]
 	[CANOPENDOORS]
 	[LARGE_PREDATOR]
@@ -852,6 +851,7 @@ creature_fantasy_intelligent_chp
 	[PREFSTRING:pack tactics]
 	[PREFSTRING:snickering]
 	[PREFSTRING:vicious nature]
+	[GNAWER:picked]{+  revision: creature can get out of non-metal cages.}
 	[BIOME:ANY_SAVANNA]
 	[BIOME:ANY_GRASSLAND]
 	[BIOME:ANY_SHRUBLAND]

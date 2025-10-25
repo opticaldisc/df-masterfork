@@ -412,7 +412,6 @@ Colors added by Bohandas.
 	[BENDING_STRAIN_AT_YIELD:62]
 	[MAX_EDGE:1000]{:10000  Revision:  inappropriate for military use.}
 	[STATE_COLOR:ALL_SOLID:TAUPE_GRAY]
-	[SPECIAL]{+}
 
 [INORGANIC:PLATINUM]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
@@ -737,7 +736,6 @@ Also found a more accurate source, which gives a range of 13000-16000 -- http://
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[SPECIAL]{+}
 	[REACTION_CLASS:ALUMINUM_COATING]{+}
 
 temperature values unknown, used nickel
@@ -904,8 +902,7 @@ value of 11 is the weighted average value of 2copper/1silver/1gold components
 	[ITEMS_METAL]
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
-	[STATE_COLOR:ALL_SOLID:BLACK] (actually dark blue, but this is less confusing)
-	[SPECIAL]{+}
+	[STATE_COLOR:ALL_SOLID:DARK_BLUE]{:BLACK (actually dark blue, but this is less confusing)
 	[REACTION_CLASS:BRONZE_COATING] 
 
 temperature values unknown, used gold
@@ -1027,7 +1024,6 @@ you can make a lighter colored bronze by adding bismuth, used temp values from b
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
 	[STATE_COLOR:ALL_SOLID:TAN]
-	[SPECIAL]{+}
 	[REACTION_CLASS:BRONZE_COATING]
 
 [INORGANIC:ADAMANTINE]

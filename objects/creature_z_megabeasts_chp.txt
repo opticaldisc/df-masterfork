@@ -14,8 +14,6 @@ creature_megabeasts_chp
 	[MOUNT_EXOTIC]
 	[TRAINABLE_WAR]
 	[BIOME:ANY_LAND]
-	[SAVAGE]
-	[FREQUENCY:20]
 	[LARGE_ROAMING][AMBUSHPREDATOR]
 	[SEMIMEGABEAST][DIFFICULTY:6]
 		[ATTACK_TRIGGER:2:2:2]
@@ -40,6 +38,7 @@ creature_megabeasts_chp
 	[LARGE_PREDATOR][MEANDERER]
 	[GRASSTRAMPLE:0]
 	[PREFSTRING:roars]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[APPLY_CREATURE_VARIATION:EMOTION_AURA_TERROR]{+  terror inducing presence.}
 	[BODY:QUADRUPED_NECK:TAIL:CHIMERA_FEATURES:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:THROAT:NECK:SPINE:BRAIN:SKULL:5TOES_FQ_REG:4TOES_RQ_REG:MOUTH:CHIMERA_TEETH:RIBCAGE]
 	[BODYGLOSS:PAW]
@@ -153,7 +152,7 @@ creature_megabeasts_chp
 		[MULTIPLE_LITTER_RARE]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
@@ -183,7 +182,7 @@ CREATURE:DOOM_WOLF_CHP
 	[PET_EXOTIC]
 	[TRAINABLE] (but good luck with a permanently on-fire bird in your fortress)
 	[BIOME:MOUNTAIN]
-	[FREQUENCY:5]
+	[FREQUENCY:15]{:5
 	[FANCIFUL]
 	[MEGABEAST][DIFFICULTY:10]
 	    [ATTACK_TRIGGER:3:3:3]
@@ -214,6 +213,7 @@ CREATURE:DOOM_WOLF_CHP
 	[SWIMS_INNATE]
 	[PREFSTRING:unending flame]
 	[PREFSTRING:destructive tendencies]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[APPLY_CREATURE_VARIATION:EMOTION_AURA_TERROR]{+  terror inducing presence.}
 	[BODY:HUMANOID_ARMLESS_NECK:2WINGS:2EYES:2LUNGS:HEART:GUTS:ORGANS:GIZZARD:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES:BEAK:TONGUE:RIBCAGE]
 	[BODY_DETAIL_PLAN:MONSTER_MATERIALS]
@@ -286,7 +286,7 @@ CREATURE:DOOM_WOLF_CHP
 			[CLUTCH_SIZE:1:2]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
 	    [SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
@@ -320,11 +320,11 @@ CREATURE:DOOM_WOLF_CHP
 	[CHILD:10][GENERAL_CHILD_NAME:blue dragon whelp:blue dragon whelps]
 	[CREATURE_TILE:'D'][COLOR:3:0:1]
 	[PETVALUE:100000]
-	[PET_EXOTIC][FLIER][TRAPAVOID]
+	[PET_EXOTIC][FLIER]
 	[TRAINABLE_WAR]
 	[MOUNT_EXOTIC]
 	[BIOME:MOUNTAIN]
-	[FREQUENCY:5]
+	[FREQUENCY:10]{:5
 	[PRONE_TO_RAGE:10]
     [CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:ADV_NAME:Lightning breath]
@@ -358,6 +358,7 @@ CREATURE:DOOM_WOLF_CHP
 	[BONECARN]
 	[PREFSTRING:colourful feathers]
 	[PREFSTRING:mastery of lightning]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SOUND:ALERT:100:15000:VOCALIZATION:roar:roars:the echoing roar of an ancient dragon]{+}
 	[SOUND:ALERT:50:5000:VOCALIZATION:growl:lets out a deep, rumbling growl that shakes your bones:a deep, rumbling growl from far away]{+}
 	[SOUND:PEACEFUL_INTERMITTENT:25:5000:VOCALIZATION:growl idly:growls idly:an unsettling growl]{+}
@@ -467,7 +468,7 @@ CREATURE:DOOM_WOLF_CHP
 			[CLUTCH_SIZE:1:2]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SCALE]
@@ -502,11 +503,11 @@ CREATURE:DOOM_WOLF_CHP
 	[CHILD:10][GENERAL_CHILD_NAME:turquoise dragon whelp:turquoise dragon whelps]{+  Revision: taming requires a child tag (bug 7983).}
 	[CREATURE_TILE:'D'][COLOR:1:0:1]
 	[PETVALUE:100000]
-	[PET_EXOTIC][FLIER][TRAPAVOID][AMPHIBIOUS]
+	[PET_EXOTIC][FLIER][AMPHIBIOUS]
 	[TRAINABLE_WAR]{TRAINABLE  Revision: dragons are too deadly to hunt.}
 	[MOUNT_EXOTIC]
 	[BIOME:ANY_LAKE]
-	[FREQUENCY:5]
+	[FREQUENCY:10]{:5
 	[PRONE_TO_RAGE:10]
     [CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:ADV_NAME:Steam breath]
@@ -539,6 +540,7 @@ CREATURE:DOOM_WOLF_CHP
 	[BONECARN]
 	[PREFSTRING:underwater majesty]
 	[PREFSTRING:fins]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SOUND:ALERT:100:15000:VOCALIZATION:roar:roars:the echoing roar of an ancient dragon]{+}
 	[SOUND:ALERT:50:5000:VOCALIZATION:growl:lets out a deep, rumbling growl that shakes your bones:a deep, rumbling growl from far away]{+}
 	[SOUND:PEACEFUL_INTERMITTENT:25:5000:VOCALIZATION:growl idly:growls idly:an unsettling growl]{+}
@@ -647,7 +649,7 @@ CREATURE:DOOM_WOLF_CHP
 			[CLUTCH_SIZE:1:2]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SCALE]
@@ -679,11 +681,11 @@ CREATURE:DOOM_WOLF_CHP
 	[CHILD:10][GENERAL_CHILD_NAME:bronze dragon whelp:bronze dragon whelps]{+  Revision: taming requires a child tag (bug 7983).}
 	[CREATURE_TILE:'D'][COLOR:6:0:0]
 	[PETVALUE:100000]
-	[PET_EXOTIC][TRAPAVOID]
+	[PET_EXOTIC]
 	[TRAINABLE_WAR]{TRAINABLE  Revision: dragons are too deadly to hunt.}
 	[MOUNT_EXOTIC]
 	[BIOME:MOUNTAIN]
-	[FREQUENCY:5]
+	[FREQUENCY:10]{:5
 	[PRONE_TO_RAGE:10]
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:ADV_NAME:Breathe plume of stone dust]
@@ -717,6 +719,7 @@ CREATURE:DOOM_WOLF_CHP
 	[BONECARN]
 	[PREFSTRING:earth affinity]
 	[PREFSTRING:stone armour]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SOUND:ALERT:100:15000:VOCALIZATION:roar:roars:the echoing roar of an ancient dragon]{+}
 	[SOUND:ALERT:50:5000:VOCALIZATION:growl:lets out a deep, rumbling growl that shakes your bones:a deep, rumbling growl from far away]{+}
 	[SOUND:PEACEFUL_INTERMITTENT:25:5000:VOCALIZATION:growl idly:growls idly:an unsettling growl]{+}
@@ -842,7 +845,7 @@ CREATURE:DOOM_WOLF_CHP
 			[CLUTCH_SIZE:1:2]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SCALE]
@@ -874,12 +877,12 @@ CREATURE:DOOM_WOLF_CHP
 	[CHILD:10][GENERAL_CHILD_NAME:azure dragon whelp:azure dragon whelps]{+  Revision: taming requires a child tag (bug 7983).}
 	[CREATURE_TILE:'D'][COLOR:3:0:1]
 	[PETVALUE:100000]
-	[PET_EXOTIC][FLIER][TRAPAVOID]
+	[PET_EXOTIC][FLIER]
 	[TRAINABLE_WAR]{TRAINABLE  Revision: dragons are too deadly to hunt.}
 	[MOUNT_EXOTIC]
 	[BIOME:GLACIER]
 	[BIOME:TAIGA]
-	[FREQUENCY:5]
+	[FREQUENCY:10]{:5
 	[PRONE_TO_RAGE:10]
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:ADV_NAME:Frost breath]
@@ -912,6 +915,7 @@ CREATURE:DOOM_WOLF_CHP
 	[GRASSTRAMPLE:50]
 	[BONECARN]
 	[PREFSTRING:frosty breath]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SOUND:ALERT:100:15000:VOCALIZATION:roar:roars:the echoing roar of an ancient dragon]{+}
 	[SOUND:ALERT:50:5000:VOCALIZATION:growl:lets out a deep, rumbling growl that shakes your bones:a deep, rumbling growl from far away]{+}
 	[SOUND:PEACEFUL_INTERMITTENT:25:5000:VOCALIZATION:growl idly:growls idly:an unsettling growl]{+}
@@ -1036,7 +1040,7 @@ CREATURE:DOOM_WOLF_CHP
 			[CLUTCH_SIZE:1:2]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SCALE]
@@ -1068,12 +1072,12 @@ CREATURE:DOOM_WOLF_CHP
 	[CHILD:10][GENERAL_CHILD_NAME:forest dragon whelp:forest dragon whelps]{+  Revision: taming requires a child tag (bug 7983).}
 	[CREATURE_TILE:'D'][COLOR:2:0:0]
 	[PETVALUE:100000]
-	[PET_EXOTIC][FLIER][TRAPAVOID]
+	[PET_EXOTIC][FLIER]
 	[TRAINABLE_WAR]{TRAINABLE  Revision: dragons are too deadly to hunt.}
 	[MOUNT_EXOTIC]
 	[AT_PEACE_WITH_WILDLIFE]
 	[BIOME:ANY_FOREST]
-	[FREQUENCY:5]
+	[FREQUENCY:10]{:5
 	[PRONE_TO_RAGE:10]
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:ADV_NAME:Acid breath]
@@ -1108,6 +1112,7 @@ CREATURE:DOOM_WOLF_CHP
 	[BONECARN]
 	[PREFSTRING:dedication to nature]
 	[PREFSTRING:impressive antlers]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SOUND:ALERT:100:15000:VOCALIZATION:roar:roars:the echoing roar of an ancient dragon]{+}
 	[SOUND:ALERT:50:5000:VOCALIZATION:growl:lets out a deep, rumbling growl that shakes your bones:a deep, rumbling growl from far away]{+}
 	[SOUND:PEACEFUL_INTERMITTENT:25:5000:VOCALIZATION:growl idly:growls idly:an unsettling growl]{+}
@@ -1222,7 +1227,7 @@ CREATURE:DOOM_WOLF_CHP
 			[CLUTCH_SIZE:1:2]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SCALE]
@@ -1254,11 +1259,11 @@ CREATURE:DOOM_WOLF_CHP
 	[CHILD:10][GENERAL_CHILD_NAME:scarlet dragon whelp:scarlet dragon whelps]{+  Revision: taming requires a child tag (bug 7983).}
 	[CREATURE_TILE:'D'][COLOR:4:0:0]
 	[PETVALUE:100000]
-	[PET_EXOTIC][FLIER][TRAPAVOID]
+	[PET_EXOTIC][FLIER]
 	[TRAINABLE_WAR]{TRAINABLE  Revision: dragons are too deadly to hunt.}
 	[MOUNT_EXOTIC]
 	[BIOME:MOUNTAIN]
-	[FREQUENCY:5]
+	[FREQUENCY:10]{:5
 	[PRONE_TO_RAGE:10]
 	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
 		[CDI:TOKEN:BREATHE_FIRE]
@@ -1292,6 +1297,7 @@ CREATURE:DOOM_WOLF_CHP
 	[BONECARN]
 	[PREFSTRING:terrible majesty]
 	[PREFSTRING:fire breath]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SOUND:ALERT:100:15000:VOCALIZATION:roar, spewing cinders and ash:roars, spewing cinders and ash:the echoing roar of an ancient dragon]{+}
 	[SOUND:ALERT:50:5000:VOCALIZATION:growl:lets out a deep, rumbling growl that shakes your bones:a deep, rumbling growl from far away]{+}
 	[SOUND:PEACEFUL_INTERMITTENT:25:5000:VOCALIZATION:growl idly:growls idly:an unsettling growl]{+}
@@ -1402,7 +1408,7 @@ CREATURE:DOOM_WOLF_CHP
 			[CLUTCH_SIZE:1:2]
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]
+		[POP_RATIO:2]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SCALE]

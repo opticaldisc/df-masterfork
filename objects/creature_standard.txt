@@ -894,7 +894,6 @@ creature_standard
 		[CDI:WAIT_PERIOD:250] 50 was way too often!!
 	[FIREIMMUNE_SUPER]
 	[FANCIFUL]
-	[TRAPAVOID]{+}
 	[LARGE_PREDATOR]
 	[BONECARN]
 	[MEGABEAST][DIFFICULTY:10]
@@ -1024,7 +1023,7 @@ creature_standard
 			[CLUTCH_SIZE:1:2]{:1:3
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[DESCRIPTION:An ancient and titanic scaled flying reptilian creature.  He is magical and can exhale fire.  These monsters can live for thousands of years.]
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]{+}
 	[SELECT_CASTE:ALL]
@@ -1345,6 +1344,7 @@ creature_standard
 	[CREATURE_CLASS:FOOTWEAR_TRACKING_SYMBOL]
 	[MEGABEAST][DIFFICULTY:15] 11 or higher does not get assigned as adv mode quests
 		[ATTACK_TRIGGER:3:3:3]
+	[VIEWRANGE:30]{:20  Revision: tall megabeasts can see farther.}
 	[FANCIFUL]
 	[AT_PEACE_WITH_WILDLIFE]{+  makes sense to ignore wild animals.}
 	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
@@ -1365,6 +1365,7 @@ creature_standard
 	[EQUIPS]
 	[NOFEAR]
 	[PREFSTRING:height]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[NOBONES]
 	[ODOR_LEVEL:0] no smell
 	[SMELL_TRIGGER:10000] cannot smell
@@ -1436,10 +1437,12 @@ creature_standard
 	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:5]
 		[ATTACK_TRIGGER:2:2:2]
+	[VIEWRANGE:30]{:20  Revision: tall megabeasts can see farther.}
 	[CAN_LEARN][SLOW_LEARNER][CAN_SPEAK]
 	[CANOPENDOORS]
 	[BUILDINGDESTROYER:2]
 	[PREFSTRING:height]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[BIOME:ANY_LAND]
 	[CURIOUSBEAST_EATER]
 	[CURIOUSBEAST_GUZZLER]
@@ -1478,10 +1481,14 @@ creature_standard
 	[PERSONALITY:GREED:25:75:100]{+}
 	[PERSONALITY:PRIVACY:25:75:100]{+}
 	[PERSONALITY:TRUST:0:25:50]{+}
+	[PERSONALITY:ANXIETY_PROPENSITY:25:75:100]{+}
 	[PERSONALITY:HATE_PROPENSITY:25:75:100]{+}
 	[PERSONALITY:ANGER_PROPENSITY:25:75:100]{+}
 	[PERSONALITY:VIOLENT:25:75:100]{+}
 	[PERSONALITY:IMMODERATION:25:75:100]{+}
+	[PERSONALITY:CRUELTY:50:75:100]{+}
+	[PERSONALITY:VANITY:0:25:75]{+}
+	[PERSONALITY:ALTRUISM:0:0:50]{+}
 	[SYNDROME_DILUTION_FACTOR:FEAR:150]{+}
 	[APPLY_CREATURE_VARIATION:EMOTION_AURA_TERROR]{+  terror inducing presence.}
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
@@ -1556,6 +1563,7 @@ creature_standard
 	[PHYS_ATT_RANGE:STRENGTH:700:1200:1400:1500:1600:2000:3000]              ++
 	[PHYS_ATT_RANGE:ENDURANCE:700:1200:1400:1500:1600:2000:3000]             ++
 	[PHYS_ATT_RANGE:AGILITY:150:600:800:900:1000:1100:1500]                  -
+	[MENT_ATT_RANGE:ANALYTICAL_ABILITY:0:400:600:750:800:900:1100]		     --
 	[MENT_ATT_RANGE:EMPATHY:0:0:0:0:0:0:0]                                   unattainable
 		[MENT_ATT_RATES:EMPATHY:NONE:NONE:NONE:NONE]
 	[BODY_SIZE:0:0:200000]
@@ -1658,6 +1666,9 @@ creature_standard
 	[NATURAL_SKILL:DODGING:4]{+
 	[NATURAL_SKILL:SITUATIONAL_AWARENESS:6]{+
 	[NATURAL_SKILL:DISCIPLINE:10]{+
+	[NATURAL_SKILL:INTIMIDATION:5]{+
+	[NATURAL_SKILL:LYING:1]{+
+	[NATURAL_SKILL:INTRIGUE:1]{+
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:657:438:219:1900:2900] 40 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
@@ -1673,7 +1684,7 @@ creature_standard
 		[DESCRIPTION:A gigantic and monstrous overweight woman almost unparalleled in size.  She has a hairy, strong body, shaggy hair, and an almost primitive appearance.  She lives quietly in a cozy burrow and keeps to herself.  She steps over fortifications and crushes buildings underfoot, whether she means to or not.  Her great size makes her nudity obvious, although she certainly seem oblivious and uncaring to the fact.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[BABYNAME:giant baby boy:giant baby boys]{+}
 		[CHILDNAME:giant boy:giant boys]{+}
 		[DESCRIPTION:A gigantic and monstrous overweight man almost unparalleled in size.  He has a hairy, strong body, shaggy hair, and an almost primitive appearance.  He lives quietly in a cozy burrow and keeps to himself.  He steps over fortifications and crushes buildings underfoot, whether he means to or not.  His great size makes his nudity obvious, although he certainly seem oblivious and uncaring to the fact.]{+}
@@ -1757,11 +1768,13 @@ creature_standard
 	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:5]
 		[ATTACK_TRIGGER:2:2:2]
+	[VIEWRANGE:25]{:20  Revision: megabeasts can see farther.}
 	[CAN_LEARN][CAN_SPEAK]
 	[CANOPENDOORS]
 	[CURIOUSBEAST_GUZZLER]{+}
 	[BUILDINGDESTROYER:2]
 	[PREFSTRING:single eye]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[BIOME:ANY_LAND]
 	[SPHERE:LIGHT]
 	[SPHERE:LIGHTNING]
@@ -1769,6 +1782,7 @@ creature_standard
 	[SPHERE:MINERALS]
 	[SPHERE:STRENGTH]
 	[SPHERE:THUNDER]
+	[POWER][SPREAD_EVIL_SPHERES_IF_RULER]{+  can be ruler of civs.}
 	[MANNERISM_FINGERS:finger:fingers]
 	[MANNERISM_NOSE:nose]
 	[MANNERISM_EAR:ear]
@@ -1790,16 +1804,24 @@ creature_standard
 	[MANNERISM_STRETCH]
 	[PERSONALITY:BASHFUL:0:0:0]{+}
 	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:0:0]{+}
-	[PERSONALITY:SWAYED_BY_EMOTIONS:0:25:50]{+}
+	[PERSONALITY:SWAYED_BY_EMOTIONS:0:0:0]{+}
 	[PERSONALITY:DUTIFULNESS:0:0:0]{+}
 	[PERSONALITY:DISCORD:50:75:100]{+}
 	[PERSONALITY:TOLERANT:50:75:100]{+}
-	[PERSONALITY:THOUGHTLESSNESS:25:75:100]{+}
-	[PERSONALITY:POLITENESS:0:25:75]{+}
-	[PERSONALITY:FRIENDLINESS:0:25:75]{+}
+	[PERSONALITY:THOUGHTLESSNESS:50:75:100]{+}
+	[PERSONALITY:POLITENESS:0:25:50]{+}
+	[PERSONALITY:FRIENDLINESS:0:25:50]{+}
 	[PERSONALITY:GREED:25:75:100]{+}
-	[PERSONALITY:PRIVACY:0:25:50]{+}
+	[PERSONALITY:PRIVACY:25:75:100]{+}
 	[PERSONALITY:TRUST:0:25:50]{+}
+	[PERSONALITY:ANXIETY_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:HATE_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:ANGER_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:VIOLENT:25:75:100]{+}
+	[PERSONALITY:IMMODERATION:25:75:100]{+}
+	[PERSONALITY:CRUELTY:50:75:100]{+}
+	[PERSONALITY:VANITY:0:25:75]{+}
+	[PERSONALITY:ALTRUISM:0:0:50]{+}
 	[SYNDROME_DILUTION_FACTOR:FEAR:150]{+}
 	[APPLY_CREATURE_VARIATION:EMOTION_AURA_TERROR]{+  terror inducing presence.}
 	[BODY:HUMANOID_NECK:1EYE:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:CHEEKS:LIPS:ONE_EYELID:TEETH:RIBCAGE]
@@ -1874,6 +1896,7 @@ creature_standard
 	[PHYS_ATT_RANGE:STRENGTH:700:1200:1400:1500:1600:2000:3000]              ++
 	[PHYS_ATT_RANGE:ENDURANCE:700:1200:1400:1500:1600:2000:3000]             ++
 	[PHYS_ATT_RANGE:AGILITY:150:600:800:900:1000:1100:1500]                  -
+	[MENT_ATT_RANGE:ANALYTICAL_ABILITY:0:400:600:750:800:900:1100]		     --
 	[MENT_ATT_RANGE:EMPATHY:0:0:0:0:0:0:0]                                   unattainable
 		[MENT_ATT_RATES:EMPATHY:NONE:NONE:NONE:NONE]
 	[BODY_SIZE:0:0:200000]
@@ -1971,6 +1994,9 @@ creature_standard
 	[NATURAL_SKILL:DODGING:4]{+
 	[NATURAL_SKILL:SITUATIONAL_AWARENESS:6]{+
 	[NATURAL_SKILL:DISCIPLINE:10]{+
+	[NATURAL_SKILL:INTIMIDATION:5]{+
+	[NATURAL_SKILL:LYING:1]{+
+	[NATURAL_SKILL:INTRIGUE:1]{+
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:657:438:219:1900:2900] 40 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
@@ -1986,7 +2012,7 @@ creature_standard
 		[DESCRIPTION:A giant, monstrous woman with leathery, veined skin and a primitive-looking face with one large eye set in her forehead.  She mostly stays in her cozy cave but is sometimes lured into pillaging by rumors of wealth.  Her great size makes her nudity obvious, although she certainly seem oblivious and uncaring to the fact.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[BABYNAME:cyclops baby boy:cyclops baby boys]{+}
 		[CHILDNAME:cyclops boy:cyclops boys]{+}
 		[DESCRIPTION:A giant, monstrous man with leathery, veined skin and a primitive-looking face with one large eye set in his forehead.  He mostly stays in his cozy cave but is sometimes lured into pillaging by rumors of wealth.  His great size makes his nudity obvious, although he certainly seem oblivious and uncaring to the fact.]{+}
@@ -2069,10 +2095,12 @@ creature_standard
 	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:5]
 		[ATTACK_TRIGGER:2:2:2]
+	[VIEWRANGE:25]{:20  Revision: megabeasts can see farther.}
 	[CAN_LEARN][CAN_SPEAK]
 	[CANOPENDOORS]
 	[BUILDINGDESTROYER:2]
 	[PREFSTRING:arguing heads]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[BIOME:ANY_LAND]
 	[CURIOUSBEAST_EATER]
 	[CURIOUSBEAST_GUZZLER]
@@ -2111,10 +2139,14 @@ creature_standard
 	[PERSONALITY:GREED:25:75:100]{+}
 	[PERSONALITY:PRIVACY:25:75:100]{+}
 	[PERSONALITY:TRUST:0:25:50]{+}
+	[PERSONALITY:ANXIETY_PROPENSITY:25:75:100]{+}
 	[PERSONALITY:HATE_PROPENSITY:25:75:100]{+}
 	[PERSONALITY:ANGER_PROPENSITY:25:75:100]{+}
 	[PERSONALITY:VIOLENT:25:75:100]{+}
 	[PERSONALITY:IMMODERATION:25:75:100]{+}
+	[PERSONALITY:CRUELTY:50:75:100]{+}
+	[PERSONALITY:VANITY:0:25:75]{+}
+	[PERSONALITY:ALTRUISM:0:0:50]{+}
 	[SYNDROME_DILUTION_FACTOR:FEAR:150]{+}
 	[BODY:HUMANOID_NECK_2HEAD:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:MONSTER_MATERIALS]{:STANDARD_MATERIALS}
@@ -2188,6 +2220,7 @@ creature_standard
 	[PHYS_ATT_RANGE:STRENGTH:700:1200:1400:1500:1600:2000:3000]              ++
 	[PHYS_ATT_RANGE:ENDURANCE:700:1200:1400:1500:1600:2000:3000]             ++
 	[PHYS_ATT_RANGE:AGILITY:150:600:800:900:1000:1100:1500]                  -
+	[MENT_ATT_RANGE:ANALYTICAL_ABILITY:0:400:600:750:800:900:1100]		     --
 	[MENT_ATT_RANGE:EMPATHY:0:0:0:0:0:0:0]                                   unattainable
 		[MENT_ATT_RATES:EMPATHY:NONE:NONE:NONE:NONE]
 	[NOSTUN]
@@ -2292,6 +2325,9 @@ creature_standard
 	[NATURAL_SKILL:DODGING:4]{+
 	[NATURAL_SKILL:SITUATIONAL_AWARENESS:6]{+
 	[NATURAL_SKILL:DISCIPLINE:10]{+
+	[NATURAL_SKILL:INTIMIDATION:5]{+
+	[NATURAL_SKILL:LYING:1]{+
+	[NATURAL_SKILL:INTRIGUE:1]{+
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:657:438:219:1900:2900] 40 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
@@ -2307,7 +2343,7 @@ creature_standard
 		[DESCRIPTION:A giant and monstrous overweight woman with a thick, muscular body and two arguing heads.  Each head controls one arm, resulting in movement strange and (often) funny.  She mostly lives in her cozy cave but is sometimes lured into pillaging by rumors of wealth.  Her great size makes her nudity obvious, although she certainly seem oblivious and uncaring to the fact.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[BABYNAME:ettin baby boy:ettin baby boys]{+}
 		[CHILDNAME:ettin boy:ettin boys]{+}
 		[DESCRIPTION:A giant and monstrous overweight man with a thick, muscular body and two arguing heads.  Each head controls one arm, resulting in movement strange and (often) funny.  He mostly lives in his cozy cave but is sometimes lured into pillaging by rumors of wealth.  His great size makes his nudity obvious, although he certainly seem oblivious and uncaring to the fact.]{+}
@@ -2390,6 +2426,7 @@ creature_standard
 	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[SEMIMEGABEAST][DIFFICULTY:6]{:5
 		[ATTACK_TRIGGER:2:2:2]
+	[VIEWRANGE:25]{:20  Revision: megabeasts can see farther.}
 	[CAN_LEARN][CAN_SPEAK]
 	[CANOPENDOORS]
 	[CURIOUSBEAST_GUZZLER]{+}
@@ -2398,6 +2435,7 @@ creature_standard
 	[NOSTUN][NOFEAR][NOEXERT]{+}
 	[TRANCES]{+}
 	[PREFSTRING:horns]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[BIOME:ANY_LAND]
 	[PERSONALITY:BRAVERY:75:90:100]
 	[PERSONALITY:ANGER_PROPENSITY:75:90:100]
@@ -2405,11 +2443,27 @@ creature_standard
 	[PERSONALITY:BASHFUL:0:0:0]{+}
 	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:0:0]{+}
 	[PERSONALITY:SWAYED_BY_EMOTIONS:0:0:0]{+}
+	[PERSONALITY:DUTIFULNESS:0:0:0]{+}
+	[PERSONALITY:DISCORD:50:75:100]{+}
+	[PERSONALITY:TOLERANT:50:75:100]{+}
+	[PERSONALITY:THOUGHTLESSNESS:50:75:100]{+}
+	[PERSONALITY:POLITENESS:0:25:50]{+}
+	[PERSONALITY:FRIENDLINESS:0:25:50]{+}
+	[PERSONALITY:GREED:25:75:100]{+}
+	[PERSONALITY:PRIVACY:25:75:100]{+}
+	[PERSONALITY:TRUST:0:25:50]{+}
+	[PERSONALITY:ANXIETY_PROPENSITY:20:60:100]{+}
+	[PERSONALITY:HATE_PROPENSITY:25:75:100]{+}
+	[PERSONALITY:VIOLENT:50:75:100]{+}
+	[PERSONALITY:IMMODERATION:25:75:100]{+}
+	[PERSONALITY:VANITY:0:20:50]{+}
+	[PERSONALITY:ALTRUISM:0:0:50]{+}
 	[SPHERE:CAVERNS]
 	[SPHERE:CHAOS]
 	[SPHERE:DARKNESS]
 	[SPHERE:DEFORMITY]
 	[SPHERE:STRENGTH]
+	[POWER][SPREAD_EVIL_SPHERES_IF_RULER]{+  can be ruler of civs.}
 	[BODY:HUMANOID_NECK_HOOF:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:2HEAD_HORN:5FINGERS:5TOES:MOUTH:TONGUE:EYELIDS:CHEEKS:TEETH:RIBCAGE]{:HUMANOID_NECK  Revision: hooves seem more appropriate than feet.}
 	[BODY_DETAIL_PLAN:MONSTER_MATERIALS]{:STANDARD_MATERIALS}
 		[USE_MATERIAL_TEMPLATE:HOOF:HOOF_TEMPLATE]{+  Revision: hooves seem more appropriate than feet.}
@@ -2536,13 +2590,15 @@ creature_standard
 	[NATURAL_SKILL:SPEAR:10]
 	[NATURAL_SKILL:SITUATIONAL_AWARENESS:10]
 	[NATURAL_SKILL:DISCIPLINE:10]
-	[PHYS_ATT_RANGE:STRENGTH:3000:3500:3750:4000:4250:4500:5000]              +++
-	[PHYS_ATT_RANGE:ENDURANCE:1000:1200:1400:1500:1600:2000:3000]             ++
-	[PHYS_ATT_RANGE:TOUGHNESS:1000:1200:1400:1500:1600:2000:3000]             ++
+	[NATURAL_SKILL:INTIMIDATION:5]{+
+	[PHYS_ATT_RANGE:STRENGTH:3000:3500:3750:4000:4250:4500:5000]             +++
+	[PHYS_ATT_RANGE:ENDURANCE:1000:1200:1400:1500:1600:2000:3000]            ++
+	[PHYS_ATT_RANGE:TOUGHNESS:1000:1200:1400:1500:1600:2000:3000]            ++
+	[MENT_ATT_RANGE:ANALYTICAL_ABILITY:0:400:600:750:800:900:1100]		     --
 	[MENT_ATT_RANGE:EMPATHY:0:0:0:0:0:0:0]                                   unattainable
 		[MENT_ATT_RATES:EMPATHY:NONE:NONE:NONE:NONE]
-	[MENT_ATT_RANGE:WILLPOWER:3000:3500:3750:4000:4250:4500:5000]             +++
-	[MENT_ATT_RANGE:SPATIAL_SENSE:1000:1100:1150:1250:1350:1550:2250]         ++
+	[MENT_ATT_RANGE:WILLPOWER:3000:3500:3750:4000:4250:4500:5000]            +++
+	[MENT_ATT_RANGE:SPATIAL_SENSE:1000:1100:1150:1250:1350:1550:2250]        ++
 	[LAIR:LABYRINTH:100]
 	[LAIR_HUNTER]
 	[LAIR_HUNTER_SPEECH:LAIR_HUNTER_MINOTAUR]
@@ -2569,7 +2625,7 @@ creature_standard
 		[DESCRIPTION:A giant, brutish woman with woolly legs and arms, large hooves, and a bull's head.  She rarely leaves her labyrinth but enjoys taunting her (rare) intruders.  She doesn't care that she's naked.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[CASTE_NAME:minotaur:minotaurs:minotaur]{+}
 		[BABYNAME:minotaur baby boy:minotaur baby boys]{+}
 		[CHILDNAME:minotaur boy:minotaur boys]{+}
@@ -3048,7 +3104,7 @@ creature_standard
 	[CREATURE_TILE:249][COLOR:6:0:1]
 	[CREATURE_CLASS:MAMMAL]
 	[CREATURE_CLASS:HUMANOID_TRACKING_SYMBOL]
-	[POPULATION_NUMBER:200:450]{:250:500
+	[POPULATION_NUMBER:250:500]
 	[PETVALUE:10]
 	[INTELLIGENT]
 	[FANCIFUL]
@@ -3058,7 +3114,6 @@ creature_standard
 	[SMALL_REMAINS]
 	[NOT_BUTCHERABLE]
 	[NOBONES]{+}
-	[NOMEAT]{+}
 	[PREFSTRING:babylike giggles]
 	[PREFSTRING:lacy wings]
 	*** need lacy wings
@@ -3283,7 +3338,6 @@ creature_standard
 	[SMALL_REMAINS]
 	[NOT_BUTCHERABLE]
 	[NOBONES]{+}
-	[NOMEAT]{+}
 	[PREFSTRING:shifting colors]
 	[PREFSTRING:intricate aerial dances]
 	[PREFSTRING:little green outfits]
@@ -4259,13 +4313,14 @@ creature_standard
 	[TRAINABLE_WAR]{+}
 	[CHILD:1][GENERAL_CHILD_NAME:hydra hatchling:hydra hatchlings]{+  Revision: taming requires a child tag (bug 7983).}
 	[BIOME:ANY_LAND]
-    [FREQUENCY:5]
+	[FREQUENCY:10]{:5
 	[FANCIFUL]
 	[LARGE_PREDATOR]
 	[BONECARN]
 	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[MEGABEAST][DIFFICULTY:10]
 		[ATTACK_TRIGGER:3:3:3]
+	[VIEWRANGE:25]{:20  Revision: megabeasts can see farther.}
 	[SPHERE:MUCK]
 	[SPHERE:REBIRTH]
 	[SPHERE:STRENGTH]
@@ -4276,6 +4331,7 @@ creature_standard
 	[BUILDINGDESTROYER:2]
 	[GRASSTRAMPLE:50]
 	[PREFSTRING:seven heads]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SOUND:ALERT:100:15000:VOCALIZATION:roar in resonant harmony:roars in a multi-tone harmony with its seven heads, shaking your bones:the echoing, harmonic roar of a hydra]{+}
 	[SOUND:ALERT:50:5000:VOCALIZATION:growl:lets out a deep, rumbling growl that shakes your bones:a deep, rumbling growl echoing through the caverns]{+}
 	[SOUND:PEACEFUL_INTERMITTENT:25:5000:VOCALIZATION:growl idly:growls idly:an unsettling growl]{+}
@@ -4380,7 +4436,7 @@ creature_standard
 		[DESCRIPTION:A giant dragon-like monster with seven biting heads on long, flexible necks.  Her armored tail whips and thrashes aggressively.  She preys on her victims with a flurry of attacks as her heads all bite at once.  Her wounds heal quickly.  Her scales are akin to metal.]{+}
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[DESCRIPTION:A giant dragon-like monster with seven biting heads on long, flexible necks.  His armored tail whips and thrashes aggressively.  He preys on his victims with a flurry of attacks as his heads all bite at once.  His wounds heal quickly.  His scales are akin to metal.]{+}
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]{+}
 	[SELECT_CASTE:ALL]
@@ -4871,12 +4927,12 @@ creature_standard
 	[MOUNT_EXOTIC]
 	[CHILD:1][GENERAL_CHILD_NAME:roc chick:roc chicks]{+  Revision: taming requires a child tag (bug 7983).}
 	[BIOME:MOUNTAIN]
-    [FREQUENCY:5]
+	[FREQUENCY:15]{:5
 	[FANCIFUL]
 	[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:3]{+  33% force restance.}
 	[MEGABEAST][DIFFICULTY:10]
 		[ATTACK_TRIGGER:3:3:3]
-    [VIEWRANGE:25]{:20                         Revision: rocs can see farther.}
+    [VIEWRANGE:30]{:20  Revision: flying megabeasts can see farther.}
 	[SPHERE:SKY]
 	[SPHERE:WIND]
 	[SPHERE:HUNTING]
@@ -4922,6 +4978,7 @@ creature_standard
 	[SWIMS_INNATE]
 	[PREFSTRING:awe-inspiring size]
 	[PREFSTRING:dedication to their young]
+	[GNAWER:thrashed]{+  revision: creature can get out of non-metal cages.}
 	[SYNDROME_DILUTION_FACTOR:FEAR:150]{+}
 	[APPLY_CREATURE_VARIATION:EMOTION_AURA_TERROR]{+  terror inducing presence.}
 	[BODY:HUMANOID_ARMLESS_NECK:2WINGS:2EYES:2LUNGS:HEART:GUTS:ORGANS:GIZZARD:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:4TOES:BEAK:TONGUE:RIBCAGE]
@@ -5000,7 +5057,7 @@ creature_standard
 			[CLUTCH_SIZE:1:2]{:1:3
 	[CASTE:MALE]
 		[MALE]
-		[POP_RATIO:3]{+}
+		[POP_RATIO:2]{+}
 		[DESCRIPTION:A graceful bird of prey so large he dwarfs many dragons.  He has shaggy, scalloped feathers, a long beak, and huge, menacing claws.  All beneath his mighty wings should fear the sky.]{+}
 	[APPLY_CREATURE_VARIATION:ANIMAL_ORIENTATIONS]{+}
 	[SELECT_CASTE:ALL]

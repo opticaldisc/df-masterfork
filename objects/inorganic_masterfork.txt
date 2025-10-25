@@ -199,12 +199,13 @@ inorganic_masterfork
 	[BENDING_STRAIN_AT_YIELD:63]
 	[MAX_EDGE:1000] not for edged weapons
 	[STATE_COLOR:ALL_SOLID:SILVER]
+	[SPECIAL] does not appear during worldgen
 
 [INORGANIC:ANTIMONIAL_LEAD]  4-6% antimony to lead alloy used
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:antimonial lead]
-	[STATE_NAME_ADJ:LIQUID:molten antimonial lead]
-	[STATE_NAME_ADJ:GAS:boiling antimonial lead]
+	[STATE_NAME_ADJ:ALL_SOLID:hardened lead] sounds better than 'antimonial lead'
+	[STATE_NAME_ADJ:LIQUID:molten hardened lead]
+	[STATE_NAME_ADJ:GAS:boiling hardened lead]
 	[DISPLAY_COLOR:7:7:1]
 	[BUILD_COLOR:7:7:1]
 	[MATERIAL_VALUE:2]
@@ -239,6 +240,7 @@ inorganic_masterfork
 	[ITEMS_BARRED]
 	[ITEMS_SCALED]
 	[STATE_COLOR:ALL_SOLID:SILVER]
+	[SPECIAL] does not appear during worldgen
 
 [INORGANIC:ELF_STEEL] zey:  elven steel; used steel as template
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
@@ -587,7 +589,7 @@ inorganic_masterfork
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:TAUPE_GRAY]
 	[STATE_NAME:ALL_SOLID:ironbark]
-	[STATE_ADJ:ALL_SOLID:wooden]
+	[STATE_ADJ:ALL_SOLID:ironbark]
 	[STATE_COLOR:LIQUID:TAUPE_GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -631,8 +633,8 @@ inorganic_masterfork
 	[ITEMS_SCALED]
 	[ITEMS_HARD]
 	[ITEMS_WEAPON][ITEMS_WEAPON_RANGED][ITEMS_AMMO][ITEMS_ARMOR]
-	[REACTION_CLASS:WOOD]
 	[BLOCK_NAME:plank:planks]
+	[SPECIAL]
 
 // rune coatings
 
@@ -1030,7 +1032,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[HEATDAM_POINT:NONE]
 	[COLDDAM_POINT:NONE]
 	[MAT_FIXED_TEMP:NONE]
-	[ITEMS_WEAPON][ITEMS_WEAPON_RANGED][ITEMS_AMMO]
+	[ITEMS_WEAPON]--ITEMS_WEAPON_RANGED][ITEMS_AMMO]
 	[SOLID_DENSITY:2650]
 	[LIQUID_DENSITY:3300]
 	[MOLAR_MASS:36000]

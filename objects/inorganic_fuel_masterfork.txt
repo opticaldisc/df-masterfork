@@ -28,7 +28,6 @@ inorganic_fuel_masterwork
 [BOILING_POINT:16708]
 [SOLID_DENSITY:1400]
 [IS_STONE]
-[REACTION_CLASS:COAL]
 [BLOCK_NAME:briquette:briquettes]
 
 [INORGANIC:PEAT]
@@ -45,5 +44,4 @@ inorganic_fuel_masterwork
 [BOILING_POINT:11500] 
 [SOLID_DENSITY:1346]
 [IS_STONE]
-[REACTION_CLASS:COAL]
 [BLOCK_NAME:briquette:briquettes]
