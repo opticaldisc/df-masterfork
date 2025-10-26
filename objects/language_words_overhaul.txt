@@ -584,6 +584,7 @@ Introduces additional forms, especially if they're fitting adjectives.
 		[FRONT_COMPOUND_NOUN_SING]
 		[REAR_COMPOUND_NOUN_SING]
 		[THE_COMPOUND_NOUN_SING]
+		[THE_COMPOUND_ADJ] +
 		[THE_NOUN_SING]
 		[OF_NOUN_SING]
 		REAR_COMPOUND_NOUN_PLUR -

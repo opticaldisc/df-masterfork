@@ -244,7 +244,7 @@ reaction_smelter_masterfork
 	[FUEL]
 
 [REACTION:PIG_IRON_MAKING]
-	[NAME:make pig iron bars]
+	[NAME:smelt pig iron bars]
 	[BUILDING:SMELTER:NONE]
 	[BUILDING:BLAST_FURNACE_CHP:NONE]
 	[REAGENT:A:300:BAR:NO_SUBTYPE:METAL:IRON]{  revision: pig iron require an additional bar of iron, outputs another bar to compensate.}
@@ -276,7 +276,7 @@ reaction_smelter_masterfork
 	[SKILL:SMELT]
 
 [REACTION:STEEL_MAKING]
-	[NAME:make steel bars]
+	[NAME:smelt steel bars]
 	[BUILDING:SMELTER:NONE]
 	[BUILDING:BLAST_FURNACE_CHP:NONE]
 	[REAGENT:A:150:BAR:NO_SUBTYPE:METAL:IRON]

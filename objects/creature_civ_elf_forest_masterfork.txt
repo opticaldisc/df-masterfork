@@ -28,56 +28,56 @@ creature_civ_elf_forest_masterfork
 	[SLAIN_SPEECH:SLAIN_ELF]
 	
 	// PERSONALITY WEIGHTS //
-	[PERSONALITY:LOVE_PROPENSITY:5:55:100]       +   Minor Inclination
-	[PERSONALITY:HATE_PROPENSITY:0:45:95]        -   Minor Aversion
-	[PERSONALITY:ENVY_PROPENSITY:0:40:90]        --  Moderate Aversion
-	[PERSONALITY:CHEER_PROPENSITY:10:60:100]     ++  Moderate Inclination
-	[PERSONALITY:DEPRESSION_PROPENSITY:0:40:90]  --  Moderate Aversion
-	[PERSONALITY:ANGER_PROPENSITY:0:45:95]       -   Minor Aversion
-	[PERSONALITY:ANXIETY_PROPENSITY:0:40:90]     --  Moderate Aversion
-	[PERSONALITY:LUST_PROPENSITY:0:35:85]        --- Great Aversion
-	[PERSONALITY:STRESS_VULNERABILITY:0:40:90]   --  Moderate Aversion
-	[PERSONALITY:GREED:0:35:85]                  --- Great Aversion
-	[PERSONALITY:IMMODERATION:0:35:85]           --- Great Aversion
-	[PERSONALITY:VIOLENT:5:55:100]               +   Minor Inclination
-	[PERSONALITY:PERSEVERANCE:0:45:95]           -   Minor Aversion
-	[PERSONALITY:WASTEFULNESS:0:40:90]           --  Moderate Aversion
-	[PERSONALITY:DISCORD:5:55:100]               +   Minor Inclination
-	[PERSONALITY:FRIENDLINESS:0:45:95]           -   Minor Aversion
-	[PERSONALITY:POLITENESS:15:65:100]           +++ Great Inclination
-	[PERSONALITY:DISDAIN_ADVICE:15:65:100]       +++ Great Inclination
-	[PERSONALITY:BRAVERY:5:55:100]               +   Minor Inclination
-	[PERSONALITY:CONFIDENCE:15:65:100]           +++ Great Inclination
-	[PERSONALITY:VANITY:15:65:100]               +++ Great Inclination
-	[PERSONALITY:AMBITION:0:35:85]               --- Great Aversion
-	[PERSONALITY:GRATITUDE:5:55:100]             +   Minor Inclination
-	[PERSONALITY:IMMODESTY:0:40:90]              --  Moderate Aversion
-	[PERSONALITY:HUMOR:0:40:90]                  --  Moderate Aversion
-	[PERSONALITY:VENGEFUL:10:60:100]             ++  Moderate Inclination
-	[PERSONALITY:PRIDE:5:55:100]                 +   Minor Inclination
-	[PERSONALITY:CRUELTY:5:55:100]               +   Minor Inclination
-	[PERSONALITY:SINGLEMINDED:5:55:100]          +   Minor Inclination
-	[PERSONALITY:HOPEFUL:10:60:100]              ++  Moderate Inclination
-	[PERSONALITY:CURIOUS:0:45:95]                -   Minor Aversion
-	[PERSONALITY:BASHFUL:5:55:100]               +   Minor Inclination
-	[PERSONALITY:PRIVACY:5:55:100]               +   Minor Inclination
-	[PERSONALITY:PERFECTIONIST:15:65:100]        +++ Great Inclination
-	[PERSONALITY:CLOSEMINDED:0:45:95]            -   Minor Aversion
-	[PERSONALITY:TOLERANT:10:60:100]             ++  Moderate Inclination
-	[PERSONALITY:EMOTIONALLY_OBSESSIVE:5:55:100] +   Minor Inclination
-	[PERSONALITY:SWAYED_BY_EMOTIONS:5:55:100]    +   Minor Inclination
-	[PERSONALITY:ALTRUISM:0:45:95]               -   Minor Aversion
-	[PERSONALITY:DUTIFULNESS:0:45:95]            -   Minor Aversion
-	[PERSONALITY:THOUGHTLESSNESS:0:45:95]        -   Minor Aversion
-	[PERSONALITY:ORDERLINESS:15:65:100]          +++ Great Inclination
-	[PERSONALITY:TRUST:0:45:95]                  -   Minor Aversion
-	[PERSONALITY:GREGARIOUSNESS:5:55:100]        +   Minor Inclination
-	[PERSONALITY:ASSERTIVENESS:0:45:95]          -   Minor Aversion
-	[PERSONALITY:ACTIVITY_LEVEL:0:40:90]         --  Moderate Aversion
-	[PERSONALITY:EXCITEMENT_SEEKING:0:40:90]     --  Moderate Aversion
-	[PERSONALITY:IMAGINATION:0:45:95]            -   Minor Aversion
-	[PERSONALITY:ABSTRACT_INCLINED:0:45:95]      -   Minor Aversion
-	[PERSONALITY:ART_INCLINED:10:60:100]         ++  Moderate Inclination
+	[PERSONALITY:LOVE_PROPENSITY:0:55:100]+   Minor Inclination
+	[PERSONALITY:HATE_PROPENSITY:0:45:100]-   Minor Aversion
+	[PERSONALITY:ENVY_PROPENSITY:0:45:95]--  Moderate Aversion
+	[PERSONALITY:CHEER_PROPENSITY:5:55:100]++  Moderate Inclination
+	[PERSONALITY:DEPRESSION_PROPENSITY:0:45:95]--  Moderate Aversion
+	[PERSONALITY:ANGER_PROPENSITY:0:45:100]-   Minor Aversion
+	[PERSONALITY:ANXIETY_PROPENSITY:0:45:95]--  Moderate Aversion
+	[PERSONALITY:LUST_PROPENSITY:0:40:90]--- Great Aversion
+	[PERSONALITY:STRESS_VULNERABILITY:0:45:95]--  Moderate Aversion
+	[PERSONALITY:GREED:0:40:90]--- Great Aversion
+	[PERSONALITY:IMMODERATION:0:40:90]--- Great Aversion
+	[PERSONALITY:VIOLENT:0:55:100]+   Minor Inclination
+	[PERSONALITY:PERSEVERANCE:0:45:100]-   Minor Aversion
+	[PERSONALITY:WASTEFULNESS:0:45:95]--  Moderate Aversion
+	[PERSONALITY:DISCORD:0:55:100]+   Minor Inclination
+	[PERSONALITY:FRIENDLINESS:0:45:100]-   Minor Aversion
+	[PERSONALITY:POLITENESS:10:60:100]+++ Great Inclination
+	[PERSONALITY:DISDAIN_ADVICE:10:60:100]+++ Great Inclination
+	[PERSONALITY:BRAVERY:0:55:100]+   Minor Inclination
+	[PERSONALITY:CONFIDENCE:10:60:100]+++ Great Inclination
+	[PERSONALITY:VANITY:10:60:100]+++ Great Inclination
+	[PERSONALITY:AMBITION:0:40:90]--- Great Aversion
+	[PERSONALITY:GRATITUDE:0:55:100]+   Minor Inclination
+	[PERSONALITY:IMMODESTY:0:45:95]--  Moderate Aversion
+	[PERSONALITY:HUMOR:0:45:95]--  Moderate Aversion
+	[PERSONALITY:VENGEFUL:5:55:100]++  Moderate Inclination
+	[PERSONALITY:PRIDE:0:55:100]+   Minor Inclination
+	[PERSONALITY:CRUELTY:0:55:100]+   Minor Inclination
+	[PERSONALITY:SINGLEMINDED:0:55:100]+   Minor Inclination
+	[PERSONALITY:HOPEFUL:5:55:100]++  Moderate Inclination
+	[PERSONALITY:CURIOUS:0:45:100]-   Minor Aversion
+	[PERSONALITY:BASHFUL:0:55:100]+   Minor Inclination
+	[PERSONALITY:PRIVACY:0:55:100]+   Minor Inclination
+	[PERSONALITY:PERFECTIONIST:10:60:100]+++ Great Inclination
+	[PERSONALITY:CLOSEMINDED:0:45:100]-   Minor Aversion
+	[PERSONALITY:TOLERANT:5:55:100]++  Moderate Inclination
+	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:55:100]+   Minor Inclination
+	[PERSONALITY:SWAYED_BY_EMOTIONS:0:55:100]+   Minor Inclination
+	[PERSONALITY:ALTRUISM:0:45:100]-   Minor Aversion
+	[PERSONALITY:DUTIFULNESS:0:45:100]-   Minor Aversion
+	[PERSONALITY:THOUGHTLESSNESS:0:45:100]-   Minor Aversion
+	[PERSONALITY:ORDERLINESS:10:60:100]+++ Great Inclination
+	[PERSONALITY:TRUST:0:45:100]-   Minor Aversion
+	[PERSONALITY:GREGARIOUSNESS:0:55:100]+   Minor Inclination
+	[PERSONALITY:ASSERTIVENESS:0:45:100]-   Minor Aversion
+	[PERSONALITY:ACTIVITY_LEVEL:0:45:95]--  Moderate Aversion
+	[PERSONALITY:EXCITEMENT_SEEKING:0:45:95]--  Moderate Aversion
+	[PERSONALITY:IMAGINATION:0:45:100]-   Minor Aversion
+	[PERSONALITY:ABSTRACT_INCLINED:0:45:100]-   Minor Aversion
+	[PERSONALITY:ART_INCLINED:5:55:100]++  Moderate Inclination
 	
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]

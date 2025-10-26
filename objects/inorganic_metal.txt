@@ -380,9 +380,9 @@ Colors added by Bohandas.
 
 [INORGANIC:PIG_IRON]
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:crude iron]{:pig iron
-	[STATE_NAME_ADJ:LIQUID:molten crude iron]{:molten pig iron]
-	[STATE_NAME_ADJ:GAS:boiling crude iron]{:boiling pig iron
+	[STATE_NAME_ADJ:ALL_SOLID:pig iron]
+	[STATE_NAME_ADJ:LIQUID:molten pig iron]
+	[STATE_NAME_ADJ:GAS:boiling pig iron]
 	[DISPLAY_COLOR:0:7:1]
 	[BUILD_COLOR:0:7:1]
 	[MATERIAL_VALUE:10]

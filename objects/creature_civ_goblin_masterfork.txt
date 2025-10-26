@@ -30,56 +30,56 @@ creature_civ_goblin_mfork
 	[NATURAL_SKILL:LYING:1]         goblin specific
 	
 	// PERSONALITY WEIGHTS //
-	[PERSONALITY:LOVE_PROPENSITY:0:25:50]        ---- Substantial Aversion
-	[PERSONALITY:HATE_PROPENSITY:50:75:100]      ++++ Substantial Inclination
-	[PERSONALITY:ENVY_PROPENSITY:50:75:100]      ++++ Substantial Inclination
-	[PERSONALITY:CHEER_PROPENSITY:10:60:100]     ++  Moderate Inclination
-	[PERSONALITY:DEPRESSION_PROPENSITY:0:35:85]  --- Great Aversion
-	[PERSONALITY:ANGER_PROPENSITY:50:75:100]     ++++ Substantial Inclination
-	[PERSONALITY:ANXIETY_PROPENSITY:15:65:100]   +++ Great Inclination
-	[PERSONALITY:LUST_PROPENSITY:15:65:100]      +++ Great Inclination
-	[PERSONALITY:STRESS_VULNERABILITY:0:35:85]   --- Great Aversion
-	[PERSONALITY:GREED:5:55:100]                 +   Minor Inclination
-	[PERSONALITY:IMMODERATION:50:75:100]         ++++ Substantial Inclination
-	[PERSONALITY:VIOLENT:50:75:100]              ++++ Substantial Inclination
-	[PERSONALITY:PERSEVERANCE:0:35:85]           --- Great Aversion
-	[PERSONALITY:WASTEFULNESS:15:65:100]         +++ Great Inclination
-	[PERSONALITY:DISCORD:50:75:100]              ++++ Substantial Inclination
-	[PERSONALITY:FRIENDLINESS:0:25:50]           ---- Substantial Aversion
-	[PERSONALITY:POLITENESS:0:25:50]             ---- Substantial Aversion
-	[PERSONALITY:DISDAIN_ADVICE:15:65:100]       +++ Great Inclination
-	[PERSONALITY:BRAVERY:0:45:95]                -   Minor Aversion
-	[PERSONALITY:CONFIDENCE:15:65:100]           +++ Great Inclination
-	[PERSONALITY:VANITY:0:35:85]                 --- Great Aversion
-	[PERSONALITY:AMBITION:15:65:100]             +++ Great Inclination
-	[PERSONALITY:GRATITUDE:0:35:85]              --- Great Aversion
-	[PERSONALITY:IMMODESTY:15:65:100]            +++ Great Inclination
-	[PERSONALITY:HUMOR:5:55:100]                 +   Minor Inclination
-	[PERSONALITY:VENGEFUL:15:65:100]             +++ Great Inclination
-	[PERSONALITY:PRIDE:15:65:100]                +++ Great Inclination
-	[PERSONALITY:CRUELTY:50:75:100]              ++++ Substantial Inclination
-	[PERSONALITY:SINGLEMINDED:0:35:85]           --- Great Aversion
-	[PERSONALITY:HOPEFUL:15:65:100]              +++ Great Inclination
-	[PERSONALITY:CURIOUS:0:25:50]                ---- Substantial Aversion
-	[PERSONALITY:BASHFUL:0:25:50]                ---- Substantial Aversion
-	[PERSONALITY:PRIVACY:50:75:100]              ++++ Substantial Inclination
-	[PERSONALITY:PERFECTIONIST:0:25:50]          ---- Substantial Aversion
-	[PERSONALITY:CLOSEMINDED:0:25:50]            ---- Substantial Aversion
-	[PERSONALITY:TOLERANT:50:75:100]             ++++ Substantial Inclination
-	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:25:50]  ---- Substantial Aversion
-	[PERSONALITY:SWAYED_BY_EMOTIONS:0:25:50]     ---- Substantial Aversion
-	[PERSONALITY:ALTRUISM:0:25:50]               ---- Substantial Aversion
-	[PERSONALITY:DUTIFULNESS:0:25:50]            ---- Substantial Aversion
-	[PERSONALITY:THOUGHTLESSNESS:50:75:100]      ++++ Substantial Inclination
-	[PERSONALITY:ORDERLINESS:0:25:50]            ---- Substantial Aversion
-	[PERSONALITY:TRUST:0:25:50]                  ---- Substantial Aversion
-	[PERSONALITY:GREGARIOUSNESS:0:40:90]         --  Moderate Aversion
-	[PERSONALITY:ASSERTIVENESS:50:75:100]        ++++ Substantial Inclination
-	[PERSONALITY:ACTIVITY_LEVEL:50:75:100]       ++++ Substantial Inclination
-	[PERSONALITY:EXCITEMENT_SEEKING:50:75:100]   ++++ Substantial Inclination
-	[PERSONALITY:IMAGINATION:0:25:50]            ---- Substantial Aversion
-	[PERSONALITY:ABSTRACT_INCLINED:0:25:50]      ---- Substantial Aversion
-	[PERSONALITY:ART_INCLINED:0:25:50]           ---- Substantial Aversion
+	[PERSONALITY:LOVE_PROPENSITY:0:25:50]---- Substantial Aversion
+	[PERSONALITY:HATE_PROPENSITY:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:ENVY_PROPENSITY:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:CHEER_PROPENSITY:5:55:100]++  Moderate Inclination
+	[PERSONALITY:DEPRESSION_PROPENSITY:0:40:90]--- Great Aversion
+	[PERSONALITY:ANGER_PROPENSITY:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:ANXIETY_PROPENSITY:10:60:100]+++ Great Inclination
+	[PERSONALITY:LUST_PROPENSITY:10:60:100]+++ Great Inclination
+	[PERSONALITY:STRESS_VULNERABILITY:0:40:90]--- Great Aversion
+	[PERSONALITY:GREED:0:55:100]+   Minor Inclination
+	[PERSONALITY:IMMODERATION:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:VIOLENT:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:PERSEVERANCE:0:40:90]--- Great Aversion
+	[PERSONALITY:WASTEFULNESS:10:60:100]+++ Great Inclination
+	[PERSONALITY:DISCORD:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:FRIENDLINESS:0:25:50]---- Substantial Aversion
+	[PERSONALITY:POLITENESS:0:25:50]---- Substantial Aversion
+	[PERSONALITY:DISDAIN_ADVICE:10:60:100]+++ Great Inclination
+	[PERSONALITY:BRAVERY:0:45:100]-   Minor Aversion
+	[PERSONALITY:CONFIDENCE:10:60:100]+++ Great Inclination
+	[PERSONALITY:VANITY:0:40:90]--- Great Aversion
+	[PERSONALITY:AMBITION:10:60:100]+++ Great Inclination
+	[PERSONALITY:GRATITUDE:0:40:90]--- Great Aversion
+	[PERSONALITY:IMMODESTY:10:60:100]+++ Great Inclination
+	[PERSONALITY:HUMOR:0:55:100]+   Minor Inclination
+	[PERSONALITY:VENGEFUL:10:60:100]+++ Great Inclination
+	[PERSONALITY:PRIDE:10:60:100]+++ Great Inclination
+	[PERSONALITY:CRUELTY:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:SINGLEMINDED:0:40:90]--- Great Aversion
+	[PERSONALITY:HOPEFUL:10:60:100]+++ Great Inclination
+	[PERSONALITY:CURIOUS:0:25:50]---- Substantial Aversion
+	[PERSONALITY:BASHFUL:0:25:50]---- Substantial Aversion
+	[PERSONALITY:PRIVACY:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:PERFECTIONIST:0:25:50]---- Substantial Aversion
+	[PERSONALITY:CLOSEMINDED:0:25:50]---- Substantial Aversion
+	[PERSONALITY:TOLERANT:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:EMOTIONALLY_OBSESSIVE:0:25:50]---- Substantial Aversion
+	[PERSONALITY:SWAYED_BY_EMOTIONS:0:25:50]---- Substantial Aversion
+	[PERSONALITY:ALTRUISM:0:25:50]---- Substantial Aversion
+	[PERSONALITY:DUTIFULNESS:0:25:50]---- Substantial Aversion
+	[PERSONALITY:THOUGHTLESSNESS:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:ORDERLINESS:0:25:50]---- Substantial Aversion
+	[PERSONALITY:TRUST:0:25:50]---- Substantial Aversion
+	[PERSONALITY:GREGARIOUSNESS:0:45:95]--  Moderate Aversion
+	[PERSONALITY:ASSERTIVENESS:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:ACTIVITY_LEVEL:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:EXCITEMENT_SEEKING:50:75:100]++++ Substantial Inclination
+	[PERSONALITY:IMAGINATION:0:25:50]---- Substantial Aversion
+	[PERSONALITY:ABSTRACT_INCLINED:0:25:50]---- Substantial Aversion
+	[PERSONALITY:ART_INCLINED:0:25:50]---- Substantial Aversion
 	
 	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:2LUNGS:HEART:GUTS:ORGANS:HUMANOID_JOINTS:THROAT:NECK:SPINE:BRAIN:SKULL:5FINGERS:5TOES:MOUTH:TONGUE:FACIAL_FEATURES:TEETH:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]

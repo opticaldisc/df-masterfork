@@ -14,7 +14,9 @@ material_template_default
 	[STATE_NAME:GAS:boiling magma]
 	[STATE_ADJ:GAS:boiling magma]
 	[DISPLAY_COLOR:7:0:0]
+	The modifier used to all values involving the material.
 	[MATERIAL_VALUE:1]
+	Temperature information.
 	[SPEC_HEAT:800]
 	[IGNITE_POINT:NONE]
 	[MELTING_POINT:11500]
@@ -22,8 +24,10 @@ material_template_default
 	[HEATDAM_POINT:NONE]
 	[COLDDAM_POINT:NONE]
 	[MAT_FIXED_TEMP:NONE]
+	Density information.  Not used for very much, but it comes up in inventory weight and fighting.
 	[SOLID_DENSITY:2670]
 	[LIQUID_DENSITY:3300]
+	Not used.
 	[MOLAR_MASS:36000]
 	Used for blunt-force combat, measured in KPa.  Data scattered around the net (used compressive strength).  All very spotty.
 	[IMPACT_YIELD:120000] used marble
@@ -56,7 +60,6 @@ material_template_default
 	[ITEMS_QUERN]
 	[REACTION_CLASS:CAN_GLAZE]
 	[BUTCHER_SPECIAL:BOULDER:NONE]{+  Revision: butchered creatures made of stone yield boulders.}
-	[REACTION_CLASS:IS_STONE]
 
 [MATERIAL_TEMPLATE:METAL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
@@ -100,7 +103,7 @@ material_template_default
 	[BENDING_STRAIN_AT_YIELD:1000]
 	[MAX_EDGE:10000]
 	[ABSORPTION:0]
-	[IS_METAL][REACTION_CLASS:METAL]
+	[IS_METAL]
 	[BUTCHER_SPECIAL:BAR:NONE]{+  Revision: butchered creatures made of metal yield bars.}
 
 [MATERIAL_TEMPLATE:WOOD_TEMPLATE]
